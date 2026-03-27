@@ -1,0 +1,108 @@
+{
+  "label": "Capacités de classe",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Ranger": "Rôdeur",
+    "Knight of St. Ydris": "Chevalier de St. Ydris",
+    "Desert Rider": "Cavalier du désert",
+    "Witch": "Sorcière",
+    "Seer": "Augure",
+    "Pit Fighter": "Combattant de l'arène",
+    "Bard": "Barde",
+    "Basilisk Warrior": "Guerrier basilic",
+    "Sea Wolf": "Loup des mers",
+    "Ras-Godai": "Ras-Godai"
+  },
+  "entries": {
+    "Berserk": {
+      "name": "Berserk",
+      "description": "<p>1 fois par jour, entrez en Rage : immunité aux dégâts pendant 3 rounds.</p>"
+    },
+    "Charge": {
+      "name": "Charge",
+      "description": "<p>3 fois par jour, vous pouvez charger dans le combat en vous déplaçant au plus proche avant d'attaquer. À chaque fois que vous faites cela, vos attaques au corps à corps infligent des dégâts doubles pendant ce tour.</p>"
+    },
+    "Curative": {
+      "name": "Remède",
+      "description": "<p><strong>Remède.</strong> Équivalent à une @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]</p>"
+    },
+    "Demonic Possession": {
+      "name": "Possession Démoniaque",
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">3 fois par jour, gagnez un bonus de +1 à vos jets de dégâts qui dure 3 rounds.</span></p><p><span style=\"font-family: Signika, sans-serif\">De plus, ajoutez la moitié de votre niveau au bonus de dégâts (arrondir à l'inférieur).</span></p>"
+    },
+    "Fascinate": {
+      "name": "Fascination",
+      "description": "<p>(Concentration). Faites un test [[check 12 cha]]. En cas de succès, vous fascinez toutes les cibles, situées jusqu’à un portée intermédiaire, dont le NV est inférieur ou égal à 1 + la moitié de votre niveau (arrondir à l'inférieur). En cas d'échec (hors Concentration), vous ne pouvez plus utiliser cet technique jusqu'à votre prochain repos.</p>"
+    },
+    "Flourish": {
+      "name": "Coup spectaculaire",
+      "description": "<p><span>3 fois par jour, regagnez [[/roll 1d6]] points de vie lorsque vous frappez un ennemi avec une attaque au corps à corps.</span></p>"
+    },
+    "Foebane": {
+      "name": "Ennemi favori",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]. Avantage sur les attaques et les dégâts contre un type de créature de votre choix pendant [[/r 1d6]] rounds</p>"
+    },
+    "Hide from Creature": {
+      "name": "Se cacher d'une créature",
+      "description": "<p>1/jour, choisissez une créature de NV 9 ou moins que vous pouvez voir ; elle doit réussir un test de [[check 15 wis]] ou elle ne peut pas vous voir ou vous entendre pendant [[/r 1d4]] rounds.</p>"
+    },
+    "Ignore All Damage": {
+      "name": "Ignorez tous les dégâts",
+      "description": "<p>1/jour, ignorer tous les dégâts et effets provenant d`une attaque.</p>"
+    },
+    "Inspire": {
+      "name": "Inspiration",
+      "description": "<p>Tous les jours, vous pouvez donner un nombre de Jetons de chance égal à votre modificateur de Charisme (min. 1).</p>"
+    },
+    "Omen": {
+      "name": "Présage",
+      "description": "<p>3 fois par jour, vous pouvez faire un jet de [[check 9 wis]]. En cas de réussite, gagnez un jeton de chance (vous ne pouvez pas en posséder plus d'un à la fois).</p>"
+    },
+    "Paralyze a Target": {
+      "name": "Paralyser une cible",
+      "description": "<p>1/jour, paralyser une cible de NV 9 ou moins à qui vous infligez des dégâts avec une arme pendant [[/r 1d4]] rounds.</p>"
+    },
+    "Petrifying Gaze": {
+      "name": "Regard Pétrifiant",
+      "description": "<p>Une créature de votre niveau ou moins qui croise votre regard doit réussir un jet de [[request 15 CON]] ou être pétrifiée pendant [[/r 1d4]] rounds. Elle prend des dégâts normalement pendant sa pétrification.</p><p>Vous pouvez utiliser ce talent un nombre de fois par jour égal à votre modificateur de CON (minimum 1).</p>"
+    },
+    "Relentless": {
+      "name": "Inébranlable",
+      "description": "<p><span>3 fois par jour, lorsque vous êtes réduit à 0 PV, faites un jet de [[check 18 con]] (le talent Implacable s'applique à ce jet). En cas de réussite, vous passez à 1 PV au lieu de 0.</span></p>"
+    },
+    "Restorative": {
+      "name": "Restauration",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Met fin à un poison ou une maladie</p>"
+    },
+    "Salve": {
+      "name": "Baume",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp] Guérit 1 PV</p>"
+    },
+    "Sleep a Creature": {
+      "name": "Endormir une créature",
+      "description": "<p>1/jour, choisissez une créature vivante de NV 5 ou moins à portée intermédiaire que vous pouvez voir ; elle doit réussir un test de [[check 15 con]] ou s'endormir.</p>"
+    },
+    "Smoke Step": {
+      "name": "Pas de fumée",
+      "description": "<p><span>3/jour, téléportez-vous à un endroit à portée intermédiaire que vous pouvez voir. Ne coûte pas votre action.</span></p>"
+    },
+    "Stimulant": {
+      "name": "Stimulant",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g] Vous ne pouvez pas être surpris pendant 10 rounds</p>"
+    },
+    "Teleport to Familiar": {
+      "name": "Téléportation vers le familier",
+      "description": "<p>1/jour, téléportez-vous à la position de votre familier en guise de déplacement</p><p>Doublon = +1 utilisation par jour</p></p>"
+    },
+    "Walk on Sheer Surfaces": {
+      "name": " Marcher sur des surfaces verticales",
+      "description": "<p>1/jour, vous pouvez marcher sur des surfaces verticales comme des murs pendant [[/r 1d4]] rounds.</p>"
+    },
+    "Walk on Water": {
+      "name": " Marcher sur l'eau",
+      "description": "<p>1/jour, vous pouvez marcher sur l'eau comme si elle était solide pendant [[/r 1d4]] rds.</p>"
+    }
+  }
+}

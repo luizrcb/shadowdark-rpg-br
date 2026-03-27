@@ -1,0 +1,283 @@
+{
+  "label": "Équipement",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Basic Gear": "Équipement de base",
+    "Weapons": "Armes",
+    "Starting Gear": "Équipement de départ",
+    "Herbal Remedies": "Remèdes à base de plantes",
+    "Armor": "Armures"
+  },
+  "entries": {
+    "Arrows": {
+      "name": "Flèches (20)",
+      "description": "<p>Munitions pour arc court ou long.</p>"
+    },
+    "Backpack": {
+      "name": "Sac à dos",
+      "description": "<p>Contient tout l’équipement que vous pouvez porter. Ne le perdez pas.</p>"
+    },
+    "Basilisk Egg": {
+      "name": "Œuf de Basilic",
+      "description": "<p>Un bébé loyal éclot dans [[/r 1d4]] jours.</p>"
+    },
+    "Bastard Sword": {
+      "name": "Épée bâtarde",
+      "description": ""
+    },
+    "Blowgun": {
+      "name": "Sarbacane",
+      "description": ""
+    },
+    "Bolas": {
+      "name": "Bolas",
+      "description": ""
+    },
+    "Boomerang": {
+      "name": "Boomerang",
+      "description": ""
+    },
+    "Bottle": {
+      "name": "Flasque ou bouteille",
+      "description": "<p>Récipient de verre qui contient une dose de liquide.</p>"
+    },
+    "Caltrops": {
+      "name": "Chausse-trappes (un sac)",
+      "description": "<p>Petites pointes métalliques en forme de triangles. Les créatures vivantes qui marchent sur une chausse-trappe subissent 1 dégât, et leur vitesse diminue de moitié pour 10 rounds.</p>"
+    },
+    "Chainmail": {
+      "name": "Cotte de mailles",
+      "description": "Désavantage en discrétion, nage"
+    },
+    "Club": {
+      "name": "Gourdin",
+      "description": ""
+    },
+    "Club (Obsidian)": {
+      "name": "Gourdin (Obsidienne)",
+      "description": ""
+    },
+    "Crawling Kit": {
+      "name": "Nécessaire d'écumeur",
+      "description": "<p>Un nécessaire d’écumeur coûte 7 po. Il occupe 7 emplacements d’inventaire et contient les objets suivants.</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]</p></li></ul>"
+    },
+    "Crossbow": {
+      "name": "Arbalète",
+      "description": ""
+    },
+    "Crossbow Bolts": {
+      "name": "Carreaux d’arbalète (20)",
+      "description": "<p>Munitions pour arbalète.</p>"
+    },
+    "Crowbar": {
+      "name": "Pied-de-biche",
+      "description": "<p>Octroie l’avantage aux tests destinés à ouvrir des objets coincés.</p>"
+    },
+    "Curative": {
+      "name": "Curatif",
+      "description": "<p><strong>Bénéfice</strong> : La personne qui consomme cette herbe regagne un nombre de points de vie selon son niveau.</p><p><strong>NV 1-3</strong> : [[/r 1d6]] points de vie.</p><p><strong>NV 4-6</strong> : [[/r 2d8]] points de vie.</p><p><strong>NV 7-9</strong> : [[/r 3d10]] points de vie.</p><p><strong>NV 10+</strong> : [[/r 4d12]] points de vie.</p>"
+    },
+    "Dagger": {
+      "name": "Dague",
+      "description": ""
+    },
+    "Dagger (Obsidian)": {
+      "name": "Dague (Obsidienne)",
+      "description": ""
+    },
+    "Flask": {
+      "name": "Flasque ou bouteille",
+      "description": "<p>Récipient de verre qui contient une dose de liquide.</p>"
+    },
+    "Flint and Steel": {
+      "name": "Briquet d’amadou",
+      "description": "<p>Ensemble comprenant un silex et un morceau d’acier pour allumer le feu. Dans une situation ordinaire, permet de toujours réussir à allumer un feu.</p>"
+    },
+    "Foebane": {
+      "name": "Fléau des ennemis",
+      "description": "<p>Avantage aux jets d’attaque et de dégâts contre un type de créature choisi pendant [[/r 1d6]] rounds.</p>"
+    },
+    "Grappling Hook": {
+      "name": "Grappin",
+      "description": "<p>Crochet triple à attacher au bout d’une corde.</p>"
+    },
+    "Greataxe": {
+      "name": "Hache à deux mains",
+      "description": ""
+    },
+    "Greatsword": {
+      "name": "Épée à deux mains",
+      "description": ""
+    },
+    "Handaxe": {
+      "name": "Hachette",
+      "description": "<p><strong>Finesse (F)</strong> : Vous pouvez utiliser votre Force ou Dextérité pour attaquer avec cette arme.</p><p><strong>Lancer (L)</strong> : Vous pouvez lancer cette arme pour une attaque à distance avec la Force.</p>"
+    },
+    "Holy Symbol": {
+      "name": "Symbole sacré",
+      "description": ""
+    },
+    "Iron Spikes": {
+      "name": "Clous de fer (10)",
+      "description": "<p>Des pitons solides. Chacun comporte un trou où faire passer une corde. On peut les clouer avec une arme ou d’autres clous de fer.</p>"
+    },
+    "Javelin": {
+      "name": "Javelot",
+      "description": ""
+    },
+    "Lantern": {
+      "name": "Lanterne",
+      "description": "<p>Projette une lumière au double de la portée intermédiaire (cf. « Sources d’éclairage » p. 46).</p>"
+    },
+    "Leather Armor": {
+      "name": "Armure de cuir",
+      "description": ""
+    },
+    "Light Spell": {
+      "name": "Sort de Lumière",
+      "description": "<p>Objet fictif simulant une source de lumière créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+    },
+    "Light Spell (Double Range)": {
+      "name": "Lumière (Portée Double)",
+      "description": "<p>Objet fictif simulant une source de lumière à portée double créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+    },
+    "Light Spell (Double Time)": {
+      "name": "Lumière (Durée Double)",
+      "description": "<p>Objet fictif simulant une source de lumière de durée double créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+    },
+    "Longbow": {
+      "name": "Arc long",
+      "description": ""
+    },
+    "Longsword": {
+      "name": "Épée longue",
+      "description": ""
+    },
+    "Mace": {
+      "name": "Masse d’armes",
+      "description": ""
+    },
+    "Mirror": {
+      "name": "Miroir",
+      "description": "<p>Un petit miroir lustré.</p>"
+    },
+    "Mithral Chainmail": {
+      "name": "Cotte de mailles en mithral",
+      "description": "Aucun malus en discrétion et nage."
+    },
+    "Mithral Plate Mail": {
+      "name": "Cuirasse en mithral",
+      "description": "Aucun malus en discrétion et nage."
+    },
+    "Morningstar": {
+      "name": "Étoile du matin",
+      "description": ""
+    },
+    "Oil, flask": {
+      "name": "Flasque d’huile",
+      "description": "<p>Alimente une lanterne pour une heure de temps réel. Une flasque contient assez d’huile pour couvrir toute une zone à portée courte et brûler pendant 4 rounds, infligeant 1d4 dégâts chaque round.</p>"
+    },
+    "Pike": {
+      "name": "Pique",
+      "description": "<p><strong>Portée :</strong> 2x courtes</p><p>Nécessite 2 emplacements.</p>"
+    },
+    "Plate Mail": {
+      "name": "Armure de plates",
+      "description": "Impossible de nager, désavantage en discrétion."
+    },
+    "Pole": {
+      "name": "Perche",
+      "description": "<p>En bois, 3 m de long.</p>"
+    },
+    "Rations": {
+      "name": "Rations (3)",
+      "description": "<p>De quoi nourrir et abreuver (eau) une personne pendant une journée.</p>"
+    },
+    "Razor Chain": {
+      "name": "Chaîne tranchante",
+      "description": ""
+    },
+    "Restorative": {
+      "name": "Restauration",
+      "description": "<p>Guérit un poison ou une maladie.</p>"
+    },
+    "Rope, 60'": {
+      "name": "Corde (18 m)",
+      "description": "<p>En chanvre, 18 m.</p>"
+    },
+    "Round Shield": {
+      "name": "Bouclier rond",
+      "description": "Occupe une main."
+    },
+    "Salve": {
+      "name": "Baume",
+      "description": "<p>Rend 1 PV.</p>"    
+    },
+    "Scimitar": {
+      "name": "Cimeterre",
+      "description": ""
+    },
+    "Shield": {
+      "name": "Bouclier",
+      "description": "Occupe une main."
+    },
+    "Shortbow": {
+      "name": "Arc court",
+      "description": ""
+    },
+    "Shortsword": {
+      "name": "Épée courte",
+      "description": ""
+    },
+    "Shuriken": {
+      "name": "Shuriken",
+      "description": ""
+    },
+    "Sling": {
+      "name": "Fronde",
+      "description": ""
+    },
+    "Spear": {
+      "name": "Lance",
+      "description": ""
+    },
+    "Spear (Obsidian)": {
+      "name": "Lance (Obsidienne)",
+      "description": ""
+    },
+    "Spear-thrower": {
+      "name": "Propulseur",
+      "description": "<p>Lorsque utilisé pour lancer une lance, augmente sa portée à Lointain.</p>"
+    },
+    "Staff": {
+      "name": "Bâton",
+      "description": ""
+    },
+    "Stave": {
+      "name": "Canne",
+      "description": ""
+    },
+    "Stimulant": {
+      "name": "Stimulant",
+      "description": "<p>Vous ne pouvez pas être surpris pendant 10 rounds.</p><p>@UUID[Compendium.shadowdark.conditions.MUNwczWej0Bo8x4S]</p>"
+    },
+    "Thieves' Tools": {
+      "name": "Outils de Voleur",
+      "description": "<p>Avantage aux tests d’escalade, discrétion, déguisement, détection et désamorçage de pièges, et autres tâches délicates.</p>"
+    },
+    "Torch": {
+      "name": "Torche",
+      "description": "<p>Éclaire à portée intermédiaire (cf. « Sources d’éclairage » p. 46). Brûle pendant une heure de temps réel.</p>"
+    },
+    "Warhammer": {
+      "name": "Marteau de guerre",
+      "description": ""
+    },
+    "Whip": {
+      "name": "Fouet",
+      "description": "<p><strong>Type :</strong> Corps à corps ou Distance.</p><p><strong>Portée :</strong> courte ou intermédiaire</p><p><strong>Finesse (F)</strong> : Vous pouvez utiliser votre FOR ou DEX pour attaquer avec cette arme.</p><p><strong>Fouet (Fo)</strong> : Lorsque vous attaquez à distance avec cette arme, elle ne quitte pas votre main.</p>"
+    }
+  }
+}

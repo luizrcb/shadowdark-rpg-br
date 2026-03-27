@@ -1,0 +1,80 @@
+{
+  "label": "Patrons & Divinités",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Patrons": "Patrons",
+    "Deities": "Divinités"
+  },
+  "entries": {
+    "Almazzat": {
+      "name": "Almazzat",
+      "description": "<p>Un archi-démon à tête de loup avec six yeux et six cornes. Almazzat cherche à arracher les Sables des Âges à son père, Kytheros.</p>"
+    },
+    "Freya": {
+      "name": "Freya",
+      "description": "<p>La déesse de l'amour et de la haine. La Reine des Valkyries dont les guerrières emportent les âmes dignes vers le Grand Festin. La Première Voyante qui place ses présages dans les os, le sang et les entrailles. Freya inspire les poètes puis les tourmente par leur manque d'inspiration.</p>"
+    },
+    "Gede": {
+      "name": "Gede",
+      "description": "<p>Déesse des festins, de l’hilarité et de la nature sauvage. Gede se montre pacifique la plupart du temps, mais des tempêtes originelles éclatent lorsqu’elle se met en colère. Bien des elfes et des halfelins la vénèrent.</p>"
+    },
+    "Kytheros": {
+      "name": "Kytheros",
+      "description": "<p>Le Seigneur du Temps qui voit tous les futurs possibles. Kytheros cherche à réaliser tous les destins tels qu'ils étaient censés être.</p>"
+    },
+    "The Willowman": {
+      "name": "L'Homme Saule",
+      "description": "<p>Un être fantomatique et allongé qui rôde dans les forêts brumeuses et observe du bord des cauchemars. L'Homme Saule cherche la peur.</p>"
+    },
+    "The Lost": {
+      "name": "Les Égarés",
+      "description": "<p>Deux des Neuf ont disparu dans le temps, et leurs noms ont été effacés des mémoires et des chroniques historiques. Leur légende survit à demi-mot dans des textes de jadis et des sites oubliés…</p>"
+    },
+    "Loki": {
+      "name": "Loki",
+      "description": "<p>Le Trompeur qui triomphe par l'esprit et la ruse. Le loup qui se déguise en mouton. Loki est éloquent et exaspérant ; ses paroles coupent comme l'acier et son rire hurle comme un vent violent. Ses suiveurs ne recherchent pas le Valhalla, car ils savent qu'il tombera lors du Ragnarok.</p>"
+    },
+    "Madeera the Covenant": {
+      "name": "Madeera l'Alliance",
+      "description": "<p>Madeera était la première manifestation de la Loi. Elle transporte toutes les lois de la réalité sous forme d’un traité appelé « Alliance » et rédigé sur sa peau en symboles précis.</p>"
+    },
+    "Memnon": {
+      "name": "Memnon",
+      "description": "<p>Memnon était la première manifestation du Chaos. C’est le jumeau de Madeera, un être léonin à la crinière rousse, dont l’ultime ambition consiste à arracher de la peau de sa sœur les lois cosmiques composant l’Alliance.</p>"
+    },
+    "Mugdulblub": {
+      "name": "Mugdulblub",
+      "description": "<p>La Boue Ancienne qui s'infiltre entre les fissures de la mémoire et l'obscurité entre les étoiles. Mugdulblub cherche la dissolution de toute forme physique.</p>"
+    },
+    "Odin": {
+      "name": "Odin",
+      "description": "<p>Le Tout-Père. Odin le Borgne valorise la force et l'ingéniosité. Ses deux corbeaux volent dans la nuit, espionnant les rêves et les souvenirs. Les guerriers dignes sont emmenés dans la Grande Salle de Valhalla lorsqu'ils meurent pour festoyer et combattre à ses côtés éternellement.</p>"
+    },
+    "Ord": {
+      "name": "Ord",
+      "description": "<p>Ord l’Incorruptible, le Sagace, Gardien de Tout Secret. C’est le dieu de la magie, du savoir, des secrets et de l’équilibre.</p>"
+    },
+    "Ramlaat": {
+      "name": "Ramlaat",
+      "description": "<p>Ramlaat est le Pillard, le Barbare, la Horde. Bien des orques l’adorent et vivent selon les préceptes du « Rite de Sang », une prophétie affirmant que seuls les plus forts survivront à la catastrophe qui s’en vient.</p>"
+    },
+    "Saint Terragnis": {
+      "name": "Sainte Terragnis",
+      "description": "<p>Chevaleresse légendaire et sainte patronne de la plupart des humains loyaux. Elle accéda au statut divin il y a bien longtemps, et incarne à présent la vertu et la justice.</p>"
+    },
+    "Shune the Vile": {
+      "name": "Shune l'Infâme",
+      "description": "<p>Shune murmure des secrets arcaniques aux sorciers et sorcières qui l’invoquent au plus noir de la nuit. Elle projette de détrôner Ord afin d’accaparer pour elle seule le vaste flux de la magie.</p>"
+    },
+    "Titania": {
+      "name": "Titania",
+      "description": "<p>La capricieuse Reine des Fées qui voit toute l'existence comme un rêve fantaisiste avec une signification cachée et un drame poignant. Titania cherche la malice, la beauté et l'art.</p>"
+    },
+    "All Nord Gods": {
+      "name": "Tous les Dieux Nordiques",
+      "description": "<p>Les fidèles vénèrent tous les Anciens Dieux à leur tour, mais beaucoup trouvent qu'ils s'alignent particulièrement avec l'un d'eux. Rendre hommage à tous les dieux n'est pas une trahison ; c'est honorable.</p>"
+    }
+  }
+}

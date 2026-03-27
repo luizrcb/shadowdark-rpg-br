@@ -1,0 +1,583 @@
+{
+  "label": "Liste des sorts",
+  "mapping": {
+    "discription": "system.description"
+  },
+  "folders": {
+    "Tier 2": "Rang 2",
+    "Tier 4": "Rang 4",
+    "Tier 1": "Rang 1",
+    "Tier 5": "Rang 5",
+    "Seer": "Augure",
+    "Tier 3": "Rang 3",
+    "Witch": "Sorcière",
+    "Wizard": "Magicien",
+    "Priest": "Prêtre"
+  },
+  "entries": {
+    "Acid Arrow": {
+      "name": "Flèche acide",
+      "discription": "<p>Vous faites apparaître un trait corrosif qui touche un adversaire et lui inflige [[/r 1d6]] dégâts par round. Le trait demeure dans la cible tant que vous vous concentrez.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]</p>"
+    },
+    "Alarm": {
+      "name": "Alarme",
+      "discription": "<p>Vous touchez un objet, comme le seuil d’une porte, pour y placer une alarme magique.</p><p>Si une créature que vous n’avez pas désignée lors de l’incantation touche ou traverse l’objet, une cloche magique résonne dans votre tête.</p>"
+    },
+    "Alter Self": {
+      "name": "Altération physique",
+      "discription": "<p>Vous modifiez votre forme physique par magie et recevez un trait qui modifie votre anatomie.</p><p>Par exemple, vous faites pousser des branchies fonctionnelles sur votre cou, ou des griffes d’ours à vos doigts. Ce sort ne permet toutefois pas de faire pousser d’ailes ni de membres.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]</p>"
+    },
+    "Anathema": {
+      "name": "Anathème",
+      "discription": "<p>Toutes les alliés rejettent et abandonnent la créature que vous touchez pendant 1 jour.</p><p>Chaque fois que vous ou vos alliés lui faites du mal, ses anciens alliés peuvent réussir un test de Sagesse [[check 15 wis]] pour mettre fin à l'effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]</p>"
+    },
+    "Animate Dead": {
+      "name": "Animation des morts",
+      "discription": "<p>Vous touchez les restes d’un humanoïde, qui se relèvent sous forme de zombie ou squelette sous votre contrôle.</p><p>Les restes doivent avoir au moins trois membres et la tête intacte. L’être non-mort agit à votre tour. Après 1 jour, il s’effondre en poussière de tombe.</p>"
+    },
+    "Antimagic Shell": {
+      "name": "Coquille antimagique",
+      "discription": "<p>Un cube invisible de nullification magique apparaît centré sur vous.</p><p>Aucun sort ne peut être lancé à l’intérieur, les objets magiques sont inactifs, et aucune magie ne peut pénétrer. Le cube vous suit et ne peut être dissipé.</p><p>Une autre coquille antimagique n'interfère pas avec celle-ci.</p>"
+    },
+    "Arcane Eye": {
+      "name": "Œil arcanique",
+      "discription": "<p>Vous invoquez un œil invisible de la taille d’un grain de raisin dans la portée.</p><p>Vous pouvez voir à travers lui. Il voit dans le noir jusqu’à une portée proche, vole à portée proche à votre tour, et peut passer par des ouvertures aussi étroites qu’un trou de serrure.</p>"
+    },
+    "Augury": {
+      "name": "Augure",
+      "discription": "<p>Vous interprétez le sens d’augures et de signes surnaturels. Posez une question au MJ sur une action spécifique. Il vous dira s’il en résultera « félicité » ou « calamité ».</p>"
+    },
+    "Beguile": {
+      "name": "Envoûtement",
+      "discription": "<p>Vous créez une illusion visible et audible convaincante dans la portée.</p><p>Les créatures la percevant y réagissent comme si elle était réelle, même si elle ne peut pas infliger de dégâts.</p><p>La toucher révèle immédiatement sa nature illusoire.</p><p>Vous pouvez forcer une créature interagissant avec l'illusion à faire un test de Sagesse [[check 15 wis]]. En cas d’échec, elle est enchantée et la protège pour la durée du sort.</p>"
+    },
+    "Bless": {
+      "name": "Bénédiction",
+      "discription": "<p>Une créature que vous touchez gagne un jeton de chance.</p>"
+    },
+    "Blind/Deafen": {
+      "name": "Aveugler/Assourdir",
+      "discription": "<p>Vous prononcez un blâme divin qui provoque la cécité ou la surdité chez une créature visible à portée.</p><p>La créature est désavantagée pour toutes les tâches impliquant le sens dont elle est privée.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
+    },
+    "Bogboil": {
+      "name": "Boue bouillonnante",
+      "discription": "<p>Vous transformez un cube de sol à portée proche en un marécage boueux et bouillant.</p><p>Une créature piégée ne peut pas bouger et doit réussir un test de Dextérité contre votre test d'incantation pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]</p>"
+    },
+    "Broomstick": {
+      "name": "Balai volant",
+      "discription": "<p>Vous faites apparaître un balai volant dans votre main.</p><p>Son cavalier peut voler à portée proche par round et rester en vol stationnaire.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]</p>"
+    },
+    "Burning Hands": {
+      "name": "Mains brûlantes",
+      "discription": "<p>Vous écartez les doigts en mettant vos pouces en contact pour libérer un cercle de flammes qui se répandent en rugissant à portée courte tout autour de vous.</p><p>Les créatures situées à portée subissent  [[/r 1d6]] dégâts, et les objets combustibles prennent feu.</p><p>Les objets inflammables non portés prennent feu.</p>"
+    },
+    "Cacklerot": {
+      "name": "Ricanement Maladif",
+      "discription": "<p>Une cible que vous touchez de niveau 4 ou moins s'effondre en proie à un rire douloureux et dérangeant pour toute la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]</p>"
+    },
+    "Cast Out": {
+      "name": "Expulsion",
+      "discription": "<p>Vous repoussez une créature, la forçant à rester à distance.</p><p>Choisissez une créature que vous voyez. Elle ne peut pas s’approcher à portée proche de vous pendant toute la durée du sort, mais peut vous attaquer depuis plus loin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]</p>"
+    },
+    "Cat's Eye": {
+      "name": "Œil de Chat",
+      "discription": "<p>Vos iris s’élargissent et vos pupilles deviennent des fentes noires. Vous pouvez voir les créatures invisibles et les portes secrètes pendant toute la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]</p>"
+    },
+    "Cauldron": {
+      "name": "Chaudron",
+      "discription": "<p>Vous invoquez un chaudron bouillonnant à côté de vous. Il peut produire l’un des effets suivants :</p><p>• Répare tout objet non magique cassé placé à l’intérieur.</p><p>• Fait apparaître un gros crapaud obéissant pendant 3 rounds.</p><p>• Peut contenir jusqu’à 3 emplacements d’objets, qu’il recrache lors de votre prochaine incantation de ce sort.</p>"
+    },
+    "Chant": {
+      "name": "Chant",
+      "discription": "<p>Vous entonnez un chant surnaturel qui élève votre perception.</p><p>Pendant la durée du sort, vous voyez toutes les choses cachées ou invisibles comme si elles étaient visibles. Vous ne pouvez cependant pas voir dans le noir ou à travers les murs si vous n’en êtes pas déjà capable.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]</p>"
+    },
+    "Charm Person": {
+      "name": "Charme-personne",
+      "discription": "<p>Vous séduisez par magie un humanoïde de niveau 2 ou moins, situé à portée intermédiaire, et qui vous considère comme un ami pendant la durée du sort.</p><p>Le sort s’achève si vous ou vos alliés faites quoi que ce soit pour lui nuire et qu’il le remarque.</p><p>Quand l’effet du sort s’achève, la cible sait que vous l’avez ensorcelée.</p><p>Lancez [[/r 1d8]] pour déterminer la durée en jours de l'effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>"
+    },
+    "Cleansing Weapon": {
+      "name": "Arme purificatrice",
+      "discription": "<p>Une arme que vous touchez s’enveloppe de flammes purificatrices. Elle inflige [[/r 1d4]] dégâts supplémentaires ([[/r 1d6]] contre les morts-vivants) tant que le sort fait effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]</p>"
+    },
+    "Cloak of Night": {
+      "name": "Cape de Nuit",
+      "discription": "<p>Vous vous enveloppez dans une cape d’ombres tourbillonnantes. Votre classe d’armure devient 17 (20 en cas de réussite critique à l’incantation).</p><p>Vous avez l’avantage aux tests de Dextérité pour vous cacher ou vous faufiler pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]</p>"
+    },
+    "Cloud Kill": {
+      "name": "Nuage Mortel",
+      "discription": "<p>Un nuage jaunâtre et toxique emplit un cube à portée proche, se répandant dans les angles.</p><p>Les créatures à l’intérieur sont aveuglées et subissent [[/r 2d6]] dégâts au début de leur tour.</p><p>Une créature de niveau 9 ou moins qui termine son tour entièrement dans le nuage meurt.</p>"
+    },
+    "Command": {
+      "name": "Commandement",
+      "discription": "<p>Vous ordonnez verbalement à une créature à portée qui vous comprend. L’ordre doit tenir en un seul mot (ex. : « Agenouille-toi »). La cible obéit tant que vous vous concentrez.</p><p>Si l’ordre est directement nuisible, elle peut faire un test de Charisme contre votre dernier test d’incantation. En cas de succès, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]</p>"
+    },
+    "Commune": {
+      "name": "Communion",
+      "discription": "<p>Vous sollicitez les conseils de votre dieu. Posez au MJ jusqu’à trois questions auxquelles on peut répondre par « oui » ou « non ». Le MJ doit répondre honnêtement.</p><p>Si vous lancez ce sort plus d’une fois en 24 heures, un échec au test d’incantation est traité comme un échec critique.</p>"
+    },
+    "Confusion": {
+      "name": "Confusion",
+      "discription": "<p>Vous plongez une créature à portée dans la stupeur. Elle ne peut plus agir et se déplace aléatoirement à son tour.</p><p>Si elle est de niveau 9 ou plus, elle peut tenter un test de Sagesse contre votre dernier test d’incantation au début de son tour pour mettre fin au sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]</p>"
+    },
+    "Control Water": {
+      "name": "Contrôle de l'eau",
+      "discription": "<p>Vous manipulez et façonnez l’eau. Vous pouvez modifier la forme d’un volume d’eau de 30 mètres de large et de profondeur, défier la gravité ou en changer le cours.</p>"
+    },
+    "Coven": {
+      "name": "Sabbat",
+      "discription": "<p>Vous faites appel à la magie que vous partagez avec vos sœurs sorcières.</p><p>Vous récupérez l’usage d’un sort de niveau 3 ou moins que vous ne pouviez plus lancer aujourd’hui.</p><p>Vous ne pouvez relancer ce sort qu’après un repos.</p>"
+    },
+    "Create Undead": {
+      "name": "Création de mort-vivant",
+      "discription": "<p>Vous invoquez un mort-vivant vengeur à votre service. Choisissez un spectre ou un revenant. Il apparaît à côté de vous et vous obéit.</p><p>Il agit à votre tour. Après 1 jour, il se dissipe en fumée.</p>"
+    },
+    "Cure Wounds": {
+      "name": "Soins",
+      "discription": "<p>Votre toucher restaure la vie vacillante.</p><p>Lancez un nombre de d6 égal à [[/roll (1 + (floor(@level.value/2)))d6]]{1 + la moitié de votre niveau (arrondi à l'inférieur)}.</p><p>La créature que vous touchez regagne ce nombre de points de vie.</p>"
+    },
+    "Curse": {
+      "name": "Malédiction",
+      "discription": "<p>Une créature que vous touchez est frappée par une des malédictions suivantes :</p><p>• Des furoncles et des verrues hideuses</p><p>• Tous les aliments ont un goût de cendre</p><p>• La voix devient perçante</p><p>• Des cauchemars dérangeants</p><p>• Vous perdez toujours aux jeux de hasard</p><p>• Un allié devient un ennemi</p><p>• Une peur irrationnelle d'un objet ordinaire</p>"
+    },
+    "Detect Magic": {
+      "name": "Détection de la magie",
+      "discription": "<p>Vous sentez la présence de la magie à portée intermédiaire pendant la durée du sort. Si vous vous concentrez pendant deux rounds, vous en discernez les propriétés générales. Les barrières pleines bloquent l’effet du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]</p>"
+    },
+    "Detect Thoughts": {
+      "name": "Détection des pensées",
+      "discription": "<p>Vous scrutez l’esprit d’une créature visible située à portée.</p><p>Chaque round, vous apprenez ses pensées immédiates.</p><p>À son tour, la cible peut effectuer un test de SAG contre le résultat de votre dernier test d’incantation. Si elle réussit, elle remarque votre présence dans ses pensées et le sort s’achève.</p>"
+    },
+    "Dimension Door": {
+      "name": "Porte dimensionnelle",
+      "discription": "<p>Vous vous téléportez vous-même et jusqu'à une autre créature volontaire à portée proche vers un endroit visible.</p>"
+    },
+    "Disintegrate": {
+      "name": "Désintégration",
+      "discription": "<p>Un rayon vert part de votre doigt et transforme une créature ou un objet en cendres.</p><p>Une créature de niveau 5 ou moins meurt instantanément. Si elle est de niveau 6 ou plus, elle subit [[/r 3d8]] dégâts.</p><p>Un objet non magique de la taille d'un grand arbre est détruit.</p>"
+    },
+    "Dispel Magic": {
+      "name": "Dissipation de la magie",
+      "discription": "<p>Vous annulez un sort affectant une cible visible dans la portée du sort.</p>"
+    },
+    "Divination": {
+      "name": "Divination",
+      "discription": "<p>Vous jetez les os de divination ou scrutez l’obscurité entre les étoiles pour chercher un présage.</p><p>Posez une question « oui ou non » au MJ. Ce dernier répond honnêtement par « oui » ou « non ».</p><p>Si vous lancez ce sort plus d’une fois en 24 heures, un échec au test d’incantation est traité comme un échec critique.</p>"
+    },
+    "Divine Vengeance": {
+      "name": "Vengeance divine",
+      "discription": "<p>Vous devenez l'avatar divin de la colère de votre dieu, enveloppé de flammes sacrées ou d’une aura noire de corruption qui fume.</p><p>Pendant toute la durée du sort, vous pouvez voler à portée proche, vos armes sont magiques et vous avez un bonus de +4 aux attaques et aux dégâts avec vos armes.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]</p>"
+    },
+    "Dominion": {
+      "name": "Dominion",
+      "discription": "<p>Des êtres puissants viennent à votre aide.</p><p>Ces êtres doivent avoir un total combiné de 16 niveaux ou moins. Les personnages chaotiques invoquent des démons/diables, tandis que les personnages loyaux ou neutres invoquent des anges.</p><p>Les êtres agissent librement pour vous aider pendant votre tour. Après 10 rounds, ils retournent dans leurs royaumes.</p><p>Vous ne pouvez pas relancer ce sort avant d’avoir accompli une pénitence.</p>"
+    },
+    "Dreamwalk": {
+      "name": "Marche des rêves",
+      "discription": "<p>Vous et toute créature volontaire dans votre portée entrez dans le rêve d’une créature endormie que vous désignez, dans le même plan d’existence.</p><p>Vous pouvez sortir du rêve à tout moment et apparaître à côté de la créature, comme si vous vous y étiez téléporté.</p>"
+    },
+    "Enfeeble": {
+      "name": "Affaiblissement",
+      "discription": "<p>Une créature que vous touchez a une caractéristique aléatoire réduite à 3 (-4) pendant une semaine. Lancez un [[/r d6]] pour déterminer quelle caractéristique :</p><p>1. Force, 2. Dextérité, 3. Constitution, 4. Intelligence, 5. Sagesse, 6. Charisme.</p><p>Si vous échouez au test d’incantation, vous souffrez d’une caractéristique réduite à 3 pendant une semaine, à la place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]</p>"
+    },
+    "Evoke Rage": {
+      "name": "Provoquer la colère",
+      "discription": "<p>Vous libérez la rage berserk cachée en quelqu'un.</p><p>Un humanoïde volontaire que vous touchez entre dans un état de fureur. Il est immunisé contre les tests de moralité, bénéficie de l’avantage aux tests de Force et aux attaques en corps à corps, et inflige +1d4 dégâts pendant toute la durée du sort.</p><p>Si la cible n’attaque aucune autre créature à son tour, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]</p>"
+    },
+    "Eyebite": {
+      "name": "Mauvais Œil",
+      "discription": "<p>Une créature que vous ciblez subit 1d4 dégâts et ne peut pas vous voir avant la fin de son prochain tour.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]</p>"
+    },
+    "Fabricate": {
+      "name": "Fabrication",
+      "discription": "<p>Ce sort ne cible pas les créatures.</p><p>Vous transformez une collection de matériaux bruts de la taille d’un arbre en un objet fini. Par exemple, vous pouvez transformer un tas de briques ou de pierres en un pont. L’objet terminé redevient des matériaux bruts quand le sort se termine.</p>"
+    },
+    "Fate": {
+      "name": "Destin",
+      "discription": "<p>Vous tordez douloureusement les fils d’or du destin d’une créature.</p><p>Une créature que vous ciblez subit [[/r 1d10]] dégâts et perd ses jetons de chance, s’il y en a.</p>"
+    },
+    "Feather Fall": {
+      "name": "Chute de plume",
+      "discription": "<p>Vous pouvez tenter de lancer ce sort quand vous tombez.</p><p>La vitesse de votre chute diminue de sorte que vous atterrissez sain et sauf sur vos pieds.</p>"
+    },
+    "Finger of Death": {
+      "name": "Doigt de la mort",
+      "discription": "<p>Une créature que vous touchez de niveau 9 ou moins meurt instantanément.</p><p>Un échec du test d’incantation pour ce sort est traité comme un échec critique, et vous devez lancer le malus avec désavantage.</p>"
+    },
+    "Fireball": {
+      "name": "Boule de feu",
+      "discription": "<p>Vous lancez une petite flamme qui éclate en une explosion de feu. Toutes les créatures dans un cube à portée proche de l’explosion subissent [[/r 4d6]] dégâts.</p>"
+    },
+    "Fixed Object": {
+      "name": "Ancrage d’objet",
+      "discription": "<p>Un objet que vous touchez et ne pesant pas plus de 2,5 kilos se fixe à l’endroit où il est posé. Il peut supporter un poids de 2300 kilos au maximum pendant la durée du sort.</p>"
+    },
+    "Flame Strike": {
+      "name": "Colonne de flamme",
+      "discription": "<p>Vous faites descendre un pilier de feu sacré, incinérant une créature que vous voyez à portée.</p><p>La cible subit 2d6 dégâts.</p>"
+    },
+    "Floating Disk": {
+      "name": "Disque flottant",
+      "discription": "<p>Vous créez un disque de force au centre concave, en lévitation dans l’air. Il peut porter jusqu’à 20 emplacements d’inventaire. Il lévite au niveau de votre taille et reste à portée intermédiaire. Il ne peut pas traverser les dénivellations ni les fosses plus profondes qu’un humain.</p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]</p>"
+    },
+    "Fly": {
+      "name": "Vol",
+      "discription": "<p>Vos pieds se lèvent du sol et vous volez comme un colibri. Vous pouvez voler à portée proche pendant toute la durée du sort et rester en vol stationnaire.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]</p>"
+    },
+    "Fog": {
+      "name": "Brouillard",
+      "discription": "<p>Un épais nuage de brouillard se forme dans une zone proche autour de vous, rendant votre visibilité réduite. Le nuage vous suit. Les attaques contre les créatures à l’intérieur du brouillard ont un désavantage.</p>"
+    },
+    "Freya's Omen": {
+      "name": "Présage de Freya",
+      "discription": "<p>Pendant la durée du sort, vous ne perdez pas la capacité de lancer un sort si vous échouez à son test d’incantation.</p><p>Si vous échouez de manière critique au test, vous pouvez relancer une fois le test, en utilisant le nouveau résultat.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]</p>"
+    },
+    "Frog Rain": {
+      "name": "Pluie de grenouilles",
+      "discription": "<p>Une pluie de grenouilles indignes frappe un cube à portée proche autour d’un point que vous voyez.</p><p>Toutes les créatures sous la pluie de grenouilles subissent 1d6 dégâts. Les grenouilles survivantes sautent et disparaissent.</p>"
+    },
+    "Gaseous Form": {
+      "name": "Forme gazeuse",
+      "discription": "<p>Vous et votre équipement vous transformez en un nuage de fumée pendant la durée du sort.</p><p>Vous pouvez voler et passer par n’importe quelle fissure ou ouverture que la fumée pourrait traverser. Vous ressentez le terrain et tout mouvement autour de vous dans une portée proche.</p><p>Vous ne pouvez pas lancer des sorts sous cette forme.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]</p>"
+    },
+    "Glassbones": {
+      "name": "Os de verre",
+      "discription": "<p>Une créature que vous touchez devient fragile. Elle subit des dégâts doublés pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]</p>"
+    },
+    "Hallucinate": {
+      "name": "Hallucination",
+      "discription": "<p>Une créature de niveau inférieur ou égal au vôtre dans la portée du sort est submergée par des visions de ce qui pourrait advenir.</p><p>Pendant la durée du sort, la cible ne peut agir à son tour, sauf si elle réussit un test de Sagesse égal à votre dernier test d’incantation.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]</p>"
+    },
+    "Heal": {
+      "name": "Guérison des blessures",
+      "discription": "<p>Lancez un nombre de d6 égal à 1 + la moitié de votre niveau (arrondie à l’entier inférieur).</p><p>Une cible que vous touchez regagne un nombre de PV équivalent.</p>"
+    },
+    "Hold Monster": {
+      "name": "Paralysie de monstre",
+      "discription": "<p>Vous paralysez une créature que vous pouvez voir à portée. Si la cible est de niveau 9 ou plus, elle peut tenter un test de Force contre votre dernier test d’incantation au début de son tour pour mettre fin au sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]</p>"
+    },
+    "Hold Person": {
+      "name": "Paralysie",
+      "discription": "<p>Vous immobilisez une créature humanoïde visible de niveau 4 ou moins, située à portée.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]</p>"
+    },
+    "Hold Portal": {
+      "name": "Fermeture",
+      "discription": "<p>Vous maintenez un portail fermé par magie pendant la durée. Pour l’ouvrir, une créature doit réussir un test de Force contre le résultat de votre test d’incantation.</p><p>Le sort ouverture met un terme à celui-ci.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]</p>"
+    },
+    "Holy Weapon": {
+      "name": "Arme sacrée",
+      "discription": "<p>Vous transmettez une bénédiction à une arme que vous touchez. Celle-ci devient magique et bénéficie d’un bonus de +1 aux jets d’attaque et de dégâts pendant la durée.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>"
+    },
+    "Howl": {
+      "name": "Hurlement",
+      "discription": "<p>Tous les ennemis à portée proche de vous doivent immédiatement effectuer un test de moralité. Ce sort n'affecte pas les créatures immunisées contre les tests de moralité.</p>"
+    },
+    "Hypnotize": {
+      "name": "Hypnotiser",
+      "discription": "<p>Une créature de niveau 3 ou moins qui peut vous voir devient stupéfiée.</p><p>Casser la ligne de vue de la créature avec vous lui permet de faire un test de [[test 15 cha]]. En cas de réussite, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>"
+    },
+    "Illusion": {
+      "name": "Illusion",
+      "discription": "<p>Vous créez une illusion convaincante visible et audible qui remplit un cube de taille proche dans la portée.</p><p>L'illusion ne peut pas causer de dégâts, mais les créatures qui croient que l'illusion est réelle réagissent comme si elle l'était.</p><p>Une créature inspectant l'illusion de loin doit réussir un test de Sagesse contre votre dernier jet de lancement de sort pour percevoir la fausse nature de l'illusion.</p><p>Toucher l'illusion révèle également sa fausse nature.</p>"
+    },
+    "Invisibility": {
+      "name": "Invisibilité",
+      "discription": "<p>Une créature que vous touchez devient invisible pendant la durée du sort.</p><p>Le sort s’achève si la cible attaque ou lance un sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>"
+    },
+    "Judgment": {
+      "name": "Jugement",
+      "discription": "<p>Vous exterminez instantanément une créature que vous touchez, envoyant celle-ci et toutes ses possessions faire face au jugement de votre dieu.</p><p>Vous pouvez bannir une créature intelligente de niveau 10 ou moins.</p><p>Lorsque la créature revient dans 5 tours, elle a été soignée à pleine vie si ses actions ont plu à votre dieu. Elle a été réduite à 1 point de vie si ses actions ont mis en colère votre dieu. Si votre dieu ne peut pas juger de ses actions, elle reste inchangée.</p>"
+    },
+    "Knock": {
+      "name": "Ouverture",
+      "discription": "<p>Une porte, une fenêtre, un portail, un coffre ou une barrière situé à portée et que vous pouvez voir s’ouvre instantanément, malgré tous les verrous et systèmes de fermeture.</p><p>Ce sort crée un bruit que tous ceux qui se trouvent à portée de voix entendent, comme si quelqu’un frappait à une porte.</p>"
+    },
+    "Lay to Rest": {
+      "name": "Repos Éternel",
+      "discription": "<p>Vous envoyez instantanément une créature morte-vivante que vous touchez dans sa dernière vie, la détruisant complètement. </p><p>Vous pouvez cibler une créature morte-vivante de niveau 9 ou moins.</p>"
+    },
+    "Levitate": {
+      "name": "Lévitation",
+      "discription": "<p>Vous pouvez vous déplacer verticalement en flottant dans les airs, sur une distance intermédiaire par round à votre tour.</p><p>Vous pouvez également prendre appui sur des objets solides pour vous déplacer horizontalement.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]</p>"
+    },
+    "Light": {
+      "name": "Lumière",
+      "discription": "<p>Un objet que vous touchez émet une lumière vive et sans chaleur, éclairant jusqu’à portée intermédiaire pendant 1 heure de temps réel.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]</p>"
+    },
+    "Lightning Bolt": {
+      "name": "Éclair",
+      "discription": "<p>Vous lancez un rayon bleu-blanc d'éclair depuis vos mains, frappant toutes les créatures sur une ligne droite jusqu'à une grande distance.</p><p>Les créatures frappées par l'éclair subissent [[/r 3d6]] points de dégâts.</p>"
+    },
+    "Loki's Trickery": {
+      "name": "Ruse de Loki",
+      "discription": "<p>Vous êtes rempli de la ruse hypnotique de Loki. Les créatures qui vous entendent parler altèrent leurs propres croyances et mémoires pour correspondre à votre suggestion.</p><p>Ciblez une créature qui peut vous entendre et vous comprendre dans la portée. Vous faites une déclaration plausible, qu'elle soit vraie ou non.</p><p>La cible doit effectuer un test de Sagesse contre votre jet de lancement de sort. Si elle échoue, elle croit maintenant ce que vous avez déclaré comme si c'était un fait, quel que soit ce qu'elle sait.</p>"
+    },
+    "Mage Armor": {
+      "name": "Armure de mage",
+      "discription": "<p>Une force magique invisible protège vos organes vitaux. Votre classe d’armure passe à 14 (ou à 18 si vous obtenez une réussite critique au test d’incantation) pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]</p>"
+    },
+    "Magic Circle": {
+      "name": "Cercle Magique",
+      "discription": "<p>Vous invoquez un cercle de runes dans un cube de taille proche centré sur vous-même et nommez un type de créature (par exemple, démons).</p><p>Pendant la durée du sort, les créatures du type choisi ne peuvent pas attaquer ni lancer de sort hostile sur quiconque se trouve à l'intérieur du cercle. Les créatures choisies ne peuvent pas non plus posséder, contraindre ou envoûter quiconque à l'intérieur du cercle.</p>"
+    },
+    "Magic Missile": {
+      "name": "Projectile magique",
+      "discription": "<p>Vous bénéficiez de l’avantage à votre test d’incantation de ce sort.</p><p>Un rayon de force lumineux jaillit de votre main ouverte et inflige [[/r 1d4]] dégâts à une cible.</p>"
+    },
+    "Mass Cure": {
+      "name": "Guérison de Masse",
+      "discription": "<p>Tous les alliés dans un rayon proche de vous récupèrent 2d6 points de vie.</p>"
+    },
+    "Mirror Image": {
+      "name": "Image miroir",
+      "discription": "<p>Vous créez un nombre de doubles illusoires de vous-même égal à la moitié de votre niveau (arr. à l’inférieur, min. 1).</p><p>Les doubles vous entourent et vous imitent.</p><p>Chaque fois qu’une créature vous attaque, elle vous rate et l’un des doubles s’évapore. Si toutes les illusions disparaissent, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]</p>"
+    },
+    "Mistletoe": {
+      "name": "Gui Enchanté",
+      "discription": "<p>Deux créatures que vous pouvez voir dans un rayon proche de vous deviennent enchantées l'une par l'autre pendant 1d8 jours.</p><p>Chaque fois qu'une des créatures affectées subit des dégâts, elle peut effectuer un test [[check 15 cha]]. En cas de succès, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]</p>"
+    },
+    "Misty Step": {
+      "name": "Marche des brumes",
+      "discription": "<p>Dans une bouffée de fumée, vous vous téléportez dans la limite de la portée intermédiaire jusqu’à un point que vous pouvez voir.</p>"
+    },
+    "Moonbeam": {
+      "name": "Rayon de Lune",
+      "discription": "<p>Un rayon vacillant de lumière argentée frappe une créature dans un rayon lointain. Elle subit 3d6 dégâts.</p>"
+    },
+    "Mother of Night": {
+      "name": "Mère de la Nuit",
+      "discription": "<p>Vous implorez la Mère de la Nuit de vous prêter son pouvoir.</p><p>Faites un vœu unique, en le formulant aussi précisément que possible. Votre vœu se réalise, tel qu'interprété par le MJ.</p><p>Si vous échouez ce test de lancer de sort, la Mère de la Nuit vous attire dans Le Crépuscule pour jugement. Vous ne pouvez pas lancer ce sort à nouveau tant que vous n'avez pas apaisé ses exigences.</p>"
+    },
+    "Nightmare": {
+      "name": "Cauchemar",
+      "discription": "<p>Vous pénétrez dans les rêves d'une créature endormie, lui envoyant des cauchemars terrifiants.</p><p>Vous pouvez cibler une créature dont le niveau est inférieur ou égal à la moitié de votre niveau, arrondi à l'entier inférieur (minimum 1). La cible doit être endormie, et vous devez l'avoir déjà vue en personne.</p><p>Si vous réussissez à vous concentrer sur ce sort pendant 3 rounds d'affilée, la créature meurt de peur.</p>"
+    },
+    "Oak, Ash, Thorn": {
+      "name": "Chêne, Frêne, Épine",
+      "discription": "<p>Pendant la durée du sort, les fées, démons et diables ne peuvent pas vous attaquer. Ces êtres ne peuvent pas non plus vous posséder, contraindre ou envoûter.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]</p>"
+    },
+    "Odin's Wisdom": {
+      "name": "Sagesse d'Odin",
+      "discription": "<p>Pendant la durée du sort, ajoutez votre niveau comme bonus supplémentaire à vos tests de Sagesse et vos tests de lancer de sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]</p>"
+    },
+    "Passwall": {
+      "name": "Mur Traversable",
+      "discription": "<p>Un tunnel de votre hauteur s'ouvre dans une barrière que vous touchez et dure pendant toute la durée du sort.</p><p>Le passage peut mesurer jusqu'à une distance proche en longueur et doit être en ligne droite.</p>"
+    },
+    "Pillar of Salt": {
+      "name": "Colonne de Sel",
+      "discription": "<p>Une créature que vous ciblez se transforme en une statue de sel durci.</p><p>Vous pouvez cibler une créature de niveau 5 ou moins que vous pouvez voir.</p><p>Si vous réussissez à vous concentrer sur ce sort pendant 3 rounds d'affilée, la transformation devient permanente.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]</p>"
+    },
+    "Pin Doll": {
+      "name": "Poupée Voodoo",
+      "discription": "<p>Vous épinglez un morceau de cheveux ou de chair pris à une créature à une petite poupée en toile que le sort invoque.</p><p>Lors de votre tour, tout en vous concentrant sur ce sort, vous pouvez enfoncer une épingle dans la poupée. Chaque fois que vous faites cela, la créature à qui le morceau de cheveux ou de chair appartient subit 2d6 dégâts. Après la fin du sort, le morceau de cheveux ou de chair brûle en cendres.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]</p>"
+    },
+    "Plane Shift": {
+      "name": "Changement de Plan",
+      "discription": "<p>Vous pliez l'espace et le temps, vous transportant ainsi que toutes les créatures consentantes dans un rayon proche vers un endroit d'un autre plan de votre choix.</p><p>À moins que vous n'ayez déjà visité l'endroit choisi, vous apparaissez dans un endroit aléatoire du plan de destination.</p>"
+    },
+    "Poison": {
+      "name": "Poison",
+      "discription": "<p>Un objet porté ou transporté que vous touchez devient toxique pendant la durée du sort. Toute créature en contact avec l'objet au début de son tour subit 1d6 dégâts.</p>"
+    },
+    "Polymorph": {
+      "name": "Polymorphie",
+      "discription": "<p>Vous transformez une créature que vous touchez en une autre créature naturelle de votre choix de taille égale ou inférieure. Tout équipement que la cible porte fusionne avec sa nouvelle forme.</p><p>La cible obtient les statistiques physiques de la créature, mais conserve ses statistiques non physiques.</p><p>Si la cible descend à 0 points de vie, elle reprend sa forme réelle avec la moitié de ses points de vie précédents.</p><p>Vous pouvez cibler n'importe quelle créature consentante avec ce sort, ou une créature non consentante dont le niveau est inférieur ou égal à la moitié de votre niveau, arrondi à l'entier inférieur (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]</p>"
+    },
+    "Potion": {
+      "name": "Potion",
+      "discription": "<p>En lançant ce sort, vous devez bénir une boisson quelconque.</p><p>La boisson acquiert des propriétés curatives pendant 1 jour. Une créature qui l'ingère peut mettre fin aux effets d'un poison ou peut immédiatement stopper sa mort (la créature reste à 0 HP).</p>"
+    },
+    "Power Word Kill": {
+      "name": "Mot de Pouvoir : Mort",
+      "discription": "<p>Vous prononcez le Mot de la Doom. Une créature que vous ciblez de niveau 9 ou moins meurt si elle vous entend.</p><p>Considérez un échec de test de lancer de sort pour ce sort comme un échec critique et lancez l'incident avec un désavantage.</p>"
+    },
+    "Prismatic Orb": {
+      "name": "Orbe Prismatique",
+      "discription": "<p>Vous envoyez une orbe stroboscopique d'énergie en direction d'une cible dans la portée.</p><p>Choisissez un type d'énergie parmi feu, froid ou électricité. L'orbe inflige 3d8 dégâts et délivre une explosion concussive du type d'énergie choisi.</p><p>Si le type d'énergie est un anathème pour l'existence de la cible (par exemple, l'énergie froide contre un élémentaire de feu), l'orbe inflige alors le double des dégâts.</p>"
+    },
+    "Prophecy": {
+      "name": "Prophétie",
+      "discription": "<p>Vous communiquez directement avec votre dieu pour obtenir des conseils.</p><p>Posez une question au MJ. Le MJ répond honnêtement en utilisant les connaissances que possède votre dieu. Les divinités sont puissantes, mais non omniscientes.</p><p>Vous ne pouvez pas lancer ce sort à nouveau tant que vous n'avez pas accompli des pénitences.</p>"
+    },
+    "Protection from Energy": {
+      "name": "Protection contre l'Énergie",
+      "discription": "<p>Une créature que vous touchez devient imperméable à la fureur sauvage des éléments.</p><p>Choisissez le feu, le froid ou l'électricité. Pendant la durée du sort, la cible est immunisée contre les dégâts de l'énergie choisie.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]</p>"
+    },
+    "Protection From Evil": {
+      "name": "Protection contre le mal",
+      "discription": "<p>Pendant la durée du sort, les êtres chaotiques sont désavantagés aux jets d’attaque et tests d’incantations hostiles contre la cible. En outre, ils ne peuvent ni la posséder, ni la contraindre, ni la séduire.</p><p>Lorsqu’on lance ce sort sur une cible déjà possédée, l’entité responsable effectue un test de CHA contre le résultat du dernier test d’incantation. En cas d’échec, elle est expulsée.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]</p>"
+    },
+    "Puppet": {
+      "name": "Marionnette",
+      "discription": "<p>Une créature humanoïde de niveau 2 ou moins que vous touchez devient enchaînée à vos mouvements. Lors de votre tour, la créature imite tous vos mouvements.</p><p>Si imiter vos mouvements entraîne des dégâts pour la créature ou un allié, elle peut effectuer un jet [[check 15 cha]]. En cas de succès, elle résiste à l'imitation.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]</p>"
+    },
+    "Ragnarok": {
+      "name": "Ragnarok",
+      "discription": "<p>Vous plongez dans les fils du destin, découvrant la destinée finale d'une âme après la bataille du Ragnarok. Vivent-ils, ou meurent-ils ? </p><p>Choisissez une créature dans la portée. Vous ne pouvez cibler la même créature avec ce sort qu'une seule fois. </p><p>Cette créature doit réussir un test de CON égal à votre jet de lancement de sort ou mourir instantanément.</p>"
+    },
+    "Raven": {
+      "name": "Corbeau",
+      "discription": "<p>Vous murmurez un message aux corbeaux d'Odin, et ils le portent à travers tous les mondes vers son destinataire. </p><p>Prononcez une courte phrase, ainsi que le nom de son destinataire, vivant ou mort. Cette créature entend votre parole murmurée dans son esprit.</p>"
+    },
+    "Read the Runes": {
+      "name": "Lire les Runes",
+      "discription": "<p>Vous posez une question aux dieux et jetez les pierres runiques, interprétant le sens des résultats. </p><p>Posez une question à oui ou non au Maître de Jeu. Le Maître de Jeu répond honnêtement par « oui » ou « non ».</p>"
+    },
+    "Rebuke Unholy": {
+      "name": "Réprimander l'Impie",
+      "discription": "<p>Vous réprimandez les créatures qui s'opposent à votre alignement, les forçant à fuir. Vous devez présenter un symbole sacré pour lancer ce sort.</p><p>Si vous êtes loyal ou neutre, ce sort affecte les démons, les diables et les extérieurs. Si vous êtes chaotique, ce sort affecte les anges et les créatures naturelles des terres sauvages.</p><p>Les créatures affectées à proximité de vous doivent réussir un test de CHA contre votre jet de lancement de sort. Si une créature échoue de 10+ points et est égale ou inférieure à votre niveau, elle est détruite. Sinon, en cas d'échec, elle fuit pendant 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]</p>"
+    },
+    "Regenerate": {
+      "name": "Régénération",
+      "discription": "<p>Une créature que vous touchez regagne 1d4 points de vie à chaque tour pour la durée du sort. Ce sort régénère également les parties du corps perdues.</p>"
+    },
+    "Resilient Sphere": {
+      "name": "Sphère résiliente",
+      "discription": "<p>Vous invoquez une sphère de verre sans poids autour de vous qui s'étend jusqu'à portée proche. </p><p>Pour la durée du sort, rien ne peut passer à travers ou écraser la sphère. </p><p>Vous pouvez faire rouler la sphère à une distance proche pendant votre tour.</p>"
+    },
+    "Restoration": {
+      "name": "Restauration",
+      "discription": "<p>Par le toucher de vos mains, vous expulsez les malédictions et les maladies. Une malédiction, une maladie ou une affliction de votre choix affectant la créature cible prend fin.</p>"
+    },
+    "Sacrifice": {
+      "name": "Sacrifice",
+      "discription": "<p>Dans le cadre du lancement de ce sort, vous devez sacrifier rituellement une créature vivante de niveau 2 ou supérieur. </p><p>La cible que vous touchez gagne un bonus à son prochain test ou jet d'attaque égal au niveau de la créature sacrifiée.</p>"
+    },
+    "Scrying": {
+      "name": "Scrutation",
+      "discription": "<p>Vous regardez dans une boule de cristal ou un bassin réfléchissant, appelant des images d'un endroit lointain. </p><p>Pour la durée du sort, vous pouvez voir et entendre une créature ou un endroit que vous choisissez sur le même plan. </p><p>Ce sort a une difficulté de 18 si vous tentez de scruter une créature ou un endroit qui vous est inconnu. </p><p>Chaque round, les créatures que vous regardez peuvent faire un test de Sagesse contre votre dernier jet de lancement de sort. En cas de succès, elles prennent conscience de votre observation magique.</p>"
+    },
+    "Sending": {
+      "name": "Communication à distance",
+      "discription": "<p>Vous envoyez un message mental bref à toute créature que vous connaissez et qui se trouve sur le même plan.</p>"
+    },
+    "Shadowdance": {
+      "name": "Danse de l'Ombre",
+      "discription": "<p>Vous faites tourner de la matière d'ombre pour créer une illusion visible et audible convaincante à un point dans une portée proche. </p><p>L'illusion peut être aussi grande qu'une personne et peut se déplacer à une portée proche de son apparition. </p><p>L'illusion ne peut pas affecter les objets physiques. Toucher l'illusion révèle sa fausse nature.</p>"
+    },
+    "Shapechanger": {
+      "name": "Métamorphose",
+      "discription": "<p>Vous vous transformez ainsi que tout équipement que vous portez en une autre créature naturelle que vous avez vue, de niveau 10 ou moins. Vous assumez les statistiques physiques de la créature, mais vous conservez vos statistiques non physiques (comme INT, SAGESSE et CHA).</p><p>Si vous atteignez 0 PV sous l'effet de ce sort, vous revenez à votre forme réelle avec 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]</p>"
+    },
+    "Shield of Faith": {
+      "name": "Bouclier de la foi",
+      "discription": "<p>Une force protectrice issue de votre conviction religieuse vous entoure. Vous recevez un bonus de +2 à la classe d’armure pour toute la durée.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]</p>"
+    },
+    "Silence": {
+      "name": "Silence",
+      "discription": "<p>Vous étouffez les sons dans un cube de taille intermédiaire situé dans la portée du sortilège. Les créatures qui se trouvent à l’intérieur sont assourdies, et aucun des sons qu’elles produisent ne peut être entendu.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
+    },
+    "Sleep": {
+      "name": "Sommeil",
+      "discription": "<p>Vous déployez une aura de léthargie qui remplit un cube de taille intermédiaire s’étendant à partir de vous. Les créatures vivantes situées à l’intérieur de la zone d’effet tombent dans un profond sommeil si elles sont de niveau 2 ou moins.</p><p>Les secouer vigoureusement ou les blesser permet de les réveiller.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]</p>"
+    },
+    "Smite": {
+      "name": "Châtiment",
+      "discription": "<p>Vous faites apparaître des flammes punitives qui s’abattent sur une créature située à portée et que vous pouvez voir. Elle subit [[/r 1d6]] dégâts.</p>"
+    },
+    "Soul Jar": {
+      "name": "Jarre de l'Âme",
+      "discription": "<p>Vous transférez l'âme d'une créature que vous touchez de niveau 9 ou inférieur dans un réceptacle, comme une jarre. Le corps de la créature devient comateux, mais ne meurt pas. </p><p>Si le réceptacle s'ouvre ou se brise, l'âme de la créature retourne dans son corps. </p><p>Vous pouvez posséder le corps vide avec votre propre esprit, en prenant le contrôle. Votre corps devient comateux pendant ce temps. Si le corps meurt pendant que vous le possédez, votre âme retourne dans votre corps.</p>"
+    },
+    "Soulbind": {
+      "name": "Lier l'Âme",
+      "discription": "<p>Vous scellez l'âme d'une créature vivante, empêchant la magie de s'en infiltrer.</p><p>Une créature que vous touchez devient presque imperméable à toute magie. Pour la durée du sort, tous les autres sorts visant la créature (néfastes ou bénéfiques) ont une difficulté de 18 à lancer.</p><p>Ce sort se termine dès que la cible est affectée par un autre sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]</p>"
+    },
+    "Speak with Dead": {
+      "name": "Communication avec les morts",
+      "discription": "<p>Un corps mort que vous touchez répond à vos questions d'une voix lointaine et haletante. </p><p>Vous pouvez poser jusqu'à trois questions à oui ou non (une à la fois). Le MJ répond honnêtement par « oui » ou « non » à chaque question. </p><p>Si vous lancez ce sort plus d'une fois en 24 heures, traitez un échec du jet de lancement de sort comme un échec critique.</p>"
+    },
+    "Spidersilk": {
+      "name": "Toile d'Araignée",
+      "discription": "<p>Vous créez des toiles d’araignées denses et poisseuses remplissant le volume d’un cube de taille intermédiaire, dans la limite de la portée du sort.</p><p>Une créature prise dans la toile ne peut plus bouger et doit réussir un test de Force contre le résultat de votre test d’incantation pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.4UAVHmqFCt47sh7D]</p>"
+    },
+    "Stoneskin": {
+      "name": "Peau de Pierre",
+      "discription": "<p>Votre peau devient aussi dure que du granit. Pour la durée du sort, votre classe d'armure devient 17 (20 en cas de réussite critique du lancement de sort).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]</p>"
+    },
+    "Summon Extraplanar": {
+      "name": "Invocation Extra-planaire",
+      "discription": "<p>Vous atteignez les plans extérieurs et invoquez une créature. </p><p>Vous invoquez un élémentaire ou un extérieur de niveau 7 ou inférieur. La créature est sous votre contrôle et agit à votre tour. </p><p>Si vous perdez votre concentration sur ce sort, vous perdez le contrôle de la créature et elle devient hostile envers vous et vos alliés. </p><p>Vous devez réussir un jet de lancement de sort à votre tour pour renvoyer la créature vers les plans extérieurs.</p>"
+    },
+    "Swarm": {
+      "name": "Essaim",
+      "discription": "<p>Un dense essaim de chauves-souris, de rats ou de sauterelles apparaît dans un cube de taille proche autour d'un point que vous pouvez voir dans la portée. </p><p>Toutes les créatures qui commencent leur tour dans l'essaim subissent 2d6 dégâts et sont aveuglées.</p>"
+    },
+    "Telekinesis": {
+      "name": "Télékinésie",
+      "discription": "<p>Vous soulevez une créature ou un objet par la pensée. Choisissez une cible pesant 450 kg ou moins. Vous pouvez la déplacer sur une courte distance dans n'importe quelle direction et la maintenir en place.</p>"
+    },
+    "Teleport": {
+      "name": "Téléportation",
+      "discription": "<p>Vous et toutes les créatures volontaires que vous choisissez dans une portée proche êtes téléportés vers un endroit que vous spécifiez sur le même plan. </p><p>Vous pouvez voyager vers un sigil de téléportation connu ou un endroit où vous êtes déjà allé. Sinon, vous avez 50 % de chance d'arriver à un mauvais endroit.</p>"
+    },
+    "Thor's Thunder": {
+      "name": "Foudre de Thor",
+      "discription": "<p>Thor fait tomber un éclair pour frapper une cible. La cible subit [[/r 3d6]] de dégâts.</p>"
+    },
+    "Toadstool": {
+      "name": "Pied-de-mouton",
+      "discription": "<p>Vous invoquez un champignon dodu et tacheté dans votre main. Il disparaît à la fin de votre prochain tour. </p><p>Une créature qui mange le champignon regagne 1d6 points de vie.</p>"
+    },
+    "Trance": {
+      "name": "Transe",
+      "discription": "<p>Vous entrez en transe, entrevoyant le destin d'une créature. Une créature humanoïde que vous touchez (vous ne pouvez pas vous cibler vous-même) gagne un jeton de chance. Elle ne peut pas avoir plus d'un jeton de chance à la fois.</p>"
+    },
+    "Turn Undead": {
+      "name": "Renvoi des morts-vivants",
+      "discription": "<p>Vous repoussez les morts-vivants et les forcez à fuir. Vous devez brandir un symbole sacré pour lancer ce sort.</p><p>Les morts-vivants à portée intermédiaire de vous doivent effectuer un test de CHA contre le résultat de votre test d’incantation. Si une créature échoue de 10 points ou plus et que son niveau est inférieur ou égal au vôtre, elle est détruite. Sinon, en cas d’échec, elle vous fuit pendant 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]</p>"
+    },
+    "Valkyrie": {
+      "name": "Valkyrie",
+      "discription": "<p>Vous invoquez une valkyrie pour vous venir en aide. Elle apparaît dans un endroit à proximité et agit de sa propre volonté pour vous aider. Elle retourne à Valhalla à la fin du sort. </p><p>Vous ne pouvez pas relancer ce sort tant que vous n'avez pas accompli une pénitence.</p>"
+    },
+    "Void Stare": {
+      "name": "Regard du Vide",
+      "discription": "<p>Vos yeux deviennent noirs alors que vous regardez dans les ténèbres entre les étoiles.</p><p>Une créature de niveau 6 ou inférieur que vous pouvez voir tombe sous votre contrôle. Vous décidez de ses actions pendant son tour.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]</p>"
+    },
+    "Wall of Force": {
+      "name": "Mur de Force",
+      "discription": "<p>Vous levez les mains, invoquant un mur transparent de force. </p><p>Le mur fin doit être contigu et peut couvrir une zone de taille proche en largeur et longueur. Vous choisissez sa forme. </p><p>Rien sur le même plan ne peut passer physiquement à travers le mur.</p>"
+    },
+    "Web": {
+      "name": "Toile d’araignée",
+      "discription": "<p>Vous créez un cube de taille proche de toile d'araignée collante et dense dans la portée du sort. Une créature prise dans la toile ne peut pas bouger et doit réussir un test de Force opposé à votre test de lancement de sort pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]</p>"
+    },
+    "Whisper": {
+      "name": "Murmure",
+      "discription": "<p>Vous murmurez à l'oreille d'une autre créature, lui implantant un faux souvenir dans l'esprit.</p><p>Vous décrivez un bref faux souvenir que la cible croira vrai à l'avenir. </p><p>Si vous échouez ce test de lancement de sort, le MJ choisit un court faux souvenir à implanter dans votre propre esprit.</p>"
+    },
+    "Willowman": {
+      "name": "Homme Saule",
+      "discription": "<p>Vous invoquez l'Homme Saule pour apparaître dans l'esprit d'une créature, la remplissant de terreur surnaturelle.</p><p>Choisissez une créature de niveau 2 ou inférieur dans la portée. Cette créature doit immédiatement effectuer un test de moralité.</p><p>Même les créatures normalement insensibles aux tests de moralité (comme les morts-vivants) doivent en effectuer un.</p><p><strong>Homme Saule.</strong> </p><p>Un homme pâle, sans visage, aux membres allongés et aux griffes incurvées qui griffent le sol. Il se déplace par saccades à chaque clignement des yeux.</p>"
+    },
+    "Wish": {
+      "name": "Souhait",
+      "discription": "<p>Ce puissant sort modifie la réalité. </p><p>Formulez un vœu, en l'énonçant aussi précisément que possible. Votre vœu se réalise, tel qu'interprété par le MJ. </p><p>Traitez un échec du test de lancement de sort pour ce sort comme une échec critique, et lancez la malchance avec un désavantage.</p>"
+    },
+    "Witchlight": {
+      "name": "Lumière de Sorcière",
+      "discription": "<p>Vous invoquez une lumière flottante de marais qui oscille dans les airs et projette de la lumière dans un rayon proche autour d'elle. </p><p>La lumière peut changer de couleur et prendre des formes vagues. Elle peut se déplacer jusqu'à une distance proche lors de votre tour.</p>"
+    },
+    "Wolfshape": {
+      "name": "Forme de Loup",
+      "discription": "<p>Vous et votre équipement vous transformez en loup pendant la durée du sort. Vous adoptez les caractéristiques physiques du loup (FOR, DEX, CON, PV, CA, vitesse, attaques, etc.), mais vous conservez vos statistiques non physiques (comme INT, SAGESSE, et CHA).</p><p>Vous pouvez lancer des sorts sous cette forme. Si vous tombez à 0 PV, vous revenez à votre forme véritable avec 0 PV.</p><p>Si vous êtes de niveau 5+, vous pouvez vous transformer en un loup dire ou un loup des neiges, à la place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]</p>"
+    },
+    "World Serpent": {
+      "name": "Serpent-Monde",
+      "discription": "<p>Le venin tortueux du Serpent-Monde s'écoule des armes d'une créature que vous touchez.</p><p>La cible inflige x2 de dégâts avec chaque attaque (x4 en cas de coup critique) pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]</p>"
+    },
+    "World Tree": {
+      "name": "Arbre-Monde",
+      "discription": "<p>Les racines de l'Arbre-Monde, source de vie, s'enroulent autour de l'âme d'une créature que vous touchez.</p><p>Pendant la durée du sort, la cible ne peut pas être réduite en dessous de 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]</p>"
+    },
+    "Wrath": {
+      "name": "Courroux",
+      "discription": "<p>Vos armes deviennent magiques +2 et infligent des dégâts supplémentaires de d8 pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]</p>"
+    },
+    "Zone of Truth": {
+      "name": "Zone de vérité",
+      "discription": "<p>Vous forcez une créature que vous voyez à dire la vérité. Elle ne peut pas prononcer délibérément de mensonge tant qu’elle reste à portée.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]</p>"
+    }
+  }
+}

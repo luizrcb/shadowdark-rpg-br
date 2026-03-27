@@ -1,0 +1,172 @@
+:root {
+  --scrollbar-thumb-background: #453249;
+  --scrollbar-thumb-background-hover: #c678dd;
+  --text-shadow: 0px 1px 2px black;
+}
+
+a.content-link, 
+a.content-link i, 
+a.inline-roll i, 
+a.inline-roll {
+  --color-border-highlight: rgb(255, 129, 0);
+  color: var(--color-border-highlight);
+  border: unset;
+  background: unset;
+  text-decoration: underline;
+
+}
+a.content-link:hover, 
+a.content-link i:hover, 
+a.inline-roll i:hover, 
+a.inline-roll:hover {
+  --red-light:#ff0000;
+  color: var(--red-light) !important;
+  border: unset;
+  text-shadow: none !important;
+}
+
+/* Pause
+====================================================== */
+
+@keyframes pulsate-light {
+  0% {
+    filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px var(--scrollbar-thumb-background-hover));
+  }
+  100% {
+    filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+  }
+}
+#pause > img {
+    content: url("../assets/logo/laserhead-logo.webp");
+    animation: pulsate-light 3s infinite ease-in-out;
+}
+/* scrollbar
+====================================================== */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-background) var(--color-scrollbar-track);
+  }
+*:hover {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-background-hover) var(--color-scrollbar-track);
+  }
+/* End
+====================================================== */
+
+/**
+ * Windows & Light tracker
+ */
+ .shadowdark.sheet.player, 
+ .shadowdark.sheet.npc {
+  color: var(--color-dark-1);
+  border: 2px solid transparent;
+  border-image: url(../assets/backgrounds/box-border-large.webp) 110/11 repeat;
+  border-image-outset: 3;
+  padding: 0 4px 4px;
+  margin: 0;
+  background: white;
+}
+.shadowdark.light-tracker {
+  color: var(--color-dark-1);
+  border: 2px solid transparent;
+  border-image: url(../assets/backgrounds/box-border-large.webp) 110/11 repeat;
+  border-image-outset: 3;
+  padding: 0 4px 4px;
+  margin: 0;
+  background: white;
+  opacity: 0.5;
+  transition: opacity 250ms ease-in-out;
+}
+.shadowdark.light-tracker:hover {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+.window-app .window-header {
+  border-bottom: unset;
+}
+.app.window-app.shadowdark.light-tracker .window-content,
+.app.window-app.shadowdark.sheet.player .window-content, 
+.app.window-app.shadowdark.sheet.npc .window-content{
+  border: unset;
+  background: unset;
+  background-color: white;
+}
+.shadowdark.light-tracker hr {
+  border: none;
+  border-top: unset;
+}
+.shadowdark.light-tracker form button {
+  background: black;
+  color: white;
+  border: none;
+  text-shadow: 0 0 black;
+}
+.shadowdark.light-tracker .disable-all-lights {
+  font-size: 16px;
+  background: black;
+  color: white;
+  border: none;
+  text-shadow: 0 0 black;
+}
+.shadowdark.light-tracker form button:hover, 
+.shadowdark.light-tracker .disable-all-lights:hover {
+  background: linear-gradient(180deg, #de2f2d, #a41413ff);
+  text-shadow: 0 0 black;
+}
+/**
+* Scene & compendium
+*/
+#scenes .scene {
+  height: 43px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#scenes .scene h3 {
+  line-height: 43px;
+  text-shadow: 0 0 black;
+}
+.compendium-sidebar .directory-item.compendium {
+  height: 43px;
+}
+/**
+* Ajustement version FR
+*/
+.character-generator .title {
+  font-size: 38px;
+  text-shadow: 0 0 black;
+}
+.grid-2-columns {
+  font-size: 12px;
+  text-shadow: 0 0 black;
+}
+.shadowdark a:hover {
+  font-weight: bold;
+  text-shadow: 0 0 8px rebeccapurple;
+}
+a.control:hover {
+    color: unset;
+}
+
+/**
+* crawl helper compatibility
+*/
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+.lights-out-carousel .side-buttons ol li.small .fa-dice-d20:hover,
+.lights-out-carousel .combatant-container .combatant .portrait .overlay i:hover {
+  cursor: pointer;
+  --highlight: #ff6400;
+  color: var(--highlight);
+  --text-shadow: 0px 1px 2px black;
+  text-shadow: var(--text-shadow);
+  animation: spin-anim 1s ease-in-out infinite;
+}
+

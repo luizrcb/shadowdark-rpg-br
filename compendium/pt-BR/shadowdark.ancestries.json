@@ -1,0 +1,37 @@
+{
+  "label": "Ascendances",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {},
+  "entries": {
+    "Dwarf": {
+      "description": "<p>Un peuple courageux et solide comme les royaumes de pierre qu’il se taille au creux des montagnes. Vous connaissez la langue commune et le nain.</p>",
+      "name": "Nain"
+    },
+    "Elf": {
+      "description": "<p>Peuple éthéré et gracieux épris de savoir et de beauté. Les elfes voient loin et vivent longtemps. Vous connaissez la langue commune, l’elfique et le sylvestre.</p>",
+      "name": "Elfe"
+    },
+    "Goblin": {
+      "description": "<p>Des êtres verts et futés qui prospèrent dans les lieux les plus sombres et les plus exigus. Aussi féroces que minuscules. Vous connaissez la langue commune et le gobelin.</p>",
+      "name": "Gobelin"
+    },
+    "Half-Orc": {
+      "description": "<p>Immenses guerriers aux défenses proéminentes, aussi audacieux que les humains et aussi impitoyables que les orques. Vous connaissez la langue commune et l’orque.</p>",
+      "name": "Demi-Orque"
+    },
+    "Halfling": {
+      "description": "<p>Petit paysan joyeux aux traits espiègles. Ils apprécient les plaisirs simples de la vie.</p>",
+      "name": "Halfelin"
+    },
+    "Human": {
+      "description": "<p>Peuple audacieux et doué d’un bon sens de l’adaptation, qui apprend vite et accomplit de grands exploits. Vous connaissez la langue commune ainsi qu’une langue courante supplémentaire.</p>",
+      "name": "Humain"
+    },
+    "Kobold": {
+      "description": "<p>Minuscules humanoïdes, ces chiens-lézards ont un penchant pour le bricolage, la construction de pièges et un soupçon de magie.</p>",
+      "name": "Kobold"
+    }
+  }
+}

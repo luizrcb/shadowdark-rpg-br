@@ -1,0 +1,562 @@
+{
+  "label": "L'Aventure",
+  "mapping": {
+    "actors": {
+      "notes": "system.notes"
+    },
+    "items": {
+      "description": "system.description"
+    },
+    "scenes": {
+      "foreground": "foreground",
+      "src": "background.src",
+      "backgroundColor": "backgroundColor",
+      "navName": "navName"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "The Lost Citadel of the Scarlet Minotaur": {
+      "name": "La Citadelle perdue du minotaure écarlate",
+      "description": "<p>Il y a bien longtemps, de puissants guerriers vivaient isolés dans la Citadelle Perdue. Ils vouaient un culte aux taureaux lors de rituels sanglants au terme desquels leur chef Minoros se transforma en <strong>Minotaure Écarlate</strong>. Cette incarnation immortelle de la rage massacra tous les autres guerriers en une seule nuit. Certains de leurs serviteurs s’échappèrent toutefois par les passages discrets qu’utilisaient les plus modestes occupants des lieux. Ces <strong>Hommes-bêtes</strong> se cachèrent dans la citadelle déchue, prisonniers de la peur superstitieuse du dehors.</p>",
+      "caption": "Une aventure de niveau 1−3 pour Shadowdark",
+      "scenes": {
+        "The Lost Citadel": {
+          "name": "La Citadelle Perdue",
+          "drawings": {
+            "DC18 Str": "ND 18 Force"
+          },
+          "notes": {},
+          "backgroundColor": "#121212",
+          "navName": "La Citadelle Perdue",
+          "foreground": "modules/shadowdark-rpg-fr/assets/map/the-lost-citadel-by-Futurewolf_foreground_layer.webp",
+          "src": "modules/shadowdark-rpg-fr/assets/map/the-lost-citadel-by-Futurewolf_background_img.webp"
+        }
+      },
+  "macros": {
+  "Roll Random Beastmen NPC": {
+    "name": "Créer aléatoirement un PNJ Homme-bête",
+    "command": "// Une Macro pour créer un PNJ aléatoire, envoyé en chuchotement aux MJ sur le serveur.\n\nconst namesTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Nom des Hommes-bêtes\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = namesResult.results.pop().getChatText();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Apparence des Hommes-bêtes\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = appearanceResult.results.pop().getChatText();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Attitude des Hommes-bêtes\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = behaviorResult.results.pop().getChatText();\n\nconst message = `<p>Un @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU] au <b>${appearance}</b> nommé <b>${names}</b> \nest <b>${behavior}</b>.</p>`;\n\nconst chatData = {\n  user: game.user._id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message,\n  whisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+  },
+  "Roll Random Ettercap NPC": {
+    "name": "Créer aléatoirement un PNJ Ettercap",
+    "command": "// Une Macro pour créer un PNJ aléatoire, envoyé en chuchotement aux MJ sur le serveur.\n\nconst namesTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Nom des Ettercaps\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = namesResult.results.pop().getChatText();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Apparence des Ettercaps\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = appearanceResult.results.pop().getChatText();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Attitude des Ettercaps\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = behaviorResult.results.pop().getChatText();\n\nconst message = `<p>Un @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx] au <b>${appearance}</b> nommé <b>${names}</b> \nest <b>${behavior}</b>.</p>`;\n\nconst chatData = {\n  user: game.user._id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message,\n  whisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+  },
+  "The Lost Citadel: Random Encounter Check": {
+    "name": "La Citadelle Perdue : Vérification de la rencontre aléatoire",
+    "command": "// Une Macro pour tirer une rencontre dans La Citadelle Perdue et ne l'afficher qu'au MJ.;\n\nconst tableID = game.tables.find(o => o.name === \"La Citadelle Perdue : Vérification de la rencontre aléatoire\")._id;\nconst table = await game.tables.get(tableID);\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
+  }
+},
+      "actors": {
+        "Giuseppe Baldini": {
+          "name": "Giuseppe Baldini",
+          "tokenName": "Giuseppe Baldini",
+          "notes": "<p><span class=\"fontstyle0\"><em>Un roturier aux vêtements usés.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">10, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">4, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">1 x gourdin +0 (1d4), </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire, </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">L, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">1</span></p>"
+        },
+        "The Scarlet Minotaur": {
+          "name": "Minotaure Écarlate",
+          "tokenName": "Minotaure Écarlate",
+          "notes": "<p><span class=\"fontstyle0\"><em>Féroces hommes-taureaux pourvus de sabots et de cornes incurvées. Ils vivent dans des dédales de tunnels.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">14 (mailles), </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">34, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x hache à deux mains +6 (1d10) et 1 x cornes +6 (1d12), </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire, </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+4, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+3, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">7</span></p><p><span class=\"fontstyle2\"><strong>Charge.</strong> </span><span class=\"fontstyle3\">Au lieu d’attaquer, se déplace jusqu’à portée intermédiaire x2 en ligne droite et effectue 1 attaque de cornes. En cas de réussite, dégâts x 2.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Chee": {
+          "name": "Chee",
+          "tokenName": "Chee",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Eska": {
+          "name": "Eska",
+          "tokenName": "Eska",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Grisk": {
+          "name": "Grisk",
+          "tokenName": "Grisk",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Skir": {
+          "name": "Skir",
+          "tokenName": "Skir",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Uliss": {
+          "name": "Uliss",
+          "tokenName": "Uliss",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Yisha": {
+          "name": "Yisha",
+          "tokenName": "Yisha",
+          "notes": "<p><span class=\"fontstyle0\"><em>Créature arachnéenne bipède à huit yeux, aux jambes grêles et au pelage violet.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">12, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +2 (1d6) ou 1 x toile venimeuse (intermédiaire) +2, </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p><p><span class=\"fontstyle2\"><strong>Toile venimeuse.</strong> </span><span class=\"fontstyle3\">Une cible immobilisée et 1d4 dégâts/round. [[check 12 dex]] à son tour pour se libérer.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Haruut": {
+          "name": "Haruut",
+          "tokenName": "Haruut",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Grall": {
+          "name": "Grall",
+          "tokenName": "Grall",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Chops": {
+          "name": "Babines",
+          "tokenName": "Babines",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Brell": {
+          "name": "Brell",
+          "tokenName": "Brell",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Rogath": {
+          "name": "Rogath",
+          "tokenName": "Rogath",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Grenton": {
+          "name": "Grenton",
+          "tokenName": "Grenton",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Hargol": {
+          "name": "Hargol",
+          "tokenName": "Hargol",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Beetle": {
+          "name": "Scarabée",
+          "tokenName": "Scarabée",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Irvog": {
+          "name": "Irvog",
+          "tokenName": "Irvog",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Blort": {
+          "name": "Blort",
+          "tokenName": "Blort",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV </strong>5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Scarab, Swarm": {
+          "name": "Scarabées (Nuée)",
+          "tokenName": "Scarabées (Nuée)",
+          "notes": "<p><span class=\"fontstyle0\"><em>Nuage sonore de scarabées ovales aux couleurs iridescentes.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">13, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">14, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x morsures +3 (1d6), </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\"> intermédiaire (vol), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+3, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">-3, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-3, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">N, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">3</span></p>"
+        },
+        "Skeleton": {
+          "name": "Squelette",
+          "tokenName": "Squelette",
+          "notes": "<p><span class=\"fontstyle0\"><em>Un squelette blanchi avec des yeux rouges lumineux.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">13 (mailles), </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">11, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">1 x épée courte +1 (1d6) ou 1 x arc court (longue) +0 (1d4), </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire, </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+1, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">-2, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">+0, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">C, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">2</span></p><p><span class=\"fontstyle2\"><strong>Mort-vivant.</strong> </span><span class=\"fontstyle3\">Immunisé aux tests de moral.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        },
+        "Beastman": {
+          "name": "Homme-bête",
+          "tokenName": "Homme-bête",
+          "notes": "<p><em>Hominidé cavernicole à la fourrure hirsute et muni d’une lance à pointe de pierre.</em></p><p><strong>CA</strong> 12 (cuir), <strong>PV</strong> 5, <strong>ATT</strong> 1 x lance (courte/intermédiaire) +2 (1d6 + 1), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong>NV </strong>1</p><p><strong>Brutal</strong>. +1 dégât avec les armes de corps à corps (inclus au profil).</p>"
+        },
+        "Animated Armor": {
+          "name": "Armure animée",
+          "tokenName": "Armure animée",
+          "notes": "<p><em>Une vieille armure animée magiquement par un esprit vengeur.</em></p><p><strong>CA</strong> 15, <strong>PV</strong> 11, <strong>ATT</strong> 1 x épée longue +3 (1d8), <strong>DP</strong> intermédiaire, <strong>F</strong> +3, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Ch</strong> +0, <strong>AL</strong> C, <strong>NV</strong> 2</p><p><strong>Statue</strong>. Quand elle reste immobile, ressemble tout à fait à une armure ordinaire.</p>"
+        },
+        "Ochre Jelly": {
+          "name": "Gelée ocre",
+          "tokenName": "Gelée ocre",
+          "notes": "<p><span class=\"fontstyle0\"><em>Curieuse flaque de gelée qui frémit.</em></span></p><p><span class=\"fontstyle2\"><strong>CA</strong> </span><span class=\"fontstyle3\">9, </span><span class=\"fontstyle2\"><strong>PV</strong> </span><span class=\"fontstyle3\">20, </span><span class=\"fontstyle2\"><strong>ATT</strong> </span><span class=\"fontstyle3\">2 x tentacules +3 (1d6), </span><span class=\"fontstyle2\"><strong>DP</strong> </span><span class=\"fontstyle3\">intermédiaire (escalade), </span><span class=\"fontstyle2\"><strong>F</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>D</strong> </span><span class=\"fontstyle3\">-1, </span><span class=\"fontstyle2\"><strong>C</strong> </span><span class=\"fontstyle3\">+2, </span><span class=\"fontstyle2\"><strong>I</strong> </span><span class=\"fontstyle3\">-4, </span><span class=\"fontstyle2\"><strong>S</strong> </span><span class=\"fontstyle3\">-3, </span><span class=\"fontstyle2\"><strong>Ch</strong> </span><span class=\"fontstyle3\">-4, </span><span class=\"fontstyle2\"><strong>AL</strong> </span><span class=\"fontstyle3\">N, </span><span class=\"fontstyle2\"><strong>NV</strong> </span><span class=\"fontstyle3\">4</span></p><p><span class=\"fontstyle2\"><strong>Scission.</strong> </span><span class=\"fontstyle3\">Si on la tranche, se divise en deux gelées de taille inférieure (divisez les PV restants entre les deux). Peut se diviser jusqu’à quatre fois.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>"
+        }
+      },
+      "items": {
+  "Bloodlust": {
+    "name": "Soif de Sang",
+    "description": ""
+  },
+  "Silver-Inlaid Bull Horn": {
+    "name": "Corne de Taureau Incrustée d'Argent",
+    "description": ""
+  },
+  "Pearl": {
+    "name": "Perle",
+    "description": ""
+  },
+  "Scroll of Hold Portal": {
+    "name": "Parchemin de Fermeture",
+    "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]</p>"
+  },
+  "Alabaster Statuette of a Bull": {
+    "name": "statue de taureau en albâtre",
+    "description": ""
+  },
+  "Jade Snake Bracelet": {
+    "name": "Bracelet de serpent en jade",
+    "description": ""
+  },
+  "Necklace of Thick Gold Links": {
+    "name": "Collier de lourdes mailles en or",
+    "description": ""
+  },
+  "Silver Incense Bowl": {
+    "name": "Bol à encens en argent",
+    "description": ""
+  },
+  "Emerald": {
+    "name": "Émeraude",
+    "description": ""
+  },
+  "Emerald (Shattered)": {
+    "name": "Émeraude (Brisée)",
+    "description": ""
+  },
+  "Asterion": {
+    "name": "Asterion",
+    "description": "<p><strong>Bénéfice</strong>. Une créature ne peut pas déplacer le porteur contre sa volonté.</p>"
+  },
+  "Scarab of Protection": {
+    "name": "Scarabée de protection",
+    "description": "<p><em>Un broche fait d'un scarabée à cornes trempé dans de l'or.</em></p><p><strong>Bénéfice</strong>. Si vous mourrez, faites un jet de [[check 18 con]]. Si vous réussissez, vous êtes inconscient au lieu d'être mort.</p>"
+  },
+  "Ivory Egg": {
+    "name": "Œuf en ivoire",
+    "description": "<p><span style=\"font-family: Signika, sans-serif\">Un œuf en ivoire traversé de veines grises à l'intérieur.</span></p>"
+  },
+  "Silver Locket": {
+    "name": "Médaillon en argent",
+    "description": "<p>Un médaillon en argent avec une peinture d'une femme souriante aux cheveux roux</p>"
+  },
+  "Scroll of Burning Hands": {
+    "name": "Parchemin de Mains brûlantes",
+    "description": "<p><span style=\"font-family: Signika, sans-serif\">Contenu dans un tube en bronze orné de dragons en jade.</span></p><p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]</p>"
+  },
+  "Silvered Longsword": {
+    "name": "Épée longue argentée",
+    "description": "<p><span style=\"font-family: Signika, sans-serif\">Épée longue argentée avec une garde en forme de demi-lune.</span></p>"
+  },
+  "Scarred Mithral Shield": {
+    "name": "Bouclier de mithral éraflé",
+    "description": "<p><span class=\"fontstyle0\">Bouclier en mithral marqué d'une gravure de tigre rôdeur</span> .</p>"
+  },
+  "Silver, Horned Helm": {
+    "name": "Casque Argenté à Cornes",
+    "description": ""
+  },
+  "Vigilant": {
+    "name": "Vigilant",
+    "description": "<p><strong>Bénéfice</strong>. Le porteur ne peut pas être surpris.</p>"
+  },
+  "Diadem": {
+    "name": "Diadème",
+    "description": ""
+  },
+  "Boots of the Cat": {
+    "name": "Bottes de Chat",
+    "description": "<p><em>Bottes grises en peau de daim aussi fines et douces que des pantoufles.</em></p><p><strong>Bénéfice</strong>. Vous pouvez sauter sur une courte distance sans élan. Vos tests pour vous déplacer discrètement sont toujours faciles (ND 9).</p>"
+  },
+  "Wand of Blind/Deafen": {
+    "name": "Baguette d’Aveugler/Assourdir",
+    "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]</p><p>ND 12</p>"
+  },
+  "Onyx Bull Statuette": {
+    "name": "Statuette de Taureau en Onyx",
+    "description": ""
+  },
+  "Tiny Bottle": {
+    "name": "Petite Bouteille",
+    "description": ""
+  }
+},
+      "tables": {
+  "The Lost Citadel: Ettercap Behaviors": {
+    "name": "La Citadelle Perdue : Attitude des Ettercaps",
+    "description": "",
+    "results": {
+      "1-1": "Fait le beau/Hautain",
+      "2-2": "Tremblote/Se recroqueville",
+      "3-3": "Autoritaire/Sceptique",
+      "4-4": "Délicat/Sensible",
+      "5-5": "Hâtif/Alarmiste",
+      "6-6": "Distrait/Marmonne",
+      "7-7": "Claque des griffes/Crache",
+      "8-8": "Curieux/Commère",
+      "9-9": "Critique/Sarcastique",
+      "10-10": "Grossier/Renfrogné"
+    }
+  },
+  "The Lost Citadel: Random Encounters": {
+    "name": "La Citadelle Perdue : Rencontre Aléatoire",
+    "description": "",
+    "results": {
+      "1-1": "<b>@UUID[Actor.XPNU79kJyse04pL3]</b> (zone 18) apparaît en beuglant, frappant les pierres de ses sabots.",
+      "2-2": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx] et [[/r 1d8]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU] se livrent un combat sanglant.",
+      "3-3": "Un courant d’air sec éteint toutes les torches et les lampes.",
+      "4-4": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx] rampent en quête d’or et de joyaux.",
+      "5-5": "Les @UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6] de [[/r 1d6]] aventuriers morts ou guerriers-mages apparaissent en vacillant.",
+      "6-6": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU] se querellent en chuchotant pour savoir lequel mangera les mille-pattes qu’ils viennent de prendre dans un sac.",
+      "7-7": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA] foncent sur vous en virevoltant et en dansant pour repousser les intrus de leur territoire.",
+      "8-8": "Un @UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC] se précipite vers la lumière en courant au plafond."
+    }
+  },
+       "The Lost Citadel: Ettercap Appearances": {
+        "name": "La Citadelle Perdue : Apparence des Ettercaps",
+        "description": "",
+        "results": {
+          "1-1": "Soigné/Bedonnant",
+          "2-2": "Pelage grillé/Longiligne",
+          "3-3": "Yeux bleus/Moucheté",
+          "4-4": "Endolori/Bossu",
+          "5-5": "Bondissant/Rabougri",
+          "6-6": "Maladif/Pelé",
+          "7-7": "Membre manquant/Grand",
+          "8-8": "Cicatrice/Pataud",
+          "9-9": "Sale/Énorme",
+          "10-10": "Bijoux/Vêtements "
+          }
+        },
+        "The Lost Citadel: Beastmen Behaviors": {
+          "name": "La Citadelle Perdue : Attitude des Hommes-bêtes",
+          "description": "",
+          "results": {
+            "1-1": "Fixe du regard/rôde",
+            "2-2": "Murmure/Rote",
+            "3-3": "Se gratte/Renifle",
+            "4-4": "Se cure le nez/Gronde",
+            "5-5": "Rampe/Se précipite",
+            "6-6": "Bâille/Bave",
+            "7-7": "Boite/Boude",
+            "8-8": "Fait les cent pas/ronge ses ongles",
+            "9-9": "Poli/Se plaint",
+            "10-10": "Jure/Muet"
+          }
+       },
+        "The Lost Citadel: Beastmen Names": {
+          "name": "La Citadelle Perdue : Nom des Hommes-bêtes",
+          "description": "",
+          "results": {
+            "1-1": "Rat/Gobbo",
+            "2-2": "Barto/Hule",
+            "3-3": "Egor/Ralk",
+            "4-4": "Dent/Borvin",
+            "5-5": "Nila/Bugg",
+            "6-6": "Tail/Ludo",
+            "7-7": "Skred/Billo",
+            "8-8": "Halda/Yarv",
+            "9-9": "Crag/Dorel",
+            "10-10": "Lorga/Souris"
+          }
+        },
+        "The Lost Citadel: Rumors": {
+          "name": "La Citadelle Perdue : Rumeurs",
+          "description": "",
+          "results": {
+            "1-1": "D’anciens rois qui habitaient la citadelle possédaient des armes magiques redoutées à des lieues à la ronde.",
+            "2-2": "Un sauvage minotaure couvert de sang rôde dans les couloirs de la citadelle.",
+            "3-3": "Des tas d’or et de joyaux gisent partout, comme oubliés.",
+            "4-4": "Attention quand vous touchez le cadavre d’un habitant de la citadelle.",
+            "5-5": "Des Hommes-bêtes opportunistes et à poil gris hantent les ombres.",
+            "6-6": "La citadelle regorge de salles et de passages secrets."
+          }
+        },
+        "The Lost Citadel: Beastmen Appearances": {
+          "name": "La Citadelle Perdue : Apparence des Hommes-bêtes",
+          "description": "",
+          "results": {
+          "1-1": "Miteux/Maladif",
+          "2-2": "Balafré/Obèse",
+          "3-3": "Mâchoire ou nez cassé(e)",
+          "4-4": "Courbé/Petit",
+          "5-5": "Âgé/Corpulent",
+          "6-6": "Oreille ou dent en moins",
+          "7-7": "Natte/Chauve",
+          "8-8": "Poil blanc/Maigre",
+          "9-9": "Propre/Regard vide",
+          "10-10": "Yeux fous/Dégingandé"
+          }
+  },
+        "The Lost Citadel: Random Encounter Check": {
+          "name": "La Citadelle Perdue : Vérification de la rencontre aléatoire",
+          "description": "",
+          "results": {
+            "1-1": "La Citadelle Perdue : Rencontre Aléatoire",
+            "2-6": "Pas de rencontre"
+          }
+        },
+        "The Lost Citadel: Ettercap Names": {
+          "name": "La Citadelle Perdue : Nom des Ettercaps",
+          "description": "",
+          "results": {
+            "1-1": "Skalt/Trisk",
+            "2-2": "Kreel/Bisky",
+            "3-3": "Slivin/Slaask",
+            "4-4": "Tiri/Vilis",
+            "5-5": "Chiska/Liss",
+            "6-6": "Jarla/Miri",
+            "7-7": "Char/Squill",
+            "8-8": "Fisk/Yeek",
+            "9-9": "Chirr/Vim",
+            "10-10": "Rask/Miska"
+          }
+        }
+      },
+      "folders": {
+        "The Lost Citadel": "La Citadelle Perdue",
+        "NPCs": "PNJs",
+        "Named Ettercaps": "Nom des Ettercaps",
+        "Named Beastmen": "Nom des Hommes-bêtes",
+        "Room 1: Mural Chamber": "Salle 1 : Salle des fresques",
+        "Room 2: Blinding Cave": "Salle 2 : Caverne aveuglante",
+        "Room 3: Web-Choked Cave": "Salle 3 : Caverne entroilée",
+        "Room 4: Ettercap Nest": "Salle 4 : Nid des Ettercaps",
+        "Room 5: Robing Chamber": "Salle 5 : Salle des robes",
+        "Room 6: Bathhouse": "Salle 6 : Bains",
+        "Room 7: Bull Statue": "Salle 7 : Statue de taureau",
+        "Room 8: Blood Bowls": "Salle 8 : Bols de sang",
+        "Room 9: Sorcerous Pillars": "Salle 9 : Piliers ensorcelés",
+        "Room 10: Bull Statue": "Salle 10 : Statue de taureau",
+        "Room 11: Prison": "Salle 11: Prison",
+        "Room 12: Armory": "Salle 12 : Armurerie",
+        "Room 13: Bull Statue": "Salle 13 : Statue de taureau",
+        "Room 14: Hidden Hall": "Salle 14 : Couloir secret",
+        "Room 15: Jar Storage": "Salle 15 : Réserve de jarres",
+        "Room 16: Offering Bowls": "Salle 16 : Bols à offrandes",
+        "Room 17: Broken Bull Statue": "Salle 17 : Statue de taureau Brisée",
+        "Room 18: Central Courtyard": "Salle 18 : Cour centrale",
+        "Room 19: Bas-Relief Hall": "Salle 19 : Salle des bas-reliefs",
+        "Room 20: Mosaic Room": "Salle 20 : Salle auxde la mosaïque",
+        "Treasure": "Trésor",
+        "Room 21: Throne Chamber": "Salle 21 : Salle du trône",
+        "Room 22: Labyrinth": "Salle 22 : Labyrinthe",
+        "Room 23: Beastmen Lair": "Salle 23 : Antre des Hommes-bêtes",
+        "Room 24: Lookout Room": "Salle 24 : Salle de surveillance",
+        "Room 25: Training Chamber": "Salle 25 : Salle d'entraînement",
+        "Room 26: Hall of Kings": "Salle 26 : Salle des rois",
+        "Room 27: Sacrifice Cave": "Salle 27 : Caverne sacrificielle",
+        "Skeletons": "Squelettes",
+        "Beastmen": "Hommes-bêtes"
+      },
+      "journals": {
+        "The Lost Citadel": {
+          "name": "La Citadelle Perdue",
+          "pages": {
+            "Area 1-27": {
+              "name": "Zone 1-27",
+              "text": "<p><strong>Niveau de Danger</strong>. Risqué. Test de rencontre tous les 2 rounds d’exploration ou quand les PJ font beaucoup de bruit (1d6, 1 = rencontre).</p><p><strong>Éclairage</strong>. Obscurité totale sauf mention contraire. Tous les habitants voient dans le noir.</p><p><strong>Portes</strong>. En pierre. 1 chance sur 6 d’être fermée et bloquée. Déverrouillée sauf mention contraire.</p><p><strong>PNJ</strong>. Voir @UUID[.ji9paT4DbaYTmMPm]{p. 64}  pour la création d’Hommes-bêtes et d’ettercaps.</p><p><strong>Le Minotaure Écarlate</strong>. À partir de la 2e fois où vous tirez sur la table de rencontre aléatoire, ajoutez un <strong>malus cumulatif de -2</strong> au résultat (considérez les résultats inférieurs à 1 comme des 1). Réinitialisez le malus à chaque rencontre avec le Minotaure Écarlate.</p><p>@UUID[Macro.uQOjVmE0co1U8yws]{Rencontres aléatoires}</p><table style=\"width:100%\"><caption>Rencontres aléatoires</caption><tbody><tr><td style=\"text-align:center\"><p>d8</p></td><td><p>Détails</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Le <strong>@UUID[Actor.XPNU79kJyse04pL3]</strong> (zone 18) apparaît en beuglant, frappant les pierres de ses sabots.</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p><strong>[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]</strong> et <strong>[[/r 1d8]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]</strong> se livrent un combat sanglant.</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Un courant d’air sec éteint toutes les torches et les lampes.</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p><strong>[[/r 1d6]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Ettercaps}</strong> rampent en quête d’or et de joyaux.</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Le <strong>@UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6]</strong> de <strong>[[/r 1d6]]</strong> aventuriers morts ou guerriers-mages apparaissent en vacillant.</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p><strong>[[/r 2d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Hommes-bêtes}</strong> se querellent en chuchotant pour savoir lequel mangera les mille-pattes qu’ils viennent de prendre dans un sac.</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p><strong>[[/r 1d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA]</strong> foncent sur vous en virevoltant et en dansant pour repousser les intrus de leur territoire.</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Un <strong>@UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC]</strong> se précipite vers la lumière en courant au plafond.</p></td></tr></tbody></table>"
+},
+            "Room 1: Mural Chamber": {
+              "name": "Salle 1 : Salle des fresques",
+              "text": "<p><strong>Murs</strong>: fresques aux tons vifs, du sol au plafond. <strong>Piliers Rouges</strong>: en fuseau, bordés de marbre noir au pied et au sommet.</p><ul><li><p><strong>Fresques</strong>. Des individus en robe blanche agenouillés dans une salle aux piliers rouges devant un taureau d’onyx colossal qui baisse les cornes.</p><ul><li><p><strong>Niche secrète</strong>. Derrière statue de taureau. @UUID[Item.r893z0hIf4LSdPs3]{Corne de taureau à filigrane d’argent} (30 po).</p></li></ul></li><li><p><strong>PNJ ettercap. Eska</strong> (fourbe, malhonnête). Vient de cacher une perle volée en zone 2. Se cache au coin nord-est du plafond. Pousse un cri d’alarme et s’enfuit en zone 4 si on l’attaque.</p><ul><li><p><strong>Embuscade</strong>. Trois ettercaps de la zone 4 tendent une <strong>embuscade</strong> en zone 2.</p></li></ul></li></ul>"
+},
+            "Room 2: Blinding Cave": {
+              "name": "Salle 2 : Caverne aveuglante",
+              "text": "<p><strong>Murs</strong>: mouchetés d’innombrables éclats de quartz polis. <strong>Paquets blancs</strong>: taille humaine, plusieurs jetés aux coins de la caverne.</p><ul><li><p><strong>Embuscade des ettercaps.</strong> Si Eska a sonné l’alarme depuis la zone 1, trois @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx] hostiles de la zone 4 sont accrochés au plafond (6 m).</p></li><li><p><strong>Murs</strong>. Éblouissants et réfléchissants. [[request 12 dex]] lorsqu’on entre avec une lumière vive sinon aveuglé pendant [[/r 1d4]] rounds (n’affecte pas les ettercaps).</p><ul><li><p><strong>Extraction</strong>. On peut extraire soigneusement des morceaux de paroi pour s’en servir de miroir.</p></li></ul></li><li><p><strong>Paquets Blancs</strong>. Cinq <strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]</strong> emmaillottés dans la soie d’ettercap. 1 chance sur 6 qu’un d’entre eux soit vivant. @UUID[Item.7unKOF9uy9ECqkEy]{Perle} (40 po) cachée dans la bouche d’un des cinq.</p></li></ul>"
+},
+            "Room 3: Web-Choked Cave": {
+              "name": "Salle 3 : Caverne entroilée",
+              "text": "<p><strong>Murs et Sol</strong>: couverts d’épaisses nappes de toile.</p><ul><li><p><strong>Toiles</strong>. Gluantes. [[request 12 str]] pour se dégager et se déplacer à chaque tour. Très inflammable ([[/r 1d6]] dégâts aux créatures prisonnières, brûlent [[/r 1d4]] rounds).</p><ul><li><p><strong>Parchemin roulé</strong>. Collé aux toiles à 3 m du sol. <em>@UUID[Item.Jo88wNZQdCtvuuuS]{Parchemin de Fermeture}</em>.</p></li></ul></li><li><p><strong>Tunnel secret</strong>. Caché par une muraille de toiles. Les ettercaps le rebouchent chaque fois qu’ils passent.</p><ul><li><p><strong>Jacassements</strong>. En écoutant, on entend des chuchotements aigus venant de la zone 4.</p></li></ul></li></ul>"
+},
+            "Room 4: Ettercap Nest": {
+              "name": "Salle 4 : Nid des Ettercaps",
+              "text": "<p><strong>Créatures</strong>: groupe d’humanoïdes bedonnants, au pelage violet et aux pattes grêles. Se querellent au sujet d’une perle disparue. <strong>Caverne</strong>: exiguë, tas de toile partout. <strong>Sol</strong>: or et objets chatoyants empilés avec soin. <strong>Plafond</strong>: bas (3 m), trois passages étroits (30 cm).</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.fcgq7uwsJEMMdRNx]</strong> Cinq. Trois vont en zone 2 si <strong>@UUID[Actor.QvVJAySJZMTMnEZp]{Eska}</strong> (zone 1) donne l’alarme. Peuvent parlementer, mais le butin les rend fous. S’enfuient par les passages du plafond avec des brassées de butin de leurs congénères s’ils sont en mauvaise posture.</p><ul><li><p><strong>PNJ</strong>. <strong>@UUID[Actor.1WXEDbF6gSa4fQUQ]{Skir}</strong> (dynamique, parle fort), <strong>@UUID[Actor.rok3i6Gy0RjoBgrq]{Yisha}</strong> (petite, sinistre), <strong>@UUID[Actor.82lFpkXeVpKnPWCQ]{Grisk}</strong> (vieux, irritable), <strong>@UUID[Actor.eVuNGaceV93M5whd]{Uliss}</strong> (lourd de corps et d’esprit), <strong>@UUID[Actor.rh1ZgUTuHcwhlt4F]{Chee}</strong> (pelage argenté, élégante).</p></li></ul></li><li><p><strong>Trésor</strong>. 12 tas de même valeur (certains appartenant à des voyageurs). <strong>Eska</strong> (zone 1) a volé une perle du butin de <strong>Grisk</strong> pour la cacher en zone 2.</p><p><strong>Détails</strong>.</p><ul><li><p>200 po,</p></li><li><p>2 x @UUID[Item.WKk0GVD1KHrI6fav]{perles} (40 po chacune)</p></li><li><p>@UUID[Item.TggK5foyVW9RXoHw]{statue de taureau en albâtre} (20 po),</p></li><li><p>2 x @UUID[Item.BjWjRaMBbsv50AjU]{bols à encens en argent} (15 po chacune),</p></li><li><p>@UUID[Item.U3dML6TSDUKJXBUh]{bracelet de serpent en jade} (20 po),</p></li><li><p>@UUID[Item.iW6GTpg33QYMca8k]{collier de lourdes mailles en or} (30 po).</p></li></ul></li></ul>"
+},
+            "Room 5: Robing Chamber": {
+              "name": "Salle 5 : Salle des robes",
+              "text": "<p><strong>Squelette</strong>: cloué au mur. Mains fermées sur la lance qui lui perce le torse.</p><p><strong>Murs</strong>: mosaïques ébréchées de dauphins joueurs. Robes blanches sur patères.</p><ul><li><p><strong>Squelette</strong>. Porte une armure en cuir dégradée et teinte en rouge. Épée courte suspendue à la ceinture.</p><ul><li><p><strong>Lance</strong>. Enfoncée dans la pierre avec une force inhumaine. Pointe en bronze.</p></li></ul></li><li><p><strong>Robes</strong>. Quatre. Puantes et pourries. <strong>Clef</strong> en bronze de la zone 21 dans la poche de l’une d’elles.</p></li></ul>"
+},
+             "Room 6: Bathhouse": {
+              "name": "Salle 6 : Bains",
+              "text": "<p><strong>Statue</strong>: une femme taille réelle, aux cheveux de serpents et aux bras levés, la bouche ouverte sur un cri. <strong>Bassins en pierre</strong>: lisses, de taille humaine.</p><ul><li><p><strong>Statue</strong>. baisser les bras articulés à l’épaule fait jaillir de la bouche une eau brûlante ([[request 12 dex]] pour esquiver, sinon [[/r 1d4]] dégâts).</p></li><li><p><strong>Bassins</strong>. Six. Gravures de serpents entremêlés. Bouchons en pierre logés dans les trous d’évacuation.</p><ul><li><p><strong>Retirer les bouchons</strong>. 1 chance sur 6 (cumulative) de libérer une horde de <strong>@UUID[Compendium.shadowdark.monsters.U9moCUg8DnL6C0Sq]</strong>.</p></li></ul></li></ul>"
+},
+            "Room 7: Bull Statue": {
+              "name": "Salle 7 : Statue de taureau",
+              "text": "<p><strong>Statue de taureau</strong>: énorme (3 m), bronze. Cornes baissées pour charger. <strong>Couloir</strong>: 4,5 m de haut. Deux trous profonds dans le mur en face de la statue.</p><ul><li><p><strong>Statue</strong>. Réagit au mouvement (mais ignore le Minotaure Écarlate). 3 chances sur 6/round qu’elle s’anime et charge au bout du couloir. [[request 15 dex]] sinon [[/r 2d6]] dégâts et aplati à terre. Regagne sa position en trottant et se réinitialise.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]</strong>. 120 po, incrustée au front de la statue. La briser (CA 20, 1 PV) désactive la statue mais réduit la valeur de la pierre (20 po) (@UUID[Item.hiVLFYBR666Zm29e]).</p></li></ul></li></ul>"
+},
+            "Room 8: Blood Bowls": {
+              "name": "Salle 8 : Bols de sang",
+              "text": "<p><strong>Alcôves</strong>: carrées, socles noirs supportant chacun un simple bol en terre cuite.</p><ul><li><p><strong>Bol</strong>. Six. Estampillés d’un sceau montrant un guerrier agenouillé sous une pluie noire, bras et bouche tournés vers le ciel.</p><ul><li><p><strong>Sang</strong>. mplir un bol de sang frais charge le liquide de magie de soins ([[/r 1d4]] PV si on le boit). Une fois utilisé, le bol s’effrite.</p></li></ul></li></ul>"
+},
+            "Room 9: Sorcerous Pillars": {
+              "name": "Salle 9 : Piliers ensorcelés",
+              "text": "<p><strong>Piliers</strong>: quatre paires, peints de couleurs vives. Sommet bordé de marbre noir.</p><p><strong>Corps</strong>: humanoïde violet et maigre, face contre terre au milieu de la pièce.</p><p><strong>Épée à deux mains</strong>: bronze, polie comme un miroir. Lame enfoncée dans un autel de marbre noir au-delà des piliers.</p><ul><li><p><strong>Piliers</strong>. Dépasser chaque paire active son effet. Revenir juste avant l’interrompt. Dans l’ordre, du nord au sud :</p><ul><li><p><strong>Rouge</strong>. Tout ce que vous portez de combustible prend feu. [[/r 1d4]] dégâts/ round.</p></li><li><p><strong>Bleu</strong>. De l’eau de mer vous remplit les poumons. Vous vous noyez en [[/r 1d6]] rounds.</p></li><li><p><strong>Vert</strong>. Vous empoisonne. [[request 12 con]] à votre tour pour ne pas le perdre.</p></li><li><p><strong>Violet</strong>. Vous êtes aveuglé et votre vitesse diminue de moitié.</p></li></ul></li><li><p><strong>Le corps.</strong>. Un ettercap. Fourrure grillée. Bouche et torse couverts de sel séché. Marques de griffes autour des yeux.</p></li><li><p><strong>Épée à deux mains</strong>. [[request 12 str]] pour la tirer de l’autel. <em>Épée à deux mains +1</em> du nom d’<em>@UUID[Item.JpRmSUeNd7qwnXZa]</em>. Aucune créature ne peut déplacer son porteur contre sa volonté.</p></li></ul>"
+},
+            "Room 10: Bull Statue": {
+              "name": "Salle 10 : Statue de taureau",
+              "text": "<ul><li><p><strong>Statue de taureau</strong>. Comme zone 7. Un squelette empalé sur les cornes dissimule l’émeraude.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]</strong>. 120 po, incrustée au front de la statue. La briser (CA 20, 1 PV) désactive la statue mais réduit la valeur de la pierre (20 po) (@UUID[Item.hiVLFYBR666Zm29e]).</p></li></ul></li></ul>"
+},
+            "Room 11: Prison": {
+              "name": "Salle 11: Prison",
+              "text": "<p><strong>Porte</strong>: lourde plaque de pierre pourvue d’une serrure. Froide et humide au toucher.</p><ul><li><p><strong>Porte</strong>. Déverrouillée mais barricadée de l’intérieur. [[request 18 str]] pour forcer.</p><ul><li><p><strong>Écouter</strong>. Faibles tintements métalliques derrière.</p></li><li><p><strong>Regarder par la serrure</strong>. Obscurité, quelques points de lumière rouge qui oscillent.</p></li></ul></li><li><p><strong>À l’intérieur</strong>. Quatre <strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{Squelettes}</strong> en lambeaux d’armure de cuir traînent les pieds en cognant des menottes fixées au sol. Quatre <strong>lances</strong> ferrées de bronze coincent la poignée (brisées si on a forcé la porte).</p><ul><li><p><strong>Murs</strong>. Griffonné en antique langue commune : \"Jours depuis la dernière apparition de la Bête.\" 40 lignes de compte en dessous, de plus en plus estompées.</p></li></ul></li></ul>"
+},
+            "Room 12: Armory": {
+              "name": "Salle 12 : Armurerie",
+              "text": "<p><strong>Sol</strong>: tas de squelettes emmêlés, bouche bée. <strong>Murs</strong>: une dague de bronze fichée dans la pierre. <strong>Alcôves</strong>: étagères en bois fracassées.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]</strong>. Douze. Plusieurs coupés en deux. Lambeaux d’armures teintes en rouge, boucliers brisés et épées courtes en bronze ;</p><ul><li><p><strong>Si on les touche</strong>. 1 chance sur 12 (cumulative) que l’un d’eux se relève en tant que <strong>@UUID[Compendium.shadowdark.monsters.ZCbay6SPPzbbz2bJ]</strong> (une fois seulement). Sinon, un squelette manque de se relever mais tombe en poussière.</p></li><li><p><strong>Trésor</strong>. Le nécrophage porte un <em>@UUID[Item.O98T6HjIZ9nrajO4]</em> en or.</p></li></ul></li><li><p><strong>Étagères</strong>. Bouclier rouge orné d’un taureau noir, trois lances.</p></li><li><p><strong>Murs</strong>. Éraflés et marqués par le feu. Profonds sillons à hauteur de torse et de tête.</p></li><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]</strong>. Trois d’entre eux épient depuis la zone 14. Si les PJ font du bruit/des dégâts, leur attitude évolue d’un cran vers <strong>hostile</strong>.</p></li><li></li></ul>"
+},
+            "Room 13: Bull Statue": {
+              "name": "Salle 13 : Statue de taureau",
+              "text": "<ul><li><p><strong>Statue de taureau</strong>. Comme zone 7. 40 po répandues à ses pieds.</p></li></ul>"
+},
+            "Room 14: Hidden Hall": {
+              "name": "Salle 14 : Couloir secret",
+              "text": "<p><strong>Couloir</strong>: étroit et silencieux. Air vicié. <strong>Odeur</strong>: urine et sueur rance, à faire monter les larmes aux yeux. <strong>Sol</strong>: jonché d'os de rats et de chitine de mille-pattes.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]</strong>. Trois. Fourrure grise hirsute. Chacun épie, posté près d’une porte. Se regroupent en zone 14 si les PJ entrent. Si les PJ font du bruit, leur attitude évolue d’un cran vers <strong>hostile</strong>.</p><ul><li><p><strong>PNJ</strong>. <strong>@UUID[Actor.mdRstp355OUOyY7r] </strong>(trapu, méfiant), <strong>@UUID[Actor.VIiW9qercPbgheGh]</strong> (jeune, timide), <strong>@UUID[Actor.PZ6Pt3fz7LRaEWqU]</strong> (longues bajoues, halète). S’expriment par chuchotements précipités et se crispent en cas de grand bruit.</p></li></ul></li><li><p><strong>Porte secrètes</strong>. Toutes visibles depuis ce côté.</p></li></ul>"
+},
+            "Room 15: Jar Storage": {
+              "name": "Salle 15 : Réserve de jarress",
+              "text": "<p><strong>Jarres en terre cuite</strong>: amassées dans des coins. Grosses poteries rondes de hauteurs variables. <strong>Air</strong>: odeur de soufre. <strong>Bruit</strong>: couinements et sifflements occasionnels. <strong>Porte Sud</strong>: blanche, lignes irrégulières creusées dans la pierre.</p><ul><li><p><strong>Jarres</strong>. 20 jarres bouchées avec de la cire et du liège. Ornées d’images d’humains fauchant le blé. Contiennent une bouillie noire et poisseuse.</p><ul><li><p><strong>Explosives</strong>. Secouer/frapper une jarre la fait exploser sous la pression de gaz sulfurique. [[request 12 dex]] sinon 1d4 dégâts. Possible réaction en chaîne.</p></li><li><p><strong>Trésor</strong>. 1 chance sur 20 (cumulative) de trouver un <strong>@UUID[Item.R9rWEWg4biAMlj0U]</strong> veiné de gris à l’intérieur d’une jarre (40 po). Il s’agit d’un œuf de cocatrice.</p></li></ul></li><li><p><strong>Porte Sud</strong>. Gravure en langue commune : \"Ci-gît Orwyn le Jeune.\"</p></li></ul>"
+},
+            "Room 16: Offering Bowls": {
+              "name": "Salle 16 : Bols à offrandes",
+              "text": "<p><strong>Couloirs</strong>: un lourd bol de pierre (vous arrive au torse) dans chacun des deux. <strong>Fresques</strong>: des rangées de paysans versent des jarres de pièces d’or et de blé dans d’immenses bols gris. Des guerriers impérieux en armure rouge les surveillent, munis de lances en bronze.</p><ul><li><p><strong>Bols de pierre</strong>. Lisses et usés. Y déposer de l’or ou de la nourriture octroie un jeton de Chance (une fois par personnage).</p></li><li><p><strong>PNJ humain</strong>. <strongGiuseppe Baldini (N)</strong>, hherboriste (grincheux, âge mûr, pauvre). Veut un trésor. Se cache derrière le bol sud-est.</p></li></ul>"
+},
+            "Room 17: Broken Bull Statue": {
+              "name": "Salle 17 : Statue de taureau brisée",
+              "text": "<p><strong>Statue de taureau</strong>: énorme (3 m), bronze. Tête et cornes enfoncées dans un mur fracassé. <strong>Cadavre</strong>: cloué entre le mur et la tête de taureau.</p><ul><li><p><strong>Statue</strong>. Hors service. @UUID[Item.vykb09m5y4gCdVIS] (20 po) incrustée au front.</p></li><li><p><strong>Cadavre</strong>. Jeune humain en cotte de mailles et casque. Porte une @UUID[Compendium.shadowdark.gear.1T8oUkfkBtYTLNF3] et un bouclier (en miettes). Cape vert foncé.</p><ul><li><p><strong>Sac à dos</strong>. @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e], @UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{10 pitons}, @UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC], pomme rabougrie et un @UUID[Item.VO8hdwr2ulhRwwW0] contenant le portrait d’une femme rousse qui sourit (5 po).</p></li></ul></li></ul>"
+},
+            "Room 18: Central Courtyard": {
+              "name": "Salle 18 : Cour centrale",
+              "text": "<p><strong>Statue de taureau</strong>: 6 m de haut, onyx noir, muscles saillants. Cornes baissées et piquetées d’objets blancs. <strong>Cour</strong>: dallage plein de sable et recuit par le soleil. Tas d’ossements blanchis. <strong>Piliers Rouges</strong>: ne soutiennent rien, fracassés ou effrités pour certains. Jettent des ombres fraîches.</p><ul><li><p><strong>@UUID[Actor.XPNU79kJyse04pL3]</strong>. 3 chances sur 6 qu’il soit là. Sinon, 1 chance sur 6 (cumulative) par round qu’il revienne. <strong>@UUID[Compendium.shadowdark.monsters.c3Nvj86e0Layz3NG]</strong>: 2,70 m, fourrure rouge vin. Charge en direction des ombres, donne des coups de tête aux piliers, renifle et beugle. Hache à deux mains +1 à double tranchant baptisée Sanguinaire ; dégâts x 4 sur un coup critique.</p></li><li><p><strong>Statue de taureau.</strong> 30 crânes humanoïdes à divers stades de décomposition embrochés sur les cornes comme des perles. Certains ont encore des poils gris.</p><ul><li><p><strong>Sacrifice rituel</strong>. Embrocher un crâne d’humanoïde fraîchement décapité sur une corne octroie +1 en FOR. <strong>Chaque tentative supplémentaire</strong>: 1 chance sur 4 (cumulative) de se transformer en homme-bête.</p></li></ul></li><li><p><strong>Ossements</strong>. Piétinés et écrasés. Aucun crâne. Tas d’armures ébréchées et d’armes brisées, en acier et en bronze.</p></li><li><p><strong>Trésor</strong>. Chaque round passé à y fouiller révèle une trouvaille :</p></li></ul><ol><li><p>@UUID[Item.yv6v0HqiSsnAGOHC] avec gravure de tigre en maraude (40 po),</p></li><li><p>Sac de <strong>60 po</strong> à l’image d’un empereur depuis longtemps défunt,</p></li><li><p><em>@UUID[Item.qQfrScSGMEBGHCFZ]</em> dans un tube en bronze orné de dragons de jade (80 po),</p></li><li><p>@UUID[Item.0HvhZP8EOXqyT3p2] à pommeau en demi-lune (30 po).</p></li></ol>"
+},
+            "Room 19: Bas-Relief Hall": {
+              "name": "Salle 19 : Salle des bas-reliefs",
+              "text": "<p><strong>Créature</strong>: humanoïde dégingandé à poil gris face contre terre, bras en croix. Sac en toile rempli près de sa main. <strong>Murs</strong>: bas-reliefs représentant maintes scènes aux personnages humains.</p><ul><li><p><strong>PNJ @UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]. @UUID[Actor.XbO8sDu1ToDVVoh9]</strong> (fragile, affolé). Est tombé et s’est cogné la tête en fuyant un bruit. Se réveille en [[/r 1d4]] rounds.</p><ul><li><p><strong>Traits</strong>. Jeune frère méprisé de <strong>@UUID[Actor.bERcM50HvKw0ZY6o]</strong> (zone 23), chef des Hommes-bêtes. Naïf et loyal. Espère gagner l’affection de son frère.</p></li><li><p><strong>Sac en toile</strong>. Deux rats morts, nuque brisée. Cadeau pour Rogath.</p></li></ul></li><li><p><strong>Gravures</strong>. Scènes d’acrobates bondissant au-dessus de taureaux qui chargent et de guerriers s’affrontant lors de combats rituels.</p><ul><li><p><strong>Niche cachée</strong>. Sous un acrobate. @UUID[Item.a69T3oP2oVH2yqMn]{Casque à cornes en argent} (15 po).</p></li></ul></li></ul>"
+},
+            "Room 20: Mosaic Room": {
+              "name": "Salle 20 : Salle auxde la mosaïque",
+              "text": "<p><strong>Sol</strong>: mosaïque de tuiles orange, jaune, et rouge vif en motif de tourbillon.</p><ul><li><p><strong>Mosaïque</strong>. Ses motifs dissimulent une <strong>@UUID[Compendium.shadowdark.monsters.QErMaMVIbddgk9MX] tachetée</strong>. 3 chances sur 6 de marcher dessus si on n’examine pas soigneusement les lieux.</p></li></ul>"
+},
+            "Room 21: Throne Chamber": {
+              "name": "Salle 21 : Salle du trône",
+              "text": "<p>Porte : bronze, ornée d’un soleil radieux. Verrouillée.</p><ul><li><p><strong>Porte</strong>. La clef est en zone 5. Chaque tentative ratée pour l’ouvrir sans clef la fait chauffer au rouge. 1 chance sur 6 (cumulative) de tirer trois rayons de feu aléatoires ([[/r d20+4]]{attaque +4}, [[/r 2d6]] dégâts chacun).</p></li><li><p><strong>À l'intérieur</strong>. Trône de bronze avec squelette (pas mort-vivant) empalé sur une lance dorée. Piliers rouges avec inscriptions en langue commune ancienne.</p><ul><li><p><strong>Squelette</strong>. Assis sur le trône (50 po, 2 empl. d’inventaire). Porte un diadème doré pourvu d’une perle (60 po). Mains serrées sur une <em>lance +1</em> appelée <em>@UUID[Item.cY0UIbpokdT448Pw]{Vigilante}</em>. Son porteur ne peut pas être surpris.</p></li><li><p><strong>Piliers</strong>. Dresse la liste des tributs payés au dieu taureau Oros par les rois-guerriers. <strong>Damanthus le Brave</strong> donna de l'or, <strong>Sarpen le Sage</strong> donna du blé, et <strong>Minoros le Cruel</strong> du sang.</p></li></ul></li></ul>"
+},
+            "Room 22: Labyrinth": {
+              "name": "Salle 22 : Labyrinthe",
+              "text": "<p><strong>Couloirs</strong>: étroits, 6 m de haut, plafond obscur. Coins à angle droit. Courants d’air chaud. <strong>Sol</strong>: tourbillons de sables venus du dehors.</p><ul><li><p><strong>Sable</strong>. Empreintes de pieds fourchus presque effacées. Deux mains de large chacune.</p><ul><li><p><strong>Culs-de-sac</strong>. Tas de jarres en terre cuite grosses comme des citrouilles. Formes et tons divers. La plupart cassées.</p></li><li><p><strong>Jarres intactes</strong>. [[/r 1d6]] par impasse. Chacune contient [[/r 1d4]] po, une poignée de cendres et une poupée humaine en fil colorée longue comme le petit doigt. <strong>Si on prend quoi que ce soit</strong>: 1 chance sur 20 d’être hanté par un fantôme à la prochaine pleine lune.</p></li></ul></li></ul>"
+},
+            "Room 23: Beastmen Lair": {
+              "name": "Salle 23 : Antre des Hommes-bêtes",
+              "text": "<p>Créatures : 15 humanoïdes à poil gris, voûtés, mâchonnant des mille-pattes et conversant par murmures agressifs. L’un d’entre eux, vautré sur une paillasse en peau de rat, se cure les dents. <strong>Salle</strong>: crasseuse, exiguë, jonchée d’os de rongeurs. <strong>Odeur</strong>: corps malpropres, urine.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]</strong>. Hostiles envers ceux qui font du bruit. Superstitieux à l’égard des dragons (imaginaires) qui les guettent dehors pour les dévorer.</p><ul><li><p><strong>PNJ</strong>. <strong>@UUID[Actor.bERcM50HvKw0ZY6o]</strong> (énorme, fainéant, chef redouté). <strong>Sbires</strong>: <strong>@UUID[Actor.CDxRc2pIwG7SK73E]</strong> (muscles secs, méfiant), <strong>@UUID[Actor.L91uEF4duAo8T5Eq]</strong> (strabisme divergent, dit oui à tout), <strong>@UUID[Actor.4Ou1RViS2GnqvRh9]</strong> (cavale constamment, élabore des plans complexes).</p></li><li><p><strong>Alliance</strong>. Rogath veut voir le Minotaure Écarlate mort pour régner sur la citadelle. Envoie gaiement son frère abhorré, <strong>@UUID[Actor.XbO8sDu1ToDVVoh9]</strong> (zone 19) et ceux qu’il ne considère pas comme ses sbires au casse-pipe dans ce but.</p></li></ul></li><li><p><strong>Portes secrètes</strong>. Toutes visibles depuis ce côté. Un homme-bête les surveille toutes.</p></li></ul>"
+},
+            "Room 24: Lookout Room": {
+              "name": "Salle 24 : Salle de surveillance",
+              "text": "<p><strong>Créatures</strong>: deux humanoïdes voûtés et velus écoutent aux portes d’un air maussade. <strong>Salle</strong>: crasseuse, plafond bas. <strong>Puanteur</strong>: poil mouillé et excréments.</p><ul><li><p><strong>PNJ</strong>. <strong>@UUID[Actor.hoL50RSbMvRNrrcY]</strong> (jeune, sérieux), <strong>@UUID[Actor.Fg9DEqSk8eACtwOw]</strong> (balafré, discipliné). Si les PJ font du bruit, leur attitude évolue d’un cran vers <strong>hostile</strong>.</p></li><li><p><strong>Portes secrètes</strong>. Toutes visibles depuis ce côté.</p></li></ul>"
+},
+            "Room 25: Training Chamber": {
+              "name": "Salle 25 : Salle d'entraînement",
+              "text": "<p><strong>Présentoirs à armure</strong>: cinq armures de cuir teintes en rouge, renforcées de clous de bronze. <strong>Présentoir à armes</strong>: armes de bronze sous une couche de poussière. <strong>Murs</strong>: nombreux impacts et éraflures.</p><ul><li><p><strong>Armure</strong>. Toucher l’armure ou retirer une arme du présentoir anime trois des armures (@UUID[Compendium.shadowdark.monsters.qSeHWgP59WltutCz]{Armure animée}) qui attaquent alors pendant [[/r 1d4]] rounds.</p></li><li><p><strong>Présentoir à armes</strong>. Cinq @UUID[Compendium.shadowdark.gear.KQTWQwznjK80gVEU], @UUID[Compendium.shadowdark.gear.ZPUhNMmwXXrtbCXi], @UUID[Compendium.shadowdark.gear.UWp4WkkiaBMSXYPE], et @UUID[Compendium.shadowdark.gear.brIFMH0sOVmqX02N].</p></li></ul>"
+},
+            "Room 26: Hall of Kings": {
+              "name": "Salle 26 : Salle des rois",
+              "text": "<p><strong>Alcôves</strong>: statue de bronze d’un homme taille réelle sur un piédestal dans chacune.</p><ul><li><p><strong>Statues</strong>. Athlétiques, fières, mêmes visages. Drapées de robes, portent des @UUID[Item.xTOy6PVB5iu1asFa] d’une perle (40 po chacun). Chacune tient une arme.</p></li><li><p><strong>Inscriptions</strong>. En ancienne langue commune. <strong>Damanthus</strong>, Fils d'Aster ([[/r 1d12]]{épée à deux mains}), <strong>Sarpen</strong>, Fils de Damanthus ([[/r 1d6]]{lance}), <strong>Minoros</strong>, Fils de Sarpen ([[/r 1d10]]{hache à deux mains}).</p></li><li><p><strong>Diadèmes</strong>. Piégés. Si on touche la perle, la statue frappe avec son arme ([[/r 1d20+5]]{attaque +5}).</p></li></ul>"
+},
+            "Room 27: Sacrifice Cave": {
+              "name": "Salle 27 : Caverne sacrificielle",
+              "text": "<p><strong>Caverne</strong>: froide et humide, haut plafond (9 m). Stalactites dégoulinantes. <strong>Bassin</strong>: eau cramoisie, trouble et stagnante. <strong>Odeur</strong>: cuivrée, accents métalliques.</p><ul><li><p><strong>Esprits</strong>. Des dizaines d’ombres humanoïdes fumeuses apparaissent par intermittence à la limite des ombres. Si la <strong>lumière</strong> vient à s’éteindre, elles fondent sur le groupe avec des hurlements spectraux, infligeant [[/r 1d8]] de dégâts/round à chaque PJ.</p></li><li><p><strong>Bassin</strong>. 6 m de profondeur. Eau maudite et mêlée de sang. [[request 12 con]] chaque round de contact, sinon perte de 1 point de SAG (récupéré après repos). Si 0 en SAG, le PJ tombe en catatonie à jamais.</p><ul><li><p><strong>Au fond</strong>. Cimetière de dizaines de squelettes d’humains et de taureaux. Parmi eux, 200 po, une <em>@UUID[Item.i3gSIEVGxXhlUkdn]</em>, trois @UUID[Item.cFi2Wtbwz3qkiJMx] (15 po chacun), <em>@UUID[Item.ip1i9MpeJeyf7ayu]</em>, et une minuscule bouteille contenant l’âme d’un sorcier du nom de <strong>Malfune</strong>.</p></li></ul></li></ul>"
+},
+            "Overview": {
+              "name": "Aperçu",
+              "text": "<h2>Légende des pièces</h2><p>Les <strong>descriptions</strong> pourvues de mots-clefs au début de chaque lieu peuvent être partagées sans risque avec les joueurs. Les <strong>détlistes à puces</strong> sont réservées au MJ.</p><h2>Contexte</h2><p>Il y a bien longtemps, de puissants guerriers vivaient isolés dans la Citadelle Perdue. Ils vouaient un culte aux taureaux lors de rituels sanglants au terme desquels leur chef Minoros se transforma en <strong>Minotaure Écarlate</strong>. Cette incarnation immortelle de la rage massacra tous les autres guerriers en une seule nuit. Certains de leurs serviteurs s’échappèrent toutefois par les passages discrets qu’utilisaient les plus modestes occupants des lieux. Ces <strong>Hommes-bêtes</strong> se cachèrent dans la citadelle déchue, prisonniers de la peur superstitieuse du dehors.</p><h2>Factions</h2><p><strong>Hommes-bêtes</strong>. Ces êtres sauvages au pelage gris échappent au Minotaure Écarlate depuis des générations. Ils vivent en zone 23, persuadés que des dragons guettent depuis l’extérieur quiconque chercherait à quitter la citadelle. Cette peur constante les a rendus cruels et veules. Leur chef, Rogath, les dirige par la force de ses griffes.</p><p><strong>Ettercaps</strong>. Récemment, un groupe d’ettercaps venus des cavernes sous la citadelle s’est faufilé en zone 4. Ils se glissent par les couloirs où rôde le minotaure, tentés par les joyaux et l’or laissés là. Ils prévoient de repartir « dès qu’ils auront accumulé assez de butin », ce qui n’arrive jamais. Dépourvus de chef, tous sont aussi avides les uns que les autres.</p><p><strong>Le Minotaure Écarlate</strong>.  Immense, rouge sang, toujours à flairer, l’écume aux lèvres, il chemine lourdement dans le dédale de la Citadelle Perdue, en quête de créatures à massacrer. Le minotaure retourne en zone 18 entre deux patrouilles.</p><p>@UUID[RollTable.iFdrtN3kJk5yth9S]{Rumeurs}</p><table style=\"width:100%\"><caption>Rumeurs</caption><tbody><tr style=\"font-weight:normal\"><td style=\"font-weight:bold;text-align:center\"><p><strong>1</strong></p></td><td><p>D’anciens rois qui habitaient la citadelle possédaient des armes magiques redoutées à des lieues à la ronde.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>2</strong></p></td><td><p>Un sauvage minotaure couvert de sang rôde dans les couloirs de la citadelle.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>3</strong></p></td><td><p>Des tas d’or et de joyaux gisent partout, comme oubliés.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>4</strong></p></td><td><p>Attention quand vous touchez le cadavre d’un habitant de la citadelle.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>5</strong></p></td><td><p>Des Hommes-bêtes opportunistes et à poil gris hantent les ombres.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>6</strong></p></td><td><p>La citadelle regorge de salles et de passages secrets.</p></td></tr></tbody></table><h2>Environs et entrées de la Citadelle Perdue</h2><p><strong>La Citadelle</strong>. Les cigales chantent dans les environs arides de la citadelle. D’épais blocs sablonneux et des colonnes rouge corail soutiennent ses toits à étages (9-12 m de haut, plats). L’intérieur de l’enceinte forme un labyrinthe froid et obscur de salles en voûte et de couloirs menant à une cour centrale.</p><ul><li><p><strong>Porte du sud-est.</strong> Donnent en zone 1. Sculptées de taureaux en plein saut.</p></li><li><p><strong>Salle nord-est.</strong> Porte fracassée gisant devant l’escalier menant en zone 10.</p></li><li><p><strong>Salle sud-ouest.</strong> Tunnel ouvert menant au labyrinthe, zone 22.</p></li><li><p><strong>Cour.</strong> Zone 18, à ciel ouvert. Ceux qui grimpent sur le toit peuvent y accéder.</p></li></ul><h2>Ordre de bataille</h2><p><strong>Hommes-bêtes</strong>. Se replient en zone 14 ou 23, en évitant la zone 18. Connaissent toutes les portes secrètes. Conduisent les ennemis vers les statues de taureau piégées. Ne sortent pas de leurs cachettes pour s’entraider. Évitent de faire du bruit, terrifiés.</p><p><strong>Ettercaps</strong>. Rampent au plafond en évitant les statues de taureau. Ignorent l’existence des portes secrètes. Se replient en zone 4 et s’unissent pour aider leurs alliés. Distraits par les trésors. Répugnent à entrer en zone 18.</p><p><strong>Le Minotaure Écarlate</strong>. Poursuit sa proie sans jamais battre en retraite. Ignore l’existence des portes secrètes. Oublie un adversaire qu’il ne voit plus pendant 1d6 rounds. Revient en zone 18 au moins une fois par heure.</p>"
+            },
+            "NPCs": {
+              "name": "PNJs",
+              "text": "<p>@UUID[Macro.b4peWtS82m3su5q1]</p><table style=\"width:100%\"><caption>PNJ Hommes-bêtes</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Nom</p></td><td><p>Apparence</p></td><td><p>Attitude</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Rat/Gobbo</p></td><td><p>Miteux/Maladif</p></td><td><p>Fixe du regard/rôde</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Barto/Hule</p></td><td><p>Balafré/Obèse</p></td><td><p>Murmure/Rote</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Egor/Ralk</p></td><td><p>Mâchoire ou nez cassé(e)</p></td><td><p>Se gratte/Renifle</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Dent/Borvin</p></td><td><p>Courbé/Petit</p></td><td><p>Se cure le nez/Gronde</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Nila/Bugg </p></td><td><p>Âgé/Corpulent</p></td><td><p>Rampe/Se précipite</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Tail/Ludo</p></td><td><p>Oreille ou dent en moins</p></td><td><p>BBâille/Bave</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Skred/Billo</p></td><td><p>Natte/Chauve</p></td><td><p>Boite/Boude</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Halda/Yarv</p></td><td><p>Poil blanc/Maigre</p></td><td><p>Fait les cent pas/ronge ses ongles</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Crag/Dorel</p></td><td><p>Propre/Regard vide</p></td><td><p>Poli/Se plaint</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Lorga/Souris</p></td><td><p>Yeux fous/Dégingandé</p></td><td><p>Jure/Muet</p></td></tr></tbody></table><p>@UUID[Macro.oYUJG4g7naduZNeb]</p><table style=\"width:100%\"><caption>PNJ Ettercaps</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Nom</p></td><td><p>Apparence</p></td><td><p>Attitude</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Skalt/Trisk</p></td><td><p>Soigné/Bedonnant</p></td><td><p>Fait le beau/Hautain</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Kreel/Bisky</p></td><td><p>Pelage grillé/Longiligne</p></td><td><p>Tremblote/Se recroqueville</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Slivin/Slaask</p></td><td><p>Yeux bleus/Moucheté</p></td><td><p>Autoritaire/Sceptique</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Tiri/Vilis</p></td><td><p>Endolori/Bossu</p></td><td><p>Délicat/Sensible</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Chiska/Liss</p></td><td><p>Bondissant/Rabougri</p></td><td><p>Hâtif/Alarmiste</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Jarla/Miri</p></td><td><p>Maladif/Pelé</p></td><td><p>Distrait/Marmonne</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Char/Squill</p></td><td><p>Membre manquant/Grand</p></td><td><p>Claque des griffes/Crache</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><pFisk/Yeek</p></td><td><p>Cicatrice/Pataud</p></td><td><p>Curieux/Commère</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Chirr/Vim</p></td><td><p>Sale/Énorme</p></td><td><p>Critique/Sarcastique</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Rask/Miska</p></td><td><p>Bijoux/Vêtements</p></td><td><p>Grossier/Renfrogné</p></td></tr></tbody></table>"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "label": "Propriétés",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Armor": "Armure",
+    "Weapon": "Arme"
+  },
+  "entries": {
+    "Blowgun": {
+      "name": "Sarbacane",
+      "description": "<p>Tirer avec cette arme depuis un endroit caché ne révèle pas votre position.</p>"
+    },
+    "Bolas": {
+      "name": "Bolas",
+      "description": "<p>Lorsque vous touchez une créature à pattes de la taille d'un cheval ou plus petit, la vitesse de la cible est réduite à la marche jusqu'à ce qu'elle se libère ([[vérification 15 de force]] ou vérification DEX).</p>"
+    },
+    "Breakable": {
+      "name": "Fragile",
+      "description": "<p>Cette arme se casse lors d'un jet d'attaque naturel de 1.</p>"
+    },
+    "Disadvantage/Stealth": {
+      "name": "Désavantage/Discrétion",
+      "description": "<p>Vous avez un désavantage sur les jets de discrétion lorsque vous portez cette armure.</p>"
+    },
+    "Disadvantage/Swim": {
+      "name": "Désavantage/nage",
+      "description": "<p>Vous avez un désavantage sur les jets liés à la nage lorsque vous portez cette armure.</p>"
+    },
+    "Finesse": {
+      "name": "Finesse",
+      "description": "<p>Vous pouvez utiliser votre Force ou votre Dextérité lorsque vous attaquez avec cette arme.</p>"
+    },
+    "Lash": {
+      "name": "Lanière",
+      "description": "<p>Lorsque vous faites une attaque à distance avec cette arme, elle ne quitte pas votre prise.</p>"
+    },
+    "Loading": {
+      "name": "Chargement",
+      "description": "<p>Vous devez renoncer à vous déplacer pour recharger cette arme.</p>"
+    },
+    "No Swim": {
+      "name": "Pas de nage",
+      "description": "<p>Vous ne pouvez pas nager lorsque vous portez cette armure.</p>"
+    },
+    "Occupies One Hand": {
+      "name": "Arme à une Main",
+      "description": "<p>Vous ne pouvez utiliser qu'une seule main lorsque vous utilisez cet objet.</p>"
+    },
+    "Returning": {
+      "name": "Boomerang",
+      "description": "<p>Lors d'une attaque à distance ratée, cette arme revient à son lanceur.</p>"
+    },
+    "Shield": {
+      "name": "Bouclier",
+      "description": "<p>Offre une protection supplémentaire.</p>"
+    },
+    "Shuriken": {
+      "name": "Shuriken",
+      "description": "<p>Peut être jeté au sol. Les créatures vivantes qui marchent dessus subissent 1 dégât et ne peuvent se déplacer qu'à moitié de leur vitesse pendant 10 tours.</p>"
+    },
+    "Sundering": {
+      "name": "Démolition",
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">Lorsque vous êtes touché par une attaque de corps à corps, vous pouvez choisir de détruire cette arme ou cette armure pour annuler tous les dégâts de l'attaque.</span></p>"
+    },
+    "Thrown": {
+      "name": "Arme de Jet",
+      "description": "<p>Vous pouvez jeter cette arme pour faire une attaque à distance avec elle en utilisant la FORCE ou la DEXTERITÉ.</p>"
+    },
+    "Two-Handed": {
+      "name": "Arme à deux Mains",
+      "description": "<p>Vous devez utiliser cette arme avec deux mains.</p>"
+    },
+    "Versatile": {
+      "name": "Polyvalente",
+      "description": "<p>Vous pouvez utiliser cette arme avec une ou deux mains. Utilisez le dé de dégâts supérieur si vous la maniez à deux mains.</p>"
+    }
+  }
+}

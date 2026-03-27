@@ -1,0 +1,84 @@
+{
+  "id": "shadowdark-rpg-br",
+  "title": "ShadowDark - Tradução em Português BR",
+  "description": "ShadowDark RPG. Uma tradução usando os termos oficiais, de acordo com a LaserHead Press. Based on Rabbit Hole French Translation",
+  "library": "false",
+  "authors": [
+    {
+      "name": "Teuri - Dados Críticos",
+      "email": "dadoscriticos@gmail.com",
+      "url": "https://youtube.com/dadoscriticos?sub_confirmation=1",
+      "discord": "teuri",
+      "flags": {}
+    },
+    {
+      "name": "Luber",
+      "discord": "luizbertoni",
+      "email": "luizrcb@gmail.com",
+      "url": "https://foundryvtt.com/community/luizbertoni"
+    },
+    {
+      "name": "",
+      "email": "",
+      "url": "",
+      "discord": "",
+      "flags": {}
+    },
+    {
+      "name": "",
+      "email": "",
+      "url": "",
+      "discord": "",
+      "flags": {}
+    },
+    {
+      "name": "",
+      "email": "",
+      "url": "",
+      "discord": "",
+      "flags": {}
+    },
+    {
+      "name": "",
+      "email": "",
+      "url": "",
+      "discord": "",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": ["scripts/shadowdice.js", "register.js"],
+  "styles": ["css/shadowdark-rpg-br.css"],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/luizrcb/shadowdark-rpg-br",
+  "bugs": "https://github.com/luizrcb/shadowdark-rpg-br/issues",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "version": "#{VERSION}#"
+}

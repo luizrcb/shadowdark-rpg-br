@@ -1,0 +1,181 @@
+{
+  "label": "États",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {},
+  "entries": {
+    "Condition: Afraid": {
+      "name": "État: Effrayé",
+      "description": "<p>Le personnage est effrayé.</p>"
+    },
+    "Condition: Asleep": {
+      "name": "État: Endormi",
+      "description": ""
+    },
+    "Condition: Banished": {
+      "name": "État: Banni",
+      "description": ""
+    },
+    "Condition: Beguiled": {
+      "name": "État: Séduit",
+      "description": "<p>Le personnage est séduit.</p>"
+    },
+    "Condition: Blind": {
+      "name": "État: Cécité",
+      "description": "<p>Le personnage aveugle a un désavantage sur les tâches nécessitant la vue.</p>"
+    },
+    "Condition: Bug Brain": {
+      "name": "État: Cerveau d'insecte",
+      "description": ""
+    },
+    "Condition: Charmed": {
+      "name": "État: Charmé",
+      "description": "<p>Le personnage est charmé et considère la source comme un ami.</p>"
+    },
+    "Condition: Compelled": {
+      "name": "État: Contraint",
+      "description": "<p>Le personnage est Contraint.</p>"
+    },
+    "Condition: Cursed": {
+      "name": "État: Maudit",
+      "description": "<p>Le personnage est maudit.</p>"
+    },
+    "Condition: Disease (1)": {
+      "name": "État: Maladie (1)",
+      "description": ""
+    },
+    "Condition: Disease (2)": {
+      "name": "État: Maladie (2)",
+      "description": ""
+    },
+    "Condition: Disease (3)": {
+      "name": "État: Maladie (3)",
+      "description": ""
+    },
+    "Condition: Disease (4)": {
+      "name": "État: Maladie (4)",
+      "description": ""
+    },
+    "Condition: Drained (1)": {
+      "name": "État: Drainé (1)",
+      "description": ""
+    },
+    "Condition: Drained (2)": {
+      "name": "État: Drainé (2)",
+      "description": ""
+    },
+    "Condition: Drained (3)": {
+      "name": "État: Drainé (3)",
+      "description": ""
+    },
+    "Condition: Drained (4)": {
+      "name": "État: Drainé (4)",
+      "description": ""
+    },
+    "Condition: Drained (5)": {
+      "name": "État: Drainé (5)",
+      "description": ""
+    },
+    "Condition: Drained (6)": {
+      "name": "État: Drainé (6)",
+      "description": ""
+    },
+    "Condition: Enfeebled (Cha)": {
+      "name": "État: Affaibli (CHA)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Enfeebled (Con)": {
+      "name": "État: Affaibli (CON)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Enfeebled (Dex)": {
+      "name": "État: Affaibli (DEX)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Enfeebled (Int)": {
+      "name": "État: Affaibli (INT)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Enfeebled (Str)": {
+      "name": "État: Affaibli (FOR)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Enfeebled (Wis)": {
+      "name": "État: Affaibli (SAG)",
+      "description": "<p>Le personnage est affaibli.</p>"
+    },
+    "Condition: Fragile": {
+      "name": "État: Fragile",
+      "description": "<p>Le personnage est fragile et subit le double de dommages.</p>"
+    },
+    "Condition: Gibbering": {
+      "name": "État: Babbouillant",
+      "description": "<p>Le personnage babille.</p>"
+    },
+    "Condition: Invisible": {
+      "name": "État: Invisible",
+      "description": "<p>Le personnage est invisible.</p>"
+    },
+    "Condition: Invisible (Stealthy)": {
+      "name": "État: Invisible (Discret)",
+      "description": "<p>Le personnage est invisible.</p>"
+    },
+    "Condition: Laughing": {
+      "name": "État: Rire",
+      "description": "<p>Le personnage rit.</p>"
+    },
+    "Condition: Life Drain (1)": {
+      "name": "État: Drain de vie (1)",
+      "description": ""
+    },
+    "Condition: Life Drain (2)": {
+      "name": "État: Drain de vie (2)",
+      "description": ""
+    },
+    "Condition: Life Drain (3)": {
+      "name": "État: Drain de vie (3)",
+      "description": ""
+    },
+    "Condition: Life Drain (4)": {
+      "name": "État: Drain de vie (4)",
+      "description": ""
+    },
+    "Condition: Mesmerized": {
+      "name": "État: Fasciné",
+      "description": ""
+    },
+    "Condition: Paralyzed": {
+      "name": "État: paralysie",
+      "description": "<p>Le personnage est paralysé.</p>"
+    },
+    "Condition: Petrified": {
+      "name": "État: Pétrifié",
+      "description": ""
+    },
+    "Condition: Polymorphed": {
+      "name": "État: Polymorphé",
+      "description": "<p>Le personnage est polymorphé.</p>"
+    },
+    "Condition: Possessed": {
+      "name": "État: Possédé",
+      "description": "<p>Le personnage est possédé.</p>"
+    },
+    "Condition: Stuck": {
+      "name": "État: Immobilisé",
+      "description": "<p>Le personnage ne peut pas bouger tant qu'il n'est pas libéré.</p>"
+    },
+    "Condition: Stupified": {
+      "name": "État: Stupéfié",
+      "description": "<p>Le personnage est stupéfié.</p>"
+    },
+    "Condition: Unconscious": {
+      "name": "État: inconscience",
+      "description": "<p>Le personnage est inconscient.</p>"
+    },
+    "Effect: Stimulant": {
+      "name": "Effet: Stimulant",
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]</p>"
+    }
+  }
+}
