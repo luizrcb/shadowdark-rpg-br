@@ -7,213 +7,213 @@
   "folders": {},
   "entries": {
     "Bard": {
-      "name": "Barde",
-      "description": "<p>Les bardes sont des vagabonds appréciés et des conseillers avisés ; leur tâche consiste à protéger et à partager les connaissances transmises à travers les âges.</p>",
+      "name": "Bardo",
+      "description": "<p>Bardos são viajantes bem-vindos e conselheiros sábios; sua tarefa é proteger e compartilhar o conhecimento que é repassado através das eras.</p>",
       "titles": [
         {
-          "chaotic": "Raclure de caniveaux",
+          "chaotic": "Malandro",
           "from": 1,
-          "lawful": "Conteur",
-          "neutral": "Chercheur",
+          "lawful": "Contador de Histórias",
+          "neutral": "Buscador",
           "to": 2
         },
         {
-          "chaotic": "Charlatan",
+          "chaotic": "Charlatão",
           "from": 3,
-          "lawful": "Joueur de ballade",
-          "neutral": "Témoin",
+          "lawful": "Trovador",
+          "neutral": "Testemunha",
           "to": 4
         },
         {
-          "chaotic": "Satiriste",
+          "chaotic": "Satirista",
           "from": 5,
-          "lawful": "Philosophe",
-          "neutral": "Orateur",
+          "lawful": "Filósofo",
+          "neutral": "Orador",
           "to": 6
         },
         {
-          "chaotic": "Langue d'argent",
+          "chaotic": "Língua de Prata",
           "from": 7,
-          "lawful": "Poète",
-          "neutral": "Chanteur",
+          "lawful": "Poeta",
+          "neutral": "Voz",
           "to": 8
         },
         {
-          "chaotic": "Orateur funeste",
+          "chaotic": "Arauto da Ruína",
           "from": 9,
-          "lawful": "Maître poète",
-          "neutral": "Porteur de vérité",
+          "lawful": "Mestre Poeta",
+          "neutral": "Arauto da Verdade",
           "to": 10
         }
       ]
     },
     "Basilisk Warrior": {
-      "name": "Guerrier basilic",
-      "description": "<p>Guerriers aux yeux flamboyants qui recouvrent leur peau de boue et de pierres. Leur style de combat ancestral imite la posture majestueuse du basilic et ses frappes féroces.</p>",
+      "name": "Combatente Basilisco",
+      "description": "<p>Combatentes de olhos ardentes que cobrem a própria pele com lama e pedra. Seu estilo de combate ancestral imita a postura régia e os golpes ferozes de um basilisco.</p>",
       "titles": [
         {
-          "chaotic": "Guerrier de pierre",
+          "chaotic": "Combatente de Pedra",
           "from": 1,
-          "lawful": "Guerrier de pierre",
-          "neutral": "Guerrier de pierre",
+          "lawful": "Combatente de Pedra",
+          "neutral": "Combatente de Pedra",
           "to": 2
         },
         {
-          "chaotic": "Pierre tranchante",
+          "chaotic": "Pedra Afiada",
           "from": 3,
-          "lawful": "Pierre forte",
-          "neutral": "Pierre silencieuse",
+          "lawful": "Pedra Forte",
+          "neutral": "Pedra Silenciosa",
           "to": 4
         },
         {
-          "chaotic": "Tueur",
+          "chaotic": "Matador",
           "from": 5,
-          "lawful": "Protecteur",
-          "neutral": "Guetteur",
+          "lawful": "Protetor",
+          "neutral": "Vigilante",
           "to": 6
         },
         {
-          "chaotic": "Serpent de la lune",
+          "chaotic": "Serpente da Lua",
           "from": 7,
-          "lawful": "Serpent du soleil",
-          "neutral": "Serpent du ciel",
+          "lawful": "Serpente do Sol",
+          "neutral": "Serpente do Céu",
           "to": 8
         },
         {
-          "chaotic": "Basilic d'obsidienne",
+          "chaotic": "Basilisco Obsidiana",
           "from": 9,
-          "lawful": "Basilic d'ambre",
-          "neutral": "Basilic de saphir",
+          "lawful": "Basilisco Âmbar",
+          "neutral": "Basilisco Safira",
           "to": 10
         }
       ]
     },
     "Desert Rider": {
-      "name": "Cavalier du désert",
-      "description": "<p>Barbares hurlants traversant le sable sur des chevaux sauvages, espions elfes maniant des sabres courbes sur des chameaux argentés, ou bandits enveloppés de soies colorées courant sur des étalons du désert.</p>",
+      "name": "Cavaleiro do Deserto",
+      "description": "<p>Bárbaros uivantes rugindo pela areia em cavalos selvagens, espiões élficos empunhando lâminas curvas sobre camelos prateados, ou bandidos envoltos em sedas coloridas e galopando em esguios garanhões do deserto.</p>",
       "titles": [
         {
-          "chaotic": "Bandit",
+          "chaotic": "Bandido",
           "from": 1,
-          "lawful": "Cavalier éclaireur",
-          "neutral": "Rat",
+          "lawful": "Batedor",
+          "neutral": "Rato",
           "to": 2
         },
         {
-          "chaotic": "Voleur",
+          "chaotic": "Bandoleiro",
           "from": 3,
-          "lawful": "Coureur des sables",
-          "neutral": "Renard",
+          "lawful": "Corredor das Areias",
+          "neutral": "Raposa",
           "to": 4
         },
         {
-          "chaotic": "Pillard",
+          "chaotic": "Invasor",
           "from": 5,
-          "lawful": "Trailblazer",
-          "neutral": "Loup",
+          "lawful": "Pioneiro",
+          "neutral": "Lobo",
           "to": 6
         },
         {
-          "chaotic": "Fléau",
+          "chaotic": "Praga",
           "from": 7,
-          "lawful": "Vent rapide",
+          "lawful": "Vento Veloz",
           "neutral": "Tigre",
           "to": 8
         },
         {
-          "chaotic": "Roi/Reine des bandits",
+          "chaotic": "Rei/Rainha dos Bandidos",
           "from": 9,
-          "lawful": "Coureur de tempête",
-          "neutral": "Dragon",
+          "lawful": "Corredor da Tempestade",
+          "neutral": "Dragão",
           "to": 10
         }
       ]
     },
     "Fighter": {
-      "name": "Guerrier",
-      "description": "<p>Gladiateurs ensanglantés en armure à pointes, acrobates duellistes aux lames vives comme l’éclair ou archers elfes à l’œil de lynx qui se taillent une légende à force de cran, l’épée au poing.</p>",
+      "name": "Guerreiro",
+      "description": "<p>Gladiadores ensanguentados usando armaduras amassadas, duelistas acrobáticos com suas espadas de arremesso, ou arqueiros élficos de visão aguçada que forjam suas lendas com aço e coragem.</p>",
       "titles": [
         {
-          "chaotic": "Canaille",
+          "chaotic": "Valete",
           "from": 1,
-          "lawful": "Écuyer",
-          "neutral": "Combattant",
+          "lawful": "Escudeiro",
+          "neutral": "Guerreiro",
           "to": 2
         },
         {
-          "chaotic": "Bandit",
+          "chaotic": "Bandido",
           "from": 3,
-          "lawful": "Cavalier",
-          "neutral": "Barbare",
+          "lawful": "Ginete",
+          "neutral": "Bárbaro",
           "to": 4
         },
         {
-          "chaotic": "Massacreur",
+          "chaotic": "Matador",
           "from": 5,
-          "lawful": "Chevalier",
-          "neutral": "Berserker",
+          "lawful": "Cavaleiro",
+          "neutral": "Berserk",
           "to": 6
         },
         {
-          "chaotic": "Maraudeur",
+          "chaotic": "Saqueador",
           "from": 7,
-          "lawful": "Thane",
-          "neutral": "Chef de guerre",
+          "lawful": "Barão",
+          "neutral": "Chefe de Guerra",
           "to": 8
         },
         {
-          "chaotic": "Seigneur de la guerre",
+          "chaotic": "Senhor da Guerra",
           "from": 9,
-          "lawful": "Seigneur/Dame",
-          "neutral": "Grand chef",
+          "lawful": "Lorde/Dama",
+          "neutral": "Líder",
           "to": 10
         }
       ]
     },
     "Knight of St. Ydris": {
-      "name": "Chevalier de St. Ydris",
-      "description": "<p>Chevaliers maudits qui suivent le chemin de St. Ydris l'Injuste, l'Possédé. Ils embrassent les ténèbres pour les combattre, purifiant le mal par une pluie de fer et de sorcellerie interdite.</p>",
+      "name": "Cavaleiro de São Ydris",
+      "description": "<p>Cavaleiros amaldiçoados que trilham o caminho de São Ydris, o Profano, o Possuído. Eles abraçam a escuridão para lutar contra ela, purificando o mal com golpes de aço e feitiçaria proibida.</p>",
       "titles": [
         {
-          "chaotic": "Traître",
+          "chaotic": "Traidor",
           "from": 1,
-          "lawful": "Arbitre",
-          "neutral": "Frère/Sœur",
+          "lawful": "Árbitro",
+          "neutral": "Irmão/Irmã",
           "to": 2
         },
         {
-          "chaotic": "Tombé",
+          "chaotic": "Caído",
           "from": 3,
-          "lawful": "Exécuteur",
-          "neutral": "Exorciste",
+          "lawful": "Executor",
+          "neutral": "Exorcista",
           "to": 4
         },
         {
-          "chaotic": "Briseur de serment",
+          "chaotic": "Perjuro",
           "from": 5,
-          "lawful": "Chevalier maréchal",
-          "neutral": "Chevalier révérend",
+          "lawful": "Cavaleiro Marechal",
+          "neutral": "Cavaleiro Reverendo",
           "to": 6
         },
         {
-          "chaotic": "Noir garde",
+          "chaotic": "Renegado",
           "from": 7,
-          "lawful": "Juge",
-          "neutral": "Inquisiteur",
+          "lawful": "Juiz",
+          "neutral": "Inquisidor",
           "to": 8
         },
         {
-          "chaotic": "Seigneur démon",
+          "chaotic": "Lorde Demônio",
           "from": 9,
-          "lawful": "Justicier",
-          "neutral": "Grand Inquisiteur",
+          "lawful": "Justiceiro",
+          "neutral": "Grande Inquisidor",
           "to": 10
         }
       ]
     },
     "Level 0": {
-      "name": "Niveau 0",
-      "description": "<p>Certaines parties commencent avec des personnages de niveau 0 — des paysans faibles qui n'ont pas encore acquis les compétences nécessaires pour être des aventuriers. Les personnages de niveau 0 sont fragiles.</p><p>Les MJ devraient consulter Le Gantelet à la page 116 pour plus d'informations.</p><p>Parce que les personnages de niveau 0 bénéficient de la chance du débutant, ils peuvent utiliser n'importe quel équipement jusqu'au niveau 1.</p><p>Les personnages de niveau 0 commencent avec :</p><ul><li><p>Caractéristiques, p. 15</p></li><li><p>Choix de l'ascendance, p. 16</p></li><li><p>Points de vie égaux à leur modificateur de Constitution (minimum 1)</p></li><li><p>Origines, p. 26</p></li><li><p>Choix de l'alignement, p. 27</p></li><li><p>Équipement de départ, p. 33</p></li></ul><p>Les personnages de niveau 0 atteignent le niveau 1 après avoir survécu à leur première aventure (voir p. 39).</p>",
+      "name": "Nivel 0",
+      "description": "<p>Algumas aventuras começam com PJs de nível 0 — camponeses fracos, que ainda não adquiriram as habilidades necessárias para se tornarem aventureiros. Personagens de nível 0 são frágeis.</p><p>O MJ deve consultar A Provação, na pág. 118, para melhor compreensão.</p><p>Como os personagens de nível 0 têm a sorte de principiante, eles podem utilizar todos os equipamentos até alcançarem o nível 1.</p><p> Personagens de nível 0 começam com:</p><ul><li><p>Atributos, pág. 15.</p></li><li><p>Escolha de ancestralidade, pág. 16.</p></li><li><p>Pontos de vida iguais ao seu modificador de Constituição (mínimo de 1).</p></li><li><p>Antecedente, pág. 26.</p></li><li><p>Escolha de alinhamento, pág. 27.</p></li><li><p>Equipamento inicial, pág. 33.</p></li></ul><p>Personagens de nível 0 alcançam o nível 1 após sobreviverem à sua primeira aventura (veja a pág. 39).</p>",
       "titles": [
         {
           "chaotic": "",
@@ -225,363 +225,363 @@
       ]
     },
     "Pit Fighter": {
-      "name": "Combattant de l'arène",
-      "description": "<p>Guerriers ensanglantés se tournant autour dans une arène bruyante, bandits du désert marqués de cicatrices luttant pour le droit de diriger leur bande, ou bagarreurs de taverne audacieux qui n'abandonnent jamais un défi.</p>",
+      "name": "Lutador de Arena",
+      "description": "<p>Guerreiros ensanguentados rodeando uns aos outros em uma arena barulhenta, bandidos do deserto cheios de cicatrizes duelando pelo direito de liderar sua gangue, ou ousados valentões de taverna que nunca recusam um desafio.</p>",
       "titles": [
         {
-          "chaotic": "Voyou",
+          "chaotic": "Arruaceiro",
           "from": 1,
-          "lawful": "Débutant",
-          "neutral": "Sous-estimé",
+          "lawful": "Novato",
+          "neutral": "Azarão",
           "to": 2
         },
         {
-          "chaotic": "Bagarreur",
+          "chaotic": "Valentão",
           "from": 3,
-          "lawful": "Gladiateur",
-          "neutral": "Coup de maître",
+          "lawful": "Gladiador",
+          "neutral": "Revelação",
           "to": 4
         },
         {
-          "chaotic": "Méchant",
+          "chaotic": "Canalha",
           "from": 5,
-          "lawful": "Héros",
-          "neutral": "Carte sauvage",
+          "lawful": "Herói",
+          "neutral": "Coringa",
           "to": 6
         },
         {
-          "chaotic": "Vilaine",
+          "chaotic": "Vilão",
           "from": 7,
-          "lawful": "Champion",
-          "neutral": "Vainqueur",
+          "lawful": "Campeão",
+          "neutral": "Vencedor",
           "to": 8
         },
         {
-          "chaotic": "Légende",
+          "chaotic": "Lenda",
           "from": 9,
-          "lawful": "Légende",
-          "neutral": "Légende",
+          "lawful": "Lenda",
+          "neutral": "Lenda",
           "to": 10
         }
       ]
     },
     "Priest": {
-      "name": "Prêtre",
-      "description": "<p>Templiers en croisade, chamans éructant des prophéties ou fanatiques au regard dément qui manient le pouvoir des dieux pour purifier les impies.</p>",
+      "name": "Sacerdote",
+      "description": "<p>Templários cruzados, xamãs proféticos, ou fanáticos com olhos enlouquecidos que empunham o poder de seus deuses para expurgar os impuros.</p>",
       "titles": [
         {
-          "chaotic": "Initié",
+          "chaotic": "Iniciado",
           "from": 1,
-          "lawful": "Acolyte",
-          "neutral": "Cheminant",
+          "lawful": "Acólito",
+          "neutral": "Rastreador",
           "to": 2
         },
         {
-          "chaotic": "Zélote",
+          "chaotic": "Fanático",
           "from": 3,
-          "lawful": "Croisé",
-          "neutral": "Invocateur",
+          "lawful": "Cruzado",
+          "neutral": "Invocador",
           "to": 4
         },
         {
-          "chaotic": "Sectateur",
+          "chaotic": "Cultista",
           "from": 5,
-          "lawful": "Templier",
-          "neutral": "Aruspice",
+          "lawful": "Templário",
+          "neutral": "Arúspice",
           "to": 6
         },
         {
-          "chaotic": "Fléau",
+          "chaotic": "Carrasco",
           "from": 7,
-          "lawful": "Champion",
-          "neutral": "Mystique",
+          "lawful": "Campeão",
+          "neutral": "Místico",
           "to": 8
         },
         {
-          "chaotic": "Chevalier du Chaos",
+          "chaotic": "Cavaleiro do Caos",
           "from": 9,
-          "lawful": "Paladin",
-          "neutral": "Oracle",
+          "lawful": "Paladino",
+          "neutral": "Oráculo",
           "to": 10
         }
       ]
     },
     "Ranger": {
-      "name": "Rôdeur",
-      "description": "<p>Suivants habiles, voyageurs furtifs, et guerriers inégalés qui considèrent les étendues sauvages comme leur maison.</p>",
+      "name": "Ranger",
+      "description": "<p>Rastreadores habilidosos, andarilhos furtivos e guerreiros incomparáveis que têm as terras selvagens como lar.</p>",
       "titles": [
         {
-          "chaotic": "Capuche",
+          "chaotic": "Encapuzado",
           "from": 1,
-          "lawful": "Errant",
-          "neutral": "Inconnu",
+          "lawful": "Andarilho",
+          "neutral": "Estrangeiro",
           "to": 2
         },
         {
-          "chaotic": "Hors-la-loi",
+          "chaotic": "Fora da Lei",
           "from": 3,
-          "lawful": "Traqueur",
-          "neutral": "Voyageur",
+          "lawful": "Caminhante",
+          "neutral": "Viajante",
           "to": 4
         },
         {
-          "chaotic": "Fugitif",
+          "chaotic": "Fugitivo",
           "from": 5,
-          "lawful": "Gardien",
-          "neutral": "Exilé",
+          "lawful": "Guaridão",
+          "neutral": "Forasteiro",
           "to": 6
         },
         {
-          "chaotic": "Exilé",
+          "chaotic": "Exilado",
           "from": 7,
-          "lawful": "Protecteur",
-          "neutral": "Reclus",
+          "lawful": "Protetor",
+          "neutral": "Recluso",
           "to": 8
         },
         {
-          "chaotic": "Paria",
+          "chaotic": "Pária",
           "from": 9,
-          "lawful": "Sentinelle",
-          "neutral": "Ermite",
+          "lawful": "Sentinela",
+          "neutral": "Eremita",
           "to": 10
         }
       ]
     },
     "Ras-Godai": {
       "name": "Ras-Godai",
-      "description": "<p>Assassins vêtus de noir, formés depuis l'enfance dans un monastère secret du désert. Ils acquièrent leurs pouvoirs de sorcellerie grâce à une légendaire fleur de lotus noir donnée par un démon.</p>",
+      "description": "<p>Assassinos vestidos de preto que treinam desde a infância em um mosteiro oculto no deserto. Eles ganham seus poderes místicos de uma lendária flor de lótus negra que lhes foi concedida por um demônio.</p>",
       "titles": [
         {
-          "chaotic": "Acolyte",
+          "chaotic": "Acólito",
           "from": 1,
-          "lawful": "Acolyte",
-          "neutral": "Acolyte",
+          "lawful": "Acólito",
+          "neutral": "Acólito",
           "to": 2
         },
         {
-          "chaotic": "Chemin de l'Ombre",
+          "chaotic": "Caminho da Sombra",
           "from": 3,
-          "lawful": "Chemin du Miroir",
-          "neutral": "Chemin du Feu",
+          "lawful": "Caminho do Espelho",
+          "neutral": "Caminho do Fogo",
           "to": 4
         },
         {
-          "chaotic": "Moine",
+          "chaotic": "Monge",
           "from": 5,
-          "lawful": "Moine",
-          "neutral": "Moine",
+          "lawful": "Monge",
+          "neutral": "Monge",
           "to": 6
         },
         {
-          "chaotic": "Assassin",
+          "chaotic": "Assassino",
           "from": 7,
-          "lawful": "Maître",
-          "neutral": "Lame du Démon",
+          "lawful": "Mestre",
+          "neutral": "Lâmina Demoníaca",
           "to": 8
         },
         {
-          "chaotic": "Lotus Noir",
+          "chaotic": "Lótus Negra",
           "from": 9,
-          "lawful": "Lotus Blanc",
-          "neutral": "Lotus Rouge",
+          "lawful": "Lótus Branca",
+          "neutral": "Lótus Vermelha",
           "to": 10
         }
       ]
     },
     "Sea Wolf": {
-      "name": "Loup des mers",
-      "description": "<p>Raiders marins qui rôdent sur les îles à la recherche de butin dans des longboats aux têtes de dragons. Lorsque la corne de guerre sonne, ils deviennent des berserkers furieux et des boucliers-mères espérant plaire à leurs dieux par une mort courageuse.</p>",
+      "name": "Lobo do Mar",
+      "description": "<p>Invasores dos mares que percorrem as ilhas em busca de pilhagem em dracares com cabeça de dragão. Quando a trombeta de guerra soa, eles se tornam ferozes berserks e donzelas do escudo que desejam agradar aos seus deuses com uma morte honrosa.</p>",
       "titles": [
         {
-          "chaotic": "Foule",
+          "chaotic": "Escória",
           "from": 1,
-          "lawful": "Libres",
-          "neutral": "Errant",
+          "lawful": "Povo Livre",
+          "neutral": "Errante",
           "to": 2
         },
         {
-          "chaotic": "Raider",
+          "chaotic": "Invasor",
           "from": 3,
-          "lawful": "Bouclier",
-          "neutral": "Explorateur",
+          "lawful": "Escudeiro",
+          "neutral": "Explorador",
           "to": 4
         },
         {
-          "chaotic": "Reaver",
+          "chaotic": "Saqueador",
           "from": 5,
-          "lawful": "Thane",
-          "neutral": "Aventurier",
+          "lawful": "Tano",
+          "neutral": "Aventureiro",
           "to": 6
         },
         {
-          "chaotic": "Conquérant",
+          "chaotic": "Conquistador",
           "from": 7,
           "lawful": "Jarl",
-          "neutral": "Renommé",
+          "neutral": "Renomado",
           "to": 8
         },
         {
-          "chaotic": "Usurpateur",
+          "chaotic": "Usurpador",
           "from": 9,
-          "lawful": "Roi/Reine",
-          "neutral": "Légendaire",
+          "lawful": "Rei/Rainha",
+          "neutral": "Lendário",
           "to": 10
         }
       ]
     },
     "Seer": {
-      "name": "Augure",
-      "description": "<p>Divins sinistres qui sentent la fumée et le sang. Ils démêlent les murmures des dieux en lisant les runes, les os et les étoiles. Leur connaissance du destin leur permet de le plier.</p>",
+      "name": "Vidente",
+      "description": "<p>Oráculos sinistros com odor de fumaça e sangue. Eles desvendam os sussurros dos deuses ao ler as runas, os ossos e as estrelas. Seus conhecimentos sobre o destino lhes permitem moldá-lo.</p>",
       "titles": [
         {
-          "chaotic": "Sorcière des haies",
+          "chaotic": "Bruxo da Sebe",
           "from": 1,
-          "lawful": "Guide",
-          "neutral": "Devineur",
+          "lawful": "Guia",
+          "neutral": "Adivinho",
           "to": 2
         },
         {
-          "chaotic": "Murmure",
+          "chaotic": "Sussurrador",
           "from": 3,
-          "lawful": "Chanteur",
-          "neutral": "Chanteur",
+          "lawful": "Encantador",
+          "neutral": "Entoador",
           "to": 4
         },
         {
-          "chaotic": "Lecteur d'os",
+          "chaotic": "Leitor de Ossos",
           "from": 5,
-          "lawful": "Lecteur de runes",
-          "neutral": "Lecteur d'étoiles",
+          "lawful": "Leitor de Runas",
+          "neutral": "Leitor de Estrelas",
           "to": 6
         },
         {
-          "chaotic": "Craint",
+          "chaotic": "O Temido",
           "from": 7,
-          "lawful": "Sage",
-          "neutral": "Béni",
+          "lawful": "O Sábio",
+          "neutral": "O Abençoado",
           "to": 8
         },
         {
-          "chaotic": "Augure de Loki",
+          "chaotic": "Vidente de Loki",
           "from": 9,
-          "lawful": "Augure d'Odin",
-          "neutral": "Augure de Freya",
+          "lawful": "Vidente de Odin",
+          "neutral": "Vidente de Freya",
           "to": 10
         }
       ]
     },
     "Thief": {
-      "name": "Voleur",
-      "description": "<p>Assassins des toits, escrocs tout sourire ou cambrioleurs encapuchonnés capables d’arracher une pierre précieuse aux griffes d’un démon endormi pour la revendre deux fois son prix.</p>",
+      "name": "Ladrão",
+      "description": "<p>Assassinos que se esgueiram por telhados, vigaristas sorridentes ou escaladores encapuzados que podem arrancar uma pedra preciosa das garras de um demônio adormecido e vendê-la pelo dobro de seu preço.</p>",
       "titles": [
         {
-          "chaotic": "Malfrat",
+          "chaotic": "Rufião",
           "from": 1,
-          "lawful": "Voleur de grand chemin",
-          "neutral": "Cagoulard",
+          "lawful": "Malandro",
+          "neutral": "Bandoleiro",
           "to": 2
         },
         {
-          "chaotic": "Égorgeur",
+          "chaotic": "Degolador",
           "from": 3,
-          "lawful": "Cambrioleur",
-          "neutral": "Hors-la-loi",
+          "lawful": "Assaltante",
+          "neutral": "Fora da Lei",
           "to": 4
         },
         {
-          "chaotic": "Ombre",
+          "chaotic": "Sombra",
           "from": 5,
-          "lawful": "Escroc",
-          "neutral": "Roublard",
+          "lawful": "Trapaceiro",
+          "neutral": "Ladino",
           "to": 6
         },
         {
-          "chaotic": "Assassin",
+          "chaotic": "Assassino",
           "from": 7,
-          "lawful": "Nervi",
-          "neutral": "Renégat",
+          "lawful": "Subchefe",
+          "neutral": "Renegado",
           "to": 8
         },
         {
-          "chaotic": "Spectre",
+          "chaotic": "Fantasma",
           "from": 9,
-          "lawful": "Parrain",
-          "neutral": "Roi/Reine des bandits",
+          "lawful": "Chefe",
+          "neutral": "Rei/Rainha dos Bandidos",
           "to": 10
         }
       ]
     },
     "Warlock": {
-      "name": "Ensorceleur",
-      "description": "<p>Guerriers hurlants avec des dents aiguisées, orateurs fous prêchant La Dissolution, et chasseurs de savoirs vêtus de manteaux portant le Marque cachée de Shune.</p>",
+      "name": "Profanador",
+      "description": "<p>Guerreiros uivantes com dentes afiados, arautos do Juízo Final pregando sobre a Dissolução com olhar selvagem, e caçadores de histórias encapuzados escondendo suas Marcas de Shune.</p>",
       "titles": [
         {
-          "chaotic": "Marqué",
+          "chaotic": "Marcado",
           "from": 1,
-          "lawful": "Privilégié",
-          "neutral": "Choisi",
+          "lawful": "Favorecido",
+          "neutral": "Escolhido",
           "to": 2
         },
         {
-          "chaotic": "Zélote",
+          "chaotic": "Fanático",
           "from": 3,
-          "lawful": "Héraut",
-          "neutral": "Canaliseur",
+          "lawful": "Arauto",
+          "neutral": "Canalizador",
           "to": 4
         },
         {
-          "chaotic": "Occultiste",
+          "chaotic": "Ocultista",
           "from": 5,
-          "lawful": "Éminent",
-          "neutral": "Prophétisé",
+          "lawful": "Eminente",
+          "neutral": "Profetizado",
           "to": 6
         },
         {
-          "chaotic": "Champion",
+          "chaotic": "Campeão",
           "from": 7,
-          "lawful": "Exalté",
-          "neutral": "Transcendant",
+          "lawful": "Exaltado",
+          "neutral": "Transcendente",
           "to": 8
         },
         {
-          "chaotic": "Héraut",
+          "chaotic": "Precursor",
           "from": 9,
-          "lawful": "Incarner",
+          "lawful": "Encarnação",
           "neutral": "Avatar",
           "to": 10
         }
       ]
     },
     "Witch": {
-      "name": "Sorcière",
-      "description": "<p>Vieilles sorcières voûtées sur des chaudrons, chamans chantants couverts de sang et d'argile, et jeunes filles rejetées avec des yeux laiteux qui voient des présages et des secrets.</p>",
+      "name": "Bruxa",
+      "description": "<p>Velhas recurvadas, resmungando em cima de caldeirões, xamãs sujos de sangue e argila entoando canções, e donzelas exiladas de olhos brancos que veem segredos e presságios.</p>",
       "titles": [
         {
-          "chaotic": "Chuchoteuse",
+          "chaotic": "Sussurradora",
           "from": 1,
-          "lawful": "Devineuse",
-          "neutral": "Chaman",
+          "lawful": "Vidente",
+          "neutral": "Xamã",
           "to": 2
         },
         {
-          "chaotic": "Ensorceleuse",
+          "chaotic": "Praguejante",
           "from": 3,
-          "lawful": "Divinatrice",
-          "neutral": "Conjurateur",
+          "lawful": "Adivinha",
+          "neutral": "Conjuradora",
           "to": 4
         },
         {
-          "chaotic": "Sorcière/Ancienne",
+          "chaotic": "Megera/Ancião",
           "from": 5,
-          "lawful": "Prophète",
-          "neutral": "Devineuse",
+          "lawful": "Profeta",
+          "neutral": "Clarividente",
           "to": 6
         },
         {
-          "chaotic": "Crone/Oncle",
+          "chaotic": "Velha/Tio",
           "from": 7,
-          "lawful": "Sage",
-          "neutral": "Conduit",
+          "lawful": "A Sábia",
+          "neutral": "Médium",
           "to": 8
         },
         {
@@ -594,42 +594,42 @@
       ]
     },
     "Wizard": {
-      "name": "Magicien",
-      "description": "<p>Adeptes tatoués de runes, mages aux épaisses bésicles et sorcières lanceuses de flammes qui osent manipuler les funestes énergies magiques.</p>",
+      "name": "Mago",
+      "description": "<p>Adeptos tatuados com runas, sábios usando óculos, e bruxas conjuradoras de chamas que ousam manipular as terríveis forças da magia.</p>",
       "titles": [
         {
-          "chaotic": "Adepte",
+          "chaotic": "Adepto",
           "from": 1,
-          "lawful": "Apprenti",
-          "neutral": "Chaman",
+          "lawful": "Aprendiz",
+          "neutral": "Xamã",
           "to": 2
         },
         {
-          "chaotic": "Envoûteur",
+          "chaotic": "Canalizador",
           "from": 3,
-          "lawful": "Conjurateur",
-          "neutral": "Augure",
+          "lawful": "Conjurador",
+          "neutral": "Vidente",
           "to": 4
         },
         {
-          "chaotic": "Sorcière/Sorcier",
+          "chaotic": "Bruxo",
           "from": 5,
-          "lawful": "Arcaniste",
-          "neutral": "Gardien",
+          "lawful": "Arcanista",
+          "neutral": "Guardião",
           "to": 6
         },
         {
-          "chaotic": "Diaboliste",
+          "chaotic": "Diabolista",
           "from": 7,
-          "lawful": "Mage",
-          "neutral": "Sage",
+          "lawful": "Magista",
+          "neutral": "Sábio",
           "to": 8
         },
         {
-          "chaotic": "Ensorceleur",
+          "chaotic": "Feiticeiro",
           "from": 9,
-          "lawful": "Archimage",
-          "neutral": "Druide",
+          "lawful": "Arquimago",
+          "neutral": "Druida",
           "to": 10
         }
       ]

@@ -1,36 +1,36 @@
 {
-  "label": "Ascendances",
+  "label": "Ancestralidades",
   "mapping": {
     "description": "system.description"
   },
   "folders": {},
   "entries": {
     "Dwarf": {
-      "description": "<p>Un peuple courageux et solide comme les royaumes de pierre qu’il se taille au creux des montagnes. Vous connaissez la langue commune et le nain.</p>",
-      "name": "Nain"
+      "description": "<p>Povo corajoso e robusto, tão resiliente \nquanto os reinos de pedra que eles esculpem dentro das montanhas. Você conhece os idiomas Comum \ne Anão.</p>",
+      "name": "Anão"
     },
     "Elf": {
-      "description": "<p>Peuple éthéré et gracieux épris de savoir et de beauté. Les elfes voient loin et vivent longtemps. Vous connaissez la langue commune, l’elfique et le sylvestre.</p>",
-      "name": "Elfe"
+      "description": "<p>Povo etéreo e gracioso, que venera \no conhecimento e a beleza. Os elfos enxergam longe e vivem bastante. Você conhece os idiomas Comum, Élfico e Silvestre.</p>",
+      "name": "Elfo"
     },
     "Goblin": {
-      "description": "<p>Des êtres verts et futés qui prospèrent dans les lieux les plus sombres et les plus exigus. Aussi féroces que minuscules. Vous connaissez la langue commune et le gobelin.</p>",
-      "name": "Gobelin"
+      "description": "<p>Criaturas verdes e espertas que prosperam em locais escuros e apertados. Os goblins são tão ferozes quanto pequenos. Você conhece os idiomas Comum e Goblin.</p>",
+      "name": "Goblin"
     },
     "Half-Orc": {
-      "description": "<p>Immenses guerriers aux défenses proéminentes, aussi audacieux que les humains et aussi impitoyables que les orques. Vous connaissez la langue commune et l’orque.</p>",
-      "name": "Demi-Orque"
+      "description": "<p>Guerreiros imponentes e com presas, que são tão implacáveis quanto os orcs e tão ousados quanto os humanos. Você conhece os idiomas Comum e Orc.</p>",
+      "name": "Meio-Orc"
     },
     "Halfling": {
-      "description": "<p>Petit paysan joyeux aux traits espiègles. Ils apprécient les plaisirs simples de la vie.</p>",
-      "name": "Halfelin"
+      "description": "<p>Pequenos e alegres habitantes do campo, com personalidades travessas. Eles apreciam os prazeres simples da vida. Você conhece o idioma Comum.</p>",
+      "name": "Halfling"
     },
     "Human": {
-      "description": "<p>Peuple audacieux et doué d’un bon sens de l’adaptation, qui apprend vite et accomplit de grands exploits. Vous connaissez la langue commune ainsi qu’une langue courante supplémentaire.</p>",
-      "name": "Humain"
+      "description": "<p>Povo corajoso, adaptável e diverso que aprende de forma rápida e realiza feitos poderosos. Você conhece o idioma Comum e um idioma comum adicional.</p>",
+      "name": "Humano"
     },
     "Kobold": {
-      "description": "<p>Minuscules humanoïdes, ces chiens-lézards ont un penchant pour le bricolage, la construction de pièges et un soupçon de magie.</p>",
+      "description": "<p>Pequenos humanoides reptilianos com traços caninos, inclinados à engenhoca, à construção de armadilhas e dotados de um leve toque de magia.</p>",
       "name": "Kobold"
     }
   }

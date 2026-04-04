@@ -1,51 +1,51 @@
 {
-  "label": "Langages",
+  "label": "Idiomas",
   "folders": {
-    "Rare": "Rare",
-    "Common": "Commune"
+    "Rare": "Raro",
+    "Common": "Comum"
   },
   "entries": {
     "Celestial": {
-      "name": "Céleste"
+      "name": "Celestial"
     },
     "Common": {
-      "name": "Langue commune"
+      "name": "Comum"
     },
     "Diabolic": {
-      "name": "Diabolique"
+      "name": "Diabólico"
     },
     "Draconic": {
-      "name": "Draconique"
+      "name": "Dacrônico"
     },
     "Dwarvish": {
-      "name": "Langue naine"
+      "name": "Anão"
     },
     "Elvish": {
-      "name": "Elfique"
+      "name": "Élfico"
     },
     "Giant": {
-      "name": "Géant"
+      "name": "Gigante"
     },
     "Goblin": {
-      "name": "Gobelin"
+      "name": "Goblin"
     },
     "Merran": {
-      "name": "Merran"
+      "name": "Merrano"
     },
     "Orcish": {
-      "name": "Orque"
+      "name": "Orc"
     },
     "Primordial": {
-      "name": "Originel"
+      "name": "Primordial"
     },
     "Reptilian": {
-      "name": "Reptilien"
+      "name": "Reptiliano"
     },
     "Sylvan": {
-      "name": "Sylvestre"
+      "name": "Silvestre"
     },
     "Thanian": {
-      "name": "Thanien"
+      "name": "Thaniano"
     }
   }
 }
