@@ -1,180 +1,180 @@
 {
-  "label": "États",
+  "label": "Condições",
   "mapping": {
     "description": "system.description"
   },
   "folders": {},
   "entries": {
     "Condition: Afraid": {
-      "name": "État: Effrayé",
-      "description": "<p>Le personnage est effrayé.</p>"
+      "name": "Condição: Amedrontado",
+      "description": "<p>O personagem está com medo.</p>"
     },
     "Condition: Asleep": {
-      "name": "État: Endormi",
+      "name": "Condição: Adormecido",
       "description": ""
     },
     "Condition: Banished": {
-      "name": "État: Banni",
+      "name": "Condição: Banido",
       "description": ""
     },
     "Condition: Beguiled": {
-      "name": "État: Séduit",
-      "description": "<p>Le personnage est séduit.</p>"
+      "name": "Estado: Seduzido",
+      "description": "<p>O personagem é seduzido.</p>"
     },
     "Condition: Blind": {
-      "name": "État: Cécité",
-      "description": "<p>Le personnage aveugle a un désavantage sur les tâches nécessitant la vue.</p>"
+      "name": "Cegueira",
+      "description": "<p>O personagem cego tem uma desvantagem em tarefas que exigem visão.</p>"
     },
     "Condition: Bug Brain": {
-      "name": "État: Cerveau d'insecte",
+      "name": "Estado: Cérebro de inseto",
       "description": ""
     },
     "Condition: Charmed": {
-      "name": "État: Charmé",
-      "description": "<p>Le personnage est charmé et considère la source comme un ami.</p>"
+      "name": "Condição: Enfeitiçado",
+      "description": "<p>O personagem fica encatando e considera a fonte um amigo</p>"
     },
     "Condition: Compelled": {
-      "name": "État: Contraint",
-      "description": "<p>Le personnage est Contraint.</p>"
+      "name": "Condição: Contido",
+      "description": "<p>O personagem está restringido.</p>"
     },
     "Condition: Cursed": {
-      "name": "État: Maudit",
-      "description": "<p>Le personnage est maudit.</p>"
+      "name": "Estado: Amaldiçoado",
+      "description": "<p>O personagem está amaldiçoado</p>"
     },
     "Condition: Disease (1)": {
-      "name": "État: Maladie (1)",
+      "name": "",
       "description": ""
     },
     "Condition: Disease (2)": {
-      "name": "État: Maladie (2)",
+      "name": "Estado: Amaldiçoado (2)",
       "description": ""
     },
     "Condition: Disease (3)": {
-      "name": "État: Maladie (3)",
+      "name": "Condição: Doença (3)",
       "description": ""
     },
     "Condition: Disease (4)": {
-      "name": "État: Maladie (4)",
+      "name": "Condição: Doença (4)",
       "description": ""
     },
     "Condition: Drained (1)": {
-      "name": "État: Drainé (1)",
+      "name": "Condição: Doença (1)",
       "description": ""
     },
     "Condition: Drained (2)": {
-      "name": "État: Drainé (2)",
+      "name": "Condição: Exausto (2)",
       "description": ""
     },
     "Condition: Drained (3)": {
-      "name": "État: Drainé (3)",
+      "name": "Condição: Exausto (3)",
       "description": ""
     },
     "Condition: Drained (4)": {
-      "name": "État: Drainé (4)",
+      "name": "Condição: Exausto (4)",
       "description": ""
     },
     "Condition: Drained (5)": {
-      "name": "État: Drainé (5)",
+      "name": "Condição: Exausto (5)",
       "description": ""
     },
     "Condition: Drained (6)": {
-      "name": "État: Drainé (6)",
+      "name": "Condição: Exausto (6)",
       "description": ""
     },
     "Condition: Enfeebled (Cha)": {
-      "name": "État: Affaibli (CHA)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (CAR)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Enfeebled (Con)": {
-      "name": "État: Affaibli (CON)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (CON)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Enfeebled (Dex)": {
-      "name": "État: Affaibli (DEX)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (DES)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Enfeebled (Int)": {
-      "name": "État: Affaibli (INT)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (INT)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Enfeebled (Str)": {
-      "name": "État: Affaibli (FOR)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (FOR)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Enfeebled (Wis)": {
-      "name": "État: Affaibli (SAG)",
-      "description": "<p>Le personnage est affaibli.</p>"
+      "name": "Condição: Enfraquecido (SAB)",
+      "description": "<p>O personagem está enfraquecido.</p>"
     },
     "Condition: Fragile": {
-      "name": "État: Fragile",
-      "description": "<p>Le personnage est fragile et subit le double de dommages.</p>"
+      "name": "Condição: Fragilizado",
+      "description": "<p>O personagem fica frágil e sofre dano dobrado.</p>"
     },
     "Condition: Gibbering": {
-      "name": "État: Babbouillant",
-      "description": "<p>Le personnage babille.</p>"
+      "name": "Condição: Balbuciando",
+      "description": "<p>O personagem balbucia.</p>"
     },
     "Condition: Invisible": {
-      "name": "État: Invisible",
-      "description": "<p>Le personnage est invisible.</p>"
+      "name": "Condição: Invisível",
+      "description": "<p>O personagem está invisível.</p>"
     },
     "Condition: Invisible (Stealthy)": {
-      "name": "État: Invisible (Discret)",
-      "description": "<p>Le personnage est invisible.</p>"
+      "name": "Condição: Invisível (Discreto)",
+      "description": "<p>O personagem está invisível.</p>"
     },
     "Condition: Laughing": {
-      "name": "État: Rire",
-      "description": "<p>Le personnage rit.</p>"
+      "name": "Condição: Rindo",
+      "description": "<p>O personagem fica rindo.</p>"
     },
     "Condition: Life Drain (1)": {
-      "name": "État: Drain de vie (1)",
+      "name": "Condição: Dreno de Vida (1)",
       "description": ""
     },
     "Condition: Life Drain (2)": {
-      "name": "État: Drain de vie (2)",
+      "name": "Condição: Dreno de Vida (2)",
       "description": ""
     },
     "Condition: Life Drain (3)": {
-      "name": "État: Drain de vie (3)",
+      "name": "",
       "description": ""
     },
     "Condition: Life Drain (4)": {
-      "name": "État: Drain de vie (4)",
+      "name": "Condição: Dreno de Vida (4)",
       "description": ""
     },
     "Condition: Mesmerized": {
-      "name": "État: Fasciné",
+      "name": "Condição: Fascinado",
       "description": ""
     },
     "Condition: Paralyzed": {
-      "name": "État: paralysie",
-      "description": "<p>Le personnage est paralysé.</p>"
+      "name": "Condição: Paralizado",
+      "description": "<p>O personagem fica paralisado.</p>"
     },
     "Condition: Petrified": {
-      "name": "État: Pétrifié",
+      "name": "Condição: Petrificado",
       "description": ""
     },
     "Condition: Polymorphed": {
-      "name": "État: Polymorphé",
-      "description": "<p>Le personnage est polymorphé.</p>"
+      "name": "Condição: Polimorfado",
+      "description": "<p>O personagem está polimorfo.</p>"
     },
     "Condition: Possessed": {
-      "name": "État: Possédé",
-      "description": "<p>Le personnage est possédé.</p>"
+      "name": "Condição: Possuído",
+      "description": "<p>O personagem fica possuído.</p>"
     },
     "Condition: Stuck": {
-      "name": "État: Immobilisé",
-      "description": "<p>Le personnage ne peut pas bouger tant qu'il n'est pas libéré.</p>"
+      "name": "Condição: Imobilizado",
+      "description": "<p>O personagem não pode se mover até ser libertado.</p>"
     },
     "Condition: Stupified": {
-      "name": "État: Stupéfié",
-      "description": "<p>Le personnage est stupéfié.</p>"
+      "name": "Condição: Espantado",
+      "description": "<p>O personagem fica espantado.</p>"
     },
     "Condition: Unconscious": {
-      "name": "État: inconscience",
-      "description": "<p>Le personnage est inconscient.</p>"
+      "name": "Condição: Inconsciente",
+      "description": "<p>O personagem está inconsciente.</p>"
     },
     "Effect: Stimulant": {
-      "name": "Effet: Stimulant",
+      "name": "Effet: Alterado",
       "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]</p>"
     }
   }

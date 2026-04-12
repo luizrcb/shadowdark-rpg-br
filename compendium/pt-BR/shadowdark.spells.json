@@ -1,583 +1,580 @@
 {
-  "label": "Liste des sorts",
-  "mapping": {
-    "discription": "system.description"
-  },
+  "label": "Lista de magias",
   "folders": {
-    "Tier 2": "Rang 2",
-    "Tier 4": "Rang 4",
-    "Tier 1": "Rang 1",
-    "Tier 5": "Rang 5",
-    "Seer": "Augure",
-    "Tier 3": "Rang 3",
-    "Witch": "Sorcière",
-    "Wizard": "Magicien",
-    "Priest": "Prêtre"
+    "Tier 2": "Grau 2",
+    "Tier 4": "Grau 4",
+    "Tier 1": "Grau 1",
+    "Tier 5": "Grau 5",
+    "Seer": "Vidente",
+    "Tier 3": "Grau 3",
+    "Witch": "Bruxa",
+    "Wizard": "Mago",
+    "Priest": "Sacerdote"
   },
   "entries": {
     "Acid Arrow": {
-      "name": "Flèche acide",
-      "discription": "<p>Vous faites apparaître un trait corrosif qui touche un adversaire et lui inflige [[/r 1d6]] dégâts par round. Le trait demeure dans la cible tant que vous vous concentrez.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]</p>"
+      "name": "Flecha ácida",
+      "discription": "<p>Você conjura uma flecha corrosiva que atinge um inimigo, causando [[/r 1d6]] de dano por rodada. A flecha permanece no alvo enquanto durar sua concentração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]</p>"
     },
     "Alarm": {
       "name": "Alarme",
-      "discription": "<p>Vous touchez un objet, comme le seuil d’une porte, pour y placer une alarme magique.</p><p>Si une créature que vous n’avez pas désignée lors de l’incantation touche ou traverse l’objet, une cloche magique résonne dans votre tête.</p>"
+      "discription": "<p>Você toca um objeto, como o limiar de uma porta, e insere um alarme mágico nele. </p><p>Se qualquer criatura que você não designou durante a conjuração da magia tocar ou atravessar esse objeto, um sino mágico soará em sua mente.</p>"
     },
     "Alter Self": {
-      "name": "Altération physique",
-      "discription": "<p>Vous modifiez votre forme physique par magie et recevez un trait qui modifie votre anatomie.</p><p>Par exemple, vous faites pousser des branchies fonctionnelles sur votre cou, ou des griffes d’ours à vos doigts. Ce sort ne permet toutefois pas de faire pousser d’ailes ni de membres.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]</p>"
+      "name": "Alterar-se",
+      "discription": "<p>Você altera magicamente a sua forma física, ganhando uma característica que modifica sua anatomia atual.</p><p> Por exemplo, você pode fazer crescer guelras funcionais em seu pescoço, ou adicionar garras de urso aos seus dedos. Essa magia não pode fazer crescer asas ou membros.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]</p>"
     },
     "Anathema": {
-      "name": "Anathème",
-      "discription": "<p>Toutes les alliés rejettent et abandonnent la créature que vous touchez pendant 1 jour.</p><p>Chaque fois que vous ou vos alliés lui faites du mal, ses anciens alliés peuvent réussir un test de Sagesse [[check 15 wis]] pour mettre fin à l'effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]</p>"
+      "name": "Anátema",
+      "discription": "<p>Por 1 dia, todos os aliados desprezam e abandonam a criatura que você tocar</p><p>Cada vez que você ou seus aliados ferirem o alvo, os antigos aliados dele podem fazer um teste de SAB [[check 15 wis]] para encerrar os efeitos dessa magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]</p>"
     },
     "Animate Dead": {
-      "name": "Animation des morts",
-      "discription": "<p>Vous touchez les restes d’un humanoïde, qui se relèvent sous forme de zombie ou squelette sous votre contrôle.</p><p>Les restes doivent avoir au moins trois membres et la tête intacte. L’être non-mort agit à votre tour. Après 1 jour, il s’effondre en poussière de tombe.</p>"
+      "name": "Animar mortos",
+      "discription": "<p>Você toca os restos mortais de um humanoide, e ele se ergue como um zumbi ou esqueleto sob seu controle.</p><p> Os restos mortais devem ter pelo menos três membros e a cabeça intactos. A criatura morta-viva age em seu turno. Após 1 dia, a criatura se desfaz em pó sepulcral.</p>"
     },
     "Antimagic Shell": {
-      "name": "Coquille antimagique",
-      "discription": "<p>Un cube invisible de nullification magique apparaît centré sur vous.</p><p>Aucun sort ne peut être lancé à l’intérieur, les objets magiques sont inactifs, et aucune magie ne peut pénétrer. Le cube vous suit et ne peut être dissipé.</p><p>Une autre coquille antimagique n'interfère pas avec celle-ci.</p>"
+      "name": "Cúpula antimagia",
+      "discription": "<p>Um cubo de anulação mágica, invisível e de tamanho Perto, surge centrado em você.</p><p> Dentro do cubo, nenhuma magia pode ser conjurada. Itens mágicos e magias não têm efeito nessa zona, e nenhuma magia pode entrar nela. O cubo se move com você. Magias como dissipar magia não têm efeito sobre ele.</p><p> Outra cúpula antimagia não afeta essa magia.</p>"
     },
     "Arcane Eye": {
-      "name": "Œil arcanique",
-      "discription": "<p>Vous invoquez un œil invisible de la taille d’un grain de raisin dans la portée.</p><p>Vous pouvez voir à travers lui. Il voit dans le noir jusqu’à une portée proche, vole à portée proche à votre tour, et peut passer par des ouvertures aussi étroites qu’un trou de serrure.</p>"
+      "name": "Olho arcano",
+      "discription": "<p>Você conjura um olho invisível, do tamanho de uma uva, dentro do alcance. </p><p>Você pode enxergar através do olho. Ele pode ver no escuro até Perto, voar por até Perto em seu turno, e se espremer através de pequenas aberturas tão estreitas quanto o buraco de uma fechadura.</p>"
     },
     "Augury": {
-      "name": "Augure",
-      "discription": "<p>Vous interprétez le sens d’augures et de signes surnaturels. Posez une question au MJ sur une action spécifique. Il vous dira s’il en résultera « félicité » ou « calamité ».</p>"
+      "name": "Augúrio",
+      "discription": "<p>Você interpreta o significado de presságios e prenúncios sobrenaturais. Faça uma pergunta ao MJ sobre um curso de ação específico. O MJ responderá se aquela ação será “próspera” ou resultará em um “infortúnio”.</p>"
     },
     "Beguile": {
-      "name": "Envoûtement",
-      "discription": "<p>Vous créez une illusion visible et audible convaincante dans la portée.</p><p>Les créatures la percevant y réagissent comme si elle était réelle, même si elle ne peut pas infliger de dégâts.</p><p>La toucher révèle immédiatement sa nature illusoire.</p><p>Vous pouvez forcer une créature interagissant avec l'illusion à faire un test de Sagesse [[check 15 wis]]. En cas d’échec, elle est enchantée et la protège pour la durée du sort.</p>"
+      "name": "Enganar",
+      "discription": "<p>Você conjura uma ilusão convincente, visível e audível, dentro do alcance.</p><p> Criaturas que perceberem a ilusão reagem a ela como se fosse real, embora não possa causar dano real.</p><p> Tocar na ilusão instantaneamente revela sua natureza falsa. </p><p>Você pode forçar uma criatura que interagir com a ilusão a fazer um teste de SAB [[check 15 wis]]. Se a criatura falhar, ela ficará encantada pela ilusão enquanto a magia durar, e buscará protegê-la.</p>"
     },
     "Bless": {
-      "name": "Bénédiction",
-      "discription": "<p>Une créature que vous touchez gagne un jeton de chance.</p>"
+      "name": "Bênção",
+      "discription": "<p>Uma criatura que você toca ganha uma ficha de sorte.</p>"
     },
     "Blind/Deafen": {
-      "name": "Aveugler/Assourdir",
-      "discription": "<p>Vous prononcez un blâme divin qui provoque la cécité ou la surdité chez une créature visible à portée.</p><p>La créature est désavantagée pour toutes les tâches impliquant le sens dont elle est privée.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
+      "name": "Cegueira/Surdez",
+      "discription": "<p>Você profere uma censura divina, cegando ou ensurdecendo uma criatura que você possa ver e que esteja dentro do alcance.</p><p> A criatura tem DESV em tarefas que dependam do sentido perdido.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
     },
     "Bogboil": {
-      "name": "Boue bouillonnante",
-      "discription": "<p>Vous transformez un cube de sol à portée proche en un marécage boueux et bouillant.</p><p>Une créature piégée ne peut pas bouger et doit réussir un test de Dextérité contre votre test d'incantation pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]</p>"
+      "name": "Pântano borbulhante",
+      "discription": "<p>Você transforma uma parte do chão (um cubo de tamanho Perto), dentro do alcance, em um pântano lamacento e borbulhante de areia movediça.</p><p> Uma criatura presa na lama não pode se mover, e deve ter sucesso em um teste de DES contra o seu teste de conjuração para se libertar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]</p>"
     },
     "Broomstick": {
-      "name": "Balai volant",
-      "discription": "<p>Vous faites apparaître un balai volant dans votre main.</p><p>Son cavalier peut voler à portée proche par round et rester en vol stationnaire.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]</p>"
+      "name": "Vassoura voadora",
+      "discription": "<p>Você conjura uma vassoura voadora em sua mão.</p> <p>O usuário da vassoura pode voar por uma distância Perto a cada rodada e pode levitar no mesmo lugar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]</p>"
     },
     "Burning Hands": {
-      "name": "Mains brûlantes",
-      "discription": "<p>Vous écartez les doigts en mettant vos pouces en contact pour libérer un cercle de flammes qui se répandent en rugissant à portée courte tout autour de vous.</p><p>Les créatures situées à portée subissent  [[/r 1d6]] dégâts, et les objets combustibles prennent feu.</p><p>Les objets inflammables non portés prennent feu.</p>"
+      "name": "Mãos flamejantes",
+      "discription": "<p>Você abre suas mãos enquanto seus polegares se tocam, liberando um círculo de chamas que se estende pela área Adjacente ao redor de onde você está.</p><p> Criaturas dentro da área de efeito sofrem [[/r 1d6]] de dano, e objetos inflamáveis se incendeiam.</p>"
     },
     "Cacklerot": {
-      "name": "Ricanement Maladif",
-      "discription": "<p>Une cible que vous touchez de niveau 4 ou moins s'effondre en proie à un rire douloureux et dérangeant pour toute la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]</p>"
+      "name": "Risada dolorosa",
+      "discription": "<p>Um alvo que você tocar, de nível 4 ou menor, desaba indefeso, rindo de maneira perturbadora e dolorosa enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]</p>"
     },
     "Cast Out": {
-      "name": "Expulsion",
-      "discription": "<p>Vous repoussez une créature, la forçant à rester à distance.</p><p>Choisissez une créature que vous voyez. Elle ne peut pas s’approcher à portée proche de vous pendant toute la durée du sort, mais peut vous attaquer depuis plus loin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]</p>"
+      "name": "Expulsar",
+      "discription": "<p>Você afasta uma criatura, expulsando-a da sua presença.</p><p> Escolha uma criatura que você possa ver. Enquanto a magia durar, essa criatura não pode se aproximar de você mais do que o alcance Perto. Ela ainda pode atacá-lo de fora do alcance Perto.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]</p>"
     },
     "Cat's Eye": {
-      "name": "Œil de Chat",
-      "discription": "<p>Vos iris s’élargissent et vos pupilles deviennent des fentes noires. Vous pouvez voir les créatures invisibles et les portes secrètes pendant toute la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]</p>"
+      "name": "Olho de gato",
+      "discription": "<p>A íris de seus olhos se expande, preenchendo-o completamente, e suas pupilas se tornam fendas verticais pretas. Você pode ver criaturas invisíveis e portas secretas enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]</p>"
     },
     "Cauldron": {
-      "name": "Chaudron",
-      "discription": "<p>Vous invoquez un chaudron bouillonnant à côté de vous. Il peut produire l’un des effets suivants :</p><p>• Répare tout objet non magique cassé placé à l’intérieur.</p><p>• Fait apparaître un gros crapaud obéissant pendant 3 rounds.</p><p>• Peut contenir jusqu’à 3 emplacements d’objets, qu’il recrache lors de votre prochaine incantation de ce sort.</p>"
+      "name": "Caldeirão",
+      "discription": "<p>Você conjura um caldeirão fervente próximo a você. Ele pode produzir um dos seguintes efeitos:</p><p> • Qualquer item mundano quebrado colocado dentro do caldeirão será reparado.</p><p> • Um sapo gordo e coaxante salta para fora e segue suas instruções por 3 rodadas.</p><p> • Você pode preencher o caldeirão com o equivalente a 3 espaços de equipamento. O caldeirão expele esses itens na próxima vez que você conjurar essa magia (expelir os itens conta como um efeito único do caldeirão).</p>"
     },
     "Chant": {
-      "name": "Chant",
-      "discription": "<p>Vous entonnez un chant surnaturel qui élève votre perception.</p><p>Pendant la durée du sort, vous voyez toutes les choses cachées ou invisibles comme si elles étaient visibles. Vous ne pouvez cependant pas voir dans le noir ou à travers les murs si vous n’en êtes pas déjà capable.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]</p>"
+      "name": "Cântico",
+      "discription": "<p>Você inicia um cântico sobrenatural que eleva sua visão para além de suas limitações comuns.</p><p> Enquanto a magia durar, você pode ver todas as coisas invisíveis e ocultas como se estivessem claramente visíveis. Esta magia não lhe permite ver em condições em que você normalmente não poderia, como na escuridão ou através de paredes.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]</p>"
     },
     "Charm Person": {
-      "name": "Charme-personne",
-      "discription": "<p>Vous séduisez par magie un humanoïde de niveau 2 ou moins, situé à portée intermédiaire, et qui vous considère comme un ami pendant la durée du sort.</p><p>Le sort s’achève si vous ou vos alliés faites quoi que ce soit pour lui nuire et qu’il le remarque.</p><p>Quand l’effet du sort s’achève, la cible sait que vous l’avez ensorcelée.</p><p>Lancez [[/r 1d8]] pour déterminer la durée en jours de l'effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>"
+      "name": "Encantar pessoa",
+      "discription": "<p>Você encanta magicamente um humanoide de nível 2 ou menor e que esteja Perto de você. Ele passa a considerá-lo um amigo enquanto a magia durar.</p><p>A magia se encerra caso ele perceba que você ou seus aliados fizeram qualquer coisa para machucá-lo.</p><p>O alvo saberá que você o encantou magicamente depois que a magia for encerrada.</p>\n<p>Role [[/r 1d8]] para determinar quantos dias durará o efeito.</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>"
     },
     "Cleansing Weapon": {
-      "name": "Arme purificatrice",
-      "discription": "<p>Une arme que vous touchez s’enveloppe de flammes purificatrices. Elle inflige [[/r 1d4]] dégâts supplémentaires ([[/r 1d6]] contre les morts-vivants) tant que le sort fait effet.</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]</p>"
+      "name": "Arma purificadora",
+      "discription": "<p>Uma arma que você toca é envolvida por chamas purificadoras. Ela causa [[/r 1d4]] de dano adicional ([[/r 1d6]] contra mortos-vivos) ao longo da duração.</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]</p>"
     },
     "Cloak of Night": {
-      "name": "Cape de Nuit",
-      "discription": "<p>Vous vous enveloppez dans une cape d’ombres tourbillonnantes. Votre classe d’armure devient 17 (20 en cas de réussite critique à l’incantation).</p><p>Vous avez l’avantage aux tests de Dextérité pour vous cacher ou vous faufiler pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]</p>"
+      "name": "Manto da noite",
+      "discription": "<p>Você se envolve em um manto ondulante de sombras. Enquanto a magia durar, sua CA se torna 17 (20 em um sucesso crítico no teste de conjuração).</p><p> Você tem Vantagem em testes de Destreza para se esgueirar e se esconder enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]</p>"
     },
     "Cloud Kill": {
-      "name": "Nuage Mortel",
-      "discription": "<p>Un nuage jaunâtre et toxique emplit un cube à portée proche, se répandant dans les angles.</p><p>Les créatures à l’intérieur sont aveuglées et subissent [[/r 2d6]] dégâts au début de leur tour.</p><p>Une créature de niveau 9 ou moins qui termine son tour entièrement dans le nuage meurt.</p>"
+      "name": "Névoa mortal",
+      "discription": "<p>Uma nuvem malcheirosa de veneno amarelado preenche um cubo de tamanho Perto dentro do alcance. Ela se espalha por todos os ângulos.</p><p>Criaturas dentro da nuvem ficam cegas e sofrem [[/r 2d6]] de dano no início de seus turnos.</p><p>Uma criatura de nível 9 ou menor que encerrar seu turno completamente imerso na nuvem morrerá.</p>"
     },
     "Command": {
-      "name": "Commandement",
-      "discription": "<p>Vous ordonnez verbalement à une créature à portée qui vous comprend. L’ordre doit tenir en un seul mot (ex. : « Agenouille-toi »). La cible obéit tant que vous vous concentrez.</p><p>Si l’ordre est directement nuisible, elle peut faire un test de Charisme contre votre dernier test d’incantation. En cas de succès, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]</p>"
+      "name": "Comando",
+      "discription": "<p>Você emite um comando verbal para uma criatura dentro do alcance e que possa entender você. O comando deve ter apenas uma palavra, como “ajoelhe-se”. O alvo obedece ao comando enquanto você mantiver a concentração.</p><p> Se o seu comando for diretamente prejudicial à criatura, ela poderá fazer um teste de Carisma contra o seu último teste de conjuração. Com um sucesso, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]</p>"
     },
     "Commune": {
-      "name": "Communion",
-      "discription": "<p>Vous sollicitez les conseils de votre dieu. Posez au MJ jusqu’à trois questions auxquelles on peut répondre par « oui » ou « non ». Le MJ doit répondre honnêtement.</p><p>Si vous lancez ce sort plus d’une fois en 24 heures, un échec au test d’incantation est traité comme un échec critique.</p>"
+      "name": "Comunhão",
+      "discription": "<p>Você busca pelos conselhos de seu deus. Faça até três perguntas de “sim” ou “não” ao MJ. Ele responderá honestamente \"sim\" ou \"não\" a cada uma delas.</p><p> Se você conjurar essa magia mais de uma vez em 24 horas, considere uma falha no teste de conjuração como uma falha crítica.</p>"
     },
     "Confusion": {
-      "name": "Confusion",
-      "discription": "<p>Vous plongez une créature à portée dans la stupeur. Elle ne peut plus agir et se déplace aléatoirement à son tour.</p><p>Si elle est de niveau 9 ou plus, elle peut tenter un test de Sagesse contre votre dernier test d’incantation au début de son tour pour mettre fin au sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]</p>"
+      "name": "Confusão",
+      "discription": "<p>Você hipnotiza uma criatura que você possa ver e que esteja dentro do alcance. O alvo não pode realizar ações, e se move em uma direção aleatória no turno dele.</p><p> Se o alvo for de nível 9+, ele pode fazer um teste de SAB contra o seu último teste de conjuração no início do turno dele para tentar encerrar a magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]</p>"
     },
     "Control Water": {
-      "name": "Contrôle de l'eau",
-      "discription": "<p>Vous manipulez et façonnez l’eau. Vous pouvez modifier la forme d’un volume d’eau de 30 mètres de large et de profondeur, défier la gravité ou en changer le cours.</p>"
+      "name": "Controlar água",
+      "discription": "<p>Você move e molda a água. Você pode fazer um corpo de água de até 30 metros (em largura e em profundidade) mudar a sua forma, desafiar a gravidade, ou fluir em uma direção diferente.</p>"
     },
     "Coven": {
-      "name": "Sabbat",
-      "discription": "<p>Vous faites appel à la magie que vous partagez avec vos sœurs sorcières.</p><p>Vous récupérez l’usage d’un sort de niveau 3 ou moins que vous ne pouviez plus lancer aujourd’hui.</p><p>Vous ne pouvez relancer ce sort qu’après un repos.</p>"
+      "name": "Coven",
+      "discription": "<p>Você invoca a magia que compartilha com suas companheiras bruxas.</p><p> Você recupera o uso de uma magia de grau 3 ou inferior que não podia conjurar novamente nesse dia.</p><p> Após conjurar essa magia com sucesso, você não poderá conjurá-la novamente até que complete um descanso.</p>"
     },
     "Create Undead": {
-      "name": "Création de mort-vivant",
-      "discription": "<p>Vous invoquez un mort-vivant vengeur à votre service. Choisissez un spectre ou un revenant. Il apparaît à côté de vous et vous obéit.</p><p>Il agit à votre tour. Après 1 jour, il se dissipe en fumée.</p>"
+      "name": "Criar morto-vivo",
+      "discription": "<p>Você conjura uma criatura morta-viva com sede de vingança para agir de acordo com seus comandos. Quando conjura essa magia, você escolhe entre invocar um inumano ou uma aparição. A criatura surge ao seu lado, sob seu controle.</p><p> A criatura morta-viva age em seu turno. Depois de 1 dia, ela se desfaz em fumaça.</p>"
     },
     "Cure Wounds": {
-      "name": "Soins",
-      "discription": "<p>Votre toucher restaure la vie vacillante.</p><p>Lancez un nombre de d6 égal à [[/roll (1 + (floor(@level.value/2)))d6]]{1 + la moitié de votre niveau (arrondi à l'inférieur)}.</p><p>La créature que vous touchez regagne ce nombre de points de vie.</p>"
+      "name": "Curar ferimentos",
+      "discription": "<p>Seu toque restaura uma vida que foi reduzida.</p><p>Role uma quantidade de d6 igual a [[/roll (1 + (floor(@level.value/2)))d6]]{1 + metade do seu nível (arredondando\npara baixo)}.</p><p> Um alvo que você tocar recupera essa quantidade de pontos\nde vida.</p>"
     },
     "Curse": {
-      "name": "Malédiction",
-      "discription": "<p>Une créature que vous touchez est frappée par une des malédictions suivantes :</p><p>• Des furoncles et des verrues hideuses</p><p>• Tous les aliments ont un goût de cendre</p><p>• La voix devient perçante</p><p>• Des cauchemars dérangeants</p><p>• Vous perdez toujours aux jeux de hasard</p><p>• Un allié devient un ennemi</p><p>• Une peur irrationnelle d'un objet ordinaire</p>"
+      "name": "Maldição",
+      "discription": "<p>Uma criatura que você toca é afligida por uma das seguintes maldições:</p><p> • Furúnculos e verrugas terríveis.</p><p> • Toda comida tem gosto de cinzas.</p><p> • A voz se torna estridente.</p><p> • Pesadelos perturbadores.</p><p> • Sempre perde em jogos de azar.</p><p> • Um aliado se transforma em inimigo.</p><p> • Medo de algo ordinário.</p>"
     },
     "Detect Magic": {
-      "name": "Détection de la magie",
-      "discription": "<p>Vous sentez la présence de la magie à portée intermédiaire pendant la durée du sort. Si vous vous concentrez pendant deux rounds, vous en discernez les propriétés générales. Les barrières pleines bloquent l’effet du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]</p>"
+      "name": "Detectar magia",
+      "discription": "<p>Você pode sentir a presença de magia dentro do alcance Perto, enquanto a magia durar. Se você se concentrar por duas rodadas, poderá identificar suas propriedades gerais. Barreiras completas bloqueiam esta magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]</p>"
     },
     "Detect Thoughts": {
-      "name": "Détection des pensées",
-      "discription": "<p>Vous scrutez l’esprit d’une créature visible située à portée.</p><p>Chaque round, vous apprenez ses pensées immédiates.</p><p>À son tour, la cible peut effectuer un test de SAG contre le résultat de votre dernier test d’incantation. Si elle réussit, elle remarque votre présence dans ses pensées et le sort s’achève.</p>"
+      "name": "Detectar pensamentos",
+      "discription": "<p>Você espia a mente de uma criatura que você possa ver e que esteja dentro do alcance.</p><p> A cada rodada, você desvenda os pensamentos imediatos do alvo.</p><p> No turno dele, o alvo faz um teste de Sabedoria contra o seu último teste de conjuração. Se o alvo tiver sucesso, ele percebe a sua presença dentro da mente dele e a magia se encerra.</p>"
     },
     "Dimension Door": {
-      "name": "Porte dimensionnelle",
-      "discription": "<p>Vous vous téléportez vous-même et jusqu'à une autre créature volontaire à portée proche vers un endroit visible.</p>"
+      "name": "Porta dimensional",
+      "discription": "<p>Você teleporta a si mesmo, e até uma outra criatura voluntária e que esteja Adjacente, para qualquer lugar que você possa ver.</p>"
     },
     "Disintegrate": {
-      "name": "Désintégration",
-      "discription": "<p>Un rayon vert part de votre doigt et transforme une créature ou un objet en cendres.</p><p>Une créature de niveau 5 ou moins meurt instantanément. Si elle est de niveau 6 ou plus, elle subit [[/r 3d8]] dégâts.</p><p>Un objet non magique de la taille d'un grand arbre est détruit.</p>"
+      "name": "Desintegrar",
+      "discription": "<p>Seu dedo dispara um raio verde que transforma uma criatura ou objeto em cinzas.</p><p> Uma criatura-alvo de nível 5 ou menor morre instantaneamente. Se a criatura for de nível 6+, ela sofre [[/r 3d8]] de dano.</p><p> Um objeto não mágico com o tamanho máximo de uma árvore grande será destruído.</p>"
     },
     "Dispel Magic": {
-      "name": "Dissipation de la magie",
-      "discription": "<p>Vous annulez un sort affectant une cible visible dans la portée du sort.</p>"
+      "name": "Dissipar magia",
+      "discription": "<p>Encerra uma magia que afeta um alvo que você possa ver e que esteja dentro do alcance.</p>"
     },
     "Divination": {
-      "name": "Divination",
-      "discription": "<p>Vous jetez les os de divination ou scrutez l’obscurité entre les étoiles pour chercher un présage.</p><p>Posez une question « oui ou non » au MJ. Ce dernier répond honnêtement par « oui » ou « non ».</p><p>Si vous lancez ce sort plus d’une fois en 24 heures, un échec au test d’incantation est traité comme un échec critique.</p>"
+      "name": "Presságio",
+      "discription": "<p>Você lança os ossos divinatórios ou espia a escuridão entre as estrelas, procurando por um presságio.</p><p> Você pode fazer uma pergunta de “sim” ou “não” ao MJ. Ele responderá honestamente “sim” ou “não”.</p><p> Se você conjurar essa magia mais de uma vez em 24 horas, considere uma falha no teste de conjuração como uma falha crítica.</p>"
     },
     "Divine Vengeance": {
-      "name": "Vengeance divine",
-      "discription": "<p>Vous devenez l'avatar divin de la colère de votre dieu, enveloppé de flammes sacrées ou d’une aura noire de corruption qui fume.</p><p>Pendant toute la durée du sort, vous pouvez voler à portée proche, vos armes sont magiques et vous avez un bonus de +4 aux attaques et aux dégâts avec vos armes.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]</p>"
+      "name": "Vingança divina",
+      "discription": "<p>Você se torna o avatar divino da ira de seu deus, envolto em chamas sagradas ou em uma aura obscura de corrupção ardente.</p><p> Enquanto a magia durar, você pode voar por até Perto, suas armas se tornam mágicas, e você tem um bônus de +4 em ataques e dano de sua arma.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]</p>"
     },
     "Dominion": {
-      "name": "Dominion",
-      "discription": "<p>Des êtres puissants viennent à votre aide.</p><p>Ces êtres doivent avoir un total combiné de 16 niveaux ou moins. Les personnages chaotiques invoquent des démons/diables, tandis que les personnages loyaux ou neutres invoquent des anges.</p><p>Les êtres agissent librement pour vous aider pendant votre tour. Après 10 rounds, ils retournent dans leurs royaumes.</p><p>Vous ne pouvez pas relancer ce sort avant d’avoir accompli une pénitence.</p>"
+      "name": "Domínios",
+      "discription": "<p>Seres poderosos surgem para ajudá-lo.</p><p> O nível total desses seres (de forma combinada) deve ser de 16 ou menos. PJs caóticos invocam demônios/ diabos, e PJs ordeiros ou neutros invocam anjos.</p><p> Os seres agem por vontade própria para ajudá-lo em seu turno. Após 10 rodadas, eles retornam aos seus reinos.</p><p> Você não pode conjurar essa magia novamente até que complete uma penitência.</p>"
     },
     "Dreamwalk": {
-      "name": "Marche des rêves",
-      "discription": "<p>Vous et toute créature volontaire dans votre portée entrez dans le rêve d’une créature endormie que vous désignez, dans le même plan d’existence.</p><p>Vous pouvez sortir du rêve à tout moment et apparaître à côté de la créature, comme si vous vous y étiez téléporté.</p>"
+      "name": "Passo onírico",
+      "discription": "<p>Você e quaisquer outras criaturas Adjacentes e voluntárias entram no sonho de uma criatura adormecida cujo nome você pronuncie, desde que ela esteja no mesmo plano.</p><p> Você e quem estiver viajando com você podem sair da criatura, surgindo ao lado dela como se tivessem sido teleportados.</p>"
     },
     "Enfeeble": {
-      "name": "Affaiblissement",
-      "discription": "<p>Une créature que vous touchez a une caractéristique aléatoire réduite à 3 (-4) pendant une semaine. Lancez un [[/r d6]] pour déterminer quelle caractéristique :</p><p>1. Force, 2. Dextérité, 3. Constitution, 4. Intelligence, 5. Sagesse, 6. Charisme.</p><p>Si vous échouez au test d’incantation, vous souffrez d’une caractéristique réduite à 3 pendant une semaine, à la place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]</p>"
+      "name": "Enfraquecer",
+      "discription": "<p>Uma criatura que você toca tem um atributo aleatório reduzido para 3 (-4) por uma semana. Role um d6 para determinar qual atributo:</p> <p>1. Força, 2. Destreza, 3. Constituição, 4. Inteligência, 5. Sabedoria, 6. Carisma.</p><p> Se falhar no teste de conjuração, você tem um atributo aleatório reduzido para 3 por uma semana.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]</p>"
     },
     "Evoke Rage": {
-      "name": "Provoquer la colère",
-      "discription": "<p>Vous libérez la rage berserk cachée en quelqu'un.</p><p>Un humanoïde volontaire que vous touchez entre dans un état de fureur. Il est immunisé contre les tests de moralité, bénéficie de l’avantage aux tests de Force et aux attaques en corps à corps, et inflige +1d4 dégâts pendant toute la durée du sort.</p><p>Si la cible n’attaque aucune autre créature à son tour, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]</p>"
+      "name": "Evocar fúria",
+      "discription": "<p>Você desperta a fúria desenfreada que está presa dentro de alguém.</p><p> Um humanoide voluntário e que você tocar entra em estado de fúria. O alvo fica imune a testes de moral, tem VANT em testes de FOR e ataques corpo a corpo, e causa +1d4 de dano enquanto a magia durar.</p><p> Se o alvo não atacar outra criatura no turno dele, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]</p>"
     },
     "Eyebite": {
-      "name": "Mauvais Œil",
-      "discription": "<p>Une créature que vous ciblez subit 1d4 dégâts et ne peut pas vous voir avant la fin de son prochain tour.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]</p>"
+      "name": "Mau olhado",
+      "discription": "<p>Uma criatura-alvo sofre 1d4 de dano e não pode ver você até o fim do próximo turno dela.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]</p>"
     },
     "Fabricate": {
-      "name": "Fabrication",
-      "discription": "<p>Ce sort ne cible pas les créatures.</p><p>Vous transformez une collection de matériaux bruts de la taille d’un arbre en un objet fini. Par exemple, vous pouvez transformer un tas de briques ou de pierres en un pont. L’objet terminé redevient des matériaux bruts quand le sort se termine.</p>"
+      "name": "Fabricar",
+      "discription": "<p>Criaturas não podem ser alvos dessa magia.</p><p> Você pode transformar um conjunto de matérias-primas, equivalente ao tamanho de uma árvore, em um trabalho finalizado. Por exemplo, você converte uma pilha de tijolos ou pedras em uma ponte. O trabalho finalizado se transforma novamente em matéria-prima quando a magia se encerra.</p>"
     },
     "Fate": {
-      "name": "Destin",
-      "discription": "<p>Vous tordez douloureusement les fils d’or du destin d’une créature.</p><p>Une créature que vous ciblez subit [[/r 1d10]] dégâts et perd ses jetons de chance, s’il y en a.</p>"
+      "name": "Destino",
+      "discription": "<p>Você torce dolorosamente os fios dourados do destino de uma criatura.</p><p> Uma criatura-alvo dentro do alcance, sofre [[/r 1d10]] de dano e perde quaisquer fichas de sorte que possuir.</p>"
     },
     "Feather Fall": {
-      "name": "Chute de plume",
-      "discription": "<p>Vous pouvez tenter de lancer ce sort quand vous tombez.</p><p>La vitesse de votre chute diminue de sorte que vous atterrissez sain et sauf sur vos pieds.</p>"
+      "name": "Queda suave",
+      "discription": "<p>Você pode tentar conjurar essa magia quando estiver caindo. </p><p>A velocidade da sua queda diminui, e assim você pode aterrissar sobre seus pés de forma segura.</p>"
     },
     "Finger of Death": {
-      "name": "Doigt de la mort",
-      "discription": "<p>Une créature que vous touchez de niveau 9 ou moins meurt instantanément.</p><p>Un échec du test d’incantation pour ce sort est traité comme un échec critique, et vous devez lancer le malus avec désavantage.</p>"
+      "name": "Dedo da morte",
+      "discription": "<p>Uma criatura que você toca, de nível 9 ou menor, morre.</p><p> Considere uma falha no teste de conjuração para essa magia como uma falha crítica, e role a falha mágica com Desvantagem.</p>"
     },
     "Fireball": {
-      "name": "Boule de feu",
-      "discription": "<p>Vous lancez une petite flamme qui éclate en une explosion de feu. Toutes les créatures dans un cube à portée proche de l’explosion subissent [[/r 4d6]] dégâts.</p>"
+      "name": "Bola de fogo",
+      "discription": "<p>Você lança uma pequena chama que se transforma em uma explosão de fogo. Todas as criaturas que estiverem em um cubo de tamanho Perto, ao redor de onde a chama cai, sofrem [[/r 4d6]] de dano.</p>"
     },
     "Fixed Object": {
-      "name": "Ancrage d’objet",
-      "discription": "<p>Un objet que vous touchez et ne pesant pas plus de 2,5 kilos se fixe à l’endroit où il est posé. Il peut supporter un poids de 2300 kilos au maximum pendant la durée du sort.</p>"
+      "name": "Objeto fixo",
+      "discription": "<p>Um objeto que você toca e que pese\naté 2 kg se torna fixo em sua posição\natual. Ele pode sustentar até duas\ntoneladas enquanto a magia durar.</p>"
     },
     "Flame Strike": {
-      "name": "Colonne de flamme",
-      "discription": "<p>Vous faites descendre un pilier de feu sacré, incinérant une créature que vous voyez à portée.</p><p>La cible subit 2d6 dégâts.</p>"
+      "name": "Coluna de chamas",
+      "discription": "<p>Você invoca um pilar de fogo sagrado, imolando uma criatura que você possa ver e que esteja dentro do alcance.</p><p> O alvo sofre [[/r 2d6]] de dano.</p>"
     },
     "Floating Disk": {
-      "name": "Disque flottant",
-      "discription": "<p>Vous créez un disque de force au centre concave, en lévitation dans l’air. Il peut porter jusqu’à 20 emplacements d’inventaire. Il lévite au niveau de votre taille et reste à portée intermédiaire. Il ne peut pas traverser les dénivellations ni les fosses plus profondes qu’un humain.</p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]</p>"
+      "name": "Disco flutuante",
+      "discription": "<p>Você cria um disco de força circular e flutuante com um centro côncavo, que pode carregar o equivalente a 20 espaços de equipamento. Ele flutua ao nível da sua cintura, e automaticamente permanece Perto de você. O disco não pode cruzar abismos ou buracos mais profundos do que a altura de um humano.</p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]</p>"
     },
     "Fly": {
-      "name": "Vol",
-      "discription": "<p>Vos pieds se lèvent du sol et vous volez comme un colibri. Vous pouvez voler à portée proche pendant toute la durée du sort et rester en vol stationnaire.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]</p>"
+      "name": "Voo",
+      "discription": "<p>Seus pés se erguem do solo, e você se eleva no ar como um pássaro. Você pode voar por até Perto enquanto a magia durar, e também é capaz de pairar sobre o mesmo lugar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]</p>"
     },
     "Fog": {
-      "name": "Brouillard",
-      "discription": "<p>Un épais nuage de brouillard se forme dans une zone proche autour de vous, rendant votre visibilité réduite. Le nuage vous suit. Les attaques contre les créatures à l’intérieur du brouillard ont un désavantage.</p>"
+      "name": "Névoa",
+      "discription": "<p>Uma densa névoa surge em uma área Adjacente ao seu redor, tornando-o difícil de enxergar. A névoa se move com você. Ataques contra criaturas dentro da névoa têm Desvantagem.</p>"
     },
     "Freya's Omen": {
-      "name": "Présage de Freya",
-      "discription": "<p>Pendant la durée du sort, vous ne perdez pas la capacité de lancer un sort si vous échouez à son test d’incantation.</p><p>Si vous échouez de manière critique au test, vous pouvez relancer une fois le test, en utilisant le nouveau résultat.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]</p>"
+      "name": "Presságio de Freya",
+      "discription": "<p>Enquanto a magia durar, você não perde a capacidade de conjurar uma magia caso falhe no teste para conjurá-la.</p><p> Se obtiver uma falha crítica em um teste de conjuração, você pode rolar o teste novamente. Você deve usar o novo resultado.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]</p>"
     },
     "Frog Rain": {
-      "name": "Pluie de grenouilles",
-      "discription": "<p>Une pluie de grenouilles indignes frappe un cube à portée proche autour d’un point que vous voyez.</p><p>Toutes les créatures sous la pluie de grenouilles subissent 1d6 dégâts. Les grenouilles survivantes sautent et disparaissent.</p>"
+      "name": "Chuva de sapos",
+      "discription": "<p>Uma chuva de sapos enfurecidos atinge um cubo de tamanho Perto ao redor de um ponto que você possa ver, dentro do alcance.</p><p> Todas as criaturas dentro da área afetada pela chuva sofrem 1d6 de dano. Qualquer sapo sobrevivente salta para longe e desaparece.</p>"
     },
     "Gaseous Form": {
-      "name": "Forme gazeuse",
-      "discription": "<p>Vous et votre équipement vous transformez en un nuage de fumée pendant la durée du sort.</p><p>Vous pouvez voler et passer par n’importe quelle fissure ou ouverture que la fumée pourrait traverser. Vous ressentez le terrain et tout mouvement autour de vous dans une portée proche.</p><p>Vous ne pouvez pas lancer des sorts sous cette forme.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]</p>"
+      "name": "Forma gasosa",
+      "discription": "<p>Você e os seus equipamentos se transformam em uma nuvem de fumaça enquanto a magia durar.</p><p> Você pode voar e atravessar qualquer abertura que fumaça normalmente poderia. Você pode sentir o terreno e qualquer movimento Perto ao seu redor.</p><p> Você não pode conjurar magias enquanto estiver nessa forma.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]</p>"
     },
     "Glassbones": {
-      "name": "Os de verre",
-      "discription": "<p>Une créature que vous touchez devient fragile. Elle subit des dégâts doublés pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]</p>"
+      "name": "Ossos de vidro",
+      "discription": "<p>Uma criatura que você toca se torna frágil. Ela sofre o dobro de dano enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]</p>"
     },
     "Hallucinate": {
-      "name": "Hallucination",
-      "discription": "<p>Une créature de niveau inférieur ou égal au vôtre dans la portée du sort est submergée par des visions de ce qui pourrait advenir.</p><p>Pendant la durée du sort, la cible ne peut agir à son tour, sauf si elle réussit un test de Sagesse égal à votre dernier test d’incantation.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]</p>"
+      "name": "Alucinação",
+      "discription": "<p>Uma criatura-alvo que esteja Perto, e cujo nível seja igual ou menor que o seu, é dominada por visões daquilo que ainda pode acontecer.</p><p> Enquanto a magia durar, o alvo não pode agir no próprio turno, a menos que tenha sucesso em um teste de Sabedoria igual ao seu último teste de conjuração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]</p>"
     },
     "Heal": {
-      "name": "Guérison des blessures",
-      "discription": "<p>Lancez un nombre de d6 égal à 1 + la moitié de votre niveau (arrondie à l’entier inférieur).</p><p>Une cible que vous touchez regagne un nombre de PV équivalent.</p>"
+      "name": "Cura",
+      "discription": "<p>Uma criatura que você toca tem seus PV totalmente recuperados.</p><p> Você não pode conjurar essa magia novamente até que complete um descanso.</p>"
     },
     "Hold Monster": {
-      "name": "Paralysie de monstre",
-      "discription": "<p>Vous paralysez une créature que vous pouvez voir à portée. Si la cible est de niveau 9 ou plus, elle peut tenter un test de Force contre votre dernier test d’incantation au début de son tour pour mettre fin au sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]</p>"
+      "name": "Imobilizar monstro",
+      "discription": "<p>Você paralisa uma criatura que você possa ver e que esteja dentro do alcance. Se o alvo for de nível 9+, ele pode fazer um teste de Força contra o seu último teste de conjuração, no início do turno dele, para encerrar a magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]</p>"
     },
     "Hold Person": {
-      "name": "Paralysie",
-      "discription": "<p>Vous immobilisez une créature humanoïde visible de niveau 4 ou moins, située à portée.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]</p>"
+      "name": "Imobilizar pessoa",
+      "discription": "<p>Você paralisa magicamente uma criatura humanoide de nível 4 ou menor que você possa ver e que esteja dentro do alcance.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]</p>"
     },
     "Hold Portal": {
-      "name": "Fermeture",
-      "discription": "<p>Vous maintenez un portail fermé par magie pendant la durée. Pour l’ouvrir, une créature doit réussir un test de Force contre le résultat de votre test d’incantation.</p><p>Le sort ouverture met un terme à celui-ci.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]</p>"
+      "name": "Obstruir porta",
+      "discription": "<p>Enquanto a magia durar, você mantém um portal magicamente fechado. Uma criatura deve ter sucesso em um teste de Força contra seu teste de conjuração para abrir o portal.</p><p> A magia arrombar encerra essa magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]</p>"
     },
     "Holy Weapon": {
-      "name": "Arme sacrée",
-      "discription": "<p>Vous transmettez une bénédiction à une arme que vous touchez. Celle-ci devient magique et bénéficie d’un bonus de +1 aux jets d’attaque et de dégâts pendant la durée.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>"
+      "name": "Arma sagrada",
+      "discription": "<p>Uma arma que você toca é imbuída com uma bênção sagrada. A arma se torna mágica, e passa a ter +1 em jogadas de ataque e dano ao longo da duração.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>"
     },
     "Howl": {
-      "name": "Hurlement",
-      "discription": "<p>Tous les ennemis à portée proche de vous doivent immédiatement effectuer un test de moralité. Ce sort n'affecte pas les créatures immunisées contre les tests de moralité.</p>"
+      "name": "Uivo",
+      "discription": "<p>Todos os inimigos que estiverem Perto devem fazer um teste de moral imediatamente. Essa magia não afeta criaturas que são imunes a testes de moral.</p>"
     },
     "Hypnotize": {
-      "name": "Hypnotiser",
-      "discription": "<p>Une créature de niveau 3 ou moins qui peut vous voir devient stupéfiée.</p><p>Casser la ligne de vue de la créature avec vous lui permet de faire un test de [[test 15 cha]]. En cas de réussite, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>"
+      "name": "Hipnotizar",
+      "discription": "<p>Uma criatura de nível 3 ou menor que possa vê-lo fica atônita.</p><p> Se a linha de visão entre a criatura e você for quebrada, ela pode fazer um teste de [[test 15 cha]]. Em um sucesso, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>"
     },
     "Illusion": {
-      "name": "Illusion",
-      "discription": "<p>Vous créez une illusion convaincante visible et audible qui remplit un cube de taille proche dans la portée.</p><p>L'illusion ne peut pas causer de dégâts, mais les créatures qui croient que l'illusion est réelle réagissent comme si elle l'était.</p><p>Une créature inspectant l'illusion de loin doit réussir un test de Sagesse contre votre dernier jet de lancement de sort pour percevoir la fausse nature de l'illusion.</p><p>Toucher l'illusion révèle également sa fausse nature.</p>"
+      "name": "Ilusão",
+      "discription": "<p>Você cria uma ilusão convincente, audível e visível, que preenche um cubo de tamanho Perto ou menor, dentro do alcance.</p><p> A ilusão não pode causar dano, mas criaturas que acreditarem que a ilusão é real reagem a ela como se pudesse.</p><p> Uma criatura que investiga a ilusão de longe deve ter sucesso em um teste de Sabedoria contra o seu último teste de conjuração para perceber a natureza falsa da ilusão.</p><p> Tocar a ilusão também revela sua falsa natureza.</p>"
     },
     "Invisibility": {
-      "name": "Invisibilité",
-      "discription": "<p>Une créature que vous touchez devient invisible pendant la durée du sort.</p><p>Le sort s’achève si la cible attaque ou lance un sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>"
+      "name": "Invisibilidade",
+      "discription": "<p>Uma criatura que você toca se torna invisível enquanto a magia durar.</p><p> A magia se encerra se o alvo atacar ou conjurar uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>"
     },
     "Judgment": {
-      "name": "Jugement",
-      "discription": "<p>Vous exterminez instantanément une créature que vous touchez, envoyant celle-ci et toutes ses possessions faire face au jugement de votre dieu.</p><p>Vous pouvez bannir une créature intelligente de niveau 10 ou moins.</p><p>Lorsque la créature revient dans 5 tours, elle a été soignée à pleine vie si ses actions ont plu à votre dieu. Elle a été réduite à 1 point de vie si ses actions ont mis en colère votre dieu. Si votre dieu ne peut pas juger de ses actions, elle reste inchangée.</p>"
+      "name": "Julgamento",
+      "discription": "<p>Você bane instantaneamente uma criatura que você toca, enviando-a junto com todos os pertences que ela estiver carregando para enfrentar o julgamento do seu deus.</p><p> Você pode banir uma criatura inteligente de nível 10 ou menor.</p><p> Quando a criatura retornar, após 5 rodadas, ela terá seus pontos de vida totalmente curados se seus feitos tiverem agradado ao seu deus. Ela terá seus pontos de vida reduzidos a 1, se seus feitos enfureceram o seu deus. E se o seu deus não puder julgar as ações da criatura, ela retornará sem qualquer alteração.</p>"
     },
     "Knock": {
-      "name": "Ouverture",
-      "discription": "<p>Une porte, une fenêtre, un portail, un coffre ou une barrière situé à portée et que vous pouvez voir s’ouvre instantanément, malgré tous les verrous et systèmes de fermeture.</p><p>Ce sort crée un bruit que tous ceux qui se trouvent à portée de voix entendent, comme si quelqu’un frappait à une porte.</p>"
+      "name": "Arrombar",
+      "discription": "<p>Uma porta, janela, portão, baú ou portal que você possa ver e que esteja dentro do alcance se abre instantaneamente, superando todas as fechaduras e barreiras mundanas.</p><p> Essa magia cria um barulho alto que pode ser ouvido por todas as criaturas que estiverem ao alcance da sua voz</p>"
     },
     "Lay to Rest": {
-      "name": "Repos Éternel",
-      "discription": "<p>Vous envoyez instantanément une créature morte-vivante que vous touchez dans sa dernière vie, la détruisant complètement. </p><p>Vous pouvez cibler une créature morte-vivante de niveau 9 ou moins.</p>"
+      "name": "Descanso eterno",
+      "discription": "<p>Você envia instantaneamente uma criatura morta-viva que você toca para o além-vida, destruindo-a permanentemente. </p><p>Seu alvo pode ser uma criatura morta-viva de nível 9 ou menor.</p>"
     },
     "Levitate": {
-      "name": "Lévitation",
-      "discription": "<p>Vous pouvez vous déplacer verticalement en flottant dans les airs, sur une distance intermédiaire par round à votre tour.</p><p>Vous pouvez également prendre appui sur des objets solides pour vous déplacer horizontalement.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]</p>"
+      "name": "Levitação",
+      "discription": "<p>Você pode flutuar verticalmente pelo equivalente à distância Perto por rodada em seu turno.</p><p> Você também pode se impulsionar contra objetos sólidos para se mover horizontalmente.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]</p>"
     },
     "Light": {
-      "name": "Lumière",
-      "discription": "<p>Un objet que vous touchez émet une lumière vive et sans chaleur, éclairant jusqu’à portée intermédiaire pendant 1 heure de temps réel.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]</p>"
+      "name": "Luz",
+      "discription": "<p>Um objeto que você toca se ilumina com uma luz brilhante e que não emite calor, clareando até a distância Perto, durante 1 hora de tempo real.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]</p>"
     },
     "Lightning Bolt": {
-      "name": "Éclair",
-      "discription": "<p>Vous lancez un rayon bleu-blanc d'éclair depuis vos mains, frappant toutes les créatures sur une ligne droite jusqu'à une grande distance.</p><p>Les créatures frappées par l'éclair subissent [[/r 3d6]] points de dégâts.</p>"
+      "name": "Relâmpago",
+      "discription": "<p>Você dispara um raio branco-azulado de relâmpago a partir de suas mãos, atingindo todas as criaturas em linha reta até o alcance da magia.</p> <p>Criaturas que forem atingidas pelo raio sofrem [[/r 3d6]] de dano.</p>"
     },
     "Loki's Trickery": {
-      "name": "Ruse de Loki",
-      "discription": "<p>Vous êtes rempli de la ruse hypnotique de Loki. Les créatures qui vous entendent parler altèrent leurs propres croyances et mémoires pour correspondre à votre suggestion.</p><p>Ciblez une créature qui peut vous entendre et vous comprendre dans la portée. Vous faites une déclaration plausible, qu'elle soit vraie ou non.</p><p>La cible doit effectuer un test de Sagesse contre votre jet de lancement de sort. Si elle échoue, elle croit maintenant ce que vous avez déclaré comme si c'était un fait, quel que soit ce qu'elle sait.</p>"
+      "name": "Trapaça de Loki",
+      "discription": "<p>Você é preenchido pela astúcia hipnótica de Loki. As criaturas que puderem ouvir você falar irão alterar suas próprias crenças e memórias para se adequarem à sua sugestão.</p><p> Escolha uma criatura que possa ouvir e compreender você e esteja dentro do alcance. Você faz uma declaração plausível, verdadeira ou não.</p><p> O alvo deve fazer um teste de SAB contra seu teste de conjuração. Se falhar, ele passa a acreditar no que você disse como se fosse verdade, independentemente do que ele saiba.</p>"
     },
     "Mage Armor": {
-      "name": "Armure de mage",
-      "discription": "<p>Une force magique invisible protège vos organes vitaux. Votre classe d’armure passe à 14 (ou à 18 si vous obtenez une réussite critique au test d’incantation) pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]</p>"
+      "name": "Armadura arcana",
+      "discription": "<p>Uma camada invisível de força mágica protege seus órgãos vitais. Sua CA se torna 14 (ou 18, em caso de sucesso crítico no teste de conjuração) enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]</p>"
     },
     "Magic Circle": {
-      "name": "Cercle Magique",
-      "discription": "<p>Vous invoquez un cercle de runes dans un cube de taille proche centré sur vous-même et nommez un type de créature (par exemple, démons).</p><p>Pendant la durée du sort, les créatures du type choisi ne peuvent pas attaquer ni lancer de sort hostile sur quiconque se trouve à l'intérieur du cercle. Les créatures choisies ne peuvent pas non plus posséder, contraindre ou envoûter quiconque à l'intérieur du cercle.</p>"
+      "name": "Círculo mágico",
+      "discription": "<p>Você conjura um círculo de runas em um cubo de tamanho Perto centrado em você. Escolha um tipo de criatura (demônios, por exemplo).</p><p> Enquanto a magia durar, criaturas do tipo escolhido não podem atacar ou conjurar magias hostis contra quem estiver dentro do círculo. As criaturas escolhidas também não podem possuir, induzir ou encantar quem estiver dentro do círculo.</p>"
     },
     "Magic Missile": {
-      "name": "Projectile magique",
-      "discription": "<p>Vous bénéficiez de l’avantage à votre test d’incantation de ce sort.</p><p>Un rayon de force lumineux jaillit de votre main ouverte et inflige [[/r 1d4]] dégâts à une cible.</p>"
+      "name": "Míssil mágico",
+      "discription": "<p>Você tem Vantagem no teste de conjuração dessa magia.</p><p> Um raio de força brilhante se projeta de sua mão aberta, causando [[/r 1d4]] de dano a um alvo.</p>"
     },
     "Mass Cure": {
-      "name": "Guérison de Masse",
-      "discription": "<p>Tous les alliés dans un rayon proche de vous récupèrent 2d6 points de vie.</p>"
+      "name": "Cura em massa",
+      "discription": "<p>Todos os aliados Perto de você recuperam [[/r 2d6]] pontos de vida.</p>"
     },
     "Mirror Image": {
-      "name": "Image miroir",
-      "discription": "<p>Vous créez un nombre de doubles illusoires de vous-même égal à la moitié de votre niveau (arr. à l’inférieur, min. 1).</p><p>Les doubles vous entourent et vous imitent.</p><p>Chaque fois qu’une créature vous attaque, elle vous rate et l’un des doubles s’évapore. Si toutes les illusions disparaissent, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]</p>"
+      "name": "Reflexos",
+      "discription": "<p>Você cria um número de cópias ilusórias de si mesmo igual à metade do seu nível, arredondando para baixo (mínimo de 1).</p><p> As cópias lhe cercam e imitam você.</p><p> A cada vez que uma criatura ataca você, o ataque erra e faz com que uma das cópias evapore. Se todas as ilusões desaparecerem, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]</p>"
     },
     "Mistletoe": {
-      "name": "Gui Enchanté",
-      "discription": "<p>Deux créatures que vous pouvez voir dans un rayon proche de vous deviennent enchantées l'une par l'autre pendant 1d8 jours.</p><p>Chaque fois qu'une des créatures affectées subit des dégâts, elle peut effectuer un test [[check 15 cha]]. En cas de succès, le sort prend fin.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]</p>"
+      "name": "Visco",
+      "discription": "<p>Duas criaturas que você possa ver, e que estejam Perto de você, ficam encantadas uma pela outra por 1d8 dias.</p><p> Cada vez que uma das criaturas afetadas sofrer dano, ela pode fazer um teste de [[check 15 cha]]. Em um sucesso, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]</p>"
     },
     "Misty Step": {
-      "name": "Marche des brumes",
-      "discription": "<p>Dans une bouffée de fumée, vous vous téléportez dans la limite de la portée intermédiaire jusqu’à un point que vous pouvez voir.</p>"
+      "name": "Passo nebuloso",
+      "discription": "<p>Em uma nuvem de fumaça, você se teleporta para uma área Perto e que você possa ver.</p>"
     },
     "Moonbeam": {
-      "name": "Rayon de Lune",
-      "discription": "<p>Un rayon vacillant de lumière argentée frappe une créature dans un rayon lointain. Elle subit 3d6 dégâts.</p>"
+      "name": "Raio de luar",
+      "discription": "<p>Um raio oscilante de luar prateado atinge uma criatura no alcance Longe. Ela sofre 3d6 de dano.</p>"
     },
     "Mother of Night": {
-      "name": "Mère de la Nuit",
-      "discription": "<p>Vous implorez la Mère de la Nuit de vous prêter son pouvoir.</p><p>Faites un vœu unique, en le formulant aussi précisément que possible. Votre vœu se réalise, tel qu'interprété par le MJ.</p><p>Si vous échouez ce test de lancer de sort, la Mère de la Nuit vous attire dans Le Crépuscule pour jugement. Vous ne pouvez pas lancer ce sort à nouveau tant que vous n'avez pas apaisé ses exigences.</p>"
+      "name": "Mãe da noite",
+      "discription": "<p>Você implora à Mãe da Noite para lhe conceder poder.</p><p> Faça um único desejo, declarando-o com a maior precisão possível. Seu desejo se realiza, conforme a interpretação do MJ.</p><p> Se falhar no teste de conjuração, a Mãe da Noite arrastará você até O Anoitecer para julgá-lo. Você não poderá conjurar essa magia novamente até cumprir com as exigências dela.</p>"
     },
     "Nightmare": {
-      "name": "Cauchemar",
-      "discription": "<p>Vous pénétrez dans les rêves d'une créature endormie, lui envoyant des cauchemars terrifiants.</p><p>Vous pouvez cibler une créature dont le niveau est inférieur ou égal à la moitié de votre niveau, arrondi à l'entier inférieur (minimum 1). La cible doit être endormie, et vous devez l'avoir déjà vue en personne.</p><p>Si vous réussissez à vous concentrer sur ce sort pendant 3 rounds d'affilée, la créature meurt de peur.</p>"
+      "name": "Pesadelo",
+      "discription": "<p>Você visita os sonhos de uma criatura adormecida, enviando-lhe pesadelos aterrorizantes.</p><p> Você pode escolher uma criatura cujo nível seja menor ou igual à metade do seu nível, arredondando para baixo (mínimo de 1). O alvo deve estar dormindo e você deve tê-lo visto pessoalmente antes.</p><p> Se você mantiver a concentração por 3 rodadas consecutivas, a criatura morre devido ao medo.</p>"
     },
     "Oak, Ash, Thorn": {
-      "name": "Chêne, Frêne, Épine",
-      "discription": "<p>Pendant la durée du sort, les fées, démons et diables ne peuvent pas vous attaquer. Ces êtres ne peuvent pas non plus vous posséder, contraindre ou envoûter.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]</p>"
+      "name": "Carvalho, freixo e espinheiro",
+      "discription": "<p>Enquanto a magia durar, fadas, diabos e demônios não podem atacar você. Essas criaturas também não podem possuir, induzir ou encantar você.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]</p>"
     },
     "Odin's Wisdom": {
-      "name": "Sagesse d'Odin",
-      "discription": "<p>Pendant la durée du sort, ajoutez votre niveau comme bonus supplémentaire à vos tests de Sagesse et vos tests de lancer de sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]</p>"
+      "name": "Sabedoria de Odin",
+      "discription": "<p>Enquanto a magia durar, adicione seu nível como bônus adicional em todos os testes de Sabedoria e testes de conjuração.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]</p>"
     },
     "Passwall": {
-      "name": "Mur Traversable",
-      "discription": "<p>Un tunnel de votre hauteur s'ouvre dans une barrière que vous touchez et dure pendant toute la durée du sort.</p><p>Le passage peut mesurer jusqu'à une distance proche en longueur et doit être en ligne droite.</p>"
+      "name": "Criar passagem",
+      "discription": "<p>Um túnel da sua altura se abre em um obstáculo que você tocar, e permanece ao longo da duração.</p><p> O comprimento da passagem pode ser, no máximo, igual à distância Perto, e precisa ser em linha reta.</p>"
     },
     "Pillar of Salt": {
-      "name": "Colonne de Sel",
-      "discription": "<p>Une créature que vous ciblez se transforme en une statue de sel durci.</p><p>Vous pouvez cibler une créature de niveau 5 ou moins que vous pouvez voir.</p><p>Si vous réussissez à vous concentrer sur ce sort pendant 3 rounds d'affilée, la transformation devient permanente.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]</p>"
+      "name": "Pilar de sal",
+      "discription": "<p>Uma criatura-alvo se torna uma estátua feita de sal endurecido.</p><p> Seu alvo pode ser uma criatura de nível 5 ou menor e que você possa ver.</p><p> Se você mantiver a concentração nessa magia por 3 rodadas seguidas, a transformação se torna permanente.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]</p>"
     },
     "Pin Doll": {
-      "name": "Poupée Voodoo",
-      "discription": "<p>Vous épinglez un morceau de cheveux ou de chair pris à une créature à une petite poupée en toile que le sort invoque.</p><p>Lors de votre tour, tout en vous concentrant sur ce sort, vous pouvez enfoncer une épingle dans la poupée. Chaque fois que vous faites cela, la créature à qui le morceau de cheveux ou de chair appartient subit 2d6 dégâts. Après la fin du sort, le morceau de cheveux ou de chair brûle en cendres.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]</p>"
+      "name": "Boneco de vodu",
+      "discription": "<p>Você prende um pouco de cabelo ou pedaço de carne retirado de uma criatura a um pequeno boneco de estopa conjurada pela magia.</p><p> Em seu turno, enquanto se concentra nessa magia, você pode alfinetar o boneco. A cada vez que você faz isso, a criatura à qual o cabelo ou carne pertence sofre 2d6 de dano. Quando a magia se encerra, o cabelo ou pedaço de carne utilizado queima até virar cinzas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]</p>"
     },
     "Plane Shift": {
-      "name": "Changement de Plan",
-      "discription": "<p>Vous pliez l'espace et le temps, vous transportant ainsi que toutes les créatures consentantes dans un rayon proche vers un endroit d'un autre plan de votre choix.</p><p>À moins que vous n'ayez déjà visité l'endroit choisi, vous apparaissez dans un endroit aléatoire du plan de destination.</p>"
+      "name": "Transição planar",
+      "discription": "<p>Você dobra o espaço e o tempo, transportando a si mesmo e a todas as criaturas Adjacentes e voluntárias para um local em outro plano, à sua escolha.</p><p> A menos que você já tenha visitado o local anteriormente, você surge em um lugar aleatório no plano de destino.</p>"
     },
     "Poison": {
-      "name": "Poison",
-      "discription": "<p>Un objet porté ou transporté que vous touchez devient toxique pendant la durée du sort. Toute créature en contact avec l'objet au début de son tour subit 1d6 dégâts.</p>"
+      "name": "Veneno",
+      "discription": "<p>Um objeto usado ou carregado que você tocar se torna tóxico enquanto a magia durar. Qualquer criatura em contato com o objeto no início do turno dela sofre 1d6 de dano.</p>"
     },
     "Polymorph": {
-      "name": "Polymorphie",
-      "discription": "<p>Vous transformez une créature que vous touchez en une autre créature naturelle de votre choix de taille égale ou inférieure. Tout équipement que la cible porte fusionne avec sa nouvelle forme.</p><p>La cible obtient les statistiques physiques de la créature, mais conserve ses statistiques non physiques.</p><p>Si la cible descend à 0 points de vie, elle reprend sa forme réelle avec la moitié de ses points de vie précédents.</p><p>Vous pouvez cibler n'importe quelle créature consentante avec ce sort, ou une créature non consentante dont le niveau est inférieur ou égal à la moitié de votre niveau, arrondi à l'entier inférieur (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]</p>"
+      "name": "Polimorfia",
+      "discription": "<p>Você transforma uma criatura que você toca em outra criatura natural de mesmo tamanho ou menor, à sua escolha. Qualquer equipamento que o alvo carregue se mescla à sua nova forma.</p><p> O alvo ganha as características e atributos físicos da criatura, porém retém suas próprias características e atributos não físicos.</p><p> Se o alvo chegar a 0 ponto de vida, ele retorna à sua verdadeira forma com metade de seus PV anteriores.</p><p> Seu alvo pode ser qualquer criatura voluntária, ou uma criatura involuntária cujo nível seja menor ou igual à metade do seu nível, arredondando para baixo (mínimo de 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]</p>"
     },
     "Potion": {
-      "name": "Potion",
-      "discription": "<p>En lançant ce sort, vous devez bénir une boisson quelconque.</p><p>La boisson acquiert des propriétés curatives pendant 1 jour. Une créature qui l'ingère peut mettre fin aux effets d'un poison ou peut immédiatement stopper sa mort (la créature reste à 0 HP).</p>"
+      "name": "Poção",
+      "discription": "<p>Como parte da conjuração desta magia, você deve abençoar uma única dose de qualquer líquido.</p><p> O líquido recebe propriedades curativas por 1 dia. Uma criatura que o ingerir pode encerrar os efeitos de um veneno ou é estabilizada e não morre (a criatura permanece com 0 PV).</p>"
     },
     "Power Word Kill": {
-      "name": "Mot de Pouvoir : Mort",
-      "discription": "<p>Vous prononcez le Mot de la Doom. Une créature que vous ciblez de niveau 9 ou moins meurt si elle vous entend.</p><p>Considérez un échec de test de lancer de sort pour ce sort comme un échec critique et lancez l'incident avec un désavantage.</p>"
+      "name": "Palavra de poder: matar",
+      "discription": "<p>Você profere a Palavra da Perdição. Uma criatura-alvo de nível 9 ou menor morrerá se puder ouvi-lo.</p><p> A falha no teste de conjuração é considerada uma falha crítica. Role a falha mágica com Desvantagem.</p>"
     },
     "Prismatic Orb": {
-      "name": "Orbe Prismatique",
-      "discription": "<p>Vous envoyez une orbe stroboscopique d'énergie en direction d'une cible dans la portée.</p><p>Choisissez un type d'énergie parmi feu, froid ou électricité. L'orbe inflige 3d8 dégâts et délivre une explosion concussive du type d'énergie choisi.</p><p>Si le type d'énergie est un anathème pour l'existence de la cible (par exemple, l'énergie froide contre un élémentaire de feu), l'orbe inflige alors le double des dégâts.</p>"
+      "name": "Orbe prismático",
+      "discription": "<p>Você envia um orbe estroboscópico de energia em direção a um alvo dentro do alcance.</p><p> Escolha um tipo de energia: fogo, frio ou eletricidade. O orbe causa [[/r 3d8]] de dano e uma explosão concussiva do tipo de energia escolhida.</p><p> Se o tipo de energia for contrário à natureza do alvo (como energia de frio contra um elemental de fogo), o orbe causa o dobro de dano.</p>"
     },
     "Prophecy": {
-      "name": "Prophétie",
-      "discription": "<p>Vous communiquez directement avec votre dieu pour obtenir des conseils.</p><p>Posez une question au MJ. Le MJ répond honnêtement en utilisant les connaissances que possède votre dieu. Les divinités sont puissantes, mais non omniscientes.</p><p>Vous ne pouvez pas lancer ce sort à nouveau tant que vous n'avez pas accompli des pénitences.</p>"
+      "name": "Profecia",
+      "discription": "<p>Você entra em comunhão direta com seu deus em busca de um direcionamento.</p><p> Faça uma pergunta ao MJ. Ele responde honestamente, de acordo com o conhecimento que seu deus possui. Divindades são poderosas, mas não oniscientes.</p><p> Você não pode conjurar essa magia novamente até que complete uma penitência.</p>"
     },
     "Protection from Energy": {
-      "name": "Protection contre l'Énergie",
-      "discription": "<p>Une créature que vous touchez devient imperméable à la fureur sauvage des éléments.</p><p>Choisissez le feu, le froid ou l'électricité. Pendant la durée du sort, la cible est immunisée contre les dégâts de l'énergie choisie.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]</p>"
+      "name": "Proteção contra energia",
+      "discription": "<p>Uma criatura que você toca se torna imune à fúria dos elementos.</p><p> Escolha entre eletricidade, fogo ou frio. Enquanto a magia durar, o alvo se torna imune a danos causados pela energia do tipo escolhido.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]</p>"
     },
     "Protection From Evil": {
-      "name": "Protection contre le mal",
-      "discription": "<p>Pendant la durée du sort, les êtres chaotiques sont désavantagés aux jets d’attaque et tests d’incantations hostiles contre la cible. En outre, ils ne peuvent ni la posséder, ni la contraindre, ni la séduire.</p><p>Lorsqu’on lance ce sort sur une cible déjà possédée, l’entité responsable effectue un test de CHA contre le résultat du dernier test d’incantation. En cas d’échec, elle est expulsée.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]</p>"
+      "name": "Proteção contra o mal",
+      "discription": "<p>Enquanto a magia durar, seres caóticos têm Desvantagem em jogadas de ataque e conjurações hostis contra o alvo. Esses seres também não podem possuir, induzir ou encantar o alvo.</p><p> Quando a magia é conjurada em um alvo já possuído, a entidade que o possui faz um teste de Carisma contra o último teste de conjuração. Se falhar, a entidade será expulsa.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]</p>"
     },
     "Puppet": {
-      "name": "Marionnette",
-      "discription": "<p>Une créature humanoïde de niveau 2 ou moins que vous touchez devient enchaînée à vos mouvements. Lors de votre tour, la créature imite tous vos mouvements.</p><p>Si imiter vos mouvements entraîne des dégâts pour la créature ou un allié, elle peut effectuer un jet [[check 15 cha]]. En cas de succès, elle résiste à l'imitation.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]</p>"
+      "name": "Fantoche",
+      "discription": "<p>Uma criatura humanoide de nível 2 ou menor que você toca fica enredada em seus movimentos.</p><p> Em seu turno, a criatura imita todos os seus movimentos. Se imitar seus movimentos for causar dano direto a si mesma ou a um aliado, ela pode fazer um teste de [[check 15 cha]]. Em um sucesso, ela resiste a imitar você.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]</p>"
     },
     "Ragnarok": {
       "name": "Ragnarok",
-      "discription": "<p>Vous plongez dans les fils du destin, découvrant la destinée finale d'une âme après la bataille du Ragnarok. Vivent-ils, ou meurent-ils ? </p><p>Choisissez une créature dans la portée. Vous ne pouvez cibler la même créature avec ce sort qu'une seule fois. </p><p>Cette créature doit réussir un test de CON égal à votre jet de lancement de sort ou mourir instantanément.</p>"
+      "discription": "<p>Você olha profundamente para os fios do destino, e compreende a sina de uma alma após uma batalha do Ragnarok. Ela irá viver ou morrer?</p><p> Escolha uma criatura dentro do alcance. Você só pode usar esta magia uma vez na mesma criatura.</p><p> Essa criatura deve ter sucesso em um teste de CON igual ao seu último teste de conjuração, ou morrerá instantaneamente.</p>"
     },
     "Raven": {
-      "name": "Corbeau",
-      "discription": "<p>Vous murmurez un message aux corbeaux d'Odin, et ils le portent à travers tous les mondes vers son destinataire. </p><p>Prononcez une courte phrase, ainsi que le nom de son destinataire, vivant ou mort. Cette créature entend votre parole murmurée dans son esprit.</p>"
+      "name": "Corvo",
+      "discription": "<p>Você sussurra uma mensagem aos próprios corvos de Odin, e eles a levam por todos os mundos até o destinatário.</p><p> Fale uma frase curta e o nome do destinatário, vivo ou morto. Essa criatura ouvirá a mensagem sussurrada em sua mente.</p>"
     },
     "Read the Runes": {
-      "name": "Lire les Runes",
-      "discription": "<p>Vous posez une question aux dieux et jetez les pierres runiques, interprétant le sens des résultats. </p><p>Posez une question à oui ou non au Maître de Jeu. Le Maître de Jeu répond honnêtement par « oui » ou « non ».</p>"
+      "name": "Ler as runas",
+      "discription": "<p>Você faz uma pergunta aos deuses e lança as pedras rúnicas, interpretando o significado dos resultados.</p><p> Faça uma pergunta de “sim” ou “não” ao MJ. Ele responderá honestamente “sim” ou “não”.</p>"
     },
     "Rebuke Unholy": {
-      "name": "Réprimander l'Impie",
-      "discription": "<p>Vous réprimandez les créatures qui s'opposent à votre alignement, les forçant à fuir. Vous devez présenter un symbole sacré pour lancer ce sort.</p><p>Si vous êtes loyal ou neutre, ce sort affecte les démons, les diables et les extérieurs. Si vous êtes chaotique, ce sort affecte les anges et les créatures naturelles des terres sauvages.</p><p>Les créatures affectées à proximité de vous doivent réussir un test de CHA contre votre jet de lancement de sort. Si une créature échoue de 10+ points et est égale ou inférieure à votre niveau, elle est détruite. Sinon, en cas d'échec, elle fuit pendant 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]</p>"
+      "name": "Expulsar profano",
+      "discription": "<p>Você repele criaturas que são opostas ao seu alinhamento, forçando-as a fugir. Você deve apresentar um símbolo sagrado para conjurar essa magia.</p><p> Se seu alinhamento for ordeiro ou neutro, essa magia afetará demônios, diabos e Entidades Exteriores. Se seu alinhamento for caótico, essa magia afetará anjos e criaturas do meio natural.</p><p> Criaturas afetadas que estiverem Perto de você devem fazer um teste de Carisma contra seu teste de conjuração. Caso falhe por 10+ pontos, e for de nível igual ou menor que o seu, a criatura será destruída. Se falhar por menos que 10 pontos, ela fugirá de você por 5 rodadas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]</p>"
     },
     "Regenerate": {
-      "name": "Régénération",
-      "discription": "<p>Une créature que vous touchez regagne 1d4 points de vie à chaque tour pour la durée du sort. Ce sort régénère également les parties du corps perdues.</p>"
+      "name": "Regeneração",
+      "discription": "<p>Uma criatura que você toca recupera 1d4 pontos de vida em seu turno, enquanto a magia durar. Essa magia também faz crescer partes do corpo que foram perdidas.</p>"
     },
     "Resilient Sphere": {
-      "name": "Sphère résiliente",
-      "discription": "<p>Vous invoquez une sphère de verre sans poids autour de vous qui s'étend jusqu'à portée proche. </p><p>Pour la durée du sort, rien ne peut passer à travers ou écraser la sphère. </p><p>Vous pouvez faire rouler la sphère à une distance proche pendant votre tour.</p>"
+      "name": "Esfera resiliente",
+      "discription": "<p>Você conjura uma esfera sem peso e com aspecto vítreo ao seu redor, que se estende até a distância Adjacente.</p><p> Enquanto a magia durar, nada pode atravessar ou quebrar a esfera.</p><p> Você pode rolar a esfera o equivalente à distância Perto durante o seu turno.</p>"
     },
     "Restoration": {
-      "name": "Restauration",
-      "discription": "<p>Par le toucher de vos mains, vous expulsez les malédictions et les maladies. Une malédiction, une maladie ou une affliction de votre choix affectant la créature cible prend fin.</p>"
+      "name": "Restauração",
+      "discription": "<p>Com o toque de suas mãos, você expurga as maldições e doenças. À sua escolha, você encerra uma maldição, doença ou moléstia que esteja afetando o alvo.</p>"
     },
     "Sacrifice": {
-      "name": "Sacrifice",
-      "discription": "<p>Dans le cadre du lancement de ce sort, vous devez sacrifier rituellement une créature vivante de niveau 2 ou supérieur. </p><p>La cible que vous touchez gagne un bonus à son prochain test ou jet d'attaque égal au niveau de la créature sacrifiée.</p>"
+      "name": "Sacrifício",
+      "discription": "<p>Como parte da conjuração desta magia, você deve sacrificar uma criatura viva de NV 2 ou maior em um ritual.</p><p> O alvo que você tocar ganha um bônus no seu próximo teste ou jogada de ataque igual ao nível da criatura sacrificada.</p>"
     },
     "Scrying": {
-      "name": "Scrutation",
-      "discription": "<p>Vous regardez dans une boule de cristal ou un bassin réfléchissant, appelant des images d'un endroit lointain. </p><p>Pour la durée du sort, vous pouvez voir et entendre une créature ou un endroit que vous choisissez sur le même plan. </p><p>Ce sort a une difficulté de 18 si vous tentez de scruter une créature ou un endroit qui vous est inconnu. </p><p>Chaque round, les créatures que vous regardez peuvent faire un test de Sagesse contre votre dernier jet de lancement de sort. En cas de succès, elles prennent conscience de votre observation magique.</p>"
+      "name": "Vidência",
+      "discription": "<p>Você observa através de uma bola de cristal ou de um espelho d’água, invocando imagens de um lugar distante.</p><p> Enquanto a magia durar, você pode enxergar e ouvir uma criatura ou local à sua escolha, que precisa estar no mesmo plano que você.</p><p> Essa magia tem CD 18 para conjurar se você tentar visualizar uma criatura ou local que não seja familiar a você. </p><p>A cada rodada, as criaturas que você visualiza podem fazer um teste de SAB contra o seu último teste de conjuração. Em um sucesso, elas ficam cientes da sua observação mágica.</p>"
     },
     "Sending": {
-      "name": "Communication à distance",
-      "discription": "<p>Vous envoyez un message mental bref à toute créature que vous connaissez et qui se trouve sur le même plan.</p>"
+      "name": "Remeter",
+      "discription": "<p>Você envia mentalmente uma mensagem curta para qualquer criatura que lhe seja familiar, e que esteja no mesmo plano que você.</p>"
     },
     "Shadowdance": {
-      "name": "Danse de l'Ombre",
-      "discription": "<p>Vous faites tourner de la matière d'ombre pour créer une illusion visible et audible convaincante à un point dans une portée proche. </p><p>L'illusion peut être aussi grande qu'une personne et peut se déplacer à une portée proche de son apparition. </p><p>L'illusion ne peut pas affecter les objets physiques. Toucher l'illusion révèle sa fausse nature.</p>"
+      "name": "Dança das sombras",
+      "discription": "<p>Você transforma sombras em uma ilusão visível, audível e convincente em uma área Perto de você.</p><p> A ilusão pode ser tão grande quanto uma pessoa e pode se mover para Perto de onde surgiu.</p><p> A ilusão não pode afetar objetos físicos. Tocar a ilusão revela sua natureza falsa.</p>"
     },
     "Shapechanger": {
-      "name": "Métamorphose",
-      "discription": "<p>Vous vous transformez ainsi que tout équipement que vous portez en une autre créature naturelle que vous avez vue, de niveau 10 ou moins. Vous assumez les statistiques physiques de la créature, mais vous conservez vos statistiques non physiques (comme INT, SAGESSE et CHA).</p><p>Si vous atteignez 0 PV sous l'effet de ce sort, vous revenez à votre forme réelle avec 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]</p>"
+      "name": "Metamorfose",
+      "discription": "<p>Você se transforma, assim como qualquer equipamento que estiver carregando, em outra criatura natural que você já tenha visto e que seja de nível 10 ou menor. Você assume as características e os atributos físicos da criatura, mas mantém suas próprias características e atributos não físicos (incluindo INT, SAB e CAR).</p><p> Se você chegar a 0 ponto de vida enquanto estiver sob efeito dessa magia, você retorna à sua verdadeira forma com 1 PV</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]</p>"
     },
     "Shield of Faith": {
-      "name": "Bouclier de la foi",
-      "discription": "<p>Une force protectrice issue de votre conviction religieuse vous entoure. Vous recevez un bonus de +2 à la classe d’armure pour toute la durée.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]</p>"
+      "name": "Escudo da fé",
+      "discription": "<p>Uma força protetora, forjada pela sua crença divina, circunda você. Você ganha um bônus de +2 em sua classe de armadura ao longo da duração.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]</p>"
     },
     "Silence": {
-      "name": "Silence",
-      "discription": "<p>Vous étouffez les sons dans un cube de taille intermédiaire situé dans la portée du sortilège. Les créatures qui se trouvent à l’intérieur sont assourdies, et aucun des sons qu’elles produisent ne peut être entendu.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
+      "name": "Silêncio",
+      "discription": "<p>Você silencia magicamente um cubo de tamanho Perto que esteja dentro do alcance da magia. Criaturas dentro dessa área ficam surdas, e quaisquer sons que elas emitam não serão ouvidos.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>"
     },
     "Sleep": {
-      "name": "Sommeil",
-      "discription": "<p>Vous déployez une aura de léthargie qui remplit un cube de taille intermédiaire s’étendant à partir de vous. Les créatures vivantes situées à l’intérieur de la zone d’effet tombent dans un profond sommeil si elles sont de niveau 2 ou moins.</p><p>Les secouer vigoureusement ou les blesser permet de les réveiller.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]</p>"
+      "name": "Sono",
+      "discription": "<p>Você acessa os planos exteriores e\ninvoca uma criatura de lá.</p><p>\nVocê invoca um elemental ou\nEntidade Exterior de nível 7 ou\nmenor. A criatura fica sob seu\ncontrole e age em seu turno.</p><p>\nSe sua concentração falhar, você\nperde o controle da criatura e ela se\ntorna hostil a você e a seus aliados.</p><p>\nVocê deve ter sucesso em um teste\nde conjuração em seu turno para\nfazer com que a criatura retorne aos\nplanos exteriores.</p>"
     },
     "Smite": {
-      "name": "Châtiment",
-      "discription": "<p>Vous faites apparaître des flammes punitives qui s’abattent sur une créature située à portée et que vous pouvez voir. Elle subit [[/r 1d6]] dégâts.</p>"
+      "name": "Destruição",
+      "discription": "<p>Você invoca chamas punitivas sobre uma criatura que você possa ver e que esteja dentro do alcance. Ela sofre [[/r 1d6]] de dano.</p>"
     },
     "Soul Jar": {
-      "name": "Jarre de l'Âme",
-      "discription": "<p>Vous transférez l'âme d'une créature que vous touchez de niveau 9 ou inférieur dans un réceptacle, comme une jarre. Le corps de la créature devient comateux, mais ne meurt pas. </p><p>Si le réceptacle s'ouvre ou se brise, l'âme de la créature retourne dans son corps. </p><p>Vous pouvez posséder le corps vide avec votre propre esprit, en prenant le contrôle. Votre corps devient comateux pendant ce temps. Si le corps meurt pendant que vous le possédez, votre âme retourne dans votre corps.</p>"
+      "name": "Jarro de alma",
+      "discription": "<p>Você transfere a alma de uma criatura que tocar, de nível 9 ou menor, para um receptáculo, como uma jarra. O corpo da criatura fica em estado de coma, mas não morre.</p><p> Se o receptáculo for quebrado ou aberto, a alma da criatura retorna ao seu corpo.</p><p> Você pode possuir o corpo vazio com seu próprio espírito, assumindo o controle dele. Durante esse período, seu corpo fica em estado de coma. Se o corpo que você está possuindo morrer, a sua alma retorna ao seu corpo original.</p>"
     },
     "Soulbind": {
-      "name": "Lier l'Âme",
-      "discription": "<p>Vous scellez l'âme d'une créature vivante, empêchant la magie de s'en infiltrer.</p><p>Une créature que vous touchez devient presque imperméable à toute magie. Pour la durée du sort, tous les autres sorts visant la créature (néfastes ou bénéfiques) ont une difficulté de 18 à lancer.</p><p>Ce sort se termine dès que la cible est affectée par un autre sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]</p>"
+      "name": "Vincular alma",
+      "discription": "<p>Você sela a alma de uma criatura viva, impedindo que magia a afete.</p><p> Uma criatura que você toca se torna praticamente imune a todas as magias. Enquanto a magia durar, qualquer outra magia (benéfica ou prejudicial) que tenha a criatura como alvo será conjurada com CD 18.</p><p> Esta magia se encerra assim que o alvo for afetado por outra magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]</p>"
     },
     "Speak with Dead": {
-      "name": "Communication avec les morts",
-      "discription": "<p>Un corps mort que vous touchez répond à vos questions d'une voix lointaine et haletante. </p><p>Vous pouvez poser jusqu'à trois questions à oui ou non (une à la fois). Le MJ répond honnêtement par « oui » ou « non » à chaque question. </p><p>Si vous lancez ce sort plus d'une fois en 24 heures, traitez un échec du jet de lancement de sort comme un échec critique.</p>"
+      "name": "Falar com mortos",
+      "discription": "<p>Um cadáver que você toca responde às suas perguntas com uma voz distante e sibilante.</p><p> Você pode fazer até três perguntas de “sim” ou “não” ao cadáver (uma de cada vez). O MJ irá responder honestamente “sim” ou “não” a cada uma delas.</p><p> Se você conjurar essa magia mais de uma vez em 24 horas, considere uma falha no teste de conjuração como uma falha crítica.</p>"
     },
     "Spidersilk": {
-      "name": "Toile d'Araignée",
-      "discription": "<p>Vous créez des toiles d’araignées denses et poisseuses remplissant le volume d’un cube de taille intermédiaire, dans la limite de la portée du sort.</p><p>Une créature prise dans la toile ne peut plus bouger et doit réussir un test de Force contre le résultat de votre test d’incantation pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.4UAVHmqFCt47sh7D]</p>"
+      "name": "Seda de aranha",
+      "discription": "<p>Fios pegajosos de seda de aranha cobrem suas mãos e pés.</p><p> Enquanto a magia durar, você pode caminhar em superfícies verticais tão facilmente quanto se estivesse no chão.</p>"
     },
     "Stoneskin": {
-      "name": "Peau de Pierre",
-      "discription": "<p>Votre peau devient aussi dure que du granit. Pour la durée du sort, votre classe d'armure devient 17 (20 en cas de réussite critique du lancement de sort).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]</p>"
+      "name": "Pele-rocha",
+      "discription": "<p>Sua pele se torna semelhante a granito. Enquanto a magia durar, sua CA se torna 17 (ou 20, em um sucesso crítico no teste de conjuração).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]</p>"
     },
     "Summon Extraplanar": {
-      "name": "Invocation Extra-planaire",
-      "discription": "<p>Vous atteignez les plans extérieurs et invoquez une créature. </p><p>Vous invoquez un élémentaire ou un extérieur de niveau 7 ou inférieur. La créature est sous votre contrôle et agit à votre tour. </p><p>Si vous perdez votre concentration sur ce sort, vous perdez le contrôle de la créature et elle devient hostile envers vous et vos alliés. </p><p>Vous devez réussir un jet de lancement de sort à votre tour pour renvoyer la créature vers les plans extérieurs.</p>"
+      "name": "Invocar extraplanar",
+      "discription": "<p>Você acessa os planos exteriores e\ninvoca uma criatura de lá.</p><p>\nVocê invoca um elemental ou\nEntidade Exterior de nível 7 ou\nmenor. A criatura fica sob seu\ncontrole e age em seu turno.</p><p>\nSe sua concentração falhar, você\nperde o controle da criatura e ela se\ntorna hostil a você e a seus aliados.</p><p>\nVocê deve ter sucesso em um teste\nde conjuração em seu turno para\nfazer com que a criatura retorne aos\nplanos exteriores.</p>"
     },
     "Swarm": {
-      "name": "Essaim",
-      "discription": "<p>Un dense essaim de chauves-souris, de rats ou de sauterelles apparaît dans un cube de taille proche autour d'un point que vous pouvez voir dans la portée. </p><p>Toutes les créatures qui commencent leur tour dans l'essaim subissent 2d6 dégâts et sont aveuglées.</p>"
+      "name": "Enxame",
+      "discription": "<p>Um denso enxame de morcegos, ratos ou gafanhotos ferozes surge em um cubo de tamanho Perto ao redor de um ponto que você possa ver, dentro do alcance.</p><p> Todas as criaturas que iniciarem seu turno dentro da área do enxame sofrem 2d6 de dano e ficam cegas.</p>"
     },
     "Telekinesis": {
-      "name": "Télékinésie",
-      "discription": "<p>Vous soulevez une créature ou un objet par la pensée. Choisissez une cible pesant 450 kg ou moins. Vous pouvez la déplacer sur une courte distance dans n'importe quelle direction et la maintenir en place.</p>"
+      "name": "Telecinese",
+      "discription": "<p>Você ergue uma criatura ou objeto com sua mente. Escolha um alvo que pese 450 quilos ou menos. Você pode movê-lo a uma distância Perto, em qualquer direção, e mantê-lo no lugar.</p>"
     },
     "Teleport": {
-      "name": "Téléportation",
-      "discription": "<p>Vous et toutes les créatures volontaires que vous choisissez dans une portée proche êtes téléportés vers un endroit que vous spécifiez sur le même plan. </p><p>Vous pouvez voyager vers un sigil de téléportation connu ou un endroit où vous êtes déjà allé. Sinon, vous avez 50 % de chance d'arriver à un mauvais endroit.</p>"
+      "name": "Teleporte",
+      "discription": "<p>Você e quaisquer criaturas voluntárias à sua escolha, e que estejam Adjacentes, se teleportam para um local que você escolher, no mesmo plano em que vocês estão.</p><p> Você pode viajar para um sigilo de teleporte que já conheça, ou para um local onde você já esteve anteriormente. Caso contrário, há uma chance de 50% de que você surja fora do local pretendido.</p>"
     },
     "Thor's Thunder": {
-      "name": "Foudre de Thor",
-      "discription": "<p>Thor fait tomber un éclair pour frapper une cible. La cible subit [[/r 3d6]] de dégâts.</p>"
+      "name": "Trovão de Thor",
+      "discription": "<p>Thor lança um raio para atingir um alvo. O alvo sofre [[/r 3d6]] de dano.</p>"
     },
     "Toadstool": {
-      "name": "Pied-de-mouton",
-      "discription": "<p>Vous invoquez un champignon dodu et tacheté dans votre main. Il disparaît à la fin de votre prochain tour. </p><p>Une créature qui mange le champignon regagne 1d6 points de vie.</p>"
+      "name": "Cogumelo",
+      "discription": "<p>Você conjura um cogumelo carnudo e salpicado em sua mão. Ele desaparece ao final do seu próximo turno.</p><p> Uma criatura que comer o cogumelo recupera 1d6 pontos de vida.</p>"
     },
     "Trance": {
       "name": "Transe",
-      "discription": "<p>Vous entrez en transe, entrevoyant le destin d'une créature. Une créature humanoïde que vous touchez (vous ne pouvez pas vous cibler vous-même) gagne un jeton de chance. Elle ne peut pas avoir plus d'un jeton de chance à la fois.</p>"
+      "discription": "<p>Você entra em transe, absorvendo breves visões sobre o destino de uma criatura. Uma criatura humanoide que você tocar (não pode ser você mesmo) ganha uma ficha de sorte. Ela não pode ter mais do que uma ficha de sorte ao mesmo tempo.</p>"
     },
     "Turn Undead": {
-      "name": "Renvoi des morts-vivants",
-      "discription": "<p>Vous repoussez les morts-vivants et les forcez à fuir. Vous devez brandir un symbole sacré pour lancer ce sort.</p><p>Les morts-vivants à portée intermédiaire de vous doivent effectuer un test de CHA contre le résultat de votre test d’incantation. Si une créature échoue de 10 points ou plus et que son niveau est inférieur ou égal au vôtre, elle est détruite. Sinon, en cas d’échec, elle vous fuit pendant 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]</p>"
+      "name": "Expulsar mortos-vivos",
+      "discription": "<p>Você repele mortos-vivos, forçando-os a fugir. Você deve apresentar um símbolo sagrado para conjurar essa magia.</p><p> Mortos-vivos que estiverem Perto de você devem fazer um teste de Carisma contra seu teste de conjuração. Caso falhe por 10+ pontos, e for de nível igual ou menor que o seu, a criatura será destruída. Se falhar por menos que 10 pontos, ela fugirá de você por 5 rodadas.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]</p>"
     },
     "Valkyrie": {
-      "name": "Valkyrie",
-      "discription": "<p>Vous invoquez une valkyrie pour vous venir en aide. Elle apparaît dans un endroit à proximité et agit de sa propre volonté pour vous aider. Elle retourne à Valhalla à la fin du sort. </p><p>Vous ne pouvez pas relancer ce sort tant que vous n'avez pas accompli une pénitence.</p>"
+      "name": "Valquíria",
+      "discription": "<p>Você invoca uma valquíria para auxiliá-lo. Ela surge em um local dentro do alcance Perto e age por vontade própria para ajudá-lo. Quando a magia se encerra, ela retorna a Valhala.</p><p> Você não pode conjurar essa magia novamente até completar uma penitência.</p>"
     },
     "Void Stare": {
-      "name": "Regard du Vide",
-      "discription": "<p>Vos yeux deviennent noirs alors que vous regardez dans les ténèbres entre les étoiles.</p><p>Une créature de niveau 6 ou inférieur que vous pouvez voir tombe sous votre contrôle. Vous décidez de ses actions pendant son tour.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]</p>"
+      "name": "Encarar o vazio",
+      "discription": "<p>Seus olhos ficam negros enquanto você olha para a escuridão entre as estrelas. </p><p>Uma criatura de nível 6 ou menor, e que você possa ver, fica sob seu controle. Você decide as ações da criatura durante o turno dela.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]</p>"
     },
     "Wall of Force": {
-      "name": "Mur de Force",
-      "discription": "<p>Vous levez les mains, invoquant un mur transparent de force. </p><p>Le mur fin doit être contigu et peut couvrir une zone de taille proche en largeur et longueur. Vous choisissez sa forme. </p><p>Rien sur le même plan ne peut passer physiquement à travers le mur.</p>"
+      "name": "Muralha de energia",
+      "discription": "<p>Você ergue suas mãos e conjura uma muralha de energia transparente.</p><p> A parede é fina e deve estar em contato com outra superfície, podendo cobrir uma área de tamanho Perto, em largura e comprimento. Você escolhe o formato.</p><p> Nada que esteja no mesmo plano pode atravessar a muralha fisicamente.</p>"
     },
     "Web": {
-      "name": "Toile d’araignée",
-      "discription": "<p>Vous créez un cube de taille proche de toile d'araignée collante et dense dans la portée du sort. Une créature prise dans la toile ne peut pas bouger et doit réussir un test de Force opposé à votre test de lancement de sort pour se libérer.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]</p>"
+      "name": "Teia",
+      "discription": "<p>Você cria um cubo de tamanho Perto formado por uma teia de aranha densa e pegajosa, dentro do alcance. Uma criatura que ficar presa na teia não pode se mover, e deve ter sucesso em um teste de Força contra seu teste de conjuração para se libertar.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]</p>"
     },
     "Whisper": {
-      "name": "Murmure",
-      "discription": "<p>Vous murmurez à l'oreille d'une autre créature, lui implantant un faux souvenir dans l'esprit.</p><p>Vous décrivez un bref faux souvenir que la cible croira vrai à l'avenir. </p><p>Si vous échouez ce test de lancement de sort, le MJ choisit un court faux souvenir à implanter dans votre propre esprit.</p>"
+      "name": "Sussurro",
+      "discription": "<p>Você sussurra no ouvido de outra criatura, implantando uma memória falsa na mente dela.</p><p> Você descreve uma memória curta e falsa que o alvo acredita ser verdadeira de agora em diante.</p><p> Se você falhar no teste de conjuração, o MJ escolhe uma memória falsa e curta para implantar na sua mente.</p>"
     },
     "Willowman": {
-      "name": "Homme Saule",
-      "discription": "<p>Vous invoquez l'Homme Saule pour apparaître dans l'esprit d'une créature, la remplissant de terreur surnaturelle.</p><p>Choisissez une créature de niveau 2 ou inférieur dans la portée. Cette créature doit immédiatement effectuer un test de moralité.</p><p>Même les créatures normalement insensibles aux tests de moralité (comme les morts-vivants) doivent en effectuer un.</p><p><strong>Homme Saule.</strong> </p><p>Un homme pâle, sans visage, aux membres allongés et aux griffes incurvées qui griffent le sol. Il se déplace par saccades à chaque clignement des yeux.</p>"
+      "name": "Homem-Salgueiro",
+      "discription": "<p>Você invoca o Homem-Salgueiro para surgir na mente de uma criatura, preenchendo-a com um terror sobrenatural.</p><p> Escolha uma criatura de nível 2 ou menor e que esteja dentro do alcance. Essa criatura deve fazer um teste de moral imediatamente.</p><p> Até mesmo criaturas que normalmente não são afetadas por testes de moral (como mortos-vivos) devem realizá-lo.</p><p><strong>O Homem-Salgueiro</strong></p><p>Um homem pálido e sem rosto, com membros alongados e garras recurvadas que se arrastam no chão. Move-se de maneira rápida e intermitente a cada piscar de olhos.</p>"
     },
     "Wish": {
-      "name": "Souhait",
-      "discription": "<p>Ce puissant sort modifie la réalité. </p><p>Formulez un vœu, en l'énonçant aussi précisément que possible. Votre vœu se réalise, tel qu'interprété par le MJ. </p><p>Traitez un échec du test de lancement de sort pour ce sort comme une échec critique, et lancez la malchance avec un désavantage.</p>"
+      "name": "Desejo",
+      "discription": "<p>Essa poderosa magia altera a realidade.</p><p> Faça um único desejo, falando da forma mais clara e exata possível. Seu desejo se torna realidade, de acordo com a interpretação do MJ.</p><p> A falha no teste de conjuração é considerada uma falha crítica. Role a falha mágica com Desvantagem.</p>"
     },
     "Witchlight": {
-      "name": "Lumière de Sorcière",
-      "discription": "<p>Vous invoquez une lumière flottante de marais qui oscille dans les airs et projette de la lumière dans un rayon proche autour d'elle. </p><p>La lumière peut changer de couleur et prendre des formes vagues. Elle peut se déplacer jusqu'à une distance proche lors de votre tour.</p>"
+      "name": "Luz de bruxa",
+      "discription": "<p>Você invoca um fogo-fátuo flutuante que oscila no ar e ilumina um raio Adjacente ao redor dele.</p><p> A luz pode mudar de cor e assumir formas vagas. Ela pode flutuar para Perto durante seu turno.</p>"
     },
     "Wolfshape": {
-      "name": "Forme de Loup",
-      "discription": "<p>Vous et votre équipement vous transformez en loup pendant la durée du sort. Vous adoptez les caractéristiques physiques du loup (FOR, DEX, CON, PV, CA, vitesse, attaques, etc.), mais vous conservez vos statistiques non physiques (comme INT, SAGESSE, et CHA).</p><p>Vous pouvez lancer des sorts sous cette forme. Si vous tombez à 0 PV, vous revenez à votre forme véritable avec 0 PV.</p><p>Si vous êtes de niveau 5+, vous pouvez vous transformer en un loup dire ou un loup des neiges, à la place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]</p>"
+      "name": "Forma de lobo",
+      "discription": "<p>Você e seu equipamento se transformam em um lobo enquanto a magia durar. Você assume os atributos de FOR, DES e CON, PV, CA, velocidade, ataques e características físicas do lobo. Você mantém sua INT, SAB e CAR. </p><p>Você pode conjurar magias enquanto estiver nesta forma. Se chegar a 0 PV, você retorna à sua forma original com 0 PV.</p><p> Se o seu nível for 5+, você pode se transformar em um lobo-terrível ou um lobo do inverno.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]</p>"
     },
     "World Serpent": {
-      "name": "Serpent-Monde",
-      "discription": "<p>Le venin tortueux du Serpent-Monde s'écoule des armes d'une créature que vous touchez.</p><p>La cible inflige x2 de dégâts avec chaque attaque (x4 en cas de coup critique) pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]</p>"
+      "name": "Serpente do Mundo",
+      "discription": "<p>O veneno torturante da Serpente do Mundo goteja das armas de uma criatura que você tocar.</p><p> O alvo causa dano dobrado em cada ataque (x4 em um acerto crítico) enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]</p>"
     },
     "World Tree": {
-      "name": "Arbre-Monde",
-      "discription": "<p>Les racines de l'Arbre-Monde, source de vie, s'enroulent autour de l'âme d'une créature que vous touchez.</p><p>Pendant la durée du sort, la cible ne peut pas être réduite en dessous de 1 PV.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]</p>"
+      "name": "Árvore do mundo",
+      "discription": "<p>As raízes da Árvore do Mundo, a fonte da vida, envolvem a alma de uma criatura que você tocar.</p><p> Enquanto a magia durar, o alvo não pode ter seus PV reduzidos a menos do que 1.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]</p>"
     },
     "Wrath": {
-      "name": "Courroux",
-      "discription": "<p>Vos armes deviennent magiques +2 et infligent des dégâts supplémentaires de d8 pendant la durée du sort.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]</p>"
+      "name": "Ira",
+      "discription": "<p>Suas armas se tornam mágicas (+2), e causam um d8 de dano adicional enquanto a magia durar.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]</p>"
     },
     "Zone of Truth": {
-      "name": "Zone de vérité",
-      "discription": "<p>Vous forcez une créature que vous voyez à dire la vérité. Elle ne peut pas prononcer délibérément de mensonge tant qu’elle reste à portée.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]</p>"
+      "name": "Zona da verdade",
+      "discription": "<p>Você induz uma criatura que você possa ver a falar a verdade. Ela não pode proferir uma mentira de forma proposital enquanto estiver dentro do alcance.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]</p>"
     }
   }
 }

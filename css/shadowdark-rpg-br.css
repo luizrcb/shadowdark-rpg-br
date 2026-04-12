@@ -39,10 +39,10 @@ a.inline-roll:hover {
     filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
   }
 }
-#pause > img {
+/* #pause > img {
     content: url("../assets/logo/laserhead-logo.webp");
     animation: pulsate-light 3s infinite ease-in-out;
-}
+} */
 /* scrollbar
 ====================================================== */
 * {

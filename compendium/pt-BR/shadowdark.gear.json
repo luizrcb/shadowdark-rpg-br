@@ -1,234 +1,234 @@
 {
-  "label": "Équipement",
+  "label": "Equipamento",
   "mapping": {
     "description": "system.description"
   },
   "folders": {
-    "Basic Gear": "Équipement de base",
-    "Weapons": "Armes",
-    "Starting Gear": "Équipement de départ",
-    "Herbal Remedies": "Remèdes à base de plantes",
-    "Armor": "Armures"
+    "Basic Gear": "Equipamento Básico",
+    "Weapons": "Armas",
+    "Starting Gear": "Equipamento inicial",
+    "Herbal Remedies": "Remédios à Base de Plantas",
+    "Armor": "Armaduras"
   },
   "entries": {
     "Arrows": {
-      "name": "Flèches (20)",
-      "description": "<p>Munitions pour arc court ou long.</p>"
+      "name": "Flechas (20)",
+      "description": "<p>Munição para arcos curtos e arcos longos.</p>"
     },
     "Backpack": {
-      "name": "Sac à dos",
-      "description": "<p>Contient tout l’équipement que vous pouvez porter. Ne le perdez pas.</p>"
+      "name": "Mochila",
+      "description": "<p>Guarda todo o equipamento que você pode carregar. Não a perca.</p>"
     },
     "Basilisk Egg": {
-      "name": "Œuf de Basilic",
-      "description": "<p>Un bébé loyal éclot dans [[/r 1d4]] jours.</p>"
+      "name": "Ovo de Basilisco",
+      "description": "<p>Um bebê leal nasce em [[/r 1d4]] dias.</p>"
     },
     "Bastard Sword": {
-      "name": "Épée bâtarde",
+      "name": "Espada Bastarda",
       "description": ""
     },
     "Blowgun": {
-      "name": "Sarbacane",
+      "name": "Zarabatana",
       "description": ""
     },
     "Bolas": {
-      "name": "Bolas",
+      "name": "Boleadeira",
       "description": ""
     },
     "Boomerang": {
-      "name": "Boomerang",
+      "name": "Bumerangue",
       "description": ""
     },
     "Bottle": {
-      "name": "Flasque ou bouteille",
-      "description": "<p>Récipient de verre qui contient une dose de liquide.</p>"
+      "name": "Frasco ou Garrafa",
+      "description": "<p>Recipientes de vidro que comportam uma quantidade específica de líquido.</p>"
     },
     "Caltrops": {
-      "name": "Chausse-trappes (un sac)",
-      "description": "<p>Petites pointes métalliques en forme de triangles. Les créatures vivantes qui marchent sur une chausse-trappe subissent 1 dégât, et leur vitesse diminue de moitié pour 10 rounds.</p>"
+      "name": "Estrepes",
+      "description": "<p> Pequenos cravos de ferro em formato de triângulo. Criaturas vivas que pisarem nos estrepes sofrem 1 de dano e só podem se mover com metade de sua velocidade pelas próximas 10 rodadas.</p>"
     },
     "Chainmail": {
-      "name": "Cotte de mailles",
-      "description": "Désavantage en discrétion, nage"
+      "name": "Cota de malha",
+      "description": "DESV em furtividade e natação"
     },
     "Club": {
-      "name": "Gourdin",
+      "name": "Clava",
       "description": ""
     },
     "Club (Obsidian)": {
-      "name": "Gourdin (Obsidienne)",
+      "name": "Clava (Obsidiana)",
       "description": ""
     },
     "Crawling Kit": {
-      "name": "Nécessaire d'écumeur",
-      "description": "<p>Un nécessaire d’écumeur coûte 7 po. Il occupe 7 emplacements d’inventaire et contient les objets suivants.</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]</p></li></ul>"
+      "name": "Kit de Exploração",
+      "description": "<p>Um kit de exploração custa 7 PO. Ele ocupa 7 espaços de equipamento, e contém os itens a seguir.</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]</p></li></ul>"
     },
     "Crossbow": {
-      "name": "Arbalète",
+      "name": "Besta",
       "description": ""
     },
     "Crossbow Bolts": {
-      "name": "Carreaux d’arbalète (20)",
-      "description": "<p>Munitions pour arbalète.</p>"
+      "name": "Virotes de besta (20)",
+      "description": "<p>Munição para bestas.</p>"
     },
     "Crowbar": {
-      "name": "Pied-de-biche",
-      "description": "<p>Octroie l’avantage aux tests destinés à ouvrir des objets coincés.</p>"
+      "name": "Pé de cabra",
+      "description": "<p>Concede Vantagem em testes para abrir objetos emperrados usando a física de alavanca.</p>"
     },
     "Curative": {
-      "name": "Curatif",
-      "description": "<p><strong>Bénéfice</strong> : La personne qui consomme cette herbe regagne un nombre de points de vie selon son niveau.</p><p><strong>NV 1-3</strong> : [[/r 1d6]] points de vie.</p><p><strong>NV 4-6</strong> : [[/r 2d8]] points de vie.</p><p><strong>NV 7-9</strong> : [[/r 3d10]] points de vie.</p><p><strong>NV 10+</strong> : [[/r 4d12]] points de vie.</p>"
+      "name": "Curativo",
+      "description": "<p><strong>Benefício</strong>: A pessoa que consome esta erva recupera um número de pontos de vida dependendo de seu nível.</p><p><strong>LV 1-3</strong>: [[/r 1d6]] pontos de vida.</p><p><strong>LV 4-6</strong>: [[/r 2d8]] pontos de vida.</p><p><strong>LV 7-9</strong>: [[/r 3d10]] pontos de vida.</p><p><strong>LV 10+</strong>: [[/r 4d12]] pontos de vida.</p>"
     },
     "Dagger": {
-      "name": "Dague",
+      "name": "Adaga",
       "description": ""
     },
     "Dagger (Obsidian)": {
-      "name": "Dague (Obsidienne)",
+      "name": "Adaga (Obsidiana)",
       "description": ""
     },
     "Flask": {
-      "name": "Flasque ou bouteille",
-      "description": "<p>Récipient de verre qui contient une dose de liquide.</p>"
+      "name": "Frasco ou Garrafa",
+      "description": "<p>Recipientes de vidro que comportam uma quantidade específica de líquido.</p>"
     },
     "Flint and Steel": {
-      "name": "Briquet d’amadou",
-      "description": "<p>Ensemble comprenant un silex et un morceau d’acier pour allumer le feu. Dans une situation ordinaire, permet de toujours réussir à allumer un feu.</p>"
+      "name": "Pederneira",
+      "description": "<p>Um pequeno iniciador de fogo. Com ela, tentativas rotineiras de acender um fogo sempre são bem-sucedidas.</p>"
     },
     "Foebane": {
-      "name": "Fléau des ennemis",
-      "description": "<p>Avantage aux jets d’attaque et de dégâts contre un type de créature choisi pendant [[/r 1d6]] rounds.</p>"
+      "name": "Flagelo dos Inimigos",
+      "description": "<p>Vantagem nas rolagens de ataque e dano contra um tipo de criatura escolhido por [[/r 1d6]] rodadas.</p>"
     },
     "Grappling Hook": {
-      "name": "Grappin",
-      "description": "<p>Crochet triple à attacher au bout d’une corde.</p>"
+      "name": "Arpéu",
+      "description": "<p>Uma âncora de corda com três pontas afiadas e recurvadas.</p>"
     },
     "Greataxe": {
-      "name": "Hache à deux mains",
+      "name": "Machado grande",
       "description": ""
     },
     "Greatsword": {
-      "name": "Épée à deux mains",
+      "name": "Espada grande",
       "description": ""
     },
     "Handaxe": {
-      "name": "Hachette",
-      "description": "<p><strong>Finesse (F)</strong> : Vous pouvez utiliser votre Force ou Dextérité pour attaquer avec cette arme.</p><p><strong>Lancer (L)</strong> : Vous pouvez lancer cette arme pour une attaque à distance avec la Force.</p>"
+      "name": "Machadinha",
+      "description": "<p><strong>Acuidade (Ac)</strong>: Você pode usar FOR ou DES quando atacar com essa arma.</p><p><strong>Arremesso (Ar)</strong>: Você pode arremessar essa arma para realizar um ataque à distância, usando FOR ou DES.</p>"
     },
     "Holy Symbol": {
-      "name": "Symbole sacré",
+      "name": "Sïmbolo Sagrado",
       "description": ""
     },
     "Iron Spikes": {
-      "name": "Clous de fer (10)",
-      "description": "<p>Des pitons solides. Chacun comporte un trou où faire passer une corde. On peut les clouer avec une arme ou d’autres clous de fer.</p>"
+      "name": "Cravos de ferro (10)",
+      "description": "<p>Cravos resistentes. Cada um deles tem um buraco para passar corda. Podem ser martelados com armas ou com outro cravo de ferro.</p>"
     },
     "Javelin": {
-      "name": "Javelot",
+      "name": "Azagaia",
       "description": ""
     },
     "Lantern": {
-      "name": "Lanterne",
-      "description": "<p>Projette une lumière au double de la portée intermédiaire (cf. « Sources d’éclairage » p. 46).</p>"
+      "name": "Lampião",
+      "description": "<p>. Ilumina até a distância Perto x2 (veja Fontes de Luz, pág. 86). Requer óleo. Possui uma tampa para ocultar a luz.</p>"
     },
     "Leather Armor": {
-      "name": "Armure de cuir",
+      "name": "Armadura de couro",
       "description": ""
     },
     "Light Spell": {
-      "name": "Sort de Lumière",
-      "description": "<p>Objet fictif simulant une source de lumière créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+      "name": "Magia Luz",
+      "description": "<p>Objeto fictício simulando uma fonte de luz criada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
     },
     "Light Spell (Double Range)": {
-      "name": "Lumière (Portée Double)",
-      "description": "<p>Objet fictif simulant une source de lumière à portée double créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+      "name": "Magia Luz (Alcance Dobrado)",
+      "description": "<p>Objeto fictício simulando uma fonte de luz com alcance dobrado, criada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
     },
     "Light Spell (Double Time)": {
-      "name": "Lumière (Durée Double)",
-      "description": "<p>Objet fictif simulant une source de lumière de durée double créée par le sort @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
+      "name": "Magia Luz (Duração Dobrada)",
+      "description": "<p>Objeto fictício simulando uma fonte de luz com duração dobrada, criada pela magia @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn].</p>"
     },
     "Longbow": {
-      "name": "Arc long",
+      "name": "Arco Longo",
       "description": ""
     },
     "Longsword": {
-      "name": "Épée longue",
+      "name": "Espada Longa",
       "description": ""
     },
     "Mace": {
-      "name": "Masse d’armes",
+      "name": "Maça",
       "description": ""
     },
     "Mirror": {
-      "name": "Miroir",
-      "description": "<p>Un petit miroir lustré.</p>"
+      "name": "Espelho",
+      "description": "<p>Um pequeno espelho polido.</p>"
     },
     "Mithral Chainmail": {
-      "name": "Cotte de mailles en mithral",
-      "description": "Aucun malus en discrétion et nage."
+      "name": "Cota de malha de Mitral",
+      "description": "Sem penalidades em furtividade e natação."
     },
     "Mithral Plate Mail": {
-      "name": "Cuirasse en mithral",
-      "description": "Aucun malus en discrétion et nage."
+      "name": "Armadura de placas de Mitral",
+      "description": "Sem penalidades em furtividade e natação."
     },
     "Morningstar": {
-      "name": "Étoile du matin",
+      "name": "Maça estrela",
       "description": ""
     },
     "Oil, flask": {
-      "name": "Flasque d’huile",
-      "description": "<p>Alimente une lanterne pour une heure de temps réel. Une flasque contient assez d’huile pour couvrir toute une zone à portée courte et brûler pendant 4 rounds, infligeant 1d4 dégâts chaque round.</p>"
+      "name": "Frasco de óleo",
+      "description": "<p>Abastece um lampião por uma hora de tempo real. Um frasco consegue cobrir uma área Adjacente e queima por 4 rodadas, causando 1d4 de dano a cada rodada.</p>"
     },
     "Pike": {
       "name": "Pique",
-      "description": "<p><strong>Portée :</strong> 2x courtes</p><p>Nécessite 2 emplacements.</p>"
+      "description": "<p><strong>Alcance:</strong> 2 Mãos</p><p>Ocupa 2 espaços.</p>"
     },
     "Plate Mail": {
-      "name": "Armure de plates",
-      "description": "Impossible de nager, désavantage en discrétion."
+      "name": "Armadura de placas",
+      "description": "DESV em furtividade, não pode nadar"
     },
     "Pole": {
-      "name": "Perche",
-      "description": "<p>En bois, 3 m de long.</p>"
+      "name": "Vara",
+      "description": "<p>Madeira, 3 m de comprimento.</p>"
     },
     "Rations": {
-      "name": "Rations (3)",
-      "description": "<p>De quoi nourrir et abreuver (eau) une personne pendant une journée.</p>"
+      "name": "Rações (3)",
+      "description": "<p>Comida e água suficientes para uma pessoa, por um dia.</p>"
     },
     "Razor Chain": {
-      "name": "Chaîne tranchante",
+      "name": "Chicote de lâminas",
       "description": ""
     },
     "Restorative": {
-      "name": "Restauration",
-      "description": "<p>Guérit un poison ou une maladie.</p>"
+      "name": "Restaurador",
+      "description": "<p>Cura um veneno ou doença.</p>"
     },
     "Rope, 60'": {
-      "name": "Corde (18 m)",
-      "description": "<p>En chanvre, 18 m.</p>"
+      "name": "Corda (18 m)",
+      "description": "<p>Cânhamo, 18 m de comprimento.</p>"
     },
     "Round Shield": {
-      "name": "Bouclier rond",
-      "description": "Occupe une main."
+      "name": "Escudo redondo",
+      "description": "Ocupa uma mão, ruptura"
     },
     "Salve": {
-      "name": "Baume",
-      "description": "<p>Rend 1 PV.</p>"    
+      "name": "Bálsamo",
+      "description": "<p>Cura 1 PV.</p>"
     },
     "Scimitar": {
-      "name": "Cimeterre",
+      "name": "Cimitarra",
       "description": ""
     },
     "Shield": {
-      "name": "Bouclier",
-      "description": "Occupe une main."
+      "name": "Escudo",
+      "description": "Ocupa uma mão."
     },
     "Shortbow": {
-      "name": "Arc court",
+      "name": "Arco curto",
       "description": ""
     },
     "Shortsword": {
-      "name": "Épée courte",
+      "name": "Espada curta",
       "description": ""
     },
     "Shuriken": {
@@ -236,48 +236,48 @@
       "description": ""
     },
     "Sling": {
-      "name": "Fronde",
+      "name": "Funda",
       "description": ""
     },
     "Spear": {
-      "name": "Lance",
+      "name": "Lança",
       "description": ""
     },
     "Spear (Obsidian)": {
-      "name": "Lance (Obsidienne)",
+      "name": "Lança (Obsidiana)",
       "description": ""
     },
     "Spear-thrower": {
-      "name": "Propulseur",
-      "description": "<p>Lorsque utilisé pour lancer une lance, augmente sa portée à Lointain.</p>"
+      "name": "Propulsor",
+      "description": "<p>Quando usado para arremessar uma lança, aumenta seu alcance para Longe.</p>"
     },
     "Staff": {
-      "name": "Bâton",
+      "name": "Cajado",
       "description": ""
     },
     "Stave": {
-      "name": "Canne",
+      "name": "Bastão",
       "description": ""
     },
     "Stimulant": {
-      "name": "Stimulant",
-      "description": "<p>Vous ne pouvez pas être surpris pendant 10 rounds.</p><p>@UUID[Compendium.shadowdark.conditions.MUNwczWej0Bo8x4S]</p>"
+      "name": "Estimulante",
+      "description": "<p>Você não pode ser surpreendido por 10 rodadas.</p><p>@UUID[Compendium.shadowdark.conditions.MUNwczWej0Bo8x4S]</p>"
     },
     "Thieves' Tools": {
-      "name": "Outils de Voleur",
-      "description": "<p>Avantage aux tests d’escalade, discrétion, déguisement, détection et désamorçage de pièges, et autres tâches délicates.</p>"
+      "name": "Ferramentas de Ladrão",
+      "description": "<p>VAN em testes para Escalar, Esgueirar-se e esconder-se, Usar disfarces, Encontrar e desarmar armadilhas, Tarefas delicadas como roubar bolsos e abrir fechaduras.</p>"
     },
     "Torch": {
-      "name": "Torche",
-      "description": "<p>Éclaire à portée intermédiaire (cf. « Sources d’éclairage » p. 46). Brûle pendant une heure de temps réel.</p>"
+      "name": "Tocha",
+      "description": "<p> Ilumina até a distância Perto (veja Fontes de Luz, pág. 86). Queima por uma hora de tempo real. </p>"
     },
     "Warhammer": {
-      "name": "Marteau de guerre",
+      "name": "Martelo de guerra",
       "description": ""
     },
     "Whip": {
-      "name": "Fouet",
-      "description": "<p><strong>Type :</strong> Corps à corps ou Distance.</p><p><strong>Portée :</strong> courte ou intermédiaire</p><p><strong>Finesse (F)</strong> : Vous pouvez utiliser votre FOR ou DEX pour attaquer avec cette arme.</p><p><strong>Fouet (Fo)</strong> : Lorsque vous attaquez à distance avec cette arme, elle ne quitte pas votre main.</p>"
+      "name": "Chicote",
+      "description": "<p><strong>Tipo:</strong> Corpo a Corpo ou Combate à Distância.</p><p><strong>Alcance:</strong> Adjacente ou Perto</p><p><strong>Acuidade (Ac)</strong>: Você pode usar FOR ou DES quando atacar com essa arma</p><p><strong>Chicote (Ch)</strong>: Quando você faz um ataque à distância com essa arma, ela não escapa da sua mão</p>"
     }
   }
 }

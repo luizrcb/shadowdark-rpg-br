@@ -5,6 +5,12 @@
   "library": "false",
   "authors": [
     {
+      "name": "Luber",
+      "discord": "luizbertoni",
+      "email": "luizrcb@gmail.com",
+      "url": "https://foundryvtt.com/community/luizbertoni"
+    },
+    {
       "name": "Teuri - Dados Críticos",
       "email": "dadoscriticos@gmail.com",
       "url": "https://youtube.com/dadoscriticos?sub_confirmation=1",
@@ -12,38 +18,13 @@
       "flags": {}
     },
     {
-      "name": "Luber",
-      "discord": "luizbertoni",
-      "email": "luizrcb@gmail.com",
-      "url": "https://foundryvtt.com/community/luizbertoni"
+      "name": "Lótus Brum"
     },
     {
-      "name": "",
-      "email": "",
-      "url": "",
-      "discord": "",
-      "flags": {}
+      "name": "Daniel Rocha"
     },
     {
-      "name": "",
-      "email": "",
-      "url": "",
-      "discord": "",
-      "flags": {}
-    },
-    {
-      "name": "",
-      "email": "",
-      "url": "",
-      "discord": "",
-      "flags": {}
-    },
-    {
-      "name": "",
-      "email": "",
-      "url": "",
-      "discord": "",
-      "flags": {}
+      "name": "Daniel Mello"
     }
   ],
   "compatibility": {

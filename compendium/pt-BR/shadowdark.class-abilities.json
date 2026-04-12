@@ -1,108 +1,108 @@
 {
-  "label": "Capacités de classe",
+  "label": "Talentos de classe",
   "mapping": {
     "description": "system.description"
   },
   "folders": {
-    "Ranger": "Rôdeur",
-    "Knight of St. Ydris": "Chevalier de St. Ydris",
-    "Desert Rider": "Cavalier du désert",
-    "Witch": "Sorcière",
-    "Seer": "Augure",
-    "Pit Fighter": "Combattant de l'arène",
-    "Bard": "Barde",
-    "Basilisk Warrior": "Guerrier basilic",
-    "Sea Wolf": "Loup des mers",
+    "Ranger": "Ranger",
+    "Knight of St. Ydris": "Cavaleiro de São Ydris",
+    "Desert Rider": "Cavaleiro do Deserto",
+    "Witch": "Bruxa",
+    "Seer": "Vidente",
+    "Pit Fighter": "Lutador de Arena",
+    "Bard": "Bardo",
+    "Basilisk Warrior": "Combatente Basilisco",
+    "Sea Wolf": "Lobo do mar",
     "Ras-Godai": "Ras-Godai"
   },
   "entries": {
     "Berserk": {
-      "name": "Berserk",
-      "description": "<p>1 fois par jour, entrez en Rage : immunité aux dégâts pendant 3 rounds.</p>"
+      "name": "Fúria",
+      "description": "<p>1/dia, entre em fúria: imune a dano por 3 rodadas</p><p>Efeito duplicado = +1 uso/dia</p>"
     },
     "Charge": {
-      "name": "Charge",
-      "description": "<p>3 fois par jour, vous pouvez charger dans le combat en vous déplaçant au plus proche avant d'attaquer. À chaque fois que vous faites cela, vos attaques au corps à corps infligent des dégâts doubles pendant ce tour.</p>"
+      "name": "Investida",
+      "description": "<p>3/dia, você pode fazer uma investida durante o combate ao se mover, no mínimo, pela distância Perto antes de atacar. A cada vez que fizer isso, seus ataques corpo a corpo causam dano dobrado naquela rodada.</p>"
     },
     "Curative": {
-      "name": "Remède",
-      "description": "<p><strong>Remède.</strong> Équivalent à une @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]</p>"
+      "name": "Curativa",
+      "description": "<p>Equivale a uma @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]</p>"
     },
     "Demonic Possession": {
-      "name": "Possession Démoniaque",
-      "description": "<p><span style=\"font-family: Signika, sans-serif\">3 fois par jour, gagnez un bonus de +1 à vos jets de dégâts qui dure 3 rounds.</span></p><p><span style=\"font-family: Signika, sans-serif\">De plus, ajoutez la moitié de votre niveau au bonus de dégâts (arrondir à l'inférieur).</span></p>"
+      "name": "Possessão Demoníaca",
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">3/dia, ganhe um bônus de +1 em suas rolagens de dano por 3 rodadas.</span></p><p><span style=\"font-family: Signika, sans-serif\">Além disso, adicione metade do seu nível ao bônus de dano (arredondando para baixo).</span></p>"
     },
     "Fascinate": {
-      "name": "Fascination",
-      "description": "<p>(Concentration). Faites un test [[check 12 cha]]. En cas de succès, vous fascinez toutes les cibles, situées jusqu’à un portée intermédiaire, dont le NV est inférieur ou égal à 1 + la moitié de votre niveau (arrondir à l'inférieur). En cas d'échec (hors Concentration), vous ne pouvez plus utiliser cet technique jusqu'à votre prochain repos.</p>"
+      "name": "Fascinar",
+      "description": "<p>(Concentração)</p> <p>Faça um teste de [[check 12 cha]].</p><p>Em caso de sucesso, você paralisa todos os alvos próximos cujo nível seja igual ou inferior a 1 + metade do seu nível (arredondado para baixo).</p><p>Se falhar (excluindo foco), você não pode usar esta magia novamente até descansar.</p>\n"
     },
     "Flourish": {
-      "name": "Coup spectaculaire",
-      "description": "<p><span>3 fois par jour, regagnez [[/roll 1d6]] points de vie lorsque vous frappez un ennemi avec une attaque au corps à corps.</span></p>"
+      "name": "Floreio",
+      "description": "<p><span>3/dia, recupere [[/roll 1d6]] pontos de vida quando atingir um inimigo com um ataque corpo a corpo.</span></p>"
     },
     "Foebane": {
-      "name": "Ennemi favori",
+      "name": "Inimigo favorito",
       "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]. Avantage sur les attaques et les dégâts contre un type de créature de votre choix pendant [[/r 1d6]] rounds</p>"
     },
     "Hide from Creature": {
-      "name": "Se cacher d'une créature",
-      "description": "<p>1/jour, choisissez une créature de NV 9 ou moins que vous pouvez voir ; elle doit réussir un test de [[check 15 wis]] ou elle ne peut pas vous voir ou vous entendre pendant [[/r 1d4]] rounds.</p>"
+      "name": "Esconder-se de criatura",
+      "description": "<p>1/dia, escolha uma criatura de NV 9 ou menor que você possa ver; ela deve ter sucesso em um teste de [[check 15 wis]] ou não poderá vê-lo nem ouvi-lo por [[/r 1d4]] rodadas</p>"
     },
     "Ignore All Damage": {
-      "name": "Ignorez tous les dégâts",
-      "description": "<p>1/jour, ignorer tous les dégâts et effets provenant d`une attaque.</p>"
+      "name": "Ignorar todo o dano",
+      "description": "<p>1/dia, ignore todo o dano e efeitos causados por um ataque</p> <p>Efeito duplicado = +1 uso por dia </p>"
     },
     "Inspire": {
-      "name": "Inspiration",
-      "description": "<p>Tous les jours, vous pouvez donner un nombre de Jetons de chance égal à votre modificateur de Charisme (min. 1).</p>"
+      "name": "Inspirar",
+      "description": "<p>Todos os dias, você pode doar um número de fichas de sorte igual ao seu modificador de Carisma (mín. 1).</p>"
     },
     "Omen": {
-      "name": "Présage",
-      "description": "<p>3 fois par jour, vous pouvez faire un jet de [[check 9 wis]]. En cas de réussite, gagnez un jeton de chance (vous ne pouvez pas en posséder plus d'un à la fois).</p>"
+      "name": "Presságio",
+      "description": "<p>3/dia, você pode fazer um teste de [[check 9 wis]]. Em um sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>"
     },
     "Paralyze a Target": {
-      "name": "Paralyser une cible",
-      "description": "<p>1/jour, paralyser une cible de NV 9 ou moins à qui vous infligez des dégâts avec une arme pendant [[/r 1d4]] rounds.</p>"
+      "name": "Paralizar alvo",
+      "description": "<p>1/dia, paralise um alvo de NV 9 ou menor por [[/r 1d4]] rodadas quando causar dano a ele com uma arma</p>"
     },
     "Petrifying Gaze": {
-      "name": "Regard Pétrifiant",
-      "description": "<p>Une créature de votre niveau ou moins qui croise votre regard doit réussir un jet de [[request 15 CON]] ou être pétrifiée pendant [[/r 1d4]] rounds. Elle prend des dégâts normalement pendant sa pétrification.</p><p>Vous pouvez utiliser ce talent un nombre de fois par jour égal à votre modificateur de CON (minimum 1).</p>"
+      "name": "Olhar Petrificante",
+      "description": "<p>Uma criatura do seu nível ou inferior que encontre o seu olhar deve ter sucesso em um teste de [[request 15 CON]] ou ficará petrificada por [[/r 1d4]] rodadas. Ela sofre dano normalmente enquanto está petrificada.</p><p>Você pode usar esse talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>"
     },
     "Relentless": {
-      "name": "Inébranlable",
-      "description": "<p><span>3 fois par jour, lorsque vous êtes réduit à 0 PV, faites un jet de [[check 18 con]] (le talent Implacable s'applique à ce jet). En cas de réussite, vous passez à 1 PV au lieu de 0.</span></p>"
+      "name": "Incansável",
+      "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de [[check 18 con]] (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p>"
     },
     "Restorative": {
-      "name": "Restauration",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Met fin à un poison ou une maladie</p>"
+      "name": "Restauradora",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Encerra um veneno ou doença.</p>"
     },
     "Salve": {
-      "name": "Baume",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp] Guérit 1 PV</p>"
+      "name": "Bálsamo",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp] Cura 1 PV.</p>"
     },
     "Sleep a Creature": {
-      "name": "Endormir une créature",
-      "description": "<p>1/jour, choisissez une créature vivante de NV 5 ou moins à portée intermédiaire que vous pouvez voir ; elle doit réussir un test de [[check 15 con]] ou s'endormir.</p>"
+      "name": "Adormecer criatura",
+      "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menor que você possa ver e que esteja Perto; ela deve ter sucesso em um teste de [[check 15 con]] ou irá adormecer</p>"
     },
     "Smoke Step": {
-      "name": "Pas de fumée",
-      "description": "<p><span>3/jour, téléportez-vous à un endroit à portée intermédiaire que vous pouvez voir. Ne coûte pas votre action.</span></p>"
+      "name": "Passo de fumaça",
+      "description": "<p><span>3/dia, teleporte para um local que você possa ver e que seja Perto. Isso não gasta a sua ação.</span></p>"
     },
     "Stimulant": {
-      "name": "Stimulant",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g] Vous ne pouvez pas être surpris pendant 10 rounds</p>"
+      "name": "Estimulante",
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g] Você não pode ser surpreendido por 10 rodadas.</p>"
     },
     "Teleport to Familiar": {
-      "name": "Téléportation vers le familier",
-      "description": "<p>1/jour, téléportez-vous à la position de votre familier en guise de déplacement</p><p>Doublon = +1 utilisation par jour</p></p>"
+      "name": "Teleportar para o familiar",
+      "description": "<p>1/dia, teleporte-se para onde seu familiar está com o seu movimento</p> <p>Efeito duplicado = +1 uso por dia</p>"
     },
     "Walk on Sheer Surfaces": {
-      "name": " Marcher sur des surfaces verticales",
-      "description": "<p>1/jour, vous pouvez marcher sur des surfaces verticales comme des murs pendant [[/r 1d4]] rounds.</p>"
+      "name": "Andar em superfícies íngremes",
+      "description": "<p>1/dia, você pode andar em superfícies íngremes, como paredes, por [[/r 1d4]] rodadas</p>"
     },
     "Walk on Water": {
-      "name": " Marcher sur l'eau",
-      "description": "<p>1/jour, vous pouvez marcher sur l'eau comme si elle était solide pendant [[/r 1d4]] rds.</p>"
+      "name": "Andar sobre a água",
+      "description": "<p>1/dia, você pode andar sobre a água por  [[/r 1d4]] rodadas como se fosse uma superfície sólida</p>"
     }
   }
 }

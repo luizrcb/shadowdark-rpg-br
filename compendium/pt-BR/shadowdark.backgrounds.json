@@ -1,253 +1,253 @@
 {
-  "label": "Origines",
+  "label": "Antecedentes",
   "mapping": {
     "description": "system.description"
   },
   "folders": {
-    "Core": "Livre de Base",
-    "Diabolical": "Diabolique",
-    "Nord": "Nordique"
+    "Core": "Livro Básico",
+    "Diabolical": "Diabólico",
+    "Nord": "Nórdico"
   },
   "entries": {
     "Acolyte": {
-      "name": "Acolyte",
-      "description": "<p>Vous êtes formé aux rites et doctrines religieux.</p>"
+      "name": "Acólito",
+      "description": "<p>Você foi bem treinado em ritos religiosos e doutrinas.</p>"
     },
     "Amnesiac": {
-      "name": "Amnésique",
-      "description": "<p>Votre passé est flou, mais certains souvenirs refont surface</p>"
+      "name": "Amnésico",
+      "description": "<p>Seu passado é um borrão, mas algumas memórias retornam</p>"
     },
     "Ascetic": {
-      "name": "Ascète",
-      "description": "<p>Les gens vous craignent, mais cherchent votre guidance</p>"
+      "name": "Asceta",
+      "description": "<p>As pessoas o temem, mas buscam você por conselhos</p>"
     },
     "Banished": {
-      "name": "Banni",
-      "description": "<p>Votre peuple vous a banni pour des crimes (vrais ou non).</p>"
+      "name": "Banido",
+      "description": "<p>Seu povo o exilou por crimes que você supostamente cometeu</p>"
     },
     "Barbarian": {
-      "name": "Barbare",
-      "description": "<p>Vous avez quitté la horde… mais elle ne vous a jamais abandonné.</p>"
+      "name": "Bárbaro",
+      "description": "<p>Você deixou a horda, mas ela não saiu totalmente de você</p>"
     },
     "Blacksmith": {
-      "name": "Forgeron",
-      "description": "<p>Armes, armures, fers à cheval ; vous savez tout faire</p>"
+      "name": "Ferreiro",
+      "description": "<p>Armas, armaduras, ferraduras: você faz de tudo</p>"
     },
     "Bowyer": {
-      "name": "Fabricant d'arcs",
-      "description": "<p>Vous savez fabriquer et réparer tous les arcs et flèches</p>"
+      "name": "Fabricante de Arcos",
+      "description": "<p>Você pode construir e consertar arcos ou flechas</p>"
     },
     "Chirurgeon": {
-      "name": "Chirurgien",
-      "description": "<p>Vous connaissez l’anatomie, la chirurgie et les premiers soins.</p>"
+      "name": "Cirurgião",
+      "description": "<p>Você entende de anatomia, cirurgias e primeiros socorros</p>"
     },
     "Chosen": {
-      "name": "Élu",
-      "description": "<p>Un être étrange vous a choisi pour un but précis</p>"
+      "name": "Escolhido",
+      "description": "<p>Uma entidade sobrenatural escolheu você para um propósito</p>"
     },
     "Crafter": {
-      "name": "Artisan",
-      "description": "<p>Vous savez fabriquer et réparer tous les objets utilitaires</p>"
+      "name": "Artesão",
+      "description": "<p>Você consegue construir e consertar qualquer item útil</p>"
     },
     "Criminal": {
-      "name": "Criminel",
-      "description": "<p>Vous avez été exilé de votre village pour un crime</p>"
+      "name": "Criminoso",
+      "description": "<p>Você foi exilado do seu vilarejo por causa de um crime</p>"
     },
     "Crop Farmer": {
-      "name": "Cultivateur",
-      "description": "<p>Vous travaillez la terre et connaissez toutes les plantes</p>"
+      "name": "Agricultor",
+      "description": "<p>Você trabalha com a terra e conhece todas as plantas</p>"
     },
     "Cult Initiate": {
-      "name": "Initié d’une secte",
-      "description": "<p>Vous connaissez des secrets et des rituels blasphématoires.</p>"
+      "name": "Iniciado do Culto",
+      "description": "<p>Você conhece segredos e rituais blasfemos</p>"
     },
     "Demonborn": {
-      "name": "Né d'un démon",
-      "description": "<p>Un de vos ancêtres est un puissant démon</p>"
+      "name": "Nascido do Demônio",
+      "description": "<p>Um de seus ancestrais é um demônio poderoso</p>"
     },
     "Displaced": {
-      "name": "Réfugié",
-      "description": "<p>Vous avez fui après qu'un rival jarl ait attaqué votre village</p>"
+      "name": "Desalojado",
+      "description": "<p>Você fugiu após um jarl rival atacar seu vilarejo</p>"
     },
     "Drawn": {
-      "name": "Attiré",
-      "description": "<p>Vous entendez un appel murmuré et vous le suivez</p>"
+      "name": "Atraído",
+      "description": "<p>Você ouve um sussurro chamando e o segue</p>"
     },
     "Drifter": {
-      "name": "Vagabond",
-      "description": "<p>Vous n'avez pas encore trouvé un jarl digne de votre loyauté</p>"
+      "name": "Errante",
+      "description": "<p>Você ainda não encontrou um jarl digno da sua lealdade</p>"
     },
     "Enforcer": {
-      "name": "Exécuteur",
-      "description": "<p>Vous appliquez la loi du jarl dans votre village</p>"
+      "name": "Executor",
+      "description": "<p>Executor</p>"
     },
     "Fallen": {
-      "name": "Déchu",
-      "description": "<p>Vous êtes tombé en disgrâce. Allez-vous expier ou l'embrasser ?</p>"
+      "name": "Caído",
+      "description": "<p>Você caiu em desgraça. Você irá aceitar ou se redimir?</p>"
     },
     "Far Traveler": {
-      "name": "Grand voyageur",
-      "description": "<p>Vous connaissez de nombreuses personnes et coutumes lointaines</p>"
+      "name": "Viajante Distante",
+      "description": "<p>Você conhece muitos povos e costumes distantes</p>"
     },
     "Feytouched": {
-      "name": "Touché par la fée",
-      "description": "<p>Une fée vous a pris pour amie dans votre enfance</p>"
+      "name": "Tocado Pelo Feérico",
+      "description": "<p>Uma fada se tornou sua amiga durante sua infância</p>"
     },
     "Fisher": {
-      "name": "Pêcheur",
-      "description": "<p>Vous connaissez toutes les créatures marines et les légendes</p>"
+      "name": "Pescador",
+      "description": "<p>Você conhece todas as criaturas e lendas marítimas</p>"
     },
     "Forager": {
-      "name": "Cueilleur",
-      "description": "<p>Vous savez comment trouver ce qui est comestible et ce qui est mortel</p>"
+      "name": "Coletor",
+      "description": "<p>Você sabe diferenciar o que é comestível do que é mortal</p>"
     },
     "Freed": {
-      "name": "Libéré",
-      "description": "<p>Vous étiez un thrall, mais vous avez échappé ou gagné votre liberté</p>"
+      "name": "Libertado",
+      "description": "<p>Você era um escravo, mas escapou ou ganhou sua liberdade</p>"
     },
     "Fugitive": {
-      "name": "Fugitif",
-      "description": "<p>Un sauveur anonyme vous a aidé à disparaître</p>"
+      "name": "Fugitivo",
+      "description": "<p>Um salvador anônimo ajudou você a desaparecer</p>"
     },
     "God's Blood": {
-      "name": "Sang divin",
-      "description": "<p>Vous êtes descendu d'un dieu ; cela vous marque</p>"
+      "name": "Sangue Divino",
+      "description": "<p>Você descende de um deus, e carrega uma marca dele</p>"
     },
     "Haunted": {
-      "name": "Hanté",
-      "description": "<p>Un esprit agité veut quelque chose de vous</p>"
+      "name": "Assombrado",
+      "description": "<p>Um espírito que não descansou quer algo de você</p>"
     },
     "Healer": {
-      "name": "Guérisseur",
-      "description": "<p>Vous comprenez comment la vie et la mort s'entrelacent</p>"
+      "name": "Curador",
+      "description": "<p>Você entende como a vida e a morte se interligam</p>"
     },
     "Herbalist": {
-      "name": "Herboriste",
-      "description": "<p> Vous connaissez les plantes, les remèdes et les poisons.</p>"
+      "name": "Herbalista",
+      "description": "<p>Você conhece plantas, remédios e venenos</p>"
     },
     "Hermit": {
-      "name": "Ermite",
-      "description": "<p>Les sauvages (et leurs créatures) sont votre famille</p>"
+      "name": "Eremita",
+      "description": "<p>Os ermos (e suas criaturas) são a sua família</p>"
     },
     "Heroborn": {
-      "name": "Né d'un héros",
-      "description": "<p>Vous êtes le descendant d'un guerrier célèbre</p>"
+      "name": "Estirpe Heroica",
+      "description": "<p>Você é descendente de um guerreiro famoso</p>"
     },
     "Hunter": {
-      "name": "Chasseur",
-      "description": "<p>Vous savez vous déplacer silencieusement dans la nature sauvage</p>"
+      "name": "Caçador",
+      "description": "<p>Você sabe se mover silenciosamente nos ermos</p>"
     },
     "Jeweler": {
-      "name": "Joaillier",
-      "description": "<p>Vous estimez sans mal la valeur et l’authenticité.</p>"
+      "name": "Joalheiro",
+      "description": "<p> Você pode identificar valores e autenticidade facilmente</p>"
     },
     "Livestock Farmer": {
-      "name": "Éleveur",
-      "description": "<p>Vous avez une intuition sur tous les animaux</p>"
+      "name": "Criador de Gado",
+      "description": "<p>Você tem uma boa intuição sobre todos os animais</p>"
     },
     "Marked": {
-      "name": "Marqué",
-      "description": "<p>Vous portez une marque étrange. Est-ce une malédiction ou un don ?</p>"
+      "name": "Marcado",
+      "description": "<p>Você carrega uma marca sobrenatural. Maldição ou dom?</p>"
     },
     "Marooned": {
-      "name": "Abandonné",
-      "description": "<p>Ils vous ont laissé derrière, mais vous avez refusé de mourir</p>"
+      "name": "Abandonado",
+      "description": "<p>Eles te deixaram para trás, mas você se recusou a morrer</p>"
     },
     "Mercenary": {
-      "name": "Mercenaire",
-      "description": "<p>Vous avez affronté amis et ennemis pour de l’argent.</p>"
+      "name": "Mercenário",
+      "description": "<p>Você lutou contra amigos e inimigos pelo seu dinheiro</p>"
     },
     "Minstrel": {
-      "name": "Ménestrel",
-      "description": "<p>Grâce à votre charme et à votre talent, vous êtes déjà allé loin.</p>"
+      "name": "Menestrel",
+      "description": "<p>Você viajou por longas distâncias com seu charme e talento</p>"
     },
     "Noble": {
-      "name": "Noble",
-      "description": "<p>Un nom célèbre vous a ouvert bien des portes.</p>"
+      "name": "Nobre",
+      "description": "<p>Carregar um nome famoso abriu muitas portas para você</p>"
     },
     "Nobleborn": {
-      "name": "Né noble",
-      "description": "<p>Vous êtes l'enfant d'un jarl</p>"
+      "name": "Sangue Nobre",
+      "description": "<p>Você é o filho de 1d6: 1–5. jarl, 6. rei</p>"
     },
     "Orphaned": {
-      "name": "Orphelin",
-      "description": "<p>Un protecteur inattendu vous a sauvé et élevé.</p>"
+      "name": "Órfão",
+      "description": "<p>Um guardião incomum o resgatou e o criou</p>"
     },
     "Outcast": {
-      "name": "Paria",
-      "description": "<p>Vous avez été expulsé pour des crimes réels ou supposés</p>"
+      "name": "Exilado",
+      "description": "<p>Você foi exilado por crimes, sejam eles reais ou suposições</p>"
     },
     "Ranger": {
-      "name": "Forestier",
-      "description": "<p>C’est dans la nature et les bois que vous vous sentez chez vous.</p>"
+      "name": "Guardião",
+      "description": "<p>As florestas e regiões selvagens são seu verdadeiro lar</p>"
     },
     "Redeemer": {
-      "name": "Rédempteur",
-      "description": "<p>Vous devez racheter le nom de votre lignée</p>"
+      "name": "Redentor",
+      "description": "<p>Você deve redimir o nome de seu povo</p>"
     },
     "Sacrifice": {
-      "name": "sacrifier",
-      "description": "<p>Vous étiez destiné à être sacrifié, mais vous avez échappé</p>"
+      "name": "Sacrifício",
+      "description": "<p>Você seria sacrificado em um ritual, mas escapou</p>"
     },
     "Sailor": {
-      "name": "Marin",
-      "description": "<p>Pirate, corsaire ou marchand… la mer vous appartient.</p>"
+      "name": "Marinheiro",
+      "description": "<p>Pirata, corsário ou mercador: os mares são seus</p>"
     },
     "Scholar": {
-      "name": "Érudit",
-      "description": "<p>Vous connaissez bien l’histoire et les légendes anciennes.</p>"
+      "name": "Estudioso",
+      "description": "<p>Você sabe muito sobre história antiga e lendas</p>"
     },
     "Scout": {
-      "name": "Éclaireur",
-      "description": "<p>Vous survivez grâce à la discrétion, l’observation et la vitesse.</p>"
+      "name": "Batedor",
+      "description": "<p>Você sobreviveu graças à furtividade, observação e velocidade</p>"
     },
     "Seer's Apprentice": {
-      "name": "Apprenti Augure",
-      "description": "<p>Vous connaissez certaines des arts mystiques</p>"
+      "name": "Aprendiz de Vidente",
+      "description": "<p>Você conhece um pouco das artes místicas</p>"
     },
     "Shipwright": {
-      "name": "Charpentier naval",
-      "description": "<p>Vous savez comment construire et réparer des drakkars</p>"
+      "name": "Carpinteiro Naval",
+      "description": "<p>Você sabe construir e consertar dracares</p>"
     },
     "Skald": {
       "name": "Skald",
-      "description": "<p>Vous êtes un poète et connaissez toutes les anciennes ballades</p>"
+      "description": "<p>Você é um poeta e conhece todas as baladas antigas</p>"
     },
     "Soldier": {
-      "name": "Soldat",
-      "description": "<p> Vous avez servi comme combattant dans une armée organisée.</p>"
+      "name": "Soldado",
+      "description": "<p>Você serviu como combatente em um exército organizado</p>"
     },
     "Thieves' Guild": {
-      "name": "Guilde des Voleurs",
-      "description": "<p>Vous avez des contacts, des connaissances et des dettes.</p>"
+      "name": "Guilda dos Ladrões",
+      "description": "<p>Você tem conexões, contatos e dívidas</p>"
     },
     "Trader": {
-      "name": "Marchand",
-      "description": "<p>Vous avez des connexions commerciales dans chaque village</p>"
+      "name": "Mercador",
+      "description": "<p>Você tem conexões comerciais em todos os vilarejos</p>"
     },
     "Urchin": {
-      "name": "Gamin des rues",
-      "description": "<p>Vous avez grandi dans les rues impitoyables d’une grande ville.</p>"
+      "name": "Garoto de Rua",
+      "description": "<p> Você cresceu nas ruas impiedosas de uma cidade grande</p>"
     },
     "Wanted": {
-      "name": "Recherché",
-      "description": "<p>Votre tête est mise à prix, mais vous avez des alliés.</p>"
+      "name": "Procurado",
+      "description": "<p> Há um preço pela sua cabeça, mas você tem aliados</p>"
     },
     "Witchborn": {
-      "name": "Né d'une sorcière",
-      "description": "<p>Ils ont brûlé votre mère, mais vous ont épargné</p>"
+      "name": "Nascido da Bruxa",
+      "description": "<p>Eles queimaram a sua mãe, mas lhe pouparam</p>"
     },
     "Wizard's Apprentice": {
-      "name": "Apprenti magicien",
-      "description": "<p>Vous avez le don et l’œil pour la magie.</p>"
+      "name": "Aprendiz de Mago",
+      "description": "<p>Aprendiz de Mago</p>"
     },
     "Wolfchild": {
-      "name": "Enfant loup",
-      "description": "<p>Il y a longtemps, vous êtes arrivé en ville portant des peaux</p>"
+      "name": "Criança-lobo",
+      "description": "<p>Muito tempo atrás, você entrou na cidade vestindo peles</p>"
     },
     "Woodborn": {
-      "name": "Né dans les bois",
-      "description": "<p>Ils vous ont trouvé dans le creux d'un chêne</p>"
+      "name": "Nascido da Madeira",
+      "description": "<p>Eles encontraram você no buraco de um carvalho</p>"
     }
   }
 }
