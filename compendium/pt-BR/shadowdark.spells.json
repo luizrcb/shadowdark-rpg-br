@@ -1,5 +1,8 @@
 {
   "label": "Lista de magias",
+  "mapping": {
+    "description": "system.description"
+  },
   "folders": {
     "Tier 2": "Grau 2",
     "Tier 4": "Grau 4",
