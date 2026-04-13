@@ -1,11 +1,11 @@
 {
-  "label": "Propriétés",
+  "label": "Propriedades",
   "mapping": {
     "description": "system.description"
   },
   "folders": {
-    "Armor": "Armure",
-    "Weapon": "Arme"
+    "Armor": "Armadura",
+    "Weapon": "Arma"
   },
   "entries": {
     "Blowgun": {
@@ -29,16 +29,16 @@
       "description": "<p>Vous avez un désavantage sur les jets liés à la nage lorsque vous portez cette armure.</p>"
     },
     "Finesse": {
-      "name": "Finesse",
-      "description": "<p>Vous pouvez utiliser votre Force ou votre Dextérité lorsque vous attaquez avec cette arme.</p>"
+      "name": "Acuidade",
+      "description": "<p>Você pode usar FOR ou DES quando atacar com essa arma.</p>"
     },
     "Lash": {
       "name": "Lanière",
       "description": "<p>Lorsque vous faites une attaque à distance avec cette arme, elle ne quitte pas votre prise.</p>"
     },
     "Loading": {
-      "name": "Chargement",
-      "description": "<p>Vous devez renoncer à vous déplacer pour recharger cette arme.</p>"
+      "name": "Recarregável",
+      "description": "<p>Você deve abrir mão\ndo seu movimento para recarregar\nessa arma.</p>"
     },
     "No Swim": {
       "name": "Pas de nage",
@@ -65,16 +65,16 @@
       "description": "<p><span style=\"font-family: Signika, sans-serif\">Lorsque vous êtes touché par une attaque de corps à corps, vous pouvez choisir de détruire cette arme ou cette armure pour annuler tous les dégâts de l'attaque.</span></p>"
     },
     "Thrown": {
-      "name": "Arme de Jet",
-      "description": "<p>Vous pouvez jeter cette arme pour faire une attaque à distance avec elle en utilisant la FORCE ou la DEXTERITÉ.</p>"
+      "name": "Arremesso",
+      "description": "<p>Você pode arremessar essa arma para realizar um ataque à distância, usando FOR ou DES.</p>"
     },
     "Two-Handed": {
-      "name": "Arme à deux Mains",
-      "description": "<p>Vous devez utiliser cette arme avec deux mains.</p>"
+      "name": "Duas mãos",
+      "description": "<p>Você precisar usar essa arma com as duas mãos.</p>"
     },
     "Versatile": {
-      "name": "Polyvalente",
-      "description": "<p>Vous pouvez utiliser cette arme avec une ou deux mains. Utilisez le dé de dégâts supérieur si vous la maniez à deux mains.</p>"
+      "name": "Versátil",
+      "description": "<p>Você pode usar essa arma com uma ou com as duas mãos. Use o dado de dano mais alto se você estiver usando as duas mãos.</p>"
     }
   }
 }

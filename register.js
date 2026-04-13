@@ -1,16 +1,16 @@
-const MODULE_ID = 'shadowdark-rpg-br'; // Change this ID!
+import { Converters } from "./../babele/script/converters.js";
 
-// No need to change the code below this line, but it’s your module so do it if you want!
+const MODULE_ID = "shadowdark-rpg-br";
 
-Hooks.on('init', () => {
-  game.settings.register(MODULE_ID, 'autoRegisterBabel', {
+Hooks.on("init", () => {
+  game.settings.register(MODULE_ID, "autoRegisterBabel", {
     name: "Ativação automática de tradução via Babele",
     hint: "Implementa automaticamente as traduções do Babele sem a necessidade de designar o diretório que contém as traduções.",
-    scope: 'world',
+    scope: "world",
     config: true,
     default: true,
     type: Boolean,
-    onChange: value => {
+    onChange: (value) => {
       if (value) {
         autoRegisterBabel();
       }
@@ -19,40 +19,49 @@ Hooks.on('init', () => {
     },
   });
 
-  if (game.settings.get(MODULE_ID, 'autoRegisterBabel')) {
+  if (game.settings.get(MODULE_ID, "autoRegisterBabel")) {
     autoRegisterBabel();
   }
+
+  game.babele.registerConverters({
+    fromPackWithCustomMapping: Converters.fromPack({
+      description: "system.description",
+      special: "system.damage.special",
+    }),
+  });
 });
 
 function autoRegisterBabel() {
-  if (typeof Babele !== 'undefined') {
+  if (typeof Babele !== "undefined") {
     game.babele.register({
       module: MODULE_ID,
-      lang: 'pt-BR',
-      dir: 'compendium/pt-BR',
+      lang: "pt-BR",
+      dir: "compendium/pt-BR",
     });
   }
 }
 
 /*
-* IMPORT ADVENTURE HOOK
-*/
+ * IMPORT ADVENTURE HOOK
+ */
 Hooks.on("importAdventure", async (adventure) => {
-  ui.notifications.notify("Importation encours ! Merci d'attendre la fin de l'importation de toutes les scènes !", {
-    permanent: true
-  });
-  
+  ui.notifications.notify(
+    "Importation encours ! Merci d'attendre la fin de l'importation de toutes les scènes !",
+    {
+      permanent: true,
+    },
+  );
+
   let updates = [];
-  
+
   for (let scene of adventure.scenes) {
     let sceneId = scene._id;
     let sceneImported = game.scenes.get(sceneId);
     const { thumb } = await sceneImported.createThumbnail();
     updates.push({
       _id: scene.id,
-      thumb
+      thumb,
     });
   }
   Scene.updateDocuments(updates);
 });
-

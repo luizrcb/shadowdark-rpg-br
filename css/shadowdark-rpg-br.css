@@ -149,6 +149,10 @@ a.control:hover {
     color: unset;
 }
 
+.editor {
+  font-family: 'Signika';
+}
+
 /**
 * crawl helper compatibility
 */

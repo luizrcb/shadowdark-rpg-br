@@ -1,12 +1,5 @@
 {
   "label": "Monstros",
-  "mapping": {
-    "items": {
-      "special": "system.damage.special",
-      "description": "system.description"
-    },
-    "notes": "system.notes"
-  },
   "folders": {},
   "entries": {
     "Aboleth": {
@@ -2323,157 +2316,157 @@
       "notes": "\n<p><i> Um lich-múmia sem pele, usando uma coroa com nove gemas brilhantes incrustadas. Ele já foi líder da antiga ordem mágica de Gehemna, mas agora vive em segredo no santuário do arquimago governante de Gehemna. Serve como conselheiro e historiador há séculos, mas um encantamento que ainda perdura o impede de falar sobre dois assuntos: sua origem e sobre o Oráculo de Dez Olhos.</i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 89, <strong>ATQ</strong> 1 toque pútrido +8 (1d10 + necrose) e 3 magia +8, <strong>MV</strong> Perto, <strong>F</strong> +4, <strong>D</strong> +4, <strong>C</strong> +4, <strong>I</strong> +5, <strong>S</strong> +4, <strong>Car</strong> +5, <strong>AL</strong> N, <strong>NV</strong> 19</p>\n\t<p><strong>Morto-vivo Lendário</strong>. Imune a testes de moral. Só pode ser ferido por fontes de dano mágicas. Magias hostis que tenham Mordanticus como alvo são conjuradas com CD 18.</p><p><strong>Coroa da Gehemna</strong>. 3/dia, uma magia sendo conjurada dentro do alcance Longe falha.</p><p><strong>Necrose</strong>. [[check 15 con]] ou PV cai para 0. Magias curativas têm CD 15 quando são conjuradas em um alvo que esteja com 0 PV por causa desse efeito.</p><p><strong>Filactério</strong>. Não pode ser morto enquanto seu recipiente espiritual (um diamante) estiver intacto.</p><p><strong>Absorver (Magia de INT)</strong>. CD 13. Perto, um alvo. O alvo perde a habilidade de conjurar uma magia aleatória até que complete um descanso, e Mordanticus recupera uma magia perdida de mesmo grau ou inferior.</p><p><strong>Banir (Magia de INT)</strong>. CD 14. Todas as criaturas extradimensionais que estiverem Perto são enviadas de volta ao seu plano de origem ([[check 15 cha]] para evitar).</p><p><strong>Amarrar (Magia de INT)</strong>. CD 12. Um humanoide que esteja Longe é paralisado por [[/ 1d4]] rodadas.</p><p><strong>Explosão (Magia de INT)</strong>. CD 14. Uma criatura que esteja Perto sofre [[/r 5d8]] de dano.</p><p><strong>Transição Planar (Magia de INT)</strong>. CD 13. Pessoal. Se teleporta por até 1,6 km.</p><p><strong>Nome Verdadeiro (Magia de INT)</strong>. CD 15. Perto. Aprende o Nome Verdadeiro de um alvo.</p>"
     },
     "Mummy": {
-      "name": "Momie",
-      "tokenName": "Momie",
+      "name": "Múmia",
+      "tokenName": "Múmia",
       "items": {
         "Rot Touch": {
-          "name": "Toucher de Pourriture"
+          "name": "Toque Pútrido"
         },
         "Supreme Undead": {
-          "name": "Mort-vivant suprême"
+          "name": "Morto-vivo Superior"
         },
         "Desiccated": {
-          "name": "Desséché"
+          "name": "Ressecado"
         },
         "Necrosis": {
-          "name": "Nécrose"
+          "name": "Necrose"
         }
       },
-      "notes": "\n\t<p><i> Un zombie desséché, enveloppé de lin. Il a été créé avec un rituel d'embaumement complexe réservé aux guerriers ou dirigeants les plus dignes. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 47, <strong>ATT</strong> 3 toucher de pourriture +8 (1d10 + nécrose), <strong>DP</strong> intermédiaire, <strong>F</strong> +3, <strong>D</strong> +0, <strong>C</strong> +2, <strong>I</strong> +3, <strong>S</strong> +2, <strong>Ch</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 10</p>\n\t<p><strong>Mort-vivant suprême</strong>. Immunisé aux tests de moral. Ne peut être endommagé que par des sources magiques.</p><p><strong>Desséché</strong>. Peut être endommagé par le feu. Subit x2 de dégâts de feu.</p><p><strong>Nécrose</strong>. [[check 15 con]] pour éviter de tomber à 0 PV. Les sorts de soin sont ND 15 pour être lancés sur la cible à 0 PV à cause de cet effet.</p>"
+      "notes": "\n<p><i> Um zumbi mumificado e envolto em\ntiras de linho, criado por meio de um\nintricado ritual de embalsamento\nutilizado apenas nos guerreiros ou\ngovernantes mais dignos. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 47, <strong>ATQ</strong> 3 toque pútrido +8 (1d10 + necrose), <strong>MV</strong> Perto, <strong>F</strong> +3, <strong>D</strong> +0, <strong>C</strong> +2, <strong>I</strong> +3, <strong>S</strong> +2, <strong>Car</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 10</p>\n\t<p><strong>Morto-vivo Superior</strong>. Imune a testes de moral. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Ressecado</strong>. Sofre o dobro de dano de fogo.</p><p><strong>Necrose</strong>. [[check 15 con]] ou cai para 0 PV. Magias curativas têm CD 15 quando são conjuradas em um alvo que esteja com 0 PV por causa desse efeito.</p>"
     },
     "Mushroomfolk": {
-      "name": "Peuple des Champignons",
-      "tokenName": "Peuple des Champignons",
+      "name": "Homem-fungo",
+      "tokenName": "Homem-fungo",
       "items": {
         "Slam": {
-          "name": "Coup"
+          "name": "Pancada"
         },
         "Sunblind": {
-          "name": "Ébloui par le soleil"
+          "name": "Cegado Pelo Sol"
         },
         "Telepathic": {
-          "name": "Télépathique"
+          "name": "Telepático"
         }
       },
-      "notes": "\n\t<p><i> Des humanoïdes maladroits avec des corps spongieux et allongés, et des champignons sur leurs têtes. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 15, <strong>ATT</strong> 2 coup +2 (1d6), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> +0, <strong>S</strong> +1, <strong>Ch</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong>Ébloui par le soleil</strong>. Aveuglé sous une lumière vive.</p><p><strong>Télépathique</strong>. Peut communiquer mentalement avec des créatures dans un rayon de double portée courte.</p>"
+      "notes": "\n<p><i> Humanoides desajeitados, com corpos esponjosos e alongados, e cogumelos em suas cabeças. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 15, <strong>ATQ</strong> 2 pancada +2 (1d6), <strong>MV</strong> Perto, <strong>F</strong> +2, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> +0, <strong>S</strong> +1, <strong>Car</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong>Cegado Pelo Sol</strong>. Cego sob luiz intensa.</p><p><strong>Telepático</strong>. Fala mentalmente com criaturas que estejam a uma distância Perto x2.</p>"
     },
     "Naga": {
       "name": "Naga",
       "tokenName": "Naga",
       "items": {
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         },
         "Poison": {
-          "name": "Poison"
+          "name": "Veneno"
         },
         "Agony": {
-          "name": "Agonie"
+          "name": "Agonia"
         },
         "Hypnotize": {
-          "name": "Hypnose"
+          "name": "Hipnotizar"
         },
         "Whispers": {
-          "name": "Chuchotements"
+          "name": "Sussurros"
         }
       },
-      "notes": "\n\t<p><i> Des cobras magiques mesurant dix pieds de hauteur. Autrefois une espèce dominante, elles sont maintenant rares et recluses, amères jusqu'à la fin. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 43, <strong>ATT</strong> 2 morsure +7 (2d6 + poison) et 1 sort +7, <strong>DP</strong> intermédiaire (escalade), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +3, <strong>I</strong> +2, <strong>S</strong> +2, <strong>Ch</strong> +4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 9</p>\n\t<p><strong>Poison</strong>. [[check 15 con]] ou paralysie pendant 1d4 rounds.</p><p><strong>Agonie (Sort CHA)</strong>. ND 14. Une cible à portée courte subit 3d8 de dégâts.</p><p><strong>Hypnose (Sort CHA)</strong>. ND 13. Concentration. Une cible à portée courte qui peut voir la naga est impuissante et stupéfiée pour la durée.</p><p><strong>Chuchotements (Sort CHA)</strong>. ND 12. Les sorts hostiles lancés sur une cible à portée courte sont réduits à ND 9 pendant 1d4 rounds.</p>"
+      "notes": "\n<p><i> Najas imponentes de 3 metros de altura que usam magia. Antes uma espécie dominante, agora são raras e reclusas, infinitamente amarguradas. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 43, <strong>ATQ</strong> 2 mordida +7 (2d6 + veneno) e 1 magia +7, <strong>MV</strong> Perto (escalar), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +3, <strong>I</strong> +2, <strong>S</strong> +2, <strong>Car</strong> +4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 9</p>\n\t<p><strong>Veneno</strong>. [[check 15 con]] ou paralisia por [[/r 1d4]] rodadas.</p><p><strong>Agonia (Magia de CAR)</strong>. CD 14. Um alvo que esteja Perto sofre [[/r 3d8]] de dano.</p><p><strong>Hipnotizar (Magia de CAR)</strong>. CD 13. Concentração. Um alvo que esteja Perto, e que possa ver a naga, fica atordoado e indefeso pela duração da magia.</p><p><strong>Sussurros (Magia de CAR)</strong>. CD 12. Magias hostis conjuradas em um alvo que esteja Perto têm CD 9 por [[/r 1d4]] rodadas.</p>"
     },
     "Naga, Bone": {
-      "name": "Naga, Osseuse",
-      "tokenName": "Naga, Osseuse",
+      "name": "Naga Óssea",
+      "tokenName": "Naga Óssea",
       "items": {
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         },
         "Greater Undead": {
-          "name": "Mort-vivant supérieur"
+          "name": "Morto-vivo Maior"
         }
       },
-      "notes": "\n\t<p><i> Des coquilles squelettiques et sans esprit de naga réanimées par la sorcellerie. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 31, <strong>ATT</strong> 2 morsure +5 (2d6), <strong>DP</strong> intermédiaire (fouir, escalade), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +4, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Ch</strong> +4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong>Mort-vivant supérieur</strong>. Immunisé contre les tests de moral. Ne peut être blessé que par l’argent et les sources magiques.</p>"
+      "notes": "\n<p><i> Vestígios mortais esqueléticos de nagas, sem qualquer consciência, reanimadas pelo uso de feitiçaria.</i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 31, <strong>ATQ</strong> 2 mordida +5 (2d6), <strong>MV</strong> Perto (escavar, escalar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +4, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Car</strong> +4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong>Morto-vivo Maior</strong>. Imune a testes de moral. Só pode ser ferida por prata ou fontes de dano mágicas.</p>"
     },
     "Nightmare": {
-      "name": "Cauchemar",
-      "tokenName": "Cauchemar",
+      "name": "Pesadelo",
+      "tokenName": "Pesadelo",
       "items": {
         "Hooves": {
-          "name": "Sabots"
+          "name": "Cascos"
         },
         "Impervious": {
-          "name": "Immunité"
+          "name": "Invulnerável"
         }
       },
-      "notes": "\n\t<p><i> Des chevaux de guerre noirs avec des crinières en flammes, des sabots et des yeux en feu. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 29, <strong>ATT</strong> 2 sabots +5 (1d8), <strong>DP</strong> intermédiaire x2 (vol), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +2, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Ch</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong>Immunité</strong>. Le Cauchemar et son cavalier sont immunisés au feu.</p>"
+      "notes": "\n<p><i> Cavalos de guerra negros, com crinas, cascos e olhos flamejantes.</i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 29, <strong>ATQ</strong> 2 cascos +5 (1d8), <strong>MV</strong> Perto x2 (voar), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +2, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong>Invulnerável</strong>. O Pesadelo e seu cavaleiro são imunes ao fogo.</p>"
     },
     "Obe-ixx of Azarumme": {
-      "name": "Obe-ixx d'Azarumme",
-      "tokenName": "Obe-ixx d'Azarumme",
+      "name": "Obe-ixx de Azarumme",
+      "tokenName": "Obe-ixx de Azarumme",
       "items": {
         "Greatsword": {
-          "name": "Épée à deux mains"
+          "name": "Espada grande"
         },
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         },
         "Charm": {
-          "name": "Charme"
+          "name": "Encantar"
         },
         "Legendary Undead": {
-          "name": "Mort-Vivant Légendaire"
+          "name": "Morto-vivo Lendário"
         },
         "Blood Drain": {
-          "name": "Absorption de sang"
+          "name": "Drenar Sangue"
         },
         "Dire Shapechange": {
-          "name": "Métamorphose Terrible"
+          "name": "Mudar de Forma Terrível"
         },
         "Moonbite Properties": {
-          "name": "Propriétés de Morsure Lunaires"
+          "name": "Propriedades da Mordida da Lua"
         },
         "Ur-vampire": {
-          "name": "Ur-vampire"
+          "name": "Ur-Vampira"
         }
       },
-      "notes": "\n\t<p><i> Une femme pâle et anguleuse, portant une armure translucide faite de chitine de scorpion géant. Obe-Ixx, fille d'Azarumme, s'éleva parmi les tribus barbares préhistoriques de Tal-Yool pour conquérir tout sur son passage. Un jour, elle se tenait aux marches d'un ziggourat d'obsidienne au cœur de la jungle impraticable. Quarante nuits plus tard, Obe-Ixx émergea comme l'ur-vampire, la soif de sang incarnée. Sa dynastie surgirait et tomberait encore et encore au fil des millénaires. </i></p>\n\t\n\t<p><strong>CA</strong> 18 ( +3 armure en plaques ), <strong>PV</strong> 76, <strong>ATT</strong> 4 Espadon (courte) +11 (1d12 + 2 + Propriétés de Morsure Lunaires) et 1 morsure +9 (1d8 + Absorption de sang) et 1 charme, <strong>DP</strong> intermédiaire (escalade, vol), <strong>F</strong> +5, <strong>D</strong> +3, <strong>C</strong> +4, <strong>I</strong> +3, <strong>S</strong> +4, <strong>Ch</strong> +5, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 16</p>\n\t<p><strong>Mort-Vivant Légendaire</strong>. Immunisé aux tests de moral. Ne peut être endommagé que par des sources magiques. Les sorts hostiles ciblant Obe-Ixx ont une difficulté de ND 18 pour être lancés.</p><p><strong>Absorption de sang</strong>. Obe-Ixx guérit 2d8 PV, la cible perd de manière permanente 1d6 de CON. À 0 CON, la cible meurt et renaît en tant que vampire ou goule loyal(e) (Obe-Ixx choisit).</p><p><strong>Charme</strong>. Une cible humanoïde qui peut voir Obe-Ixx dans un rayon courte, [[check 15 cha]] ou sous le contrôle d'Obe-Ixx pendant 1d4 jours.</p><p><strong>Métamorphose Terrible</strong>. À la place des attaques, se transforme en une chauve-souris géante, un loup terrifiant, ou retourne à sa forme régulière.</p><p><strong>Propriétés de Morsure Lunaires</strong>. +2 Espadon, arme jetable, revient après avoir été lancée. Les sorts pour guérir les dégâts infligés par l'arme ont une difficulté de ND 15 pour être lancés.</p><p><strong>Ur-Vampire</strong>. Doit dormir dans un sarcophage au moins une fois par cycle lunaire ou perd 2d8 PV par jour, ces points de vie ne pouvant pas être guéris avant de dormir dans un sarcophage. Subit 3d8 de dégâts chaque round sous la lumière directe du soleil. Ne peut être tué que si un pieu en bois provenant d'un arbre de la jungle de Tal-Yool le transperce le cœur alors qu'il a 0 PV.</p>"
+      "notes": "\n<p><i> Uma mulher pálida e angular, vestida com uma armadura translúcida feitade quitina de escorpião gigante. Obe-Ixx, filha de Azarumme, ascendeudas tribos bárbaras pré-históricas de Tal-Yool para conquistar tudo emseu caminho. Um dia, ela se viu diante de uma escada que conduzia a umzigurate de obsidiana, no coração de uma selva impenetrável. Quarentanoites depois, Obe-Ixx emergiu como a ur-vampira, a própria personificaçãoda sede de sangue. Sua dinastia se ergueu e caiu repetidamente ao longodos milênios que sucederam. </i></p>\n\t\n\t<p><strong>CA</strong> 18 (placas +3), <strong>PV</strong> 76, <strong>ATQ</strong> 4 espada grande (Perto) +11 (1d12 + 2 + propriedades da Mordida da Lua) e 1 mordida +9 (1d8 + drenar sangue) e 1 encantar, <strong>MV</strong> Perto (escalar, voar), <strong>F</strong> +5, <strong>D</strong> +3, <strong>C</strong> +4, <strong>I</strong> +3, <strong>S</strong> +4, <strong>Car</strong> +5, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 16</p>\n\t<p><strong>Morto-vivo Lendário</strong>. Imune a testes de moral. Só pode ser ferida por fontes de dano mágicas. Magias hostis que tenham Obe-Ixx como alvo são conjuradas com CD 18.</p><p><strong>Drenar Sangue</strong>. Obe-Ixx se cura em [[/r 2d8]] PV, e o alvo perde [[/r 1d6]] de CON de forma permanente. Ao chegar a 0 CON, o alvo morre e retorna como um vampiro leal ou uma cria vampírica (ao critério de Obe-Ixx).</p><p><strong>Encantar</strong>. Um alvo humanoide que possa vê-la e que esteja Perto de Obe-Ixx fica sob o controle dela por [[/r 1d4]] dias ([[check 15 cha]] para evitar).</p><p><strong>Mudar de Forma Terrível</strong>. Em vez de atacar, se transforma em um morcego gigante, um lobo-terrível, ou de volta à sua forma original.</p><p><strong>Propriedades da Mordida da Lua</strong>. Espada grande +2, arma de arremesso, retorna depois de ser arremessada. Magias conjuradas para curar o dano que ela infligiu têm CD 15.</p><p><strong>Ur-Vampira</strong>. Deve dormir em um sarcófago pelo menos uma vez a cada ciclo lunar, ou perde [[/r 2d8]] PV por dia, que não podem ser curados até que durma em um sarcófago. Sofre [[/r 3d8]] de dano a cada rodada que estiver sob luz solar direta. Não pode ser morta, a menos que seu coração seja perfurado enquanto estiver com 0 PV, usando uma estaca de madeira esculpida a partir de uma árvore da selva de Tal-Yool.</p>"
     },
     "Ochre Jelly": {
-      "name": "Gelée ocre",
-      "tokenName": "Gelée ocre",
+      "name": "Geleia Ocre",
+      "tokenName": "Geleia Ocre",
       "items": {
         "Tentacle": {
-          "name": "Tentacule"
+          "name": "Tentáculo"
         },
         "Split": {
-          "name": "Scission"
+          "name": "Dividir"
         }
       },
-      "notes": "\n\t<p><i> Curieuse flaque de gelée qui frémit. </i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 20, <strong>ATT</strong> 2 x tentacules +3 (1d6), <strong>DP</strong> intermédiaire (escalade), <strong>F</strong> +2, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Ch</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 4</p>\n\t<p><strong>Scission</strong>. Si on la tranche, se divise en deux gelées de taille inférieure (divisez les PV restants entre les deux). Peut se diviser jusqu’à quatre fois.</p>"
+      "notes": "\n<p><i> Uma poça laranja de limo trêmulo. </i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 20, <strong>ATQ</strong> 2 tentáculo +3 (1d6), <strong>MV</strong> Perto (escalar), <strong>F</strong> +2, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 4</p>\n\t<p><strong>Dividir</strong>. Se for cortado ou particionado, se divide em duas geleias menores (divida o PV restante entre ambos os fragmentos). Pode se dividir até\nquatro vezes.</p>"
     },
     "Octopus, Giant": {
-      "name": "Pieuvre Géante",
-      "tokenName": "Pieuvre Géante",
+      "name": "Polvo Gigante",
+      "tokenName": "Polvo Gigante",
       "items": {
         "Tentacle": {
-          "name": "Tentacule"
+          "name": "Tentáculo"
         },
         "Grab": {
-          "name": "Saisie"
+          "name": "Agarrar"
         },
         "Ink": {
-          "name": "Encre"
+          "name": "Tinta"
         }
       },
-      "notes": "\n\t<p><i> Des pieuvres aussi grandes que des bateaux de pêche. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 23, <strong>ATT</strong> 2 tentacules (courte) +4 (1d8 + saisie), <strong>DP</strong> intermédiaire (nage), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 5</p>\n\t<p><strong><strong>Saisie</strong></strong>. [[check 15 str]] ou immobilisé. Tentacule frappe automatiquement chaque round. [[check 15 str]] au round pour se libérer.</p><p><strong>Encre</strong>. À la place des attaques, lance un nuage d'encre qui aveugle toutes les créatures à portée courte pendant 1d4 rounds.</p>"
+      "notes": "\n<p><i> Polvos tão grandes quanto um barco a vela. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 23, <strong>ATQ</strong> 2 tentáculo (Perto) +4 (1d8 + agarrar), <strong>MV</strong> Perto (nadar), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 5</p>\n\t<p><strong><strong>Agarrar</strong></strong>. [[check 15 str]] ou o alvo é imobilizado. A cada rodada, o ataque de tentáculo acerta automaticamente. [[check 15 str]] em seu turno para se libertar.</p><p><strong>Tinta</strong>. Em vez de atacar, uma nuvem de tinta cega a todos que estejam Perto por [[/r 1d4]] rodadas.</p>"
     },
     "Ogre": {
-      "name": "Ogre",
-      "tokenName": "Ogre",
+      "name": "Ogro",
+      "tokenName": "Ogro",
       "items": {
         "Greatclub": {
-          "name": "Gourdin à deux mains"
+          "name": "Clava grande"
         }
       },
-      "notes": "\n\t<p><i> Énorme brute stupide dotée de défenses et d’un corps massif. Règne souvent sur des gobelins ou des orques. </i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 30, <strong>ATT</strong> 2 Gourdin à deux mains +6 (2d6), <strong>DP</strong> intermédiaire, <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +3, <strong>I</strong> -2, <strong>S</strong> -2, <strong>Ch</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>"
+      "notes": "\n<p><i> Um enorme brutamontes de inteligência limitada, presas e um corpo robusto. Frequentemente dominam goblins ou orcs.</i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 30, <strong>ATQ</strong> 2 clava grande +6 (2d6), <strong>MV</strong> Perto, <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +3, <strong>I</strong> -2, <strong>S</strong> -2, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>"
     },
     "Oni": {
       "name": "Oni",
@@ -2483,200 +2476,200 @@
           "name": "Glaive"
         },
         "Shapeshift": {
-          "name": "Métamorphose"
+          "name": "Metamorfose"
         },
         "Fade": {
-          "name": "Invisibilité"
+          "name": "Desvanecer"
         },
         "Hellfrost": {
-          "name": "Gel de l'Enfer"
+          "name": "Inferno Congelado"
         },
         "Mist": {
-          "name": "Brume"
+          "name": "Névoa"
         }
       },
-      "notes": "\n\t<p><i> Des ogres-démons rusés et sorciers avec des cheveux blancs hirsutes, une peau bleue et des yeux jaunes. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 33, <strong>ATT</strong> 1 glaive (courte) +6 (1d10) ou 1 sort +5, <strong>DP</strong> intermédiaire, <strong>F</strong> +5, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> +2, <strong>S</strong> +1, <strong>Ch</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 7</p>\n\t<p><strong> Métamorphose</strong>. À la place des attaques, se transformer en n'importe quel humanoïde ou revenir à sa forme originale.</p><p><strong>Invisibilité (Sort de CHA)</strong>. ND 13. Personnel. Devient invisible pendant 1d4 rounds.</p><p><strong>Gel de l'Enfer (Sort de CHA)</strong>. ND 13. Tous dans un cube de taille courte autour de l'oni subissent 3d6 dégâts.</p><p><strong>Brume (Sort de CHA)</strong>. ND 13. Personnel. Se transforme en brume qui peut voler à double distance courte. Dure 2d4 rounds.</p>"
+      "notes": "\n<p><i> Ogros demoníacos, astutos e adeptos de feitiçaria, com cabelos brancos bagunçados, pele azulada e olhos amarelos.</i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 33, <strong>ATQ</strong> 1 glaive (Perto) +6 (1d10) ou 1 magia +5, <strong>MV</strong> Perto, <strong>F</strong> +5, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> +2, <strong>S</strong> +1, <strong>Car</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 7</p>\n\t<p><strong> Metamorfose</strong>. Em vez de atacar, transforma-se em qualquer outro humanoide, ou retorna à sua forma original.</p><p><strong>Desvanecer (Magia de CAR)</strong>. CD 13.\nPessoal. Torna-se invisível por [[/r 1d4]]\nrodadas.</p><p><strong>Inferno Congelado (Magia de CAR)</strong>. CD 13. Todos que estiverem dentrovde um cubo de tamanho Perto, que se estende a partir do oni, sofrem [[/r 3d6]] de dano.</p><p><strong>Névoa (Magia de CAR)</strong>. CD 13. Pessoal. Se transforma em uma névoa que pode voar a distância Perto x2. Dura [[/r 2d4]] rodadas.</p>"
     },
     "Orc": {
-      "name": "Orque",
-      "tokenName": "Orque",
+      "name": "Orc",
+      "tokenName": "Orc",
       "items": {
         "Greataxe": {
-          "name": "Hache à deux mains"
+          "name": "Machado grande"
         },
         "Rage": {
-          "name": "Rage"
+          "name": "Fúria"
         }
       },
-      "notes": "\n\t<p><i> Grand humanoïde pourvu de défenses, à la peau grise et aux oreilles pointues. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (mailles + bouclier), <strong>PV</strong> 4, <strong>ATT</strong> 1 x hache à deux mains +2 (1d8), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +0, <strong>C</strong> +0, <strong>I</strong> -1, <strong>S</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 1</p>\n\t<p><strong> Rage</strong>. 1/jour, immunisé contre les tests de moral, +1d4 dégâts (3 rounds).</p>"
+      "notes": "\n<p><i> Um humanoide alto com presas, pele acinzentada e orelhas pontudas. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (cota de malha + escudo), <strong>PV</strong> 4, <strong>ATQ</strong> 1machado grande +2 (1d8), <strong>MV</strong> Perto, <strong>F</strong> +2, <strong>D</strong> +0, <strong>C</strong> +0, <strong>I</strong> -1, <strong>S</strong> +0, <strong>Car</strong> -1, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 1</p>\n\t<p><strong> Fúria</strong>. 1/dia, imune a testes de moral, +1d4 de dano (3 rodadas).</p>"
     },
     "Orc, Chieftain": {
-      "name": "Chef orque",
-      "tokenName": "Chef orque",
+      "name": "Orc-chefe",
+      "tokenName": "Orc-chefe",
       "items": {
         "Greataxe": {
-          "name": "Hache à deux mains"
+          "name": "Machado grande"
         },
         "Rage": {
-          "name": "Rage"
+          "name": "Fúria"
         }
       },
-      "notes": "\n\t<p><i> Un orc imposant avec des cicatrices traversant son corps. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (mailles), <strong>PV</strong> 19, <strong>ATT</strong> 2 hache à deux mains +4 (1d10), <strong>DP</strong> intermédiaire, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 4</p>\n\t<p><strong> Rage</strong>. 1/jour, immunisé contre les tests de moral, +1d4 dégâts (3 rounds).</p>"
+      "notes": "\n<p><i> Um orc imponente que carrega inúmeras cicatrizes em seu corpo. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (cota de malha), <strong>PV</strong> 19, <strong>ATQ</strong> 2 machado grande +4 (1d10), <strong>MV</strong> Perto, <strong>F</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +0, <strong>Car</strong> -1, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 4</p>\n\t<p><strong> Fúria</strong>. 1/dia, imune a testes de moral, +1d4 de dano (3 rodadas).</p>"
     },
     "Otyugh": {
       "name": "Otyugh",
       "tokenName": "Otyugh",
       "items": {
         "Tentacle": {
-          "name": "Tentacule"
+          "name": "Tentáculo"
         },
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         },
         "Disease": {
-          "name": "Contamination"
+          "name": "Doença"
         }
       },
-      "notes": "\n\t<p><i> Des bêtes trapues, à trois pattes, avec des tentacules hérissés et de vastes bouches. Attirées par la putréfaction et la saleté. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 35, <strong>ATT</strong> 2 tentacules +5 (1d8) et 1 morsure +5 (1d10 + contamination), <strong>DP</strong> intermédiaire, <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +0, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 7</p>\n\t<p><strong> Contamination</strong>. [[check 15 con]] ou infection. [[check 15 con]] chaque jour ou perd 1d6 PV (ne peut pas guérir). Se termine sur un succès.</p>"
+      "notes": "\n<p><i> Feras atarracadas de três pernas, com tentáculos farpados e bocas enormes. São atraídas por podridão e sujeira. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 35, <strong>ATQ</strong> 2 tentáculo +5 (1d8) e 1 mordida +5 (1d10 + doença), <strong>MV</strong> Perto, <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +0, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 7</p>\n\t<p><strong> Doença</strong>. [[check 15 con]] ou infecção. [[check 15 con]] a cada dia para não perder [[/r 1d6]] PV (não podem ser curados). Sucesso encerra o efeito.</p>"
     },
     "Owlbear": {
-      "name": "Hibours",
-      "tokenName": "Hibours",
+      "name": "Urso-coruja",
+      "tokenName": "Urso-coruja",
       "items": {
         "Claw": {
-          "name": "Griffe"
+          "name": "Garra"
         },
         "Crush": {
-          "name": "Écraser"
+          "name": "Esmagar"
         }
       },
-      "notes": "\n\t<p><i> Ours grincheux avec des yeux de hibou, des becs et des plumes. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 30, <strong>ATT</strong> 2 griffes +5 (1d10), <strong>DP</strong> intermédiaire (grimpe), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +3, <strong>I</strong> -2, <strong>S</strong> +2, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong> Écraser</strong>. Inflige un dé de dégâts supplémentaire si les deux griffes frappent la même cible.</p>"
+      "notes": "\n<p><i> Ursos irritadiços com bicos, penas e olhos de coruja. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 30, <strong>ATQ</strong> 2 garra +5 (1d10), <strong>MV</strong> Perto (escalar), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +3, <strong>I</strong> -2, <strong>S</strong> +2, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong> Esmagar</strong>. Causa um dado de dano extra se acertar o mesmo alvo com as duas garras.</p>"
     },
     "Panther": {
-      "name": "Panthère",
-      "tokenName": "Panthère",
+      "name": "Pantera",
+      "tokenName": "Pantera",
       "items": {
         "Rend": {
-          "name": "Lacération"
+          "name": "Despedaçar"
         }
       },
-      "notes": "\n\t<p><i> Chats agiles avec une fourrure bleu-noir. Chasseurs furtifs. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 14, <strong>ATT</strong> 2 lacération +3 (1d6), <strong>DP</strong> intermédiaire (grimpe), <strong>F</strong> +3, <strong>D</strong> +4, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t"
+      "notes": "\n<p><i> Felinos grandes e ágeis, com pelagem preta-azulada. Caçam furtivamente. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 14, <strong>ATQ</strong> 2 despedaçar +3 (1d6), <strong>MV</strong> Perto (escalar), <strong>F</strong> +3, <strong>D</strong> +4, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t"
     },
     "Peasant": {
-      "name": "Paysan",
-      "tokenName": "Paysan",
+      "name": "Camponês",
+      "tokenName": "Camponês",
       "items": {
         "Club": {
-          "name": "Gourdin"
+          "name": "Clava"
         }
       },
-      "notes": "\n\t<p><i> Roturier en tenue usée. </i></p>\n\t\n\t<p><strong>CA</strong> 10, <strong>PV</strong> 4, <strong>ATT</strong> 1 x gourdin +0 (1d4), <strong>DP</strong> intermédiaire, <strong>F</strong> +0, <strong>D</strong> +0, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Ch</strong> +0, <strong>AL</strong> L, <strong>NV</strong> 1</p>\n\t"
+      "notes": "\n<p><i> Um aldeão comum vestindo roupas desgastadas. </i></p>\n\t\n\t<p><strong>CA</strong> 10, <strong>PV</strong> 4, <strong>ATQ</strong> 1 clava +0 (1d4), <strong>MV</strong> Perto, <strong>F</strong> +0, <strong>D</strong> +0, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Car</strong> +0, <strong>AL</strong> O, <strong>NV</strong> 1</p>\n\t"
     },
     "Pegasus": {
-      "name": "Pégase",
-      "tokenName": "Pégase",
+      "name": "Pégaso",
+      "tokenName": "Pégaso",
       "items": {
         "Hooves": {
-          "name": "Sabots"
+          "name": "Cascos"
         }
       },
-      "notes": "\n\t<p><i> Chevaux ailés avec des allures nobles et des manteaux blancs nacrés. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 15, <strong>ATT</strong> 2 sabots +3 (1d6), <strong>DP</strong> intermédiaire x2 (vol), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +2, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Ch</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t"
+      "notes": "\n<p><i> Cavalos alados com postura nobre e pelagem branco-pérola. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 15, <strong>ATQ</strong> 2 cascos +3 (1d6), <strong>MV</strong> Perto x2 (voar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +2, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t"
     },
     "Phoenix": {
-      "name": "Phoenix",
-      "tokenName": "Phoenix",
+      "name": "Fênix",
+      "tokenName": "Fênix",
       "items": {
         "Rend": {
-          "name": "Lacération"
+          "name": "Despedaçar"
         },
         "Impervious": {
-          "name": "Immunité"
+          "name": "Invulnerável"
         },
         "Explosion": {
-          "name": "Explosion"
+          "name": "Explosão"
         },
         "Heat Aura": {
-          "name": "Aura de Chaleur"
+          "name": "Aura de Calor"
         },
         "Rebirth": {
-          "name": "Renaissance"
+          "name": "Renascimento"
         }
       },
-      "notes": "\n\t<p><i> Immenses aigles enflammés. Intelligents et imprégnés de magie immortelle. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 60, <strong>ATT</strong> 4 lacération +8 (2d12), <strong>DP</strong> intermédiaire x2 (vol), <strong>F</strong> +3, <strong>D</strong> +4, <strong>C</strong> +2, <strong>I</strong> +3, <strong>S</strong> +3, <strong>Ch</strong> +3, <strong>AL</strong> L, <strong>NV</strong> 13</p>\n\t<p><strong> Immunité</strong>. Immunisé au feu. Ne subit des dégâts que de sources magiques.</p><p><strong>Explosion</strong>. À la mort, les créatures dans un rayon intermédiaire x2 du phoenix [[check 18 dex]] ou subissent 10d6 de dégâts.</p><p><strong>Aura de Chaleur</strong>. Les créatures dans un rayon intermédiaire du phoenix au début du round [[check 15 con]] ou subissent 2d6 de dégâts.</p><p><strong>Renaissance</strong>. Un œuf rougeoyant reste après la mort. Le phoenix éclôt dans 1d4 jours.</p>"
+      "notes": "\n<p><i> Águias enormes e majestosas, feitas de chamas ardentes. São inteligentes e imbuídas de magia imortal. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 60, <strong>ATQ</strong> 4 despedaçar +8 (2d12), <strong>MV</strong> Perto x2 (voar), <strong>F</strong> +3, <strong>D</strong> +4, <strong>C</strong> +2, <strong>I</strong> +3, <strong>S</strong> +3, <strong>Car</strong> +3, <strong>AL</strong> O, <strong>NV</strong> 13</p>\n\t<p><strong> Invulnerável</strong>. Imune ao fogo. Só pode ser ferida por fontes de dano mágicas.</p><p><strong>Explosão</strong>. No momento de sua morte, todas as criaturas que estejam Perto x2 da fênix sofrem [[/r 10d6]] de dano ([[check 18 dex]] para evitar).</p><p><strong>Aura de Calor</strong>. Criaturas que estejam Perto da fênix, no começo de seus turnos, sofrem [[/r 2d6]] de dano ([[check 15 con]] para evitar).</p><p><strong>Renascimento</strong>. Um ovo incandescente é deixado para trás no momento de sua morte. A fênix nasce novamente a partir dele em [[/r 1d4]] dias.</p>"
     },
     "Piranha, Swarm": {
-      "name": "Piranhas, Essaim",
-      "tokenName": "Essaim de Piranhas",
+      "name": "Piranhas, Cardume de",
+      "tokenName": "Cardume de Piranhas",
       "items": {
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         },
         "Savage": {
-          "name": "Sauvage"
+          "name": "Feroz"
         }
       },
-      "notes": "\n\t<p><i> Un banc de poissons plats, argentés, avec des crocs féroces. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 13, <strong>ATT</strong> 2 morsure +2 (1d6), <strong>DP</strong> intermédiaire (nage), <strong>F</strong> -2, <strong>D</strong> +2, <strong>C</strong> +0, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong> Sauvage</strong>. ADV sur les attaques contre les créatures ayant moins de la moitié de leurs PV.</p>"
+      "notes": "\n<p><i> Um cardume de peixes achatados e prateados com presas ferozes. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 13, <strong>ATQ</strong> 2 mordida +2 (1d6), <strong>MV</strong> Perto (nadar), <strong>F</strong> -2, <strong>D</strong> +2, <strong>C</strong> +0, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong> Feroz</strong>. VANT em ataques contra criaturas com menos da metade de seu PV total.</p>"
     },
     "Pirate": {
-      "name": "Pirate",
-      "tokenName": "Pirate",
+      "name": "Pirata",
+      "tokenName": "Pirata",
       "items": {
         "Cutlass": {
-          "name": "Sabre"
+          "name": "Cutelo"
         },
         "Dagger": {
-          "name": "Dague"
+          "name": "Adaga"
         }
       },
-      "notes": "\n\t<p><i> Vils marins qui vivent pour voler et amasser des trésors. </i></p>\n\t\n\t<p><strong>CA</strong> 12 (cuir), <strong>PV</strong> 4, <strong>ATT</strong> 1 sabre +1 (1d6) ou 1 dague (intermédiaire/intermédiaire) +1 (1d4), <strong>DP</strong> intermédiaire, <strong>F</strong> +1, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Ch</strong> +0, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 1</p>\n\t"
+      "notes": "<p><i> Saqueadores marítimos que vivem\npara roubar e acumular tesouros. </i></p>\n\t\n\t<p><strong>CA</strong> 12 (couro), <strong>PV</strong> 4, <strong>ATQ</strong> 1 cutelo +1 (1d6) ou 1 adaga (Adjacente/Perto) +1 (1d4), <strong>MV</strong> Perto, <strong>F</strong> +1, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Car</strong> +0, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 1</p>\n\t"
     },
     "Plesiosaurus": {
-      "name": "Plésiosaure",
-      "tokenName": "Plésiosaure",
+      "name": "Plesiossauro",
+      "tokenName": "Plesiossauro",
       "items": {
         "Bite": {
-          "name": "Morsure"
+          "name": "Mordida"
         }
       },
-      "notes": "\n\t<p><i> Reptiles aquatiques aussi grands que des éléphants. Nageoires plates et gueules étroites avec des dents sur de longs cous. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 30, <strong>ATT</strong> 2 morsure +5 (2d8), <strong>DP</strong> intermédiaire x2 (nage), <strong>F</strong> +4, <strong>D</strong> +3, <strong>C</strong> +3, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t"
+      "notes": "\n<p><i> Répteis aquáticos tão grandes quanto elefantes. Eles possuem nadadeiras achatadas e mandíbulas estreitas e cheias de dentes acima de seus longos pescoços. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 30, <strong>ATQ</strong> 2 mordida +5 (2d8), <strong>MV</strong> Perto x2 (nadar), <strong>F</strong> +4, <strong>D</strong> +3, <strong>C</strong> +3, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t"
     },
     "Priest": {
-      "name": "Prêtre",
-      "tokenName": "Prêtre",
+      "name": "Sacerdote",
+      "tokenName": "Sacerdote",
       "items": {
         "Mace": {
-          "name": "Gourdin"
+          "name": "Maça"
         },
         "Anoint": {
-          "name": "Oindre"
+          "name": "Unção"
         },
         "Healing Touch": {
-          "name": "Toucher Curatif"
+          "name": "Toque Curativo"
         },
         "Holy Flame": {
-          "name": "Flamme Sacrée"
+          "name": "Chama Sagrada"
         },
         "Rebuke": {
-          "name": "Réprimander"
+          "name": "Expulsar"
         }
       },
-      "notes": "\n\t<p><i> Un membre respecté du clergé qui mène des rituels et des cérémonies sacrées. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (mailles + bouclier), <strong>PV</strong> 23, <strong>ATT</strong> 2 Gourdin +3 (1d6) ou 1 sort +3, <strong>DP</strong> intermédiaire, <strong>F</strong> +1, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> +0, <strong>S</strong> +2, <strong>Ch</strong> +1, <strong>AL</strong> L, <strong>NV</strong> 5</p>\n\t<p><strong> Oindre (Sort Sagesse)</strong>. ND 12. intermédiaire. Une arme ou armure devient une version magique +2 pendant 10 rounds.</p><p><strong>Toucher Curatif (Sort Sagesse)</strong>. ND 11. Soigne une créature à portée intermédiaire de 2d4 PV.</p><p><strong>Flamme Sacrée (Sort Sagesse)</strong>. ND 13. Personnel. Les armes s'enflamment de flammes magiques et infligent 1d6 dégâts supplémentaires pendant 5 rounds.</p><p><strong>Réprimander (Sort Sagesse)</strong>. ND 13. Concentration. Les créatures chaotiques ne peuvent pas attaquer le prêtre ou s'approcher à portée intermédiaire pendant la durée.</p>"
+      "notes": "\n<p><i> Um respeitado membro do clero que conduz rituais e cerimônias sagradas. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (cota de malha + escudo), <strong>PV</strong> 23, <strong>ATQ</strong> 2 maça +3 (1d6) ou 1 magia +3, <strong>MV</strong> Perto, <strong>F</strong> +1, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> +0, <strong>S</strong> +2, <strong>Car</strong> +1, <strong>AL</strong> O, <strong>NV</strong> 5</p>\n\t<p><strong> Unção (Magia de SAB)</strong>. CD 12. Adjacente. Uma arma ou armadura se torna mágica (+2) por 10 rodadas.</p><p><strong>Toque Curativo (Magia de SAB)</strong>. CD 11. Cura uma criatura Adjacente em [[/r 2d4]] PV.</p><p><strong>Chama Sagrada (Magia de SAB)</strong>. CD 13. Pessoal. Armas se incendeiam em chamas mágicas, e causam 1d6 de dano adicional por 5 rodadas.</p><p><strong>Expulsar (Magia de SAB)</strong>. D 13. Concentração. Criaturas caóticas não podem atacar o sacerdote, nem se aproximar mais do que a distância Perto, pela duração da magia.</p>"
     },
     "Primordial Slime": {
-      "name": "Slime Primordial",
-      "tokenName": "Slime Primordial",
+      "name": "Limo Primordial",
+      "tokenName": "Limo Primordial",
       "items": {
         "Tentacle": {
-          "name": "Tentacule"
+          "name": "Tentáculo"
         },
         "Impervious": {
-          "name": "Immunité"
+          "name": "Invulnerável"
         },
         "Dissolve": {
-          "name": "Dissolution"
+          "name": "Dissolver"
         }
       },
-      "notes": "\n\t<p><i> Une masse de gelée claire pulsant avec des éclats violets malsains. </i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 30, <strong>ATT</strong> 2 tentacule +4 (1d10 + dissolution), <strong>DP</strong> intermédiaire (escalade), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +3, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Ch</strong> -4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong> Immunité</strong>. Ne peut être blessé que par le feu.</p><p><strong>Dissolution</strong>. Un objet aléatoire non magique porté par la cible est détruit.</p>"
+      "notes": "\n<p><i> Uma massa de lodo transparente que pulsa com flashes de uma luz violeta doentia. </i></p>\n\t\n\t<p><strong>CA</strong> 9, <strong>PV</strong> 30, <strong>ATQ</strong> 2 tentáculo +4 (1d10 + dissolver), <strong>MV</strong> Perto (escalar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +3, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Car</strong> -4, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong> Invulnerável</strong>. Só pode ser ferido por fogo.</p><p><strong>Dissolver</strong>. Um equipamento não mágico aleatório que o alvo carrega é destruído.</p>"
     },
     "Pterodactyl": {
       "name": "Ptérodactyle",

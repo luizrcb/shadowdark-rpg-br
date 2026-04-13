@@ -1,5 +1,5 @@
 {
-  "label": "Objets magiques",
+  "label": "Itens Mágicos",
   "mapping": {
     "description": "system.description"
   },
@@ -7,11 +7,11 @@
   "entries": {
     "Asterion": {
       "name": "Asterion",
-      "description": "<p><strong>Atout</strong>. Une créature ne peut pas faire bouger son porteur contre sa volonté.</p>"
+      "description": "<p><strong>Ativo</strong>. Uma criatura não pode mover o portador contra a sua vontade.</p>"
     },
     "Bag of Holding": {
-      "name": "Sac sans fond",
-      "description": "<p><em>Un simple sac en cuir usé et aux cordons serrés.</em></p><p><strong>Atout</strong>. Ce sac contient un espace interdimensionnel qui correspond à 10 emplacements d’inventaire.</p><p><strong>Malédiction</strong>. Si on le range dans un autre <em>Sac sans fond</em> ou dans un <em>Trou portatif</em>, l’opération détruit les deux objets et tout ce qu’ils contiennent.</p>"
+      "name": "Bolsa do Espaço Infinito",
+      "description": "<p><em>Um saco de couro desgastado com cordões apertados.</em></p><p><strong>Ativo</strong>. Esta bolsa contém um espaço interdimensional capaz de armazenar até 10 espaços de equipamento.</p><p><strong>Maldição</strong>. Colocar este item dentro de outra <em>Bolsa do Espaço Infinito</em> ou de um <em>Buraco Portátil</em> destrói ambos os itens e tudo o que há dentro deles.</p>"
     },
     "Bloodlust": {
       "name": "Soif de sang",
@@ -30,29 +30,29 @@
       "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Force}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Dextérité}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constitution}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Intelligence}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sagesse}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Charisme}</li></ol><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
     },
     "Brak's Cube of Perfection (Cha)": {
-  "name": "Cube de Perfection de Brak (Cha)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
-"Brak's Cube of Perfection (Con)": {
-  "name": "Cube de Perfection de Brak (Con)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
-"Brak's Cube of Perfection (Dex)": {
-  "name": "Cube de Perfection de Brak (Dex)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
-"Brak's Cube of Perfection (Int)": {
-  "name": "Cube de Perfection de Brak (Int)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
-"Brak's Cube of Perfection (Str)": {
-  "name": "Cube de Perfection de Brak (For)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
-"Brak's Cube of Perfection (Wis)": {
-  "name": "Cube de Perfection de Brak (Sag)",
-  "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
-},
+      "name": "Cube de Perfection de Brak (Cha)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
+    "Brak's Cube of Perfection (Con)": {
+      "name": "Cube de Perfection de Brak (Con)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
+    "Brak's Cube of Perfection (Dex)": {
+      "name": "Cube de Perfection de Brak (Dex)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
+    "Brak's Cube of Perfection (Int)": {
+      "name": "Cube de Perfection de Brak (Int)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
+    "Brak's Cube of Perfection (Str)": {
+      "name": "Cube de Perfection de Brak (For)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
+    "Brak's Cube of Perfection (Wis)": {
+      "name": "Cube de Perfection de Brak (Sag)",
+      "description": "<p><em>Un minuscule cube aux faces ornées de représentations de gobelins, chacun incarnant la perfection transcendante dans un trait physique ou mental.</em></p><p><strong>Atout</strong>. Simulez le lancement du cube au moyen d’un [[/r d6]]. Votre caractéristique correspondante passe définitivement à 18 (+4). 1. Force. 2. Dextérité. 3. Constitution. 4. Intelligence. 5. Sagesse. 6. Charisme.</p><p>Une fois qu’on l’a lancé, le <em>Cube de Perfection de Brak</em> se téléporte dans un lieu aléatoire du multivers.</p>"
+    },
     "Cloak of Elvenkind": {
       "name": "Cape des elfes",
       "description": "<p><em>Une cape à capuchon qui change de couleur pour s’adapter à l’environnement.</em></p><p><strong>Atout</strong>. Les tests que vous effectuez pour vous cacher sont toujours faciles (ND 9). Une fois par jour, vous pouvez devenir invisible pendant 5 rounds. L’invisibilité cesse si vous attaquez ou lancez un sort.</p>"
