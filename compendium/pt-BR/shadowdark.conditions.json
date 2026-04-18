@@ -42,11 +42,11 @@
       "description": "<p>O personagem está amaldiçoado</p>"
     },
     "Condition: Disease (1)": {
-      "name": "",
+      "name": "Condição: Doença (1)",
       "description": ""
     },
     "Condition: Disease (2)": {
-      "name": "Estado: Amaldiçoado (2)",
+      "name": "Condição: Doença (2)",
       "description": ""
     },
     "Condition: Disease (3)": {
@@ -58,7 +58,7 @@
       "description": ""
     },
     "Condition: Drained (1)": {
-      "name": "Condição: Doença (1)",
+      "name": "Condição: Exausto (1)",
       "description": ""
     },
     "Condition: Drained (2)": {
@@ -134,7 +134,7 @@
       "description": ""
     },
     "Condition: Life Drain (3)": {
-      "name": "",
+      "name": "Condição: Dreno de Vida (3)",
       "description": ""
     },
     "Condition: Life Drain (4)": {
@@ -174,7 +174,7 @@
       "description": "<p>O personagem está inconsciente.</p>"
     },
     "Effect: Stimulant": {
-      "name": "Effet: Alterado",
+      "name": "Efeito: Alterado",
       "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]</p>"
     }
   }

@@ -57,6 +57,14 @@
       "flags": {}
     }
   ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "i18n/pt-BR.json",
+      "flags": {}
+    }
+  ],
   "url": "https://github.com/luizrcb/shadowdark-rpg-br",
   "bugs": "https://github.com/luizrcb/shadowdark-rpg-br/issues",
   "manifest": "#{MANIFEST}#",

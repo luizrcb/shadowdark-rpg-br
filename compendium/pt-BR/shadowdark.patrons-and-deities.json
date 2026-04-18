@@ -10,31 +10,31 @@
   "entries": {
     "Almazzat": {
       "name": "Almazzat",
-      "description": "<p>Un archi-démon à tête de loup avec six yeux et six cornes. Almazzat cherche à arracher les Sables des Âges à son père, Kytheros.</p>"
+      "description": "<p>Um arquidemônio com cabeça de lobo, seis olhos e seis chifres. Almazzat almeja tomar as Areias das Eras de seu pai, Kytheros.</p>"
     },
     "Freya": {
       "name": "Freya",
-      "description": "<p>La déesse de l'amour et de la haine. La Reine des Valkyries dont les guerrières emportent les âmes dignes vers le Grand Festin. La Première Voyante qui place ses présages dans les os, le sang et les entrailles. Freya inspire les poètes puis les tourmente par leur manque d'inspiration.</p>"
+      "description": "<p>A deusa do amor e do ódio. A Rainha das Donzelas do Escudo, cujas valquírias carregam as almas dignas até o Grande Banquete. A Primeira Vidente, que põe seus presságios em ossos, sangue e entranhas. Freya inspira os poetas e depois os atormenta com sua ausência.</p>"
     },
     "Gede": {
       "name": "Gede",
-      "description": "<p>Déesse des festins, de l’hilarité et de la nature sauvage. Gede se montre pacifique la plupart du temps, mais des tempêtes originelles éclatent lorsqu’elle se met en colère. Bien des elfes et des halfelins la vénèrent.</p>"
+      "description": "<p>A deusa dos banquetes, da alegria e das regiões selvagens. Gede normalmente é pacífica, mas tempestades primais irrompem quando ela está enraivecida. Muitos elfos e halflings a adoram.</p>"
     },
     "Kytheros": {
       "name": "Kytheros",
-      "description": "<p>Le Seigneur du Temps qui voit tous les futurs possibles. Kytheros cherche à réaliser tous les destins tels qu'ils étaient censés être.</p>"
+      "description": "<p>O Lorde do Tempo, aquele que enxerga todos os futuros possíveis. Kytheros almeja o cumprimento de todos os destinos da maneira que eles devem ser.</p>"
     },
     "The Willowman": {
-      "name": "L'Homme Saule",
-      "description": "<p>Un être fantomatique et allongé qui rôde dans les forêts brumeuses et observe du bord des cauchemars. L'Homme Saule cherche la peur.</p>"
+      "name": "O Homem-Salgueiro",
+      "description": "<p>Um ser alongado e fantasmagórico que vaga pelas florestas enevoadas e vigia tudo a partir do limiar dos pesadelos. O Homem-Salgueiro procura o medo.</p>"
     },
     "The Lost": {
-      "name": "Les Égarés",
-      "description": "<p>Deux des Neuf ont disparu dans le temps, et leurs noms ont été effacés des mémoires et des chroniques historiques. Leur légende survit à demi-mot dans des textes de jadis et des sites oubliés…</p>"
+      "name": "Os Perdidos",
+      "description": "<p>Dois dos Nove estão perdidos há muitas eras, e seus nomes foram expurgados da história e da memória. Ainda assim, vestígios de suas lendas sobrevivem em textos antigos e locais esquecidos...</p>"
     },
     "Loki": {
       "name": "Loki",
-      "description": "<p>Le Trompeur qui triomphe par l'esprit et la ruse. Le loup qui se déguise en mouton. Loki est éloquent et exaspérant ; ses paroles coupent comme l'acier et son rire hurle comme un vent violent. Ses suiveurs ne recherchent pas le Valhalla, car ils savent qu'il tombera lors du Ragnarok.</p>"
+      "description": "<p>O Trapaceiro que vence tudo com inteligência e astúcia. O lobo que se disfarça de ovelha. Loki é eloquente e provocador: suas palavras cortam como aço e sua risada ecoa como uma tempestade. Seus seguidores não buscam por Valhala, pois sabem que ela cairá quando o Ragnarok vier.</p>"
     },
     "Madeera the Covenant": {
       "name": "Madeera, A Pactuadora",
@@ -46,11 +46,11 @@
     },
     "Mugdulblub": {
       "name": "Mugdulblub",
-      "description": "<p>La Boue Ancienne qui s'infiltre entre les fissures de la mémoire et l'obscurité entre les étoiles. Mugdulblub cherche la dissolution de toute forme physique.</p>"
+      "description": "<p>A Gosma Anciã que escorre entre as fendas da memória e a escuridão entre as estrelas. Mugdulblub almeja a dissolução de toda a forma física.</p>"
     },
     "Odin": {
       "name": "Odin",
-      "description": "<p>Le Tout-Père. Odin le Borgne valorise la force et l'ingéniosité. Ses deux corbeaux volent dans la nuit, espionnant les rêves et les souvenirs. Les guerriers dignes sont emmenés dans la Grande Salle de Valhalla lorsqu'ils meurent pour festoyer et combattre à ses côtés éternellement.</p>"
+      "description": "<p>O Pai de Todos. Odin, o Caolho valoriza a força e a inteligência. Seus corvos gêmeos voam através da noite, espionando sonhos e memórias. Guerreiros dignos são levados ao Grande Salão de Valhala quando morrem, para se banquetearem e lutarem ao lado de Odin por toda a eternidade.</p>"
     },
     "Ord": {
       "name": "Ord",
@@ -69,12 +69,12 @@
       "description": "<p>Shune, a Maléfica sussurra segredos arcanos para feiticeiros e bruxas que clamam por ela na escuridão da noite. Ela planeja substituir Ord para assumir o controle do grande fluxo de magia</p>"
     },
     "Titania": {
-      "name": "Titania",
-      "description": "<p>La capricieuse Reine des Fées qui voit toute l'existence comme un rêve fantaisiste avec une signification cachée et un drame poignant. Titania cherche la malice, la beauté et l'art.</p>"
+      "name": "Titânia",
+      "description": "<p>A volúvel Rainha das Fadas, que encara toda a existência como um sonho fantasioso com significados ocultos e dramas dolorosos. Titânia busca travessuras, beleza e arte.</p>"
     },
     "All Nord Gods": {
-      "name": "Tous les Dieux Nordiques",
-      "description": "<p>Les fidèles vénèrent tous les Anciens Dieux à leur tour, mais beaucoup trouvent qu'ils s'alignent particulièrement avec l'un d'eux. Rendre hommage à tous les dieux n'est pas une trahison ; c'est honorable.</p>"
+      "name": "Todos os Deuses Nórdicos",
+      "description": "<p>Os fiéis adoram a cada um dos Deuses Antigos em diferentes momentos, mas muitos se identificam com um deles em particular. Prestar homenagens a todos os deuses não é uma traição, e sim algo honroso.</p>"
     }
   }
 }
