@@ -6,7 +6,8 @@
       "path": "items",
       "converter": "fromPackWithCustomMapping"
     },
-    "notes": "system.notes"
+    "notes": "system.notes",
+    "moveNote": "system.moveNote"
   },
   "entries": {
     "Aboleth": {
@@ -33,6 +34,7 @@
           "description": "<p>Lê os pensamentos de todas as criaturas dentro do alcance Longe.</p>"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i> Enormes bagres antediluvianos, cobertos de limo e tentáculos. Eles odeiam a todos os seres inteligentes. </i></p> \n<p><strong>CA</strong> 16, <strong>PV</strong> 39, <strong>ATQ</strong> 2 tentáculo (Perto) +5 (1d8 + maldição) ou 1 cauda +5 (3d6), <strong>MV</strong> Perto (nadar), <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +3, <strong>I</strong> +4, <strong>S</strong> +2, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 8</p> <p><strong>Maldição</strong>. [[check 15 con]] ou o alvo sofre uma maldição mágica, transformando-se em um Profundo depois de [[/r 2d10]] dias.</p><p><strong>Escravizar</strong>. Em vez de atacar, uma criatura dentro do alcance Longe é controlada pelo abolete por [[/r 1d4]] rodadas ([[check 15 wis]] para evitar).</p><p><strong>Telepático</strong>. Lê os pensamentos de todas as criaturas dentro do alcance Longe.</p>"
     },
     "Acolyte": {
@@ -61,6 +63,7 @@
           "description": "<p>Todos os inimigos dentro do alcance Perto ficam paralisados por [[/r 1d4]] rodadas ([[check 15 cha]] para evitar).</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Humanos alados e perfeitos, brilhando com uma luz solar cor de bronze. </i></p>\n\t\n\t<p><strong>CA</strong> 17 (placas + escudo), <strong>PV</strong> 42, <strong>ATQ</strong> 3 espada bastarda +7 (1d8) ou 1 trompa, <strong>MV</strong> Perto (voar), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> +3, <strong>S</strong> +4, <strong>Car</strong> +4, <strong>AL</strong> O, <strong>NV</strong> 9</p>\n\t<p><strong>Trompa</strong>. Todos os inimigos dentro do alcance Perto ficam paralisados por [[/r 1d4]] rodadas ([[check 15 cha]] para evitar).</p>"
     },
     "Angel, Principi": {
@@ -79,6 +82,7 @@
           "description": "<p>Pode ver todas as criaturas e objetos invisíveis.</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Humanos serenos, esculpidos a partir do alabastro. Seus olhos são orbes dourados. </i></p>\n\t\n\t<p><strong>CA</strong> 16 (placas +1), <strong>PV</strong> 53, <strong>ATQ</strong> 3 espada bastarda prateada +9 (1d10), <strong>MV</strong> Perto x2 (voar), <strong>F</strong> +4, <strong>D</strong> +2, <strong>C</strong> +4, <strong>I</strong> +4, <strong>S</strong> +4, <strong>Car</strong> +4, <strong>AL</strong> O, <strong>NV</strong> 11</p>\n\t<p><strong>Aura do Luar</strong>. Magias hostis que\ntenham o principi como alvo têm CD 15.</p><p><strong>Visão Verdadeira</strong>. Pode ver todas as\ncriaturas e objetos invisíveis.</p>"
     },
     "Angel, Seraph": {
@@ -93,6 +97,7 @@
           "description": "<p>3/dia, toca um alvo para lhe conceder uma ficha de sorte.</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Humanoides belos e luminosos, com asas de penas brancas. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (cota de malha), <strong>PV</strong> 14, <strong>ATQ</strong> 2 espada longa +3 (1d8), <strong>MV</strong> Perto (voar), <strong>F</strong> +3, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> +2, <strong>S</strong> +3, <strong>Car</strong> +3, <strong>AL</strong> O, <strong>NV</strong> 3</p>\n\t<p><strong>Bênção</strong>. 3/dia, toca um alvo para lhe\nconceder uma ficha de sorte.</p>"
     },
     "Animated Armor": {
@@ -120,6 +125,7 @@
           "name": "Jato Ácido"
         }
       },
+      "moveNote": "escavar",
       "notes": "\n<p><i> Insetos de cor marrom-ferrugem, do tamanho de um cavalo. Eles escavam grandes túneis subterrâneos até a fundação rochosa.</i></p>\n\n<p><strong>CA</strong> 14, <strong>PV</strong> 14, <strong>ATQ</strong> 1 mordida +4 (1d6) ou 1 jato ácido (Perto) +4 (2d6), <strong>MV</strong> Perto (escavar), <strong>F</strong> +2, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t"
     },
     "Ape": {
@@ -186,6 +192,7 @@
           "description": "<p>Magias hostis que tenham o arcanjo como alvo são conjuradas com dificuldade Extrema (CD 18).</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Um ser radiante com uma coroa de fogo, asas alvas, armadura dourada e uma espada grande flamejante </i></p>\n\t\n\t<p><strong>CA</strong> 18 (placas +3), <strong>PV</strong> 76, <strong>ATQ</strong> 3 espada grande flamejante +10 (2d12), <strong>MV</strong> Perto x2 (voar), <strong>F</strong> +5, <strong>D</strong> +2, <strong>C</strong> +4, <strong>I</strong> +4, <strong>S</strong> +5, <strong>Car</strong> +5, <strong>AL</strong> O, <strong>NV</strong> 16</p>\n\t<p><strong>Comando</strong>. [[check 18 cha]] para resistir ao comando de um arcanjo.</p><p><strong>Coroa de Fogo</strong>. Magias hostis que tenham o arcanjo como alvo são conjuradas com dificuldade Extrema (CD 18).</p>"
     },
     "Archdevil": {
@@ -208,6 +215,7 @@
           "description": "<p>Todos os feitiços hostis são refletidos contra o conjurador, caso o resultado do teste de conjuração seja menor que 20.</p>"
         }
       },
+      "moveNote": "teleporte",
       "notes": "\n<p><i> Um humano deslumbrantemente belo com chifres, olhos vermelhos ardentes e um halo de sete estrelas negras sobre sua cabeça. Duas feridas costuradas vertem sangue de suas escápulas </i></p>\n\t\n\t<p><strong>CA</strong> 19, <strong>PV</strong> 76, <strong>ATQ</strong> 4 cetro de ferro +10 (3d10) ou 1 vínculo de alma <strong>MV</strong> Longe (teleporte), <strong>F</strong> +5, <strong>D</strong> +4, <strong>C</strong> +4, <strong>I</strong> +5, <strong>S</strong> +4, <strong>Car</strong> +7, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 16</p>\n\t<p><strong>Invulnerável</strong>. Imune ao fogo. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Coroa das Trevas</strong>. Todos os feitiços hostis são refletidos contra o conjurador, caso o resultado do teste de conjuração seja menor que 20.</p><p><strong>Vínculo de Alma</strong>. \nTodos os alvos que estiverem Perto caem sob o controle\ndo arquidiabo por [[/r 1d4]] rodadas ([[check 20 cha]] para evitar). [[check 20 cha]] em seu turno para encerrar o efeito.</p>"
     },
     "Archmage": {
@@ -253,6 +261,7 @@
           "description": "<p>Causa o triplo de dano contra alvos surpreendidos.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i> Um assassino furtivo vestido com\nmantos escuros. </i></p>\n\t\n\t<p><strong>CA</strong> 15 (couro), <strong>PV</strong> 38, <strong>ATQ</strong> 2 adaga envenenada (Adjacente/Perto) +6 (2d4), <strong>MV</strong> Perto (escalar), <strong>F</strong> +2, <strong>D</strong> +4, <strong>C</strong> +2, <strong>I</strong> +2, <strong>S</strong> +3, <strong>Car</strong> +3, <strong>AL</strong> C, <strong>NV</strong> 8</p>\n\t<p><strong>Executar</strong>. Causa o triplo de dano contra alvos surpreendidos.</p>"
     },
     "Azer": {
@@ -308,7 +317,8 @@
       "tokenName": "Basilisco",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Petrificar"
         },
         "Petrify": {
           "name": "Petrificar",
@@ -322,7 +332,8 @@
       "tokenName": "Basilisco Filhote",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+           "special": "Petrificar"
         },
         "Petrify": {
           "name": "Petrificar",
@@ -508,6 +519,7 @@
           "description": "<p>Salta uma altura equivalente ao alcance Perto, e Perto x2 em distância, e então faz 2 ataques de mordida.</p>"
         }
       },
+      "moveNote": "escavar",
       "notes": "\n<p><i> Um lagarto enorme, do tamanho de um tubarão, com uma carapaça afunilada e metálica, e um enorme esôfago. </i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 40, <strong>ATQ</strong> 3 mordida +5 (2d6) ou 1 salto, <strong>MV</strong> Perto (escavar), <strong>F</strong> +5, <strong>D</strong> +1, <strong>C</strong> +4, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 8</p>\n\t<p><strong>Salto</strong>. Salta uma altura equivalente ao alcance Perto, e Perto x2 em distância, e então faz 2 ataques de mordida.</p>"
     },
     "Camel": {
@@ -538,6 +550,7 @@
           "description": "<p>Criaturas que estejam Perto, e que olharem nos olhos do brutamontes das cavernas, ficam atordoadas e incapazes de realizar ações ([[check 12 cha]] no início de seu turno para evitar).</p>"
         }
       },
+      "moveNote": "escavar",
       "notes": "\n<p><i> Uma enorme fera insetoide, com mandíbulas longas, quatro olhos e braços grossos cobertos de pelos. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 28, <strong>ATQ</strong> 2 garra +5 (1d8) e 1 mandíbula +5 (1d10), <strong>MV</strong> Perto (escavar), <strong>F</strong> +4, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong>Desorientar</strong>. Criaturas que estejam Perto, e que olharem nos olhos do brutamontes das cavernas, ficam atordoadas e incapazes de realizar\nações ([[check 12 cha]] no início de seu turno para evitar).</p>"
     },
     "Cave Creeper": {
@@ -575,13 +588,15 @@
       "tokenName": "Centopeia Gigante",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 12 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i> Centopeias vermelhas como sangue, cheias de penugens e do tamanho de um braço humano. Sua mordida injeta um veneno ardente que provoca cãibras musculares. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 4, <strong>ATQ</strong> 1 mordida +1 (1d4 + veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> -3, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 1</p>\n\t<p><strong>Veneno</strong>. [[check 12 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
     },
     "Centipede, Swarm": {
@@ -589,13 +604,15 @@
       "tokenName": "Enxame de Centopeias",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 12 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i> Uma massa rastejante de centopeias\nentrelaçadas. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 18, <strong>ATQ</strong> 3 mordida +1 (1d4 + veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> -3, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 4</p>\n\t<p><strong>Veneno</strong>. [[check 12 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
     },
     "Chimera": {
@@ -617,13 +634,15 @@
       "tokenName": "Chuul",
       "items": {
         "Pincer": {
-          "name": "Pinça"
+          "name": "Pinça",
+          "special": "Agarrar"
         },
         "Grab": {
           "name": "Agarrar",
           "description": "<p>[[check 15 str]] ou o alvo fica preso pela pinça. [[check 15 str]] em seu turno para se libertar.</p>"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i> Insetos-lagosta marrom, do tamanho\nde cavalos e com tentáculos e pinças. </i></p>\n\t\n\t<p><strong>CA</strong> 15, <strong>PV</strong> 25, <strong>ATQ</strong> 2 pinça +4 (1d8 + agarrar), <strong>MV</strong> Perto (nadar), <strong>F</strong> +3, <strong>D</strong> -1, <strong>C</strong> +3, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 5</p>\n\t<p><strong><strong>Agarrar</strong></strong>. [[check 15 str]] ou o alvo fica preso pela pinça. [[check 15 str]] em seu turno para se libertar.</p>"
     },
     "Cloaker": {
@@ -648,13 +667,15 @@
       "tokenName": "Cocatriz",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Petrificar"
         },
         "Petrify": {
           "name": "Petrificar",
           "description": "<p>[[check 12 con]] ou petrificação.</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Um híbrido de lagarto com galinha, com uma crista vermelha como sangue e afiada como uma lâmina. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 14, <strong>ATQ</strong> 1 mordida +1 (1d4 + petrificar), <strong>MV</strong> Perto (voar), <strong>F</strong> -2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong>Petrificar</strong>. [[check 12 con]] ou petrificação.</p>"
     },
     "Couatl": {
@@ -662,7 +683,8 @@
       "tokenName": "Couatl",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Change Shape": {
           "name": "Mudar de Forma",
@@ -677,6 +699,7 @@
           "description": "<p>Em vez de atacar, toca em uma criatura para remover uma maldição ou aflição, ou a cura em [[/r 3d8]] PV.</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n<p><i> Uma serpente do tamanho de um\nhumano, com escamas feitas de joias\ne uma coroa de penas iridescentes. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 42, <strong>ATQ</strong>  3 mordida +6 (2d6 + veneno), <strong>MV</strong> Perto (voar), <strong>F</strong> +2, <strong>D</strong> +3, <strong>C</strong> +2, <strong>I</strong> +4, <strong>S</strong> +4, <strong>Car</strong> +5, <strong>AL</strong> O, <strong>NV</strong> 9</p>\n\t<p><strong>Mudar de Forma</strong>. Em vez de atacar, se transforma em qualquer criatura de tamanho semelhante.</p><p><strong>Veneno</strong>. [[check 15 con]] ou o alvo cai em um sono profundo e natural por [[/r 1d8]] horas.</p><p><strong>Restaurar</strong>. Em vez de atacar, toca em uma criatura para remover uma maldição ou aflição, ou a cura em [[/r 3d8]] PV.</p>"
     },
     "Crab, Giant": {
@@ -684,13 +707,15 @@
       "tokenName": "Caranguejo Gigante",
       "items": {
         "Pincer": {
-          "name": "Pinça"
+          "name": "Pinça",
+          "special": "Esmagar"
         },
         "Crush": {
           "name": "Esmagar",
           "description": "<p>[[check 15 str]] ou [[/r 1d8]] de dano.</p>"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i>Um caranguejo encouraçado do tamanho de uma carroça, com duas pinças esmagadoras.</i></p>\n\t\n\t<p><strong>CA</strong> 15, <strong>PV</strong> 24, <strong>ATQ</strong> 2 pinça +4 (1d8 + esmagar), <strong>MV</strong> Perto (nadar), <strong>F</strong> +3, <strong>D</strong> +0, <strong>C</strong> +2, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 5</p>\n\t<p><strong>Esmagar</strong>. [[check 15 str]] ou [[/r 1d8]] de dano.</p>"
     },
     "Crocodile": {
@@ -701,6 +726,7 @@
           "name": "Mordida"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i> Répteis gordos e escamosos, com pernas curtas e robustas e caudas longas e vigorosas </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 20, <strong>ATQ</strong> 2 mordida +3 (1d8), <strong>MV</strong> Perto (nadar), <strong>F</strong> +3, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 4</p>"
     },
     "Cultist": {
@@ -1137,7 +1163,8 @@
       "tokenName": "Sacerdotisa Drow",
       "items": {
         "Snake Whip": {
-          "name": "Chicote de Serpente"
+          "name": "Chicote de Serpente",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
@@ -1237,7 +1264,8 @@
       "tokenName": "Besouro de Esterco Gigante",
       "items": {
         "Horn": {
-          "name": "Chifre"
+          "name": "Chifre",
+          "special": "Empurrão"
         },
         "Knock": {
           "name": "Empurrão",
@@ -1507,7 +1535,8 @@
       "tokenName": "Cubo Gelatinoso",
       "items": {
         "Touch": {
-          "name": "Toque"
+          "name": "Toque",
+          "special": "Toxina"
         },
         "Engulf": {
           "name": "Engolfar",
@@ -1529,7 +1558,8 @@
       "tokenName": "Carneçal",
       "items": {
         "Claw": {
-          "name": "Garra"
+          "name": "Garra",
+          "special": "Paralisia"
         },
         "Undead": {
           "name": "Morto-vivo",
@@ -1577,7 +1607,8 @@
       "tokenName": "Carniçal",
       "items": {
         "Claw": {
-          "name": "Garra"
+          "name": "Garra",
+          "special": "Paralisia"
         },
         "Undead": {
           "name": "Morto-vivo",
@@ -1698,7 +1729,8 @@
       "tokenName": "Boca Matraqueante",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Aderir"
         },
         "Gibbering": {
           "name": "Balbuciando",
@@ -1709,6 +1741,7 @@
           "description": "<p>Se anexa a um alvo mordido; mordida acerta automaticamente na próxima rodada. [[check 12 str]] em seu turno para arrancá-la.</p>"
         }
       },
+      "moveNote": "escalar, nadar",
       "notes": "\n<p><i> Massas rastejantes de gosma, com dezenas de bocas sem lábios gritando estridentemente, e dezenas de olhos úmidos. </i></p>\n\t\n\t<p><strong>CA</strong> 8, <strong>PV</strong> 21, <strong>ATQ</strong> 2 mordida +3 (1d8 + aderir), <strong>MV</strong> Perto (escalar, nadar), <strong>F</strong> +2, <strong>D</strong> -2, <strong>C</strong> +3, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 4</p>\n\t<p><strong> Balbuciando</strong>. Criaturas que estiverem Perto, [[check 12 wis]] em seu turno, ou agem de forma aleatória ([[/r d8]]): 1–3. nenhuma ação, 4–5. move-se em uma direção aleatória, 6–7. ataca a criatura mais próxima, 8. foge.</p><p><strong>Prender-se</strong>. Se anexa a um alvo mordido; mordida acerta automaticamente na próxima rodada. [[check 12 str]] em seu turno para arrancá-la.</p>"
     },
     "Gladiator": {
@@ -2025,6 +2058,7 @@
           "description": "<p>Uma criatura que veja a sua verdadeira forma pela primeira vez tem DESV em ataques por [[/r 1d4]] rodadas ([[check 15 cha]] para evitar).</p>"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i> Uma mulher de pele verde e rosto afundado. Seus cabelos são de algas marinhas e sua carne goteja. </i></p>\n\t\n\t<p><strong>CA</strong> 15, <strong>PV</strong> 28, <strong>ATQ</strong> 2 garra +4 (1d8), <strong>MV</strong> Perto (nadar), <strong>F</strong> +2, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> +1, <strong>S</strong> +2, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 6</p>\n\t<p><strong>Mudar de Forma</strong>. Se transforma instantaneamente para se parecer com qualquer outro humanoide.</p><p><strong>Aterrorizante</strong>. Uma criatura que veja a sua verdadeira forma pela primeira vez tem DESV em ataques por [[/r 1d4]] rodadas ([[check 15 cha]] para evitar).</p>"
     },
     "Hag, Weald": {
@@ -2169,14 +2203,16 @@
       "tokenName": "Água-viva",
       "items": {
         "Sting": {
-          "name": "Queimadura"
+          "name": "Queimadura",
+          "special": "Toxina"
         },
         "Toxin": {
           "name": "Toxina",
           "description": "<p>[[check 9 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
         }
       },
-      "notes": "\n<p><i> Águas-vivas roxas do tamanho de uma mão com tentáculos urticantes. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 1, <strong>ATQ</strong> 1 queimadura +1 (1 + toxina), <strong>DP</strong> Perto (nadar), <strong>F</strong> -4, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> +1, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 0</p>\n\t<p><strong>Toxina</strong>. [[check 9 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
+      "moveNote": "nadar",
+      "notes": "\n<p><i> Águas-vivas roxas do tamanho de uma mão com tentáculos urticantes. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 1, <strong>ATQ</strong> 1 queimadura +1 (1 + toxina), <strong>DP</strong> Adjacente (nadar), <strong>F</strong> -4, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> +1, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 0</p>\n\t<p><strong>Toxina</strong>. [[check 9 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
     },
     "Knight": {
       "name": "Cavaleiro",
@@ -2407,13 +2443,15 @@
       "tokenName": "Arraia Gigante",
       "items": {
         "Sting": {
-          "name": "Ferrão"
+          "name": "Ferrão",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 15 con]] ou cai para 0 PV em [[/r 1d4]] rodadas.</p>"
         }
       },
+      "moveNote": "nadar",
       "notes": "\n<p><i> Arraias gigantes e mergulhadoras tão grandes quanto dracares. São gentis e inteligentes o suficiente para serem treinadas. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 37, <strong>ATQ</strong> 2 ferrão +5 (1d12 + veneno), <strong>MV</strong> Perto x2 (nadar), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 8</p>\n\t<p><strong>Veneno</strong>. [[check 15 con]] ou cai para 0 PV\nem [[/r 1d4]] rodadas.</p>"
     },
     "Manticore": {
@@ -3182,7 +3220,8 @@
           "description": "<p>Inimigos que estejam Perto do caminhante da geada, [[check 12 con]] no início de seus turnos, ou perdem suas ações.</p>"
         }
       },
-      "notes": "\n<p><i> Des êtres humanoïdes formés de glace noire de l'espace. Leurs yeux sont deux lumières blanches clignotantes. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 43, <strong>ATQ</strong> 4 garra +8 (1d12), <strong>MV</strong> Perto (voar), <strong>F</strong> +4, <strong>D</strong> +4, <strong>C</strong> +3, <strong>I</strong> +2, <strong>S</strong> +2, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 9</p>\n\t<p><strong>Invulnerável</strong>. Imune ao frio.</p><p><strong>Aura Gélida</strong>. Inimigos que estejam Perto do caminhante da geada, [[check 12 con]] no início de seus turnos, ou perdem suas ações.</p>"
+      "moveNote": "voar",
+      "notes": "\n<p><i> Seres com forma humanoide, formados a partir de gelo negro do espaço. Seus olhos são dois pontos de luz branca e cintilante. </i></p>\n\t\n\t<p><strong>CA</strong> 16, <strong>PV</strong> 43, <strong>ATQ</strong> 4 garra +8 (1d12), <strong>MV</strong> Perto (voar), <strong>F</strong> +4, <strong>D</strong> +4, <strong>C</strong> +3, <strong>I</strong> +2, <strong>S</strong> +2, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 9</p>\n\t<p><strong>Invulnerável</strong>. Imune ao frio.</p><p><strong>Aura Gélida</strong>. Inimigos que estejam Perto do caminhante da geada, [[check 12 con]] no início de seus turnos, ou perdem suas ações.</p>"
     },
     "Roc": {
       "name": "Roca",
@@ -3203,7 +3242,8 @@
       "tokenName": "Abocanhador",
       "items": {
         "Tendril": {
-          "name": "Tentáculo"
+          "name": "Tentáculo",
+          "special": "Agarrar"
         },
         "Bite": {
           "name": "Mordida"
@@ -3225,7 +3265,8 @@
           "description": "<p>Quatro no total, com CA 18 cada um. 4 ou mais de dano em um tentáculo o amputa.</p>"
         }
       },
-      "notes": "\n<p><i> Monstruosidades vorazes que se parecem com rochas de caverna quando\nseu único olho e boca estão fechados. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 31, <strong>ATQ</strong> 4 tentáculo (Perto x2) +4 (1d6 + agarrar) e 1 mordida +4 (2d8), <strong>MV</strong> Perto (escalar), <strong>F</strong> +3, <strong>D</strong> -2, <strong>C</strong> +4, <strong>I</strong> -1, <strong>S</strong> +2, <strong>Car</strong> +1, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong>Invulnerável</strong>.  Só pode ser ferido por fontes de dano mágicas.</p><p><strong><strong>Agarrar</strong></strong>. [[check 15 str]] ou o alvo é agarrado por um tentáculo. O tentáculo acerta automaticamente na rodada seguinte. [[check 15 str]] em seu turno para se libertar.</p><p><strong>Puxar</strong>. Em vez de um ataque de tentáculo, puxa um alvo agarrado o equivalente à distância Perto.</p><p><strong>Tentáculos</strong>. Quatro no total, com CA 18 cada um. 4 ou mais de dano em um tentáculo o amputa.</p>"
+      "moveNote": "escalar",
+      "notes": "\n<p><i> Monstruosidades vorazes que se parecem com rochas de caverna quando\nseu único olho e boca estão fechados. </i></p>\n\t\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 31, <strong>ATQ</strong> 4 tentáculo (Perto x2) +4 (1d6 + agarrar) e 1 mordida +4 (2d8), <strong>MV</strong> Adjacente (escalar), <strong>F</strong> +3, <strong>D</strong> -2, <strong>C</strong> +4, <strong>I</strong> -1, <strong>S</strong> +2, <strong>Car</strong> +1, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong>Invulnerável</strong>.  Só pode ser ferido por fontes de dano mágicas.</p><p><strong><strong>Agarrar</strong></strong>. [[check 15 str]] ou o alvo é agarrado por um tentáculo. O tentáculo acerta automaticamente na rodada seguinte. [[check 15 str]] em seu turno para se libertar.</p><p><strong>Puxar</strong>. Em vez de um ataque de tentáculo, puxa um alvo agarrado o equivalente à distância Perto.</p><p><strong>Tentáculos</strong>. Quatro no total, com CA 18 cada um. 4 ou mais de dano em um tentáculo o amputa.</p>"
     },
     "Rot Flower": {
       "name": "Flor Apodrecida",
@@ -3451,11 +3492,12 @@
       "tokenName": "Cobra Naja",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
-          "description": "<p>[[check  18 con]] ou cai para 0 PV com Temporizador de Morte de 1.</p>"
+          "description": "<p>[[check 18 con]] ou cai para 0 PV com Temporizador de Morte de 1.</p>"
         }
       },
       "notes": "\n<p><i> Uma serpente sinuosa com uma capa em seu pescoço e um veneno letal. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 4, <strong>ATQ</strong> 1 mordida +2 (1 + veneno), <strong>MV</strong> Perto, <strong>F</strong> -3, <strong>D</strong> +2, <strong>C</strong> +0, <strong>I</strong> -3, <strong>S</strong> +0, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 1</p>\n\t<p><strong> Veneno</strong>. [[check  18 con]] ou cai para 0 PV com Temporizador de Morte de 1.</p>"
@@ -3472,6 +3514,7 @@
           "description": "<p>FOR disputada para manter o alvo imóvel por uma rodada.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i>Uma enorme serpente de pele manchada que pode engolir uma vaca por inteiro.</i></p>\n\n<p><strong>CA</strong> 12,<strong> PV</strong> 23, ATQ</strong> 2 mordida +4 (1d6) e 1 constrição (Perto), <strong>MV</strong> Perto (escalar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> -2, <strong>S</strong> +0, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 5</p>\n\n<p><strong>Constrição.</strong>FOR disputada para manter o alvo imóvel por uma rodada.</p>"
     },
     "Snake, Swarm": {
@@ -3479,7 +3522,8 @@
       "tokenName": "Cobras, Grupo De",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
@@ -3540,13 +3584,15 @@
       "tokenName": "Aranha",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 9 con]] ou [[/r 1d4]] de dano.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i> Aracnídeos silenciosos que tecem teias e possuem um veneno que dissolve carne. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 1, <strong>ATQ</strong> 2 mordida +1 (1 + Veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> -4, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> +0, <strong>Ch</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 0</p>\n\t<p><strong> Veneno</strong>. [[check 9 con]] ou [[/r 1d4]] de dano.</p>"
     },
     "Spider, Giant": {
@@ -3554,13 +3600,15 @@
       "tokenName": "Aranha Gigante",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 12 con]] ou paralisia por [[/r 1d4]] horas.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n\t<p><i> AAbdômen bulboso e oito pernas finas e compridas. Vivem no alto de árvores ou em cavernas emboscando suas presas, capturando-as para devorá-las depois. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 13, <strong>ATQ</strong> 1 mordida +3 (1d4 + veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> +2, <strong>D</strong> +3, <strong>C</strong> +0, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 3</p>\n\t<p><strong> Veneno</strong>. [[check 12 con]] ou paralisia por [[/r 1d4]] horas.</p>"
     },
     "Spider, Swarm": {
@@ -3568,13 +3616,15 @@
       "tokenName": "Grupo de Aranhas",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Poison": {
           "name": "Veneno",
           "description": "<p>[[check 12 con]] ou paralisia por [[/r 1d4]] horas.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n<p><i> Véritable tapis d’araignées furieuses. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 9, <strong>ATQ</strong> 1 mordida +3 (1d4 + veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> -1, <strong>D</strong> +3, <strong>C</strong> +0, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 2</p>\n\t<p><strong> Veneno</strong>. [[check 12 con]] ou paralisia por [[/r 1d4]] horas.</p>"
     },
     "Stingbat": {
@@ -3905,7 +3955,8 @@
       "tokenName": "Cria Vampírica",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Drenar Sangue"
         },
         "Greater Undead": {
           "name": "Morto-vivo Superior.",
@@ -3913,14 +3964,15 @@
         },
         "Blood Drain": {
           "name": "Drenar Sangue.",
-          "description": "<p>O vampiro se cura em 2d6 PV, e o alvo perde 1d4 de CON de forma permanente. Ao chegar a 0 CON, o alvo morre e retorna como uma cria vampírica.</p>"
+          "description": "<p>O vampiro se cura em [[/r 2d6]] PV, e o alvo perde [[/r 1d4]] de CON de forma permanente. Ao chegar a 0 CON, o alvo morre e retorna como uma cria vampírica.</p>"
         },
         "Vampire": {
           "name": "Vampiro.",
-          "description": "<p>Deve dormir em um caixão diariamente, ou perde 2d6 PV por dia, que não podem ser curados até que descanse em um caixão. Sofre 3d8 de dano a cada rodada que estiver sob luz solar direta. Não pode ser morto, a menos que seu coração seja perfurado com uma estaca de madeira enquanto estiver com 0 PV.</p>"
+          "description": "<p>Deve dormir em um caixão diariamente, ou perde [[/r 2d6]] PV por dia, que não podem ser curados até que descanse em um caixão. Sofre [[/r 3d8]] de dano a cada rodada que estiver sob luz solar direta. Não pode ser morto, a menos que seu coração seja perfurado com uma estaca de madeira enquanto estiver com 0 PV.</p>"
         }
       },
-      "notes": "\n\t<p><i> Vampiros inferiores e selvagens,\nnascidos de uma mordida de seus\nmestres vampíricos. Sedentos por\nsangue e cruéis, raramente deixam\numa vítima viva.</i></p>\n\t\n\t<p><strong>CA</strong> 13 (couro), <strong>PV</strong> 25, <strong>ATQ</strong> 2 mordida +4 (1d8 + drenar sangue), <strong>MV</strong> Perto\n(escalar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +3, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 5</p>\n\t<p><strong>Morto-vivo Superior.</strong>. Imune a testes de moral. Só pode ser ferido por prata ou fontes de dano mágicas.</p><p><strong>Drenar Sangue.</strong>. O vampiro se cura em 2d6 PV, e o alvo perde 1d4 de CON de forma permanente. Ao chegar a 0 CON, o alvo morre e retorna como uma cria vampírica.</p><p><strong>Vampiro.</strong>. Deve dormir em um caixão diariamente, ou perde 2d6 PV por dia, que não podem ser curados até que descanse em um caixão. Sofre 3d8 de dano a cada rodada que estiver sob luz solar direta. Não pode ser morto, a menos que seu coração seja perfurado com uma estaca de madeira enquanto estiver com 0 PV.</p>"
+      "moveNote": "escalar",
+      "notes": "\n\t<p><i> Vampiros inferiores e selvagens, nascidos de uma mordida de seus mestres vampíricos. Sedentos por sangue e cruéis, raramente deixam uma vítima viva.</i></p>\n\t\n\t<p><strong>CA</strong> 13 (couro), <strong>PV</strong> 25, <strong>ATQ</strong> 2 mordida +4 (1d8 + drenar sangue), <strong>MV</strong> Perto\n(escalar), <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +3, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> +2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 5</p>\n\t<p><strong>Morto-vivo Superior.</strong>. Imune a testes de moral. Só pode ser ferido por prata ou fontes de dano mágicas.</p><p><strong>Drenar Sangue.</strong>. O vampiro se cura em [[/r 2d6]] PV, e o alvo perde [[/r 1d4]] de CON de forma permanente. Ao chegar a 0 CON, o alvo morre e retorna como uma cria vampírica.</p><p><strong>Vampiro.</strong>. Deve dormir em um caixão diariamente, ou perde [[/r 2d6]] PV por dia, que não podem ser curados até que descanse em um caixão. Sofre [[/r 3d8]] de dano a cada rodada que estiver sob luz solar direta. Não pode ser morto, a menos que seu coração seja perfurado com uma estaca de madeira enquanto estiver com 0 PV.</p>"
     },
     "Velociraptor": {
       "name": "Velociraptor",
@@ -3941,14 +3993,14 @@
       "tokenName": "Fungo violeta",
       "items": {
         "Tendril": {
-          "name": ""
+          "name": "Tentáculo"
         }
       },
-      "notes": ""
+      "notes": "\n\t<p><i>Fungos rastejantes do tamanho de crianças, com chapéus roxos e brilhantes. Suas raízes semelhantes a chicotes são capazes de decompor carne viva</i></p>\n\t\n\t<p><strong>CA</strong> 7, <strong>PV</strong> 9, <strong>ATQ</strong> 2 tentáculo (Perto) +0 (1d4), <strong>MV</strong> Adjacente, <strong>F</strong> -3, <strong>D</strong> -2, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> -3, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 2</p>\n\t"
     },
     "Viperian": {
-      "name": "",
-      "tokenName": "",
+      "name": "Viperiano",
+      "tokenName": "Viperiano",
       "items": {
         "Scimitar": {
           "name": "Cimitarra"
@@ -4028,7 +4080,8 @@
       "tokenName": "Aranha do Vazio",
       "items": {
         "Bite": {
-          "name": "Mordida"
+          "name": "Mordida",
+          "special": "Veneno"
         },
         "Impervious": {
           "name": "Invulnerável",
@@ -4043,6 +4096,7 @@
           "description": "<p>[[check 12 con]] ou cai para 0 PV em 1d4 rodadas.</p>"
         }
       },
+      "moveNote": "escalar",
       "notes": "\n\t<p><i> Aracnídeos pálidos, do tamanho de cavalos, que se tornam intangíveis e fantasmagóricos. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 23, <strong>ATQ</strong> 2 mordida +4 (1d8\n+ veneno), <strong>MV</strong> Perto (escalar), <strong>F</strong> +3, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 5</p>\n\t<p><strong> Invulnerável.</strong> Imune ao frio.</p><p><strong>Transição Planar.</strong>Uma vez por rodada, pode alternar entre o estado corpóreo ou incorpóreo.</p><p><strong>Veneno.</strong>. [[check 12 con]] ou cai para 0 PV em 1d4 rodadas.</p>"
     },
     "Vulture": {
@@ -4057,6 +4111,7 @@
           "description": "<p>Pode localizar carne em decomposição com precisão dentro de um raio de 1,6 km.</p>"
         }
       },
+      "moveNote": "voar",
       "notes": "\n\t<p><i> Pássaros necrófagos de penas pretas, costas arqueadas e cabeças sem penas. </i></p>\n\t\n\t<p><strong>CA</strong> 10, <strong>PV</strong> 5, <strong>ATQ</strong> 1 rasgar +1 (1d4), <strong>MV</strong> Perto (voar), <strong>F</strong> +1, <strong>D</strong> +0, <strong>C</strong> +1, <strong>I</strong> -3, <strong>S</strong> +1, <strong>Car</strong> -3, <strong>AL</strong> N, <strong>NV</strong> 1</p>\n\t<p><strong> Rastreador de Carniça.</strong>Pode localizar carne em decomposição com precisão dentro de um raio de 1,6 km.</p>"
     },
     "Wasp, Giant": {
@@ -4110,7 +4165,7 @@
       "notes": "\n\t<p><i> Um humanoide bípede, com feições de lobo, coberto por uma pelagem marrom. </i></p>\n\t\n\t<p><strong>CA</strong> 12, <strong>PV</strong> 20, <strong>ATQ</strong> 2 despedaçar +3 (1d6), <strong>MV</strong> Perto x2, <strong>F</strong> +3, <strong>D</strong> +2, <strong>C</strong> +2, <strong>I</strong> +0, <strong>S</strong> +1, <strong>Car</strong> +0, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 4</p>\n\t<p><strong> Invulnerável.</strong>Só pode ser ferido por prata ou fontes de dano mágicas.</p><p><strong>Licantropia.</strong>Se sofrer 12 ou mais pontos de dano do mesmo lobisomem, o alvo irá contrair licantropia.</p>"
     },
     "Wight": {
-      "name": "Aparição",
+      "name": "Inumano",
       "tokenName": "Inumano",
       "items": {
         "Bastard Sword": {
@@ -4199,7 +4254,8 @@
       "tokenName": "Aparição",
       "items": {
         "Death Touch": {
-          "name": "Toque da Morte"
+          "name": "Toque da Morte",
+          "special": "Drenar Vida"
         },
         "Greater Undead": {
           "name": "Morto-vivo Maior",
@@ -4211,10 +4267,11 @@
         },
         "Life Drain": {
           "name": "Drenar Vida",
-          "description": "<p>1d4 de dano de CON. Morre se reduzido a 0 CON.</p>"
+          "description": "<p>[[/r 1d4]] de dano de CON. Morre se reduzido a 0 CON.</p>"
         }
       },
-      "notes": "\n\t<p><i> Um espírito sombrio fervendo de ira e malícia. Sua presença deixa os animais inquietos. </i></p> \n\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 36, <strong>ATQ</strong> 3 x toque da morte +6 (1d10 + drenar vida), <strong>MV</strong> Perto (voar), <strong>F</strong> -4, <strong>D</strong> +4, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Car</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 8</p> \t<p><strong> Morto-vivo Maior</strong>. Imune a testes de moral. Só pode ser ferido por prata ou fontes de dano mágicas.</p><p><strong>Incorpóreo</strong>. Em vez de atacar, pode se tornar corpóreo ou incorpóreo.</p><p><strong>Drenar Vida</strong>. 1d4 de dano de CON. Morre se reduzido a 0 CON.</p>"
+      "moveNote": "voar",
+      "notes": "\n\t<p><i> Um espírito sombrio fervendo de ira e malícia. Sua presença deixa os animais inquietos. </i></p> \n\n\t<p><strong>CA</strong> 14, <strong>PV</strong> 36, <strong>ATQ</strong> 3 toque da morte +6 (1d10 + drenar vida), <strong>MV</strong> Perto (voar), <strong>F</strong> -4, <strong>D</strong> +4, <strong>C</strong> +0, <strong>I</strong> +0, <strong>S</strong> +0, <strong>Car</strong> +3, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 8</p> \t<p><strong> Morto-vivo Maior</strong>. Imune a testes de moral. Só pode ser ferido por prata ou fontes de dano mágicas.</p><p><strong>Incorpóreo</strong>. Em vez de atacar, pode se tornar corpóreo ou incorpóreo.</p><p><strong>Drenar Vida</strong>. [[/r 1d4]] de dano de CON. Morre se reduzido a 0 CON.</p>"
     },
     "Wyvern": {
       "name": "Serpe",
