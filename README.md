@@ -10,21 +10,23 @@ Based on Rabbit Hole French Translation.
 - Ative ambos.
 - Altere o idioma em configurações para Português (Brasil)
 
-## Installation
+## Instalação
 
-### Method 1
+### Método 1
 
-1. On Foundry VTT's **Configuration and Setup** screen, go to **Add-on Modules**
-2. Click **Install Module**
-3. Search for **Shadowdark rpg br**
-4. Click **Install** next to the module listing
+1. Na tela **Configuração e Ajustes** do Foundry VTT, vá para **Módulos Adicionais**
+2. Clique em **Instalar Módulo**
+3. Procure por **Shadowdark rpg br**
+4. Clique em **Instalar** ao lado da listagem do módulo
 
-### Method 2
+### Método 2
 
-1. On Foundry VTT's **Configuration and Setup** screen, go to **Add-on Modules**
-2. Click **Install Module**
-3. In the Manifest URL field, paste: `https://github.com/luizrcb/shadowdark-rpg-br/releases/latest/download/module.json`
-4. Click **Install** next to the pasted Manifest URL
+1. Na tela **Configuração e Ajustes** do Foundry VTT, vá para **Módulos Adicionais**
+2. Clique em **Instalar Módulo**
+3. No campo **URL do Manifesto**, cole:
+##
+    https://github.com/luizrcb/shadowdark-rpg-br/releases/latest/download/module.json
+4. Clique em **Instalar** ao lado da URL do Manifesto colada
 
 ## Licenses
 
