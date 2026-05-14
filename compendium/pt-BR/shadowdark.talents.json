@@ -174,6 +174,10 @@
       "name": "Ovo de Basilisco",
       "description": "<p><span class=\"fontstyle0\">Você encontra um @UUID[Compendium.shadowdark.gear.Item.zU6dopKBk3pKS9F9]; um bebê fiel a você nasce em [[/r 1d4]] dias</span></p>"
     },
+    "Beginners' Luck": {
+      "name": "Sorte de Principiante",
+      "description": "</p>Personagens de nível 0 podem utilizar todos os equipamentos até alcançarem o nível 1.</p>"
+    },
     "Black Lotus": {
       "name": "Lótus Negra",
       "description": "<p>Você conquistou o direito de comer uma pétala da lendária flor de lótus negra e sobreviveu aos seus efeitos místicos.</p><p>Role um talento na tabela @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q].Você pode rolar novamente as duplicatas ou mantê-las.</p>"
@@ -262,7 +266,7 @@
       "name": "Hipnotizar",
       "description": "<p>1/dia, hipnotize uma criatura de NV 5 ou menor por 3 rodadas</p><p>Duplicado = +1 uso por dia</p>"
     },
-    "Ignore all Damage": {
+    "Ignore All Damage": {
       "name": "Ignorar Todo o Dano",
       "description": "<p>1/dia, ignore todo o dano e efeitos causados por um ataque</p><p>Duplicado = uso adicional por dia</p>"
     },
