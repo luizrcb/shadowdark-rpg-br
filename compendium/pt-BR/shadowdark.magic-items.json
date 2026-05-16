@@ -5,16 +5,16 @@
   },
   "entries": {
     "Pipe of the Rolling Hills": {
-      "name": "Pipe of the Rolling Hills",
-      "description": "<p><em>A long, curved pipe that smells of cloves and resin.</em></p><p><strong>Benefit.</strong> Up to three times per day, regain [[/r 1d4]] hit points when you smoke this pipe.</p>"
+      "name": "Cachimbo das Colinas Onduladas",
+      "description": "<p><em>Um cachimbo longo e recurvado, que cheira a cravo e resina.</em></p><p><strong>Benefício.</strong> Até três vezes por dia, recupere [[/r 1d4]] pontos de vida ao fumar este cachimbo.</p>"
     },
     "Brak's Cube of Perfection (Cha)": {
       "name": "Cubo da Perfeição de Brak (CAR)",
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "permanentAbility": {
-          "name": "permanentAbility",
-          "description": "permanentAbility",
+          "name": "Atributo Permanente (Carisma)",
+          "description": "Atributo Permanente (Carisma)",
           "changes": {
             "system": {
               "abilities": {
@@ -36,16 +36,16 @@
       "description": "<p><em>Braçadeiras de aço adornadas com\nrunas anãs de proteção.</em></p><p><strong>Benefício</strong>. Você recebe um bônus de +1 na sua classe de armadura.</p>"
     },
     "Cloak of the bat": {
-      "name": "Cloak of the bat",
-      "description": "<p><em>A leathery, black cloak that has a ragged hem and a hood with pointed ears.</em></p><p><strong>Benefit.</strong> You can fly a near distance as your movement while in a shadowy area.</p><p><strong>Curse.</strong> Each time you use the cloak to fly, roll a d20. On a result of 1, you and your gear turn into a small bat for 3 rounds.</p>"
+      "name": "Manto do Morcego",
+      "description": "<p><em>Um manto de couro preto com uma bainha irregular e um capuz com orelhas pontudas.</em></p><p><strong>Benefício.</strong> Você pode usar seu movimento para voar para Perto, se estiver em uma área sombria.</p><p><strong>Maldição.</strong> Cada vez que usar o manto para voar, jogue um d20. Em um resultado de 1, você e seu equipamento se transformam em um pequeno morcego por 3 rodadas.</p>"
     },
     "Obsidian Witchknife": {
-      "name": "Obsidian Witchknife",
-      "description": "<p><em>A glinting, obsidian blade that trails black smoke in thin curls.</em></p><p><strong>Bonus.</strong> +2 dagger. Cannot be wielded by a lawful being.</p><p><strong>Benefit.</strong> When you cast a spell while holding this dagger, you may wound yourself with it. Add the amount of damage you take to your spellcasting check.</p>",
+      "name": "Faca de Bruxaria de Obsidiana",
+      "description": "<p><em>Uma lâmina de obsidiana reluzente que deixa rastros de fumaça negra em finos redemoinhos.</em></p><p><strong>Bônus.</strong> Adaga +2. Não pode ser empunhada por seres ordeiros.</p><p><strong>Benefício.</strong> Ao conjurar uma magia enquanto estiver segurando esta adaga, você pode se ferir com ela e adicionar a quantidade de dano sofrido ao teste de conjuração.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -59,8 +59,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -76,12 +76,12 @@
       }
     },
     "Memnon's Discordant Blade (Completed Set)": {
-      "name": "Memnon's Discordant Blade (Completed Set)",
-      "description": "<p><em>This barbed greatsword's red blade trails a shower of sparks when swung to strike.</em></p><p><strong>Bonus.</strong> +1 greatsword. Can only be wielded by a chaotic being. If you also wield Memnon's Entropic Armor and Memnon's Blazing Javelin, it becomes a +3 greatsword.</p><p><strong>Benefit.</strong> Once per day, you can utterly annihilate one creature of level 9 or less that you damage with this blade. The creature can pass a [[request 18 con]] check to take [[/r 3d8]] damage instead.</p><p><strong>Curse.</strong> You cannot relinquish ownership of this blade unless it is taken from you by a creature that defeats you in combat. For each day you do not slay a LV 2 or greater creature with this sword, you lose [[/r 1d6]] hit points. These are restored only when you kill a LV 2 or greater creature with the sword.</p>",
+      "name": "Lâmina Discordante de Memnon (Conjunto Completo)",
+      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +3. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de Constituição CD 18 para sofrer 3d8 de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -95,8 +95,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -112,12 +112,12 @@
       }
     },
     "Memnon's Blazing Javelin (Completed Set)": {
-      "name": "Memnon's Blazing Javelin (Completed Set)",
-      "description": "<p><em>This golden javelin occasionally blinks and wavers, briefly turning into a bolt of lightning.</em></p><p><strong>Bonus.</strong> +1 javelin. Can only be wielded by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Entropic Armor, it becomes a +3 javelin.</p><p><strong>Benefit.</strong> The javelin always returns to your hand after being thrown. Once per day, when you throw this javelin, you can turn it into lightning as per the @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]{lightning bolt} spell (no spellcasting check).</p>",
+      "name": "Azagaia Reluzente de Memnon (Conjunto Completo)",
+      "description": "<p><em>Uma azagaia dourada que ocasionalmente lampeja e tremula, transformando-se brevemente em um relâmpago.</em></p><p><strong>Bônus.</strong> Azagaia +3. Só pode ser empunhada por seres caóticos. Se você também empunhar a Lâmina Discordante de Memnon e a Armadura Entrópica de Memnon, ela se torna uma azagaia +3.</p><p><strong>Benefício.</strong> A azagaia sempre retorna à sua mão após ser arremessada. Uma vez por dia, ao lançar esta azagaia, você pode transformá-la em um raio idêntico à magia relâmpago (sem teste de conjuração).</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -131,8 +131,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -148,12 +148,12 @@
       }
     },
     "Memnon's Discordant Blade": {
-      "name": "Memnon's Discordant Blade",
-      "description": "<p><em>This barbed greatsword's red blade trails a shower of sparks when swung to strike.</em></p><p><strong>Bonus.</strong> +1 greatsword. Can only be wielded by a chaotic being. If you also wield Memnon's Entropic Armor and Memnon's Blazing Javelin, it becomes a +3 greatsword.</p><p><strong>Benefit.</strong> Once per day, you can utterly annihilate one creature of level 9 or less that you damage with this blade. The creature can pass a [[request 18 con]] check to take [[/r 3d8]] damage instead.</p><p><strong>Curse.</strong> You cannot relinquish ownership of this blade unless it is taken from you by a creature that defeats you in combat. For each day you do not slay a LV 2 or greater creature with this sword, you lose [[/r 1d6]] hit points. These are restored only when you kill a LV 2 or greater creature with the sword.</p>",
+      "name": "Lâmina Discordante de Memnon",
+      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +1. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de Constituição CD 18 para sofrer 3d8 de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
       "effects": {
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -167,8 +167,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -188,8 +188,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Con)": {
-          "name": "Permanent Ability (Con)",
-          "description": "Permanent Ability (Con)",
+          "name": "Atributo Permanente (Constituição)",
+          "description": "Atributo Permanente (Constituição)",
           "changes": {
             "system": {
               "abilities": {
@@ -203,16 +203,16 @@
       }
     },
     "Tome of Gehemna": {
-      "name": "Tome of Gehemna",
-      "description": "<p><em>A sturdy, russet volume held by metal clasps. A golden eye in a circle adorns the cover.</em></p><p><strong>Benefit.</strong> Each day, a random wizard spell scroll appears inside the tome, replacing the spell scroll from the prior day.</p><p><strong>Personality.</strong> Neutral. Instructive, technical. Drones on about the obscure points of spellcasting and has an opinion on every wizard's technique.</p>"
+      "name": "Tomo de Gehemna",
+      "description": "<p><em>Um robusto tomo avermelhado, preso por fechos metálicos. Um olho dourado dentro de um círculo adorna sua capa.</em></p><p><strong>Benefício.</strong> A cada dia, um pergaminho com uma magia de mago aleatória aparece dentro do tomo, substituindo o pergaminho mágico do dia anterior.</p><p><strong>Personalidade.</strong> Neutro. Instrutivo e técnico. Discorre sobre tópicos obscuros a respeito de conjuração de magias, e tem uma opinião sobre a técnica de cada mago.</p>"
     },
     "Shield of the Crusader": {
-      "name": "Shield of the Crusader",
-      "description": "<p><em>A weighty kite shield painted with a faded, crimson cross.</em></p><p><strong>Bonus.</strong> +1 shield. Can only be wielded by a lawful being.</p><p><strong>Benefit.</strong> Once per day, you can speak a prayer to wreathe the shield in holy flames, granting +2 to your AC for 3 rounds.</p>",
+      "name": "Escudo do Cruzado",
+      "description": "<p><em>Um pesado escudo em formato de losango, pintado com uma cruz vermelha e desbotada.</em></p><p><strong>Bônus.</strong> Escudo +1. Só pode ser empunhado por seres ordeiros.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode recitar uma oração para envolver o escudo em chamas sagradas, conferindo +2 à sua CA por 3 rodadas.</p>",
       "effects": {
         "AC Bonus": {
-          "name": "AC Bonus",
-          "description": "AC Bonus",
+          "name": "Bônus na CA",
+          "description": "Bônus na CA",
           "changes": {
             "system": {
               "attributes": {
@@ -224,8 +224,8 @@
           }
         },
         "Holy Prayer AC Bonus": {
-          "name": "Holy Prayer AC Bonus",
-          "description": "+2 AC for 3 rounds after speaking a holy prayer (1/day)",
+          "name": "Bônus na CA (Oração Sagrada)",
+          "description": "+2 na CA por 3 rodadas após recitar uma oração sagrada (1/dia)",
           "changes": {
             "system": {
               "attributes": {
@@ -239,12 +239,12 @@
       }
     },
     "Shortsword of the Thief": {
-      "name": "Shortsword of the Thief",
-      "description": "<p><em>A stubby, grey blade riddled with notches and scars.</em></p><p><strong>Bonus</strong>. +1 shortsword. +2 if wielded by a halfling or thief.</p><p><strong>Benefit</strong>. Once per day, regain a luck token you just spent.</p>",
+      "name": "Espada Curta do Ladrão",
+      "description": "<p><em>Uma lâmina curta e acinzentada, marcada por entalhes e cicatrizes.</em></p><p><strong>Bônus.</strong> Espada curta +1. +2 se empunhada por um halfling ou ladrão.</p><p><strong>Benefício.</strong> Uma vez por dia, recupere uma ficha de sorte que você acabou de gastar.</p>",
       "effects": {
         "Attack Roll Bonus": {
-          "name": "Attack Roll Bonus",
-          "description": "Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque",
+          "description": "Bônus na Jogada de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -258,8 +258,8 @@
           }
         },
         "Attack Damage Bonus": {
-          "name": "Attack Damage Bonus",
-          "description": "Attack Damage Bonus",
+          "name": "Bônus de Dano de Ataque",
+          "description": "Bônus de Dano de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -275,24 +275,24 @@
       }
     },
     "Potion of Legendary Deeds": {
-      "name": "Potion of Legendary Deeds",
-      "description": "<p><em>A golden elixir that resonates with a faint, angelic chord.</em></p><p><strong>Benefit.</strong> When you drink this potion, you gain one level and your XP total resets to zero.</p>"
+      "name": "Poção dos Feitos Lendários",
+      "description": "<p><em>Um elixir dourado que ressoa um suave acorde angelical.</em></p><p><strong>Benefício.</strong> Ao beber esta poção, você ganha um nível e seu XP total é redefinido para zero.</p>"
     },
     "Ring of Invisibility": {
-      "name": "Ring of Invisibility",
-      "description": "<p><em>A simple, gold band polished to a warm shine.</em></p><p><strong>Benefit.</strong> Once per day, the ring can cast the @UUID[Compendium.shadowdark.spells.Item.PZ0qPp6lG9SVMoAr]{invisibility} spell (pg. 63) on you.</p><p><strong>Curse.</strong> There is a cumulative 1% chance each time you rest that your sleep is ruined by apocalyptic nightmares, and you gain no benefit from resting. This resets to a 1% chance each time it triggers.</p>"
+      "name": "Anel da Invisibilidade",
+      "description": "<p><em>Uma simples linha de ouro polida com um brilho agradável.</em></p><p><strong>Benefício.</strong> Uma vez por dia, o anel pode conjurar a magia invisibilidade (pág. 65) sobre você.</p><p><strong>Maldição.</strong> Existe uma chance cumulativa de 1%, a cada vez que você tentar descansar, de que seu sono seja arruinado por pesadelos apocalípticos, sem obter qualquer benefício desse descanso. As chances voltam para 1% a cada vez que a maldição for ativada.</p>"
     },
     "Potion of Giant Strength": {
-      "name": "Potion of Giant Strength",
-      "description": "<p><em>A clay jar holding a stew of green, leafy sludge.</em></p><p><strong>Benefit.</strong> Your Strength becomes 18 (+4) and you deal x2 damage on melee attacks for 10 rounds.</p>"
+      "name": "Poção da Força de Gigante",
+      "description": "<p><em>Um jarro de barro contendo um caldo verde pegajoso e cheio de folhas.</em></p><p><strong>Benefício.</strong> Sua Força se torna 18 (+4), e você causa o dobro de dano em ataques corpo a corpo durante 10 rodadas.</p>"
     },
     "Hat of Intellect": {
-      "name": "Hat of Intellect",
-      "description": "<p><em>A floppy, pointed hat with a wide brim.</em></p><p><strong>Benefit.</strong> Your Intelligence stat becomes 18 (+4) while wearing this hat.</p>",
+      "name": "Chapéu da Inteligência",
+      "description": "<p><em>Um chapéu pontudo e desajeitado, com uma aba larga.</em></p><p><strong>Benefício.</strong> Sua Inteligência se torna 18 (+4) enquanto estiver usando este chapéu.</p>",
       "effects": {
         "Permanent Ability (Int)": {
-          "name": "Permanent Ability (Int)",
-          "description": "Permanent Ability (Int)",
+          "name": "Atributo Permanente (Inteligência)",
+          "description": "Atributo Permanente (Inteligência)",
           "changes": {
             "system": {
               "abilities": {
@@ -306,12 +306,12 @@
       }
     },
     "Robe of the Sorcerer": {
-      "name": "Robe of the Sorcerer",
-      "description": "<p><em>A black leather robe with a shadowed cowl and clawed clasps on thin, mithral chains.</em></p><p><strong>Benefit.</strong> Only a wizard with the Sorcerer title can wear this robe.</p><p>Your unarmored AC becomes 15 plus your Dexterity modifier.</p><p>When you cast a spell that deals damage, add your Intelligence modifier to the total. You have advantage on casting the @UUID[Compendium.shadowdark.spells.Item.ttcu6Hcf7zUzxJmk]{power word kill} spell.</p>",
+      "name": "Manto do Feiticeiro",
+      "description": "<p><em>Uma túnica de couro preto, com um capuz escurecido e botões em forma de garras presos por finas correntes de mitral.</em></p><p><strong>Benefício.</strong> Apenas um mago com o título de Feiticeiro pode usar esse manto.</p><p>A sua CA sem armadura se torna 15 + modificador de DES.</p><p>Ao conjurar uma magia que causa dano, adicione seu modificador de Inteligência ao total de dano causado.</p><p>Você tem Vantagem para conjurar a magia palavra de poder: matar.</p>",
       "effects": {
         "Spellcasting Advantage on Spell": {
-          "name": "Spellcasting Advantage on Spell",
-          "description": "Spellcasting Advantage on Spell",
+          "name": "Vantagem em Conjuração (Palavra de Poder: Matar)",
+          "description": "Vantagem em conjuração para palavra de poder: matar",
           "changes": {
             "system": {
               "roll": {
@@ -327,12 +327,12 @@
       }
     },
     "Necklace of Charm": {
-      "name": "Necklace of Charm",
-      "description": "<p><em>A gold, fishbone chain that shimmers with subtle beauty.</em></p><p><strong>Benefit.</strong> Your Charisma stat becomes 18 (+4) while wearing this necklace.</p>",
+      "name": "Colar do Encanto",
+      "description": "<p><em>Uma corrente dourada, no estilo espinha de peixe, que brilha com uma beleza sutil.</em></p><p><strong>Benefício.</strong> Seu Carisma se torna 18 (+4), enquanto estiver usando este colar.</p>",
       "effects": {
         "Permanent Ability (Cha)": {
-          "name": "Permanent Ability (Cha)",
-          "description": "Permanent Ability (Cha)",
+          "name": "Atributo Permanente (Carisma)",
+          "description": "Atributo Permanente (Carisma)",
           "changes": {
             "system": {
               "abilities": {
@@ -346,16 +346,16 @@
       }
     },
     "War Horn of the Angels": {
-      "name": "War Horn of the Angels",
-      "description": "<p><em>An opalescent ox horn capped with a golden mouthpiece.</em></p><p><strong>Benefit.</strong> Only a lawful being can wield the horn. Once per day, you can blow the horn to cast @UUID[Compendium.shadowdark.spells.Item.hhCpwnqFy8ntO0jU]{rebuke unholy} (pg. 69) with a +4 bonus.</p><p>A demon or devil who hears the horn has disadvantage on its Charisma check vs. your rebuke unholy spellcasting check.</p>"
+      "name": "Chifre de Guerra dos Anjos",
+      "description": "<p><em>Um chifre de boi opalescente, adornado com um bocal dourado.</em></p><p><strong>Benefício.</strong> Apenas seres ordeiros podem empunhá-lo. Uma vez por dia, você pode soprar o chifre para conjurar expulsar profano (pág. 62) com um bônus de +4.</p><p>Um demônio ou diabo que ouvir o som do chifre tem Desvantagem no teste de Carisma contra o seu teste de conjuração de expulsar profano.</p>"
     },
     "Longbow of the Elven Kings": {
-      "name": "Longbow of the Elven Kings",
-      "description": "<p><em>A deeply curved longbow with deer antler reinforcements.</em></p><p><strong>Bonus.</strong> +1 longbow.</p><p><strong>Benefit.</strong> You have advantage on attacks with this bow against unnatural creatures and outsiders.</p><p><strong>Personality.</strong> Neutral. Proud, timeless. Believes protecting the natural order is the highest calling. Demands all unnatural creatures be found and slain.</p>",
+      "name": "Arco Longo dos Reis Élficos",
+      "description": "<p><em>Um arco longo, acentuadamente recurvado e reforçado com chifres de cervo.</em></p><p><strong>Bônus.</strong> Arco longo +1.</p><p><strong>Benefício.</strong> Você tem Vantagem em ataques com este arco contra criaturas não naturais e Entidades Exteriores.</p><p><strong>Personalidade.</strong> Neutro. Orgulhoso, atemporal. Acredita que proteger a ordem natural é a maior das vocações. Exige que todas as criaturas não naturais sejam encontradas e eliminadas.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -369,8 +369,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -384,8 +384,8 @@
           }
         },
         "Advantage vs Unnatural Creatures & Outsiders": {
-          "name": "Advantage vs Unnatural Creatures & Outsiders",
-          "description": "Advantage on attacks vs unnatural creatures and outsiders",
+          "name": "Vantagem contra Criaturas Não Naturais e Entidades Exteriores",
+          "description": "Vantagem em ataques contra criaturas não naturais e entidades exteriores",
           "changes": {
             "system": {
               "roll": {
@@ -401,16 +401,16 @@
       }
     },
     "Bag of Badgers": {
-      "name": "Bag of Badgers",
-      "description": "<p><em>A gray, fraying sack matted with white, bristly hair.</em></p><p><strong>Benefit.</strong> Once per day, you can reach inside the bag and pull out an angry @UUID[Compendium.shadowdark.monsters.Actor.VM65vWCNjlx5tKTP]{badger}. You can throw the badger up to a near distance. The badger attacks the nearest creature for 3 rounds before waddling away.</p>"
+      "name": "Bolsa de Texugos",
+      "description": "<p><em>Um saco cinza, desgastado, coberto de pelos brancos e ásperos.</em></p><p><strong>Benefício.</strong> Uma vez por dia, você pode puxar um texugo irritado de dentro da bolsa. Você pode lançar o texugo até Perto. O texugo ataca a criatura mais próxima por 3 rodadas antes de fugir cambaleando.</p>"
     },
     "Warhammer of the Dwarf Lords": {
-      "name": "Warhammer of the Dwarf Lords",
-      "description": "<p><em>A boxy hammer with a stout handle and leather throwing strap. It hums with a baritone resonance when spun.</em></p><p><strong>Bonus.</strong> +1 warhammer. +2 if wielded by a dwarf.</p><p><strong>Benefit.</strong> This weapon has the thrown property (pg. 37) to a near distance. It always returns to your hand after being thrown.<br>Your attacks with this weapon deal double damage against giants.</p>",
+      "name": "Martelo de Guerra dos Lordes Anões",
+      "description": "<p><em>Um martelo robusto, com cabo curto e uma alça de couro para arremesso. Ele emite uma ressonância grave quando é girado.</em></p><p><strong>Bônus.</strong> Martelo de guerra +1. +2 se for empunhado por um anão.</p><p><strong>Benefício.</strong> Esta arma possui a propriedade Arremesso (pág. 37), com alcance Perto. O martelo sempre retorna à sua mão depois de ser arremessado.<br>Seus ataques com esta arma causam o dobro de dano contra gigantes.</p>",
       "effects": {
         "Double Damage vs Giants": {
-          "name": "Double Damage vs Giants",
-          "description": "Double Damage vs Giants",
+          "name": "Dano em Dobro contra Gigantes",
+          "description": "Dano em Dobro contra Gigantes",
           "changes": {
             "system": {
               "roll": {
@@ -424,8 +424,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -439,8 +439,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -456,12 +456,12 @@
       }
     },
     "Staff of The Cobra": {
-      "name": "Staff of The Cobra",
-      "description": "<p><em>A curved scepter tipped with a ruby-eyed, flaring cobra head.</em></p><p><strong>Bonus.</strong> +1 staff.</p><p><strong>Benefit.</strong> All snakes regard you with a friendly attitude unless you do something to upset them. Once per day, you can throw the staff to the ground. It becomes a giant snake for 5 rounds that obeys your mental commands. If the giant snake goes to 0 HP, it reverts into a staff.</p><p><strong>Curse.</strong> You have disadvantage on attacks and casting hostile spells targeting snakes.</p>",
+      "name": "Cajado da Cobra",
+      "description": "<p><em>Um cetro curvado com a ponta em forma de cabeça de cobra naja e olhos de rubi.</em></p><p><strong>Bônus.</strong> Cajado +1.</p><p><strong>Benefício.</strong> Todas as cobras têm um comportamento amigável em relação a você, a menos que você faça algo para irritá-las. Uma vez por dia, você pode jogar o cajado no chão. Ele se transforma em uma cobra gigante por 5 rodadas, obedecendo aos seus comandos mentais. Se a cobra gigante chegar a 0 PV, ela retorna à forma de cajado.</p><p><strong>Maldição.</strong> Você tem Desvantagem em ataques e conjurações hostis que tenham cobras como alvo.</p>",
       "effects": {
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -475,8 +475,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -490,8 +490,8 @@
           }
         },
         "Disadvantage on Attacks & Spells vs Snakes": {
-          "name": "Disadvantage on Attacks & Spells vs Snakes",
-          "description": "Disadvantage on attacks and hostile spells targeting snakes",
+          "name": "Desvantagem em Ataques e Magias contra Cobras",
+          "description": "Desvantagem em ataques e magias hostis contra cobras",
           "changes": {
             "system": {
               "roll": {
@@ -517,16 +517,16 @@
       }
     },
     "Bead of Force": {
-      "name": "Bead of Force",
-      "description": "<p><em>A marble with a blue ring of light glowing softly inside it.</em></p><p><strong>Benefit.</strong> You can throw this bead at one target up to a near distance. If you hit, the target becomes caught in a @UUID[Compendium.shadowdark.spells.Item.B091clRxdPW3SQ4G]{resilient sphere} spell (pg. 69).</p>"
+      "name": "Esfera de Força",
+      "description": "<p><em>Uma pequena esfera vítrea com um anel de luz azul brilhando suavemente dentro dela.</em></p><p><strong>Benefício.</strong> Você pode arremessar esta esfera em um alvo que esteja Perto. Se você acertar, o alvo fica preso na magia esfera resiliente (pág. 62).</p>"
     },
     "Gauntlets of Might": {
       "name": "Manoplas do Poder",
       "description": "<p><em>Manoplas pesadas e feitas de bronze, adornadas com gravações de gigantes Hercúleos.</em></p><p><strong>Benefício</strong>. Seu atributo de Força se torna 18 (+4), enquanto estiver usando estas manoplas.</p>",
       "effects": {
         "Permanent Ability (Str)": {
-          "name": "Permanent Ability (Str)",
-          "description": "Permanent Ability (Str)",
+          "name": "Atributo Permanente (Força)",
+          "description": "Atributo Permanente (Força)",
           "changes": {
             "system": {
               "abilities": {
@@ -540,12 +540,12 @@
       }
     },
     "Warhammer of the Dwarf Lords (Wielded by a Dwarf)": {
-      "name": "Warhammer of the Dwarf Lords (Wielded by a Dwarf)",
-      "description": "<p><em>A boxy hammer with a stout handle and leather throwing strap. It hums with a baritone resonance when spun.</em></p><p><strong>Bonus.</strong> +1 warhammer. +2 if wielded by a dwarf.</p><p><strong>Benefit.</strong> This weapon has the thrown property (pg. 37) to a near distance. It always returns to your hand after being thrown.<br>Your attacks with this weapon deal double damage against giants.</p>",
+      "name": "Martelo de Guerra dos Lordes Anões (Empunhado por um Anão)",
+      "description": "<p><em>Um martelo robusto, com cabo curto e uma alça de couro para arremesso. Ele emite uma ressonância grave quando é girado.</em></p><p><strong>Bônus.</strong> Martelo de guerra +2. +2 se for empunhado por um anão.</p><p><strong>Benefício.</strong> Esta arma possui a propriedade Arremesso (pág. 37), com alcance Perto. O martelo sempre retorna à sua mão depois de ser arremessado.<br>Seus ataques com esta arma causam o dobro de dano contra gigantes.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -559,8 +559,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -574,8 +574,8 @@
           }
         },
         "Double Damage vs Giants": {
-          "name": "Double Damage vs Giants",
-          "description": "Double Damage vs Giants",
+          "name": "Dano em Dobro contra Gigantes",
+          "description": "Dano em Dobro contra Gigantes",
           "changes": {
             "system": {
               "roll": {
@@ -591,20 +591,20 @@
       }
     },
     "Flying Carpet": {
-      "name": "Flying Carpet",
-      "description": "<p><em>A richly woven, red carpet with gold tassels.</em></p><p><strong>Benefit.</strong> The carpet fits two riders (one is the driver). It can fly double near on the driver's turn.</p><p><strong>Personality.</strong> Neutral. Playful, mischievous. Enjoys visiting new places and gets restless without a frequent change in location.</p>"
+      "name": "Tapete Voador",
+      "description": "<p><em>Um tapete vermelho, ricamente tecido, com franjas douradas.</em></p><p><strong>Benefício.</strong> O tapete acomoda dois passageiros (um deles é o condutor). Ele pode voar a distância Perto x2 no turno do condutor.</p><p><strong>Personalidade.</strong> Neutro. Brincalhão, travesso. Adora visitar novos lugares e fica inquieto se não mudar frequentemente de localização.</p>"
     },
     "Pipes of the Sewers": {
-      "name": "Pipes of the Sewers",
-      "description": "<p><em>A set of tarnished, brass pan pipes with seven cylinders.</em></p><p><strong>Benefit.</strong> Once per day, you can play these pipes to summon [[/r 2d6]] @UUID[Compendium.shadowdark.monsters.Actor.OYtg4Ta4PIpvIZxq]{giant rats}. The rats obey you for [[/r 1d6]] rounds, and then they scatter and flee.</p><p><strong>Curse.</strong> If you stop playing while the rats are present, they turn on you and attack.</p>"
+      "name": "Flauta dos Esgotos",
+      "description": "<p><em>Uma flauta de pã com sete cilindros, feita de latão manchado.</em></p><p><strong>Benefício.</strong> Uma vez por dia, você pode tocar esta flauta para invocar [[/r 2d6]] @UUID[Compendium.shadowdark.monsters.Actor.OYtg4Ta4PIpvIZxq]{ratos gigantes}. Os ratos lhe obedecem por [[/r 1d6]] rodadas, depois se dispersam e fogem.</p><p><strong>Maldição.</strong> Se você parar de tocar a flauta enquanto os ratos ainda estiverem presentes, eles se voltam contra você e atacam.</p>"
     },
     "Helm of Mind Reading": {
-      "name": "Helm of Mind Reading",
-      "description": "<p><em>A helm carved with brain ridges, a spinal neck-guard, and octopus-like tentacles.</em></p><p><strong>Benefit.</strong> You can cast the @UUID[Compendium.shadowdark.spells.Item.XBt4wA37ypUiXkp6]{detect thoughts} spell (pg. 58) three times per day (+4 bonus).</p>",
+      "name": "Elmo de Leitura Mental",
+      "description": "<p><em>Um elmo esculpido com sulcos cerebrais, que tem um protetor de pescoço em forma de espinha e tentáculos que lembram os de um polvo.</em></p><p><strong>Benefício.</strong> Você pode conjurar a magia detectar pensamentos (pág. 60) três vezes por dia (+4 de bônus).</p>",
       "effects": {
         "Spellcasting Check Bonus": {
-          "name": "Spellcasting Check Bonus",
-          "description": "+4 to detect thoughts spellcasting checks (3/day)",
+          "name": "Bônus em Teste de Conjuração",
+          "description": "+4 em testes de conjuração de detectar pensamentos (3/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -624,8 +624,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Int)": {
-          "name": "Permanent Ability (Int)",
-          "description": "Permanent Ability (Int)",
+          "name": "Atributo Permanente (Inteligência)",
+          "description": "Atributo Permanente (Inteligência)",
           "changes": {
             "system": {
               "abilities": {
@@ -643,16 +643,16 @@
       "description": "<p><em> Esse frasco de vidro parece estar \rvazio, mas um líquido se agita de \r\nforma audível dentro dele. </em></p><p><strong>Benefício. </strong>. Ao beber esta poção, você \rfica invisível por 10 rodadas, ou até que ataque ou conjure uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>"
     },
     "The Malediction Infernal": {
-      "name": "The Malediction Infernal",
-      "description": "<p><em>A black, leatherbound tome with a grinning demon face embossed on the cover.</em></p><p><strong>Benefit.</strong> A chaotic being who reads this tome gains a level and learns the @UUID[Compendium.shadowdark.languages.Item.b5yBrLaRIl7ZEWKu]{Diabolic} language.</p><p>A non-chaotic being who reads this book must pass a [[check 18 wis]] check or lose one level.</p><p>After being read, the tome teleports to a far-flung location.</p>"
+      "name": "A Maldição Infernal",
+      "description": "<p><em>Um tomo encadernado em couro preto, com o rosto sorridente de um demônio gravado na capa.</em></p><p><strong>Benefício.</strong> Um ser caótico que ler este tomo ganha um nível e aprende o idioma Diabólico.</p><p>Um ser não caótico que ler este livro deve ter sucesso em um teste de SAB CD 18, ou perderá um nível.</p><p>Depois de ser lido, o tomo se teleporta para um local distante.</p>"
     },
     "Gloves of Agility": {
-      "name": "Gloves of Agility",
-      "description": "<p><em>Thin, leather gloves that seem to meld with the wearer's hands.</em></p><p><strong>Benefit.</strong> Your Dexterity stat becomes 18 (+4) while wearing these gloves.</p>",
+      "name": "Luvas da Agilidade",
+      "description": "<p><em>Luvas finas feitas de couro, que parecem se fundir com as mãos do usuário.</em></p><p><strong>Benefício.</strong> Sua Destreza se torna 18 (+4) enquanto estiver usando estas luvas.</p>",
       "effects": {
         "Permanent Ability (Dex)": {
-          "name": "Permanent Ability (Dex)",
-          "description": "Permanent Ability (Dex)",
+          "name": "Atributo Permanente (Destreza)",
+          "description": "Atributo Permanente (Destreza)",
           "changes": {
             "system": {
               "abilities": {
@@ -666,20 +666,20 @@
       }
     },
     "Mirror of Mischief": {
-      "name": "Mirror of Mischief",
-      "description": "<p><em>A full-length mirror polished to a gleaming shine. Grinning, silver demons grasp the mirror, their claws forming its frame.</em></p><p><strong>Curse.</strong> The first time a humanoid creature looks into this mirror, the mirror creates an evil and malicious duplicate of them. The duplicate can step from the mirror and is an exact copy of the subject (except for magical gear, which looks identical but is mundane in nature). The evil duplicate can live indefinitely outside the mirror. It attempts to sow chaos in the life of the creature it duplicated.</p>"
+      "name": "Espelho da Travessura",
+      "description": "<p><em>Um espelho de corpo inteiro, polido com um brilho reluzente. Demônios prateados e sorridentes agarram o espelho formando sua moldura.</em></p><p><strong>Maldição.</strong> Na primeira vez que uma criatura humanoide olha para esse espelho, o espelho cria uma duplicata maligna e perversa dela. A duplicata pode sair do espelho, e é uma cópia exata do sujeito (exceto pelo equipamento mágico, que parece idêntico, mas é mundano). A duplicata maligna pode permanecer fora do espelho indefinidamente. Ela tenta semear o caos na vida da criatura que duplicou.</p>"
     },
     "Egg of the Cockatrice": {
-      "name": "Egg of the Cockatrice",
-      "description": "<p><em>A blue, hard egg as big as a coconut and heavy as a stone.</em></p><p><strong>Benefit.</strong> Once per week, you can speak a command word that causes a @UUID[Compendium.shadowdark.monsters.Actor.xUxKG0CR6Elw1l7h]{cockatrice} to hatch and follow your commands for 5 rounds before flying away. The egg repairs itself over one week.</p>"
+      "name": "Ovo de Cocatriz",
+      "description": "<p><em>Um ovo azul e rígido, do tamanho de um coco e tão pesado quanto uma pedra.</em></p><p><strong>Benefício.</strong> Uma vez por semana, você pode pronunciar uma palavra de comando que faz uma cocatriz eclodir do ovo e seguir suas ordens por 5 rodadas, antes de voar para longe. O ovo retorna ao estado original depois de uma semana.</p>"
     },
     "Shield of the Witch-King": {
-      "name": "Shield of the Witch-King",
-      "description": "<p><em>A jagged triangle of black steel with spiny, armored plates.</em></p><p><strong>Bonus.</strong> +2 shield. Can only be wielded by a chaotic being.</p><p><strong>Benefit.</strong> You take half damage from undead creatures.</p><p><strong>Curse.</strong> If you go to 0 HP, the spirit of Ix-Natheer tries to steal your body. He blocks healing magic from affecting you. If you die, Ix-Natheer possesses you.</p><p><strong>Personality.</strong> Chaotic. The spirit of the witch-king Ix-Natheer animates this shield. He pounces on opportunities to betray his wielder so he can try to take over their body and return to unlife.</p>",
+      "name": "Escudo do Rei-Bruxo",
+      "description": "<p><em>Um triângulo irregular de aço negro fincado com placas cheias de espinhos.</em></p><p><strong>Bônus.</strong> Escudo +2. Só pode ser empunhado por seres caóticos.</p><p><strong>Benefício.</strong> Você sofre metade do dano de criaturas mortas-vivas.</p><p><strong>Maldição.</strong> Se seus PV caírem para 0, o espírito de Ix-Natheer tenta roubar seu corpo. Ele bloqueia as magias de cura que tentem lhe afetar. Se você morrer, Ix-Natheer irá lhe possuir.</p><p><strong>Personalidade.</strong> Caótico. O espírito do rei-bruxo Ix-Natheer dá vida a esse escudo. Ele aproveita todas as oportunidades para trair seu portador e tentar assumir seu corpo para retornar à não vida.</p>",
       "effects": {
         "AC Bonus": {
-          "name": "AC Bonus",
-          "description": "AC Bonus",
+          "name": "Bônus na CA",
+          "description": "Bônus na CA",
           "changes": {
             "system": {
               "attributes": {
@@ -693,15 +693,15 @@
       }
     },
     "Tome Mordanticus": {
-      "name": "Tome Mordanticus",
-      "description": "<p><em>A hand-drawn bestiary of the multiverse's most notable creatures and people.</em></p><p><strong>Benefit.</strong> When you read the tome, you learn three @UUID[Compendium.shadowdark.magic-items.Item.gNah418e2ykhDWDE]{True Names} (pg. 319) of three beings you choose. Your True Name also appears in the book after reading it.</p><p><strong>Personality.</strong> Neutral. Pedantic, fussy. The book constantly tries to escape its owner and can telepathically reach out a near distance to any creature.</p>"
+      "name": "Tomo Mordanticus",
+      "description": "<p><em>Um bestiário desenhado à mão que ilustra as criaturas e pessoas mais notáveis do multiverso.</em></p><p><strong>Benefício.</strong> Ao ler o tomo, você aprende os Nomes Verdadeiros (pág. 323) de três seres à sua escolha. Seu Nome Verdadeiro também aparece no livro depois de lê-lo.</p><p><strong>Personalidade.</strong> Neutro. Sábio e exigente. O livro constantemente tenta escapar de seu dono, e pode falar telepaticamente com qualquer criatura que esteja Perto.</p>"
     },
     "Bloodlust": {
       "name": "Sede de Sangue",
       "effects": {
         "Critical Multiplier": {
-          "name": "Critical Multiplier",
-          "description": "Critical Multiplier",
+          "name": "Multiplicador de Crítico",
+          "description": "Multiplicador de Crítico",
           "changes": {
             "system": {
               "roll": {
@@ -715,8 +715,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -730,8 +730,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -747,12 +747,12 @@
       }
     },
     "Thrice-Blessed Sword": {
-      "name": "Thrice-Blessed Sword",
-      "description": "<p><em>A lustrous, golden-handled blade anointed with blessed tears, incense, and prayers.</em></p><p><strong>Bonus.</strong> +3 longsword. Only a lawful priest who has achieved the Templar title or higher can wield this sword.</p><p><strong>Benefit.</strong> You deal double damage against demons, devils, and undead.</p><p><strong>Personality.</strong> Lawful. Virtuous, naive. Refuses to be wielded against worshippers of lawful gods, especially self-proclaimed converts. Demands each foe be given the chance to convert before being slain.</p>",
+      "name": "Espada Triplamente Abençoada",
+      "description": "<p><em>Uma lâmina com um cabo dourado e lustroso, ungida com lágrimas sagradas, incenso e preces.</em></p><p><strong>Bônus.</strong> Espada longa +3. Apenas um sacerdote ordeiro que tenha conquistado o título de Templário ou superior pode empunhar esta espada.</p><p><strong>Benefício.</strong> Você causa o dobro de dano contra demônios, diabos e mortos-vivos.</p><p><strong>Personalidade.</strong> Ordeira. Virtuosa e ingênua. Se nega a ser usada contra adoradores de deuses ordeiros, especialmente os autoproclamados. Exige que cada inimigo tenha a chance de se converter antes de ser eliminado.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -766,8 +766,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -781,8 +781,8 @@
           }
         },
         "Double Damage vs Demons, Devils &  Undead": {
-          "name": "Double Damage vs Demons, Devils &  Undead",
-          "description": "Double Damage vs Demons, Devils &amp;  Undead",
+          "name": "Dano em Dobro contra Demônios, Diabos e Mortos-vivos",
+          "description": "Dano em Dobro contra Demônios, Diabos e Mortos-vivos",
           "changes": {
             "system": {
               "roll": {
@@ -802,8 +802,8 @@
       "description": "<p><em>Couro liso e reluzente, coberto com escamas de esmeraldas iridescentes.</em></p><p><strong>Bônus</strong>. Armadura de couro +1</p><p><strong>Benefício</strong>. Você tem Vantagem em testes para evitar os efeitos de venenos.</p>",
       "effects": {
         "Advantage vs Poison": {
-          "name": "Advantage vs Poison",
-          "description": "Advantage vs Poison",
+          "name": "Vantagem contra Veneno",
+          "description": "Vantagem em testes para evitar efeitos de veneno",
           "changes": {
             "system": {
               "roll": {
@@ -823,12 +823,12 @@
       "description": "<p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]</p>"
     },
     "Memnon's Blazing Javelin": {
-      "name": "Memnon's Blazing Javelin",
-      "description": "<p><em>This golden javelin occasionally blinks and wavers, briefly turning into a bolt of lightning.</em></p><p><strong>Bonus.</strong> +1 javelin. Can only be wielded by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Entropic Armor, it becomes a +3 javelin.</p><p><strong>Benefit.</strong> The javelin always returns to your hand after being thrown. Once per day, when you throw this javelin, you can turn it into lightning as per the @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]{lightning bolt} spell (no spellcasting check).</p>",
+      "name": "Azagaia Reluzente de Memnon",
+      "description": "<p><em>Uma azagaia dourada que ocasionalmente lampeja e tremula, transformando-se brevemente em um relâmpago.</em></p><p><strong>Bônus.</strong> Azagaia +1. Só pode ser empunhada por seres caóticos. Se você também empunhar a Lâmina Discordante de Memnon e a Armadura Entrópica de Memnon, ela se torna uma azagaia +3.</p><p><strong>Benefício.</strong> A azagaia sempre retorna à sua mão após ser arremessada. Uma vez por dia, ao lançar esta azagaia, você pode transformá-la em um raio idêntico à magia relâmpago (sem teste de conjuração).</p>",
       "effects": {
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -842,8 +842,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -859,20 +859,20 @@
       }
     },
     "Goblin Bomb": {
-      "name": "Goblin Bomb",
-      "description": "<p><em>A preserved rat stuffed with an explosive charge and a fuse.</em></p><p><strong>Benefit.</strong> You can light the bomb's fuse and throw it a near distance. It explodes in [[/r 1d4]] rounds, dealing [[/r 2d8]] damage to everything in near range.</p>"
+      "name": "Bomba Goblin",
+      "description": "<p><em>Um rato empalhado com uma carga explosiva e um pavio.</em></p><p><strong>Benefício.</strong> Você pode acender o pavio da bomba e lançá-la até Perto. Ela explode em [[/r 1d4]] rodadas, causando [[/r 2d8]] de dano a tudo que estiver Perto.</p>"
     },
     "Wand of Warding": {
-      "name": "Wand of Warding",
-      "description": "<p><em>A thin, weighty rod of dark iron inscribed with spiraling runes.</em></p><p><strong>Benefit.</strong> This wand contains the spells @UUID[Compendium.shadowdark.spells.Item.6N33hyLWYZCRgkeX]{dispel magic} (pg. 59) and @UUID[Compendium.shadowdark.spells.Item.P9LFIH0PW4Zlx3RG]{protection from energy }(pg. 68).</p><p><strong>Curse.</strong> Each time you fail a spellcasting check with this wand, you also lose the ability to cast a random spell you know until you complete a rest.</p>"
+      "name": "Varinha de Proteção",
+      "description": "<p><em>Um bastão fino e pesado, feito de ferro escuro e inscrito com runas em espiral.</em></p><p><strong>Benefício.</strong> Esta varinha contém as magias dissipar magia (pág. 61) e proteção contra energia (pág. 71).</p><p><strong>Maldição.</strong> A cada vez que falhar em um teste de conjuração com esta varinha, você também perde a habilidade de conjurar uma magia aleatória que conhece até que complete um descanso.</p>"
     },
     "Trident of the Seas": {
-      "name": "Trident of the Seas",
-      "description": "<p><em>A three-pronged, mithral harpoon studded with pearls.</em></p><p><strong>Bonus.</strong> +2 spear.</p><p><strong>Benefit.</strong> You can breathe underwater, as well as speak to and understand wild sea creatures. Once per day, you can cast @UUID[Compendium.shadowdark.spells.Item.TKDuwFu1hP2lX549]{control water} (pg. 57) with a +4 bonus.</p>",
+      "name": "Tridente dos Mares",
+      "description": "<p><em>Um arpão de mitral com três pontas, cravejado com pérolas.</em></p><p><strong>Bônus.</strong> Lança +2.</p><p><strong>Benefício.</strong> Você pode respirar debaixo d'água, bem como compreender e falar com criaturas marinhas selvagens. Uma vez por dia, você pode conjurar a magia controlar água (pág. 57) com um bônus de +4.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -886,8 +886,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -901,8 +901,8 @@
           }
         },
         "Bonus to Control Water": {
-          "name": "Bonus to Control Water",
-          "description": "+4 to control water spellcasting checks (1/day)",
+          "name": "Bônus para Controlar Água",
+          "description": "+4 em testes de conjuração de controlar água (1/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -922,20 +922,20 @@
       "description": "<p><em>Um broche feito de um escaravelho com chifres e banhado a ouro.</em></p><p><strong>Benefício. </strong>. Se você morrer, faça um teste de constituição [[check 18 con]]. Se for \rbem-sucedido, você fica inconsciente \rem vez de morrer.</p></em>"
     },
     "Amulet of Secrecy": {
-      "name": "Amulet of Secrecy",
-      "description": "<p><em>A heavy, flat pendant carved with a lidded eye.</em></p><p><strong>Benefit.</strong> You can't be detected by divination magic such as the scrying spell or a Crystal Ball while wearing this amulet.</p><p><strong>Curse.</strong> You constantly have the sensation of being watched.</p>"
+      "name": "Amuleto do Sigilo",
+      "description": "<p><em>Um pingente pesado e achatado, gravado com um olho com pálpebras.</em></p><p><strong>Benefício.</strong> Você não pode ser detectado por magias divinatórias, como vidência, ou por uma Bola de Cristal enquanto estiver usando este amuleto.</p><p><strong>Maldição.</strong> Você tem a constante sensação de estar sendo observado.</p>"
     },
     "Immovable Rod": {
       "name": "Bastão Imóvel",
       "description": "<p><em>Um bastão curto e feito de ferro, com um botão em uma extremidade.</em></p><p><strong>Benefício</strong>. Quando você aperta o botão, o bastão se torna fixo no espaço (sustenta até 2 ton). Apertar o botão novamente encerra esse efeito.</p>"
     },
     "Greataxe of the Horde": {
-      "name": "Greataxe of the Horde",
-      "description": "<p><em>A jagged greataxe carved from a weighty dragon bone.</em></p><p><strong>Bonus.</strong> +2 greataxe.</p><p><strong>Benefit.</strong> Once per day, you can turn a regular hit with this weapon into a critical hit.</p><p><strong>Curse.</strong> Each time you go below half your hit points, make a [[check 12 cha]] check. On a failure, you enter a battle rage for [[/r 1d4]] rounds and must attack the nearest creature.</p>",
+      "name": "Machado Grande da Horda",
+      "description": "<p><em>Um machado grande e irregular, esculpido a partir de um pesado osso de dragão.</em></p><p><strong>Bônus.</strong> Machado grande +2.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode transformar um acerto comum feito com essa arma em um acerto crítico.</p><p><strong>Maldição.</strong> A cada vez que você ficar com menos da metade de seus PV totais, faça um teste de CAR CD 12. Caso falhe no teste, você entra em um frenesi de batalha por 1d4 rodadas, atacando a criatura mais próxima.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -949,8 +949,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -966,16 +966,16 @@
       }
     },
     "Memnon's Entropic Armor (Completed Set)": {
-      "name": "Memnon's Entropic Armor (Completed Set)",
-      "description": "<p><em>Deep blue plate mail traced with gold lightning motifs and red gems arrayed into the shape of flames.</em></p><p><strong>Bonus.</strong> +1 plate mail. Can only be worn by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Blazing Javelin, it becomes +3 plate mail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. Until your next turn, all non-magical weapons that strike you are instantly unmade, shattering into dust. You take no damage from them.</p>"
+      "name": "Armadura Entrópica de Memnon (Conjunto Completo)",
+      "description": "<p><em>Uma armadura de placas azul-marinho, decorada com motivos de relâmpagos dourados e pedras preciosas vermelhas dispostas em forma de chamas.</em></p><p><strong>Bônus.</strong> Armadura de placas +3. Só pode ser usada por seres caóticos. Se você também empunhar a Lâmina Discordante de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma armadura de placas +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode pronunciar a palavra de comando da armadura. Até o seu próximo turno, todas as armas não mágicas que o atingirem serão desintegradas instantaneamente, tornando-se pó. Você não sofre dano delas.</p>"
     },
     "Blade of Vengeance": {
-      "name": "Blade of Vengeance",
-      "description": "<p><em>A gray blade with a diamond- cut ruby in the pommel. It whistles sharply with each slice.</em></p><p><strong>Bonus.</strong> +2 bastard sword. Cannot be wielded by undead.</p><p><strong>Benefit.</strong> You have advantage on attacks against undead creatures with this sword. You can use the sword to cast @UUID[Compendium.shadowdark.spells.Item.mByUvcHIVEPWscfH]{turn undead }once per day (+4 bonus).</p><p><strong>Personality.</strong> Lawful. Grim, suspicious. Forged as a failsafe against the Witch-Kings if they should fall to darkness, which they did. Demands they be slain.</p>",
+      "name": "Lâmina da Vingança",
+      "description": "<p><em>Uma lâmina acinzentada, com um rubi lapidado em formato de diamante no pomo. A cada golpe, ela emite um assobio agudo.</em></p><p><strong>Bônus.</strong> Espada bastarda +2. Não pode ser empunhada por mortos-vivos.</p><p><strong>Benefício.</strong> Você tem Vantagem em ataques contra criaturas mortas-vivas ao usar esta espada. Uma vez por dia, você pode usar a espada para conjurar a magia expulsar mortos-vivos (+4 de bônus).</p><p><strong>Personalidade.</strong> Ordeira. Sombria e desconfiada. Forjada como uma medida de segurança contra os Reis-Bruxos, caso eles fossem corrompidos pela escuridão, o que acabou acontecendo. A lâmina exige que eles sejam mortos.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -989,8 +989,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1004,8 +1004,8 @@
           }
         },
         "Advantage on attacks vs Undead": {
-          "name": "Advantage on attacks vs Undead",
-          "description": "Advantage on attacks vs Undead",
+          "name": "Vantagem em Ataques contra Mortos-vivos",
+          "description": "Vantagem em ataques contra mortos-vivos",
           "changes": {
             "system": {
               "roll": {
@@ -1021,48 +1021,48 @@
       }
     },
     "Hat of the Hound": {
-      "name": "Hat of the Hound",
-      "description": "<p><em>A rounded, jaunty bowler hat.</em></p><p><strong>Benefit.</strong> You can transform into a @UUID[Compendium.shadowdark.monsters.Actor.lJyH2RWm3t5MB5iG]{mastiff} each day for up to 10 rounds total. Your clothing and possessions transform with you.</p>"
+      "name": "Chapéu do Cão de Caça",
+      "description": "<p><em>Um chapéu-coco redondo e elegante.</em></p><p><strong>Benefício.</strong> Você pode se transformar em um mastim uma vez por dia, por até 10 rodadas. Suas roupas e posses se transformam com você.</p>"
     },
     "Alabaster Destrier": {
-      "name": "Alabaster Destrier",
-      "description": "<p><em>A smooth, pearly statuette of a running horse.</em></p><p></p><p><strong>Benefit.</strong> Once per day, the wielder can speak the command word to turn the statuette into a @UUID[Compendium.shadowdark.monsters.Actor.5Tp7B3qOMEAdMkJ8]{pegasus} that accepts neutral or lawful riders. The statuette remains in this form for 1 hour.</p>"
+      "name": "Corcel de Alabastro",
+      "description": "<p><em>Uma estatueta lisa e perolada que retrata um cavalo correndo.</em></p><p><strong>Benefício.</strong> Uma vez por dia, o portador pode pronunciar a palavra de comando para transformar a estatueta em um @UUID[Compendium.shadowdark.monsters.Actor.5Tp7B3qOMEAdMkJ8]{pégaso} que aceita cavaleiros neutros ou ordeiros. A estatueta permanece nessa forma por 1 hora.</p>"
     },
     "Spyglass of True Sight": {
-      "name": "Spyglass of True Sight",
-      "description": "<p><em>A brass, telescoping lens with magical runes carved on it.</em></p><p><strong>Benefit.</strong> When you look through the spyglass, you can see invisible creatures and objects.</p><p><strong>Curse.</strong> The wielder feels a compulsion to look at everything through the spyglass.</p>"
+      "name": "Luneta da Visão Verdadeira",
+      "description": "<p><em>Uma lente telescópica de latão com runas mágicas gravadas nela.</em></p><p><strong>Benefício.</strong> Ao olhar através da luneta, você pode ver criaturas e objetos invisíveis.</p><p><strong>Maldição.</strong> O portador sente um impulso de olhar para tudo através da luneta.</p>"
     },
     "Nightcloak Armor": {
-      "name": "Nightcloak Armor",
-      "description": "<p><em>Matte black leathers enchanted to deepen and darken shadows.</em></p><p><strong>Bonus.</strong> +1 leather armor.</p><p><strong>Benefit.</strong> Once per day, you may choose to automatically pass a Dexterity check to hide.</p>"
+      "name": "Proteção de Manto Noturno",
+      "description": "<p><em>Couros pretos e foscos, encantados para intensificar e escurecer as sombras.</em></p><p><strong>Bônus.</strong> Armadura de couro +1.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode escolher passar automaticamente em um teste de DES para se esconder.</p>"
     },
     "Sphere of Annihilation": {
-      "name": "Sphere of Annihilation",
-      "description": "<p><em>A three-foot, spherical void of pure darkness that hovers above the ground.</em></p><p><strong>Benefit.</strong> This sphere utterly destroys all matter it touches.</p><p>Intelligent beings can move the flying sphere a near distance by passing a [[check 18 int]] check. If multiple creatures vie for control of the sphere, it is a contested Intelligence check instead. Wizards have advantage on this check. The winner moves the sphere a near distance.</p><p>If the sphere moves into a space occupied by a creature, the being controlling the sphere makes an attack roll against that creature with a +7 bonus. On a hit, the creature is obliterated.</p>"
+      "name": "Esfera da Aniquilação",
+      "description": "<p><em>Um vazio esférico de pura escuridão, medindo 1 metro e pairando acima do solo.</em></p><p><strong>Benefício.</strong> Essa esfera destrói completamente toda e qualquer matéria que tocar.</p><p>Seres inteligentes podem mover a esfera voadora até a distância Perto, se passarem em um teste de Inteligência CD 18. Se várias criaturas disputarem o controle da esfera, o teste de Inteligência será disputado. Magos têm Vantagem nesse teste. O vencedor move a esfera até Perto.</p><p>Se a esfera se mover para um espaço ocupado por uma criatura, o ser que estiver controlando a esfera faz uma jogada de ataque contra essa criatura com um bônus de +7. Se acertar, a criatura é obliterada.</p>"
     },
     "Boots of the Cat": {
       "name": "Botas do Gato",
       "description": "<p><em>Botas cinzas e feitas de camurça, tão finas e macias quanto pantufas.</em></p><p><strong>Benefício</strong>. Você pode saltar até a distância Perto sem precisar de impulso. Seus testes para se mover silenciosamente são sempre Fáceis (CD 9).</p>"
     },
     "Onyx Destrier": {
-      "name": "Onyx Destrier",
-      "description": "<p><em>A polished, ebony statuette of a running horse.</em></p><p><strong>Benefit.</strong> Once per day, the wielder can speak the command word to turn the statuette into a @UUID[Compendium.shadowdark.monsters.Actor.bxcbuzesUqGpEBxw]{nightmare} that accepts neutral or chaotic riders. The statuette remains in this form for 1 hour.</p>"
+      "name": "Corcel de Ônix",
+      "description": "<p><em>Uma estatueta de ébano polido que retrata um cavalo correndo.</em></p><p><strong>Benefício.</strong> Uma vez por dia, o seu portador pode pronunciar a palavra de comando para transformar a estatueta em um @UUID[Compendium.shadowdark.monsters.Actor.bxcbuzesUqGpEBxw]{pesadelo} que aceita cavaleiros de alinhamento neutro ou caótico. A estatueta permanece nessa forma por 1 hora.</p>"
     },
     "Tome of Hadebe": {
-      "name": "Tome of Hadebe",
-      "description": "<p><em>A brass-plated book with pages of etched copper leaf.</em></p><p><strong>Benefit.</strong> The tome contains one each of the following scrolls: @UUID[Compendium.shadowdark.spells.Item.ItN82uLU3PhJFLNm]{burning hands} (pg. 56), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), and @UUID[Compendium.shadowdark.spells.Item.71VbHnopcTmRXz47]{prismatic orb} (pg. 67).</p>"
+      "name": "Tomo de Hadebe",
+      "description": "<p><em>Um livro revestido com latão e com páginas feitas de folhas de cobre gravadas.</em></p><p><strong>Benefício.</strong> O tomo contém um pergaminho de cada uma das seguintes magias: mãos flamejantes (pág. 66), bola de fogo (pág. 56) e orbe prismático (pág. 69).</p>"
     },
     "Well of Many Worlds": {
-      "name": "Well of Many Worlds",
-      "description": "<p><em>A dark circle of cloth that seems to create a tunnel through the surface it lies upon.</em></p><p><strong>Benefit.</strong> The Well of Many Worlds folds open on a flat surface into a 6-foot wide hole. Creatures can jump into the hole once per day each to be transported to a random plane of existence.</p>"
+      "name": "Poço dos Muitos Mundos",
+      "description": "<p><em>Um círculo escuro de tecido que parece criar um túnel através da superfície em que repousa.</em></p><p><strong>Benefício.</strong> O Poço dos Muitos Mundos se desdobra em uma superfície plana, formando um buraco com 2 metros de largura. Cada criatura pode saltar nele uma vez por dia para ser transportada a um plano de existência aleatório.</p>"
     },
     "Asterion": {
       "name": "Asterion",
       "description": "<p><strong>Ativo</strong>. Uma criatura não pode mover o portador contra a sua vontade.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1076,8 +1076,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1093,20 +1093,20 @@
       }
     },
     "Portable Hole": {
-      "name": "Portable Hole",
-      "description": "<p><em>A black, velvet square of cloth that unfolds into a wide circle.</em></p><p><strong>Benefit.</strong> The Portable Hole folds open on a flat surface into a 6-foot wide, 6-foot deep hole. It has 20 gear slots of storage. The hole closes when you fold the cloth into a small square.</p><p><strong>Curse.</strong> Placing this item inside a Bag of Holding or another Portable Hole destroys both items and all held inside them.</p>"
+      "name": "Buraco Portátil",
+      "description": "<p><em>Um quadrado de veludo preto que se desdobra em um grande círculo.</em></p><p><strong>Benefício.</strong> O Buraco Portátil se desdobra em uma superfície plana, criando um buraco de 2 metros de largura e 2 metros de profundidade, com 20 espaços para armazenamento. O buraco se fecha quando você dobra o tecido em um pequeno quadrado.</p><p><strong>Maldição.</strong> Colocar este item dentro de uma Bolsa do Espaço Infinito ou de outro Buraco Portátil destrói ambos os itens e tudo o que há dentro deles.</p>"
     },
     "Potion of Polymorph": {
-      "name": "Potion of Polymorph",
-      "description": "<p><em>A pickled newt floats in this lavender flask of clear liquid.</em></p><p><strong>Benefit.</strong> When you drink this potion, it casts the @UUID[Compendium.shadowdark.spells.Item.1ZAZQsFvPBEZPkVP]{polymorph} spell (pg. 67) on you with a duration of 1 hour instead of 10 rounds.</p>"
+      "name": "Poção de Polimorfia",
+      "description": "<p><em>Uma salamandra em conserva flutua neste frasco de lavanda contendo um líquido transparente.</em></p><p><strong>Benefício.</strong> Quando você bebe esta poção, a magia polimorfia (pág. 70) é conjurada em você, com uma duração de 1 hora em vez de 10 rodadas.</p>"
     },
     "Dagger of the Goblin Hero": {
-      "name": "Dagger of the Goblin Hero",
-      "description": "<p><em>A curved dagger with a half- moon notch at the blade's base.</em></p><p><strong>Bonus.</strong> +1 dagger.</p><p><strong>Benefit.</strong> You can speak Goblin. All goblinoid creatures react to you with a friendly attitude.</p>",
+      "name": "Adaga do Herói Goblin",
+      "description": "<p><em>Uma adaga recurvada, com uma gravação em formato de meia-lua na base de sua lâmina.</em></p><p><strong>Bônus.</strong> Adaga +1.</p><p><strong>Benefício.</strong> Você pode falar o idioma Goblin. Todas as criaturas goblinoides reagem com um comportamento amigável em relação a você.</p>",
       "effects": {
         "Speak Goblin": {
-          "name": "Speak Goblin",
-          "description": "Speak Goblin",
+          "name": "Falar Goblin",
+          "description": "Falar Goblin",
           "changes": {
             "system": {
               "languages": "Compendium.shadowdark.languages.Item.NN9wFGgwk49oOQeN"
@@ -1114,8 +1114,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1129,8 +1129,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1150,8 +1150,8 @@
       "description": "<p><em>Uma lâmina serrilhada e enferrujada, \rcom um oleoso cabo de couro.</em></p><p><strong>Bônus</strong>. Espada longa +2.</p><p><strong> Benefício. </strong>A espada é inquebrável, e pode cortar qualquer material.</p><p>O dono pode invocar a espada direto \rpara sua mão se ambos estiverem no mesmo plano.</p>",
       "effects": {
         "Attack Roll Bonus": {
-          "name": "Attack Roll Bonus",
-          "description": "Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque",
+          "description": "Bônus na Jogada de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -1165,8 +1165,8 @@
           }
         },
         "Attack Damage Bonus": {
-          "name": "Attack Damage Bonus",
-          "description": "Attack Damage Bonus",
+          "name": "Bônus de Dano de Ataque",
+          "description": "Bônus de Dano de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -1182,12 +1182,12 @@
       }
     },
     "Scimitar of the Ash Moon": {
-      "name": "Scimitar of the Ash Moon",
-      "description": "<p><em>This wide, curved blade has a snarling efreeti head on the bronze pommel.</em></p><p><strong>Bonus.</strong> +3 greatsword.</p><p><strong>Benefit.</strong> If you roll a critical hit with this weapon, the target is beheaded. It dies instantly if decapitation would kill it.</p>",
+      "name": "Cimitarra da Lua de Cinzas",
+      "description": "<p><em>Essa lâmina larga e recurvada possui uma cabeça de ifriti rosnando em seu pomo de bronze.</em></p><p><strong>Bônus.</strong> Espada grande +3.</p><p><strong>Benefício.</strong> Se você rolar um acerto crítico com essa arma, o alvo é decapitado. Ele morre instantaneamente se a decapitação for o suficiente para matá-lo.</p>",
       "effects": {
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1201,8 +1201,8 @@
           }
         },
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1222,8 +1222,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Str)": {
-          "name": "Permanent Ability (Str)",
-          "description": "Permanent Ability (Str)",
+          "name": "Atributo Permanente (Força)",
+          "description": "Atributo Permanente (Força)",
           "changes": {
             "system": {
               "abilities": {
@@ -1241,8 +1241,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Cha)": {
-          "name": "Permanent Ability (Cha)",
-          "description": "Permanent Ability (Cha)",
+          "name": "Atributo Permanente (Carisma)",
+          "description": "Atributo Permanente (Carisma)",
           "changes": {
             "system": {
               "abilities": {
@@ -1256,24 +1256,24 @@
       }
     },
     "The Kytherian Mechanism": {
-      "name": "The Kytherian Mechanism",
-      "description": "<p><em>A towering, brass platform mounted with countless cogs and gears speckled in blue- green rust.</em></p><p><strong>Benefit.</strong> A handle turns The Kytherian Mechanism's mighty wheels, but it doesn't function until its seven missing @UUID[Compendium.shadowdark.magic-items.Item.0c0G5Dnzq9Il8zZY]{Kytherian Cogs} are replaced.</p><p>Once functional, activating the mechanism allows the operator to undo one event of their choosing from history. Then, the seven Kytherian Cogs magically scatter to far-flung locations.</p>"
+      "name": "Mecanismo Kytheriano",
+      "description": "<p><em>Uma plataforma imponente, feita de latão, e montada com incontáveis engrenagens e rodas dentadas, cobertas de ferrugem azul-esverdeada.</em></p><p><strong>Benefício.</strong> Uma alavanca liga as poderosas rodas do Mecanismo Kytheriano, mas ele não funcionará até que suas sete @UUID[Compendium.shadowdark.magic-items.Item.0c0G5Dnzq9Il8zZY]{Engrenagens Kytherianas} desaparecidas sejam recolocadas.</p><p>Uma vez consertado, ativar o mecanismo permite que o operador desfaça um evento histórico, à sua escolha. Depois disso, as sete Engrenagens Kytherianas se espalham magicamente por locais distantes.</p>"
     },
     "Potion of Forgetfulness": {
-      "name": "Potion of Forgetfulness",
-      "description": "<p><em>A pink draught that swirls with a counter-clockwise current.</em></p><p><strong>Benefit.</strong> If you serve this potion to an intelligent being and that being drinks it, the imbiber permanently forgets one memory of your choosing.</p>"
+      "name": "Poção do Esquecimento",
+      "description": "<p><em>Uma poção rosa que gira em sentido anti-horário.</em></p><p><strong>Benefício.</strong> Se você servir esta poção a um ser inteligente e ele consumi-la, uma memória de sua escolha será permanentemente esquecida por ele.</p>"
     },
     "Hourglass of the Black Sands": {
-      "name": "Hourglass of the Black Sands",
-      "description": "<p><em>An ancient hourglass running with obsidian sand.</em></p><p><strong>Benefit.</strong> Once per day, you can turn the hourglass when you cast a spell. The spell's effects last 1d4 rounds longer.</p>"
+      "name": "Ampulheta das Areias Negras",
+      "description": "<p><em>Uma ampulheta antiga, cheia de areia de obsidiana.</em></p><p><strong>Benefício.</strong> Uma vez por dia, você pode virar a ampulheta ao conjurar uma magia. Os efeitos da magia duram 1d4 rodadas a mais.</p>"
     },
     "Silver Mace of Wrath": {
-      "name": "Silver Mace of Wrath",
-      "description": "<p><em>A tarnished, silver mace with seven flanges in the shape of crescent moons.</em></p><p><strong>Bonus.</strong> +1 mace.</p><p><strong>Benefit.</strong> This weapon deals double damage against creatures with lycanthropy.</p>",
+      "name": "Maça de Prata da Ira",
+      "description": "<p><em>Uma maça prateada e manchada, com sete lâminas em forma de luas crescentes.</em></p><p><strong>Bônus.</strong> Maça +1.</p><p><strong>Benefício.</strong> Esta arma causa o dobro de dano contra criaturas com licantropia.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1287,8 +1287,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1302,8 +1302,8 @@
           }
         },
         "Double Damage vs Lycanthropes": {
-          "name": "Double Damage vs Lycanthropes",
-          "description": "Double Damage vs Lycanthropes",
+          "name": "Dano em Dobro contra Licantropos",
+          "description": "Dano em Dobro contra Licantropos",
           "changes": {
             "system": {
               "roll": {
@@ -1319,12 +1319,12 @@
       }
     },
     "Staff of Ord": {
-      "name": "Staff of Ord",
-      "description": "<p><em>A tapered, mithral staff that resonates with arcane power. The tip features an upward- looking eye in a circle of runes.</em></p><p><strong>Bonus.</strong> +3 staff. Can only be wielded by a wizard.</p><p><strong>Benefit.</strong> Functions as a wand of @UUID[Compendium.shadowdark.spells.Item.UWGzL8qsentdrvar]{dimension door} (pg. 59), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), @UUID[Compendium.shadowdark.spells.Item.AnJVapep2NJoicUP]{sending} (pg. 70), and @UUID[Compendium.shadowdark.spells.Item.AZo6rYWOo0SHvpxZ]{telekinesis} (pg. 72). Unlike a wand, the staff remains intact if you roll a 1 on your spellcasting checks. Hostile spells targeting you are DC 18 to cast.</p>",
+      "name": "Cajado de Ord",
+      "description": "<p><em>Um cajado afunilado de mitral que ressoa com poder arcano. Na ponta, há um olho voltado para cima envolto por um círculo de runas.</em></p><p><strong>Bônus.</strong> Cajado +3. Só pode ser empunhado por um mago.</p><p><strong>Benefício.</strong> Funciona como uma varinha de porta dimensional (pág. 70), bola de fogo (pág. 56), remeter (pág. 72) e telecinese (pág. 74). Diferentemente de uma varinha, o cajado permanece intacto se você rolar 1 em seus testes de conjuração. Magias hostis que tenham você como alvo são conjuradas com CD 18.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1338,8 +1338,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1355,16 +1355,16 @@
       }
     },
     "Ring of Feather Falling": {
-      "name": "Ring of Feather Falling",
-      "description": "<p><em>A pearly ring carved in the likeness of an owl feather.</em></p><p><strong>Benefit.</strong> Once per day, the ring can cast @UUID[Compendium.shadowdark.spells.Item.0ejsM2UIZDHs5u2f]{feather fall }(pg. 60) on you when you fall.</p><p><strong>Personality.</strong> Neutral. Fearful of heights. Mentally hoots in an owl-like voice to stay away from the edge of cliffs and pits.</p>"
+      "name": "Anel da Queda Suave",
+      "description": "<p><em>Um anel perolado e esculpido na forma de uma pena de coruja.</em></p><p><strong>Benefício.</strong> Uma vez por dia, quando você cair, o anel pode conjurar queda suave (pág. 71) sobre você.</p><p><strong>Personalidade.</strong> Neutro. Tem medo de altura. Ele emite barulhos mentais semelhantes aos de uma coruja para manter o portador longe das bordas de penhascos e buracos.</p>"
     },
     "Robe of the Druid": {
-      "name": "Robe of the Druid",
-      "description": "<p><em>A green velvet robe with a deep hood and hems embroidered with silver leaves and vines.</em></p><p><strong>Benefit.</strong> Only a wizard with the Druid title can wear this robe.</p><p>Your unarmored AC becomes 15 plus your Dexterity modifier.</p><p>Twice per day, you can regain the ability to cast one lost spell.</p><p>You have advantage on casting the @UUID[Compendium.shadowdark.spells.Item.qz6bKMyDaGyifklx]{shapechange} spell. When you cast it, its duration is 1 hour instead of focus.</p>",
+      "name": "Manto do Druida",
+      "description": "<p><em>Uma túnica de veludo verde com um capuz grande, e barras bordadas com folhas e vinhas prateadas.</em></p><p><strong>Benefício.</strong> Apenas um mago com o título de Druida pode usar esse manto.</p><p>A sua CA sem armadura se torna 15 + modificador de DES.</p><p>Duas vezes por dia, você pode recuperar a habilidade de conjurar uma magia perdida.</p><p>Você tem Vantagem para conjurar a magia metamorfose. Quando conjurá-la, sua duração é de 1 hora em vez de exigir concentração.</p>",
       "effects": {
         "Spellcasting Advantage on Spell": {
-          "name": "Spellcasting Advantage on Spell",
-          "description": "Spellcasting Advantage on Spell",
+          "name": "Vantagem em Conjuração (Metamorfose)",
+          "description": "Vantagem em conjuração para metamorfose",
           "changes": {
             "system": {
               "roll": {
@@ -1380,20 +1380,20 @@
       }
     },
     "Potion of Vitality": {
-      "name": "Potion of Vitality",
-      "description": "<p><em>A crimson elixir that gently thumps with a heartbeat.</em></p><p><strong>Benefit.</strong> When you drink this potion, roll your class's hit points die. You permanently gain that many HP.</p><p><strong>Curse.</strong> If you drink more than one Potion of Vitality in your lifetime, you must pass a [[check 18 con]] check each time or die instantly.</p>"
+      "name": "Poção da Vitalidade",
+      "description": "<p><em>Um elixir carmesim que pulsa suavemente no ritmo de um batimento cardíaco.</em></p><p><strong>Benefício.</strong> Ao beber esta poção, role o dado de pontos de vida da sua classe. Você ganha permanentemente essa quantidade de PV.</p><p><strong>Maldição.</strong> Se beber mais do que uma Poção da Vitalidade ao longo de sua vida, você deve passar em um teste de Constituição CD 18 a cada vez que bebê-la novamente, ou morrerá instantaneamente.</p>"
     },
     "Armor of Saint Terragnis": {
-      "name": "Armor of Saint Terragnis",
-      "description": "<p><em>Golden plate mail carved from head to toe with warrior angels.</em></p><p><strong>Bonus.</strong> +3 plate mail. Only a lawful worshipper of Saint Terragnis can wear this armor.</p><p><strong>Benefit.</strong> Hostile spells that target you are DC 18 to cast. Once per month, you can summon an Avatar of Saint Terragnis (treat as an @UUID[Compendium.shadowdark.monsters.Actor.GzjB5DsORxRuX2MV]{archangel}) to fight by your side for 10 rounds.</p>"
+      "name": "Armadura de Santa Terragnis",
+      "description": "<p><em>Uma armadura de placas dourada, inteiramente gravada com imagens de anjos guerreiros.</em></p><p><strong>Bônus.</strong> Armadura de placas +3. Apenas um seguidor ordeiro de Santa Terragnis pode usar esta armadura.</p><p><strong>Benefício.</strong> Magias hostis têm CD 18 para atingi-lo. Uma vez por mês, você pode invocar um Avatar de Santa Terragnis (tratar como um @UUID[Compendium.shadowdark.monsters.Actor.GzjB5DsORxRuX2MV]{arcanjo}) para lutar ao seu lado por 10 rodadas.</p>"
     },
     "Shield of the Lion": {
-      "name": "Shield of the Lion",
-      "description": "<p><em>This shield is carved as a roaring lion's face with a flowing mane.</em></p><p><strong>Bonus.</strong> +1 shield.</p><p><strong>Benefit.</strong> Once per day, you can command the lion to animate and bellow a ferocious roar. All hostile creatures within near range must immediately make a morale check.</p>",
+      "name": "Escudo do Leão",
+      "description": "<p><em>Esse escudo é esculpido com a face de um leão rugindo com sua juba esvoaçante.</em></p><p><strong>Bônus.</strong> Escudo +1.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode comandar o leão a ganhar vida e emitir um rugido feroz. Todas as criaturas hostis que estiverem Perto devem fazer um teste de moral imediatamente.</p>",
       "effects": {
         "AC Bonus": {
-          "name": "AC Bonus",
-          "description": "AC Bonus",
+          "name": "Bônus na CA",
+          "description": "Bônus na CA",
           "changes": {
             "system": {
               "attributes": {
@@ -1411,16 +1411,16 @@
       "description": "<p><em>É o nome secreto e único que pertence a uma criatura, documentado na Aliança. Poucas criaturas conhecem seus próprios Nomes Verdadeiros.</em></p><p><strong>Benefício. </strong>. Você tem Vantagem em jogadas de ataque e testes de conjuração feitos contra uma criatura cujo <em>Nome Verdadeiro</em>você pronunciar.</p>"
     },
     "Wand of Unlife": {
-      "name": "Wand of Unlife",
-      "description": "<p><em>The knobby finger-bone of a swamp troll steeped in acrid embalming fluid.</em></p><p><strong>Benefit.</strong> This wand contains the spells @UUID[Compendium.shadowdark.spells.Item.M702ErO4KOtMJzsK]{animate dead} (pg. 54) and @UUID[Compendium.shadowdark.spells.Item.uNxbpd7fENzDUxfd]{create undead} (pg. 58).</p><p><strong>Curse.</strong> Each time you use the wand to cast a spell, you take [[/r 1d4]] points of Constitution damage. If you reach 0 Constitution from this effect, you die and turn into a zombie.</p>"
+      "name": "Varinha da Não Vida",
+      "description": "<p><em>O osso irregular de um dedo de troll do pântano, embebido em um fluido embalsamador e ácido.</em></p><p><strong>Benefício.</strong> Essa varinha contém as magias animar mortos (pág. 54) e criar morto-vivo (pág. 58).</p><p><strong>Maldição.</strong> A cada vez que usa a varinha para conjurar uma magia, você sofre [[/r 1d4]] pontos de dano de Constituição. Se esse atributo cair para 0 devido a esse efeito, você morre e se transforma em um zumbi.</p>"
     },
     "Robe of the Archmage": {
-      "name": "Robe of the Archmage",
-      "description": "<p><em>A red silk robe with a wide, gold-hemmed mantle. Golden eyes and moons dust its sleeves.</em></p><p><strong>Benefit.</strong> Only a wizard with the Archmage title can wear this robe. </p><p>Your unarmored AC becomes 15 plus your Dexterity modifier. </p><p>Choose three spells you know. Their spellcasting DC is always 11. </p><p>You have advantage on casting the disintegrate spell.</p>",
+      "name": "Manto do Arquimago",
+      "description": "<p><em>Uma túnica de seda vermelha, com uma ampla manta bordada com ouro. Olhos e luas douradas adornam as mangas.</em></p><p><strong>Benefício.</strong> Apenas um mago com o título de Arquimago pode usar esse manto.</p><p>A sua CA sem armadura se torna 15 + modificador de Destreza.</p><p>Escolha três magias dentre as que conhece. A CD para a conjuração dessas magias sempre será 11.</p><p>Você tem Vantagem para conjurar a magia desintegrar.</p>",
       "effects": {
         "Spellcasting Advantage on Spell": {
-          "name": "Spellcasting Advantage on Spell",
-          "description": "Spellcasting Advantage on Spell",
+          "name": "Vantagem em Conjuração (Desintegrar)",
+          "description": "Vantagem em conjuração para desintegrar",
           "changes": {
             "system": {
               "roll": {
@@ -1436,16 +1436,16 @@
       }
     },
     "Brak's Book of Misspells": {
-      "name": "Brak's Book of Misspells",
-      "description": "<p><em>A tome bound in ratskin that bears a jagged, glowing rune.</em></p><p><strong>Curse.</strong> This spellbook contains one scroll each of @UUID[Compendium.shadowdark.spells.Item.16XuBF2xjUnoepyp]{acid arrow} (pg. 54), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), and @UUID[Compendium.shadowdark.spells.Item.n1I5OLR6M2e0jLbi]{sleep} (pg. 71). When a wizard tries to cast or learn a spell from these scrolls, the spell targets the caster on a success.</p>"
+      "name": "Livro de Brak de Falhas Mágicas",
+      "description": "<p><em>Um tomo encadernado com pele de rato, decorado com uma runa irregular e brilhante.</em></p><p><strong>Maldição.</strong> Este grimório contém um pergaminho de cada uma das seguintes magias: flecha ácida (pág. 63), bola de fogo (pág. 56) e sono (pág. 73). Quando um mago tenta conjurar ou aprender uma magia a partir desses pergaminhos, a magia afeta o próprio conjurador em caso de sucesso.</p>"
     },
     "Armor of the Oni": {
-      "name": "Armor of the Oni",
-      "description": "<p><em>Black plate mail of lacquered, ironwood panels. The helm's visor is the face of a snarling oni.</em></p><p><strong>Bonus.</strong> +1 plate mail.</p><p><strong>Benefit.</strong> You can speak and understand Diabolic. Your melee weapon attacks deal +1 damage.</p><p><strong>Curse.</strong> You have disadvantage on attacks and spellcasting checks against demons.</p>",
+      "name": "Armadura do Oni",
+      "description": "<p><em>Uma armadura de placas negra, feita de painéis envernizados de pau-ferro. A viseira do elmo é a face de um oni rosnando.</em></p><p><strong>Bônus.</strong> Armadura de placas +1.</p><p><strong>Benefício.</strong> Você pode compreender e falar o idioma Diabólico. Seus ataques com armas corpo a corpo causam +1 de dano.</p><p><strong>Maldição.</strong> Você tem Desvantagem em ataques e testes de conjuração contra demônios.</p>",
       "effects": {
         "Speak & Understand Diabolic": {
-          "name": "Speak & Understand Diabolic",
-          "description": "Speak &amp; Understand Diabolic",
+          "name": "Falar e Compreender Diabólico",
+          "description": "Falar e Compreender Diabólico",
           "changes": {
             "system": {
               "languages": "Compendium.shadowdark.languages.Item.b5yBrLaRIl7ZEWKu"
@@ -1453,8 +1453,8 @@
           }
         },
         "Melee Damage Bonus": {
-          "name": "Melee Damage Bonus",
-          "description": "Melee Damage Bonus",
+          "name": "Bônus de Dano Corpo a Corpo",
+          "description": "Bônus de Dano Corpo a Corpo",
           "changes": {
             "system": {
               "roll": {
@@ -1468,8 +1468,8 @@
           }
         },
         "Disadvantage on Attacks & Spellcasting vs Demons": {
-          "name": "Disadvantage on Attacks & Spellcasting vs Demons",
-          "description": "Disadvantage on Attacks &amp; Spellcasting vs Demons",
+          "name": "Desvantagem em Ataques e Conjurações contra Demônios",
+          "description": "Desvantagem em ataques e testes de conjuração contra demônios",
           "changes": {
             "system": {
               "roll": {
@@ -1495,16 +1495,16 @@
       }
     },
     "Magic Ink": {
-      "name": "Magic Ink",
-      "description": "<p><em>A pot of glossy, black ink that disappears as it dries.</em></p><p><strong>Benefit.</strong> The ink's writing is invisible when cool and can only be seen when warmed up by a nearby source of strong heat. There's enough for [[/r 1d4]] uses.</p>"
+      "name": "Tinta Mágica",
+      "description": "<p><em>Um frasco de tinta preta e brilhante que desaparece quando seca.</em></p><p><strong>Benefício.</strong> A escrita feita com a tinta é invisível quando está fria, e só pode ser vista ao ser aquecida por uma fonte de calor intensa próxima. Há tinta suficiente para [[/r 1d4]] usos.</p>"
     },
     "Vigilant": {
       "name": "Alerta",
       "description": "<p><strong>Benefício. </strong>Você não pode ser surpreendido.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1518,8 +1518,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1535,12 +1535,12 @@
       }
     },
     "Bracers of Archery": {
-      "name": "Bracers of Archery",
-      "description": "<p><em>Leather bracers embossed with soaring hawks.</em></p><p><strong>Benefit.</strong> You deal +1 damage with ranged weapons.</p>",
+      "name": "Braçadeiras da Arqueiria",
+      "description": "<p><em>Braçadeiras de couro decoradas com gravações de falcões voando.</em></p><p><strong>Benefício.</strong> Você causa +1 de dano com armas de ataque à distância.</p>",
       "effects": {
         "Ranged Damage Bonus": {
-          "name": "Ranged Damage Bonus",
-          "description": "Ranged Damage Bonus",
+          "name": "Bônus de Dano à Distância",
+          "description": "Bônus de Dano à Distância",
           "changes": {
             "system": {
               "roll": {
@@ -1560,8 +1560,8 @@
       "description": "<p><em>Um bastão de carvalho nodoso com \ruma saliência robusta em uma das extremidades.</em></p><p><strong>Bônus</strong>. Cajado +1.</p><p><strong>Benefício. </strong>. Uma vez por dia, você \rpode tocar uma criatura com o cajado \rpara curá-la em [[/r 1d6]] Pontos de vida.</p>",
       "effects": {
         "Attack Roll Bonus": {
-          "name": "Attack Roll Bonus",
-          "description": "Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque",
+          "description": "Bônus na Jogada de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -1575,8 +1575,8 @@
           }
         },
         "Attack Damage Bonus": {
-          "name": "Attack Damage Bonus",
-          "description": "Attack Damage Bonus",
+          "name": "Bônus de Dano de Ataque",
+          "description": "Bônus de Dano de Ataque",
           "changes": {
             "system": {
               "roll": {
@@ -1600,8 +1600,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Dex)": {
-          "name": "Permanent Ability (Dex)",
-          "description": "Permanent Ability (Dex)",
+          "name": "Atributo Permanente (Destreza)",
+          "description": "Atributo Permanente (Destreza)",
           "changes": {
             "system": {
               "abilities": {
@@ -1615,28 +1615,28 @@
       }
     },
     "Crystal Ball": {
-      "name": "Crystal Ball",
-      "description": "<p><em>A flawless glass orb with roiling images swirling inside it.</em></p><p><strong>Benefit.</strong> Only wizards can use a Crystal Ball. You can use it to cast the @UUID[Compendium.shadowdark.spells.Item.FrdLzy8cWPcVS2Mz]{scrying} spell (pg. 70). If you fail the spellcasting check to cast scrying, the Crystal Ball ceases to function for a day.</p>"
+      "name": "Bola de Cristal",
+      "description": "<p><em>Um orbe de vidro impecável, com imagens girando agitadas dentro dele.</em></p><p><strong>Benefício.</strong> Apenas magos podem usar uma Bola de Cristal. Você pode usá-la para conjurar a magia vidência (pág. 75). Se falhar na jogada para conjurar vidência, a Bola de Cristal deixa de funcionar por um dia.</p>"
     },
     "Scroll of Hold Portal": {
       "name": "Pergaminho de obstruir porta",
       "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]</p>"
     },
     "Wraith Chain": {
-      "name": "Wraith Chain",
-      "description": "<p><em>A chainmail shirt of black, mithral links that trails a long cloak of writhing shadows.</em></p><p><strong>Bonus.</strong> +1 mithral chainmail.</p><p><strong>Benefit.</strong> Once per day, you may cause an attack that hits you to miss instead.</p>"
+      "name": "Corrente Espectral",
+      "description": "<p><em>Um torso de cota de malha feito com elos negros de mitral, que se estendem em uma longa capa de sombras ondulantes.</em></p><p><strong>Bônus.</strong> Cota de malha de mitral +1.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode fazer com que um ataque que iria acertá-lo, erre.</p>"
     },
     "Potion of Extirpation": {
       "name": "POÇÃO DE EXTIRPAÇÃO",
       "description": "<p><em> Uma substância acre e de alcatrão \n em um frasco de ferro com uma \ntampa de chumbo. </em></p><p><strong> Benefício.</strong> Você pode despejar a \n poção sobre um objeto ou criatura, \n preenchendo uma área de tamanho \n Adjacente. O alvo é completamente removido da realidade, e só pode \nretornar com a ajuda de algo tão \npoderoso quanto uma magia <em> Desejo </em>.</p><p><strong> Personalidade.</strong> Caótica. Reclama muito enquanto está sendo usada, e nunca concorda que o alvo escolhido é uma boa opção para extirpar. </p>"
     },
     "Amulet of Vitality": {
-      "name": "Amulet of Vitality",
-      "description": "<p><em>A gold amulet with a red ruby teardrop at its center.</em></p><p><strong>Benefit.</strong> Your Constitution stat becomes 18 (+4) while wearing this amulet.</p>",
+      "name": "Amuleto da Vitalidade",
+      "description": "<p><em>Um amuleto dourado, com um rubi vermelho em forma de lágrima em seu centro.</em></p><p><strong>Benefício.</strong> Enquanto estiver usando este amuleto, sua Constituição se torna 18 (+4).</p>",
       "effects": {
         "Permanent Ability (Con)": {
-          "name": "Permanent Ability (Con)",
-          "description": "Permanent Ability (Con)",
+          "name": "Atributo Permanente (Constituição)",
+          "description": "Atributo Permanente (Constituição)",
           "changes": {
             "system": {
               "abilities": {
@@ -1650,28 +1650,28 @@
       }
     },
     "Ring of Fireballs": {
-      "name": "Ring of Fireballs",
-      "description": "<p><em>A bronze loop with claws holding a red marble. A fiery miasma swirls inside the glass.</em></p><p><strong>Benefit.</strong> You can pluck the glass marble from the ring and throw it up to a far distance, causing a @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} spell (pg. 60) to bloom at the site of impact. The glass marble regrows after you successfully complete a rest.</p>"
+      "name": "Anel de Bolas de Fogo",
+      "description": "<p><em>Um aro de bronze com garras segurando uma esfera vermelha. Um miasma flamejante rodopia dentro da esfera.</em></p><p><strong>Benefício.</strong> Você pode arrancar a esfera de vidro do anel e jogá-la até a distância Longe, fazendo a magia bola de fogo (pág. 56) explodir no local do impacto. A esfera de vidro cresce novamente depois que você completar um descanso.</p>"
     },
     "Horned Helm of Ramlaat": {
-      "name": "Horned Helm of Ramlaat",
-      "description": "<p><em>A bloodstained helm made of a ram's skull.</em></p><p><strong>Benefit.</strong> This helm grants you a +1 bonus to your armor class. You have advantage on any check you make to knock down creatures or objects.</p><p><strong>Curse.</strong> You feel compelled to headbutt delicate objects.</p>"
+      "name": "Elmo Chifrudo de Ramlaat",
+      "description": "<p><em>Um elmo ensanguentado, feito do crânio de um carneiro.</em></p><p><strong>Benefício.</strong> Este elmo concede um bônus de +1 em sua CA. Você tem Vantagem em qualquer teste para derrubar criaturas ou objetos.</p><p><strong>Maldição.</strong> Você sente um impulso irresistível de dar cabeçadas em objetos delicados.</p>"
     },
     "Bag of Devouring": {
-      "name": "Bag of Devouring",
-      "description": "<p><em>A worn, leather pouch with tight drawstrings.</em></p><p><strong>Curse.</strong> This bag devours and destroys anything placed inside it in 1d6 rounds.</p>"
+      "name": "Bolsa Devoradora",
+      "description": "<p><em>Um saco de couro desgastado com cordões apertados.</em></p><p><strong>Maldição.</strong> Esta bolsa devora e destrói qualquer coisa colocada dentro dela em 1d6 rodadas.</p>"
     },
     "Boots of Hovering": {
-      "name": "Boots of Hovering",
-      "description": "<p><em>Brown, sturdy boots polished to a sheen. Small, silver wings adorn the heels.</em></p><p><strong>Benefit.</strong> You can walk on an insubstantial surface for 1 turn at a time. You fall through the surface if you end your turn on it.</p>"
+      "name": "Botas Flutuantes",
+      "description": "<p><em>Botas marrons e resistentes, polidas até a perfeição. Pequenas asas prateadas adornam os saltos.</em></p><p><strong>Benefício.</strong> Você pode caminhar em uma superfície insubstancial por 1 turno de cada vez. Você cai através da superfície se terminar seu turno sobre ela.</p>"
     },
     "Necrotic Mace of Withering": {
-      "name": "Necrotic Mace of Withering",
-      "description": "<p><em>A wrought iron mace tipped with a heavy, screaming skull. Black ichor runs from the skull's eyes when the mace is used to channel necrotic energy.</em></p><p><strong>Bonus.</strong> +1 mace. Can only be wielded by a chaotic priest.</p><p><strong>Benefit.</strong> While holding the mace, you can turn @UUID[Compendium.shadowdark.spells.Item.N9NvonT0RL6PyiiV]{cure wounds} spells you cast into harmful magic that instead inflicts the same amount of damage it would heal.</p><p><strong>Curse.</strong> If you use the mace to cast an inverted cure wounds spell, you are haunted by nightmares that night. You must pass a [[check 12 wis]] check during your next rest or gain no benefit from resting.</p>",
+      "name": "Maça Necrótica do Definhamento",
+      "description": "<p><em>Uma maça forjada em ferro, cuja ponta é uma pesada caveira em expressão de grito. Icor negro escorre dos olhos da caveira quando a maça é usada para canalizar energia necrótica.</em></p><p><strong>Bônus.</strong> Maça +1. Só pode ser empunhada por sacerdotes caóticos.</p><p><strong>Benefício.</strong> Enquanto estiver segurando a maça, você pode transformar as magias de curar ferimentos que conjurar em magias hostis, que causam a mesma quantidade de dano que curariam.</p><p><strong>Maldição.</strong> Se usar a maça para conjurar uma magia de curar ferimentos invertida, você será assombrado por pesadelos naquela noite. Você precisa ter sucesso em um teste de SAB CD 12 durante o seu próximo descanso, ou não ganhará nenhum benefício por descansar.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
-          "name": "Weapon Attack Roll Bonus",
-          "description": "Weapon Attack Roll Bonus",
+          "name": "Bônus na Jogada de Ataque da Arma",
+          "description": "Bônus na Jogada de Ataque da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1685,8 +1685,8 @@
           }
         },
         "Weapon Attack Damage Bonus": {
-          "name": "Weapon Attack Damage Bonus",
-          "description": "Weapon Attack Damage Bonus",
+          "name": "Bônus de Dano da Arma",
+          "description": "Bônus de Dano da Arma",
           "changes": {
             "system": {
               "roll": {
@@ -1702,28 +1702,28 @@
       }
     },
     "Boots of Dancing": {
-      "name": "Boots of Dancing",
-      "description": "<p><em>Fine, supple boots of sheepskin.</em></p><p><strong>Curse.</strong> As soon as you don these boots, you begin cavorting and dancing uncontrollably. You move randomly each turn and must pass a [[request 15 dex]] check to remove the boots.</p>"
+      "name": "Botas de Dança",
+      "description": "<p><em>Botas refinadas e macias, feitas de pele de carneiro.</em></p><p><strong>Maldição.</strong> Assim que você calça essas botas, começa a dançar e a festejar incontrolavelmente. Você se move aleatoriamente a cada turno, e deve passar em um teste de Destreza CD 15 para removê-las.</p>"
     },
     "Ring of Ramlaat": {
-      "name": "Ring of Ramlaat",
-      "description": "<p><em>A bone-carved ring with a ram skull. Its horns twist forward and red lights glow in its eye sockets.</em></p><p><strong>Benefit.</strong> Once per day, you can enter a rage where you deal double damage for 5 rounds. During the rage, you can't cast spells and enemies have advantage on melee attacks against you.</p><p><strong>Personality.</strong> Chaotic. Aggressive, overconfident. Seeks to provoke you and your enemies into battle.</p>"
+      "name": "Anel de Ramlaat",
+      "description": "<p><em>Um anel esculpido em osso, decorado com um crânio de carneiro. Seus chifres se curvam para frente e luzes vermelhas brilham no lugar dos olhos.</em></p><p><strong>Benefício.</strong> Uma vez por dia, você pode entrar em fúria, causando o dobro de dano por 5 rodadas. Durante a fúria, você não pode conjurar magias, e inimigos têm Vantagem em ataques corpo a corpo contra você.</p><p><strong>Personalidade.</strong> Caótico. Agressivo e presunçoso. Busca provocar você e seus inimigos para que entrem em combate.</p>"
     },
     "Pearl of Power": {
       "name": "PÉROLA\r DO PODER",
       "description": "<p><em> Uma pérola opalescente e grande,\n brilhando com uma radiância interna. </em></p><p><strong> Benefício.</strong> Uma vez por dia, você pode recuperar a capacidade de conjurar uma magia que tenha perdido. \nEsse efeito não pode restaurar uma magia perdida devido a uma falha crítica de conjuração. </p>"
     },
     "Memnon's Entropic Armor": {
-      "name": "Memnon's Entropic Armor",
-      "description": "<p><em>Deep blue plate mail traced with gold lightning motifs and red gems arrayed into the shape of flames.</em></p><p><strong>Bonus.</strong> +1 plate mail. Can only be worn by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Blazing Javelin, it becomes +3 plate mail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. Until your next turn, all non-magical weapons that strike you are instantly unmade, shattering into dust. You take no damage from them.</p>"
+      "name": "Armadura Entrópica de Memnon",
+      "description": "<p><em>Uma armadura de placas azul-marinho, decorada com motivos de relâmpagos dourados e pedras preciosas vermelhas dispostas em forma de chamas.</em></p><p><strong>Bônus.</strong> Armadura de placas +1. Só pode ser usada por seres caóticos. Se você também empunhar a Lâmina Discordante de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma armadura de placas +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode pronunciar a palavra de comando da armadura. Até o seu próximo turno, todas as armas não mágicas que o atingirem serão desintegradas instantaneamente, tornando-se pó. Você não sofre dano delas.</p>"
     },
     "Moonwrought Chainmail": {
-      "name": "Moonwrought Chainmail",
-      "description": "<p><em>A luminous jacket of chainmail as lightweight as a silk shirt.</em></p><p><strong>Bonus.</strong> +1 mithral chainmail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. You gain a +1 bonus to your next spellcasting check or ranged attack.</p>",
+      "name": "Cota de Malha Forjada pelo Luar",
+      "description": "<p><em>Um torso luminoso de uma cota de malha, tão leve quanto uma camisa de seda.</em></p><p><strong>Bônus.</strong> Cota de malha de mitral +1.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode pronunciar a palavra de comando da armadura. Você ganha um bônus de +1 no seu próximo teste de conjuração ou ataque à distância.</p>",
       "effects": {
         "Spellcasting Advantage on Spell": {
-          "name": "Spellcasting Advantage on Spell",
-          "description": "+1 to your next spellcasting check or ranged attack (1/day)",
+          "name": "Vantagem em Conjuração ou Ataque à Distância",
+          "description": "+1 no próximo teste de conjuração ou ataque à distância (1/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -1743,8 +1743,8 @@
       "description": "<p><em>Um saco de couro desgastado com cordões apertados.</em></p><p><strong>Ativo</strong>. Esta bolsa contém um espaço interdimensional capaz de armazenar até 10 espaços de equipamento.</p><p><strong>Maldição</strong>. Colocar este item dentro de outra <em>Bolsa do Espaço Infinito</em> ou de um <em>Buraco Portátil</em> destrói ambos os itens e tudo o que há dentro deles.</p>",
       "effects": {
         "Additional Gear Slots": {
-          "name": "Additional Gear Slots",
-          "description": "Additional Gear Slots",
+          "name": "Espaços de Equipamento Adicionais",
+          "description": "Espaços de Equipamento Adicionais",
           "changes": {
             "system": {
               "slots": "10"
@@ -1754,16 +1754,16 @@
       }
     },
     "Genie Lamp": {
-      "name": "Genie Lamp",
-      "description": "<p><em>A tarnished, brass oil lamp.</em></p><p><strong>Benefit.</strong> Rubbing the lamp causes its resident @UUID[Compendium.shadowdark.monsters.Actor.ytftI0motwEnF29v]{djinni} (50% chance) or efreeti (50% chance) to emerge. A djinni grants its summoner one @UUID[Compendium.shadowdark.spells.Item.hMGQuETjBxuMwjsR]{wish} spell (pg. 73) before disappearing. An @UUID[Compendium.shadowdark.monsters.Actor.o1aBfxHFxYVHLTRn]{efreeti} does the same, but only after being defeated in combat.</p>"
+      "name": "Lâmpada Mágica",
+      "description": "<p><em>Uma lâmpada envelhecida de latão.</em></p><p><strong>Benefício.</strong> Esfregar a lâmpada faz seu residente surgir, que pode ser um @UUID[Compendium.shadowdark.monsters.Actor.ytftI0motwEnF29v]{djinni} (50% de chance) ou um @UUID[Compendium.shadowdark.monsters.Actor.o1aBfxHFxYVHLTRn]{ifriti} (50% de chance). Um djinni concede ao seu invocador uma magia desejo (pág. 59) antes de desaparecer. Um ifriti faz o mesmo, mas apenas após ser derrotado em combate.</p>"
     },
     "Jewel of Barbalt": {
       "name": "Joia de Barbalt",
       "description": "<p><em>Um rubi do tamanho de um coco, lapidado com mil facetas.</em></p><p><strong>Benefício</strong>. Você obtém um sucesso crítico ao rolar 18–20.</p><p><strong>Maldição</strong>. Você sofre uma falha crítica ao rolar 1–3.</p>",
       "effects": {
         "Critical Failure Threshold": {
-          "name": "Critical Failure Threshold",
-          "description": "Critical Failure Threshold",
+          "name": "Limiar de Falha Crítica",
+          "description": "Limiar de Falha Crítica",
           "changes": {
             "system": {
               "roll": {
@@ -1777,8 +1777,8 @@
           }
         },
         "Critical Success Threshold": {
-          "name": "Critical Success Threshold",
-          "description": "Critical Success Threshold",
+          "name": "Limiar de Sucesso Crítico",
+          "description": "Limiar de Sucesso Crítico",
           "changes": {
             "system": {
               "roll": {
@@ -1798,8 +1798,8 @@
       "description": "<p><em>Um pequeno cubo decorado com pinturas de goblins em cada face, cada uma representando transcendência em uma característica física ou mental.</em></p><p><strong>Benefício</strong>. Role o cubo ao jogar um [[/r d6]]. O atributo correspondente aumenta permanentemente\npara 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Força}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Destreza}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constituição}</p></li><li><p>@UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligência}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Sabedoria}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Carisma}</li></ol><p>Após ser rolado, o <em>Cubo da Perfeição de Brak</em> se teleporta para um local aleatório no multiverso.</p>",
       "effects": {
         "Permanent Ability (Wis)": {
-          "name": "Permanent Ability (Wis)",
-          "description": "Permanent Ability (Wis)",
+          "name": "Atributo Permanente (Sabedoria)",
+          "description": "Atributo Permanente (Sabedoria)",
           "changes": {
             "system": {
               "abilities": {
@@ -1813,12 +1813,12 @@
       }
     },
     "Circlet of Wisdom": {
-      "name": "Circlet of Wisdom",
-      "description": "<p><em>A thin, silver circlet set with a shimmering, blue pearl.</em></p><p><strong>Benefit.</strong> Your Wisdom stat becomes 18 (+4) while wearing this circlet.</p>",
+      "name": "Diadema da Sabedoria",
+      "description": "<p><em>Um fino diadema de prata, decorado com uma pérola azul cintilante.</em></p><p><strong>Benefício.</strong> Enquanto estiver usando este diadema, sua Sabedoria se torna 18 (+4).</p>",
       "effects": {
         "Permanent Ability (Wis)": {
-          "name": "Permanent Ability (Wis)",
-          "description": "Permanent Ability (Wis)",
+          "name": "Atributo Permanente (Sabedoria)",
+          "description": "Atributo Permanente (Sabedoria)",
           "changes": {
             "system": {
               "abilities": {
@@ -1832,8 +1832,8 @@
       }
     },
     "Potion of Flying": {
-      "name": "Potion of Flying",
-      "description": "<p><em>A sunny liquid with bubbles that flash and pop like tiny stars.</em></p><p><strong>Benefit.</strong> You can fly a near distance for 10 rounds when you drink this potion.</p>"
+      "name": "Poção de Voo",
+      "description": "<p><em>Um líquido dourado com bolhas que brilham e estouram como pequenas estrelas.</em></p><p><strong>Benefício.</strong> Você pode voar por até Perto por 10 rodadas, ao beber esta poção.</p>"
     },
     "Wand of Blind/Deafen": {
       "name": "Varinha de Cegueira/Surdez",
