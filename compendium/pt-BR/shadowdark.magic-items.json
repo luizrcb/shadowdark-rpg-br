@@ -639,7 +639,7 @@
       }
     },
     "Potion of Invisibility": {
-      "name": "POÇÃO DE INVISIBILIDADE",
+      "name": "Poção de Invisibilidade",
       "description": "<p><em> Esse frasco de vidro parece estar \rvazio, mas um líquido se agita de \r\nforma audível dentro dele. </em></p><p><strong>Benefício. </strong>. Ao beber esta poção, você \rfica invisível por 10 rodadas, ou até que ataque ou conjure uma magia.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>"
     },
     "The Malediction Infernal": {
@@ -918,7 +918,7 @@
       }
     },
     "Scarab of Protection": {
-      "name": "ESCARAVELHO DE PROTEÇÃO",
+      "name": "Escaravelho de Proteção",
       "description": "<p><em>Um broche feito de um escaravelho com chifres e banhado a ouro.</em></p><p><strong>Benefício. </strong>. Se você morrer, faça um teste de constituição [[check 18 con]]. Se for \rbem-sucedido, você fica inconsciente \rem vez de morrer.</p></em>"
     },
     "Amulet of Secrecy": {
@@ -1592,7 +1592,7 @@
       }
     },
     "Potion of Healing": {
-      "name": "POÇÃO DE CURA",
+      "name": "Poção de Cura",
       "description": "<p><em> Uma garrafa de vidro com um líquido efervescente de limão e baunilha. </em></p><p><strong>Benefício.</strong>. O consumidor desta poção recupera pontos de vida com base no seu nível:</p><p><strong>Nível 0-3</strong>: [[/r 1d6]] pontos de vida.</p><p><strong>Nível 4-6</strong>: [[/r 2d8]] pontos de vida.</p><p><strong>Nível 7-9</strong>: [[/r 3d10]] pontos de vida.</p><p><strong>Nível 10+</strong>: [[/r 4d12]] pontos de vida.</p>"
     },
     "Brak's Cube of Perfection (Dex)": {
@@ -1627,7 +1627,7 @@
       "description": "<p><em>Um torso de cota de malha feito com elos negros de mitral, que se estendem em uma longa capa de sombras ondulantes.</em></p><p><strong>Bônus.</strong> Cota de malha de mitral +1.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode fazer com que um ataque que iria acertá-lo, erre.</p>"
     },
     "Potion of Extirpation": {
-      "name": "POÇÃO DE EXTIRPAÇÃO",
+      "name": "Poção de Extirpação",
       "description": "<p><em> Uma substância acre e de alcatrão \n em um frasco de ferro com uma \ntampa de chumbo. </em></p><p><strong> Benefício.</strong> Você pode despejar a \n poção sobre um objeto ou criatura, \n preenchendo uma área de tamanho \n Adjacente. O alvo é completamente removido da realidade, e só pode \nretornar com a ajuda de algo tão \npoderoso quanto uma magia <em> Desejo </em>.</p><p><strong> Personalidade.</strong> Caótica. Reclama muito enquanto está sendo usada, e nunca concorda que o alvo escolhido é uma boa opção para extirpar. </p>"
     },
     "Amulet of Vitality": {
@@ -1710,7 +1710,7 @@
       "description": "<p><em>Um anel esculpido em osso, decorado com um crânio de carneiro. Seus chifres se curvam para frente e luzes vermelhas brilham no lugar dos olhos.</em></p><p><strong>Benefício.</strong> Uma vez por dia, você pode entrar em fúria, causando o dobro de dano por 5 rodadas. Durante a fúria, você não pode conjurar magias, e inimigos têm Vantagem em ataques corpo a corpo contra você.</p><p><strong>Personalidade.</strong> Caótico. Agressivo e presunçoso. Busca provocar você e seus inimigos para que entrem em combate.</p>"
     },
     "Pearl of Power": {
-      "name": "PÉROLA\r DO PODER",
+      "name": "Pérola do Poder",
       "description": "<p><em> Uma pérola opalescente e grande,\n brilhando com uma radiância interna. </em></p><p><strong> Benefício.</strong> Uma vez por dia, você pode recuperar a capacidade de conjurar uma magia que tenha perdido. \nEsse efeito não pode restaurar uma magia perdida devido a uma falha crítica de conjuração. </p>"
     },
     "Memnon's Entropic Armor": {
