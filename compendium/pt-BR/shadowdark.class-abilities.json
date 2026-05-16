@@ -66,7 +66,7 @@
     },
     "Petrifying Gaze": {
       "name": "Olhar Petrificante",
-      "description": "<p>Uma criatura do seu nível ou inferior que encontre o seu olhar deve ter sucesso em um teste de [[request 15 CON]] ou ficará petrificada por [[/r 1d4]] rodadas. Ela sofre dano normalmente enquanto está petrificada.</p><p>Você pode usar esse talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>"
+      "description": "<p>Uma criatura do seu nível ou inferior que encontre o seu olhar deve ter sucesso em um teste de [[check 15 con]] ou ficará petrificada por [[/r 1d4]] rodadas. Ela sofre dano normalmente enquanto está petrificada.</p><p>Você pode usar esse talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>"
     },
     "Relentless": {
       "name": "Incansável",

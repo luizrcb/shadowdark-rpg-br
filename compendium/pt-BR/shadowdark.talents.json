@@ -400,7 +400,7 @@
     },
     "Omen": {
       "name": "Presságio",
-      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.pRO1kFMnFkkcYOgC]</p><p>3/dia, você pode fazer um teste de SAB CD 9. Em um sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>"
+      "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.pRO1kFMnFkkcYOgC]</p><p>3/dia, você pode fazer um teste de [[check 9 wis]]. Em um sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>"
     },
     "Paralyze a Target": {
       "name": "Paralisar um Alvo",
@@ -436,7 +436,7 @@
     },
     "Relentless": {
       "name": "Incansável",
-      "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de CON CD 18 (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]</p>"
+      "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de [[check 18 con]] (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]</p>"
     },
     "Ride any Creature": {
       "name": "Monte qualquer criatura",

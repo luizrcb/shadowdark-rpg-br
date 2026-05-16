@@ -273,7 +273,7 @@
     },
     "Hypnotize": {
       "name": "Hipnotizar",
-      "description": "<p>Uma criatura de nível 3 ou menor que possa vê-lo fica atônita.</p><p> Se a linha de visão entre a criatura e você for quebrada, ela pode fazer um teste de [[test 15 cha]]. Em um sucesso, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>"
+      "description": "<p>Uma criatura de nível 3 ou menor que possa vê-lo fica atônita.</p><p> Se a linha de visão entre a criatura e você for quebrada, ela pode fazer um teste de [[check 15 cha]]. Em um sucesso, a magia se encerra.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>"
     },
     "Illusion": {
       "name": "Ilusão",

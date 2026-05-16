@@ -211,7 +211,7 @@
         },
         "Scarab of Protection": {
           "name": "Escaravelho da Proteção",
-          "description": "<p><em>Broche de um escaravelho de jade e ouro .</em></p><p><strong>Benefício</strong>. Se você morrer, faça um teste de Constituição CD 18. Se for bem-sucedido, você fica inconsciente em vez de morrer.</p>"
+          "description": "<p><em>Broche de um escaravelho de jade e ouro .</em></p><p><strong>Benefício</strong>. Se você morrer, faça um teste de [[check 18 con]]. Se for bem-sucedido, você fica inconsciente em vez de morrer.</p>"
         },
         "Ivory Egg": {
           "name": "Ovo de Marfim",

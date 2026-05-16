@@ -77,7 +77,7 @@
     },
     "Memnon's Discordant Blade (Completed Set)": {
       "name": "Lâmina Discordante de Memnon (Conjunto Completo)",
-      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +3. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de Constituição CD 18 para sofrer 3d8 de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
+      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +3. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de [[check 18 con]] para sofrer [[/r 3d8]] de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
           "name": "Bônus na Jogada de Ataque da Arma",
@@ -149,7 +149,7 @@
     },
     "Memnon's Discordant Blade": {
       "name": "Lâmina Discordante de Memnon",
-      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +1. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de Constituição CD 18 para sofrer 3d8 de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
+      "description": "<p><em>Esta grande espada serrilhada tem uma lâmina avermelhada, que solta uma chuva de faíscas ao descer para atacar.</em></p><p><strong>Bônus.</strong> Espada grande +1. Só pode ser empunhada por seres caóticos. Se você também empunhar a Armadura Entrópica de Memnon e a Azagaia Reluzente de Memnon, ela se torna uma espada grande +3.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode aniquilar completamente uma criatura de nível 9 ou menor que já tenha sido ferida por essa lâmina. A criatura pode fazer um teste de [[check 18 con]] para sofrer [[/r 3d8]] de dano em vez disso.</p><p><strong>Maldição.</strong> Você não pode renunciar a posse desta lâmina, a menos que ela seja tomada por uma criatura que o derrote em combate. Para cada dia que você não eliminar uma criatura de nível 2 ou superior com esta espada, você perde 1d6 PV. Esses pontos de vida somente são restaurados quando você matar uma criatura de nível 2 ou superior com a espada.</p>",
       "effects": {
         "Weapon Attack Damage Bonus": {
           "name": "Bônus de Dano da Arma",
@@ -644,7 +644,7 @@
     },
     "The Malediction Infernal": {
       "name": "A Maldição Infernal",
-      "description": "<p><em>Um tomo encadernado em couro preto, com o rosto sorridente de um demônio gravado na capa.</em></p><p><strong>Benefício.</strong> Um ser caótico que ler este tomo ganha um nível e aprende o idioma Diabólico.</p><p>Um ser não caótico que ler este livro deve ter sucesso em um teste de SAB CD 18, ou perderá um nível.</p><p>Depois de ser lido, o tomo se teleporta para um local distante.</p>"
+      "description": "<p><em>Um tomo encadernado em couro preto, com o rosto sorridente de um demônio gravado na capa.</em></p><p><strong>Benefício.</strong> Um ser caótico que ler este tomo ganha um nível e aprende o idioma Diabólico.</p><p>Um ser não caótico que ler este livro deve ter sucesso em um teste de [[check 18 wis]], ou perderá um nível.</p><p>Depois de ser lido, o tomo se teleporta para um local distante.</p>"
     },
     "Gloves of Agility": {
       "name": "Luvas da Agilidade",
@@ -931,7 +931,7 @@
     },
     "Greataxe of the Horde": {
       "name": "Machado Grande da Horda",
-      "description": "<p><em>Um machado grande e irregular, esculpido a partir de um pesado osso de dragão.</em></p><p><strong>Bônus.</strong> Machado grande +2.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode transformar um acerto comum feito com essa arma em um acerto crítico.</p><p><strong>Maldição.</strong> A cada vez que você ficar com menos da metade de seus PV totais, faça um teste de CAR CD 12. Caso falhe no teste, você entra em um frenesi de batalha por 1d4 rodadas, atacando a criatura mais próxima.</p>",
+      "description": "<p><em>Um machado grande e irregular, esculpido a partir de um pesado osso de dragão.</em></p><p><strong>Bônus.</strong> Machado grande +2.</p><p><strong>Benefício.</strong> Uma vez por dia, você pode transformar um acerto comum feito com essa arma em um acerto crítico.</p><p><strong>Maldição.</strong> A cada vez que você ficar com menos da metade de seus PV totais, faça um teste de [[check 12 cha]]. Caso falhe no teste, você entra em um frenesi de batalha por 1d4 rodadas, atacando a criatura mais próxima.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
           "name": "Bônus na Jogada de Ataque da Arma",
@@ -1038,7 +1038,7 @@
     },
     "Sphere of Annihilation": {
       "name": "Esfera da Aniquilação",
-      "description": "<p><em>Um vazio esférico de pura escuridão, medindo 1 metro e pairando acima do solo.</em></p><p><strong>Benefício.</strong> Essa esfera destrói completamente toda e qualquer matéria que tocar.</p><p>Seres inteligentes podem mover a esfera voadora até a distância Perto, se passarem em um teste de Inteligência CD 18. Se várias criaturas disputarem o controle da esfera, o teste de Inteligência será disputado. Magos têm Vantagem nesse teste. O vencedor move a esfera até Perto.</p><p>Se a esfera se mover para um espaço ocupado por uma criatura, o ser que estiver controlando a esfera faz uma jogada de ataque contra essa criatura com um bônus de +7. Se acertar, a criatura é obliterada.</p>"
+      "description": "<p><em>Um vazio esférico de pura escuridão, medindo 1 metro e pairando acima do solo.</em></p><p><strong>Benefício.</strong> Essa esfera destrói completamente toda e qualquer matéria que tocar.</p><p>Seres inteligentes podem mover a esfera voadora até a distância Perto, se passarem em um teste de [[check 18 int]]. Se várias criaturas disputarem o controle da esfera, o teste de Inteligência será disputado. Magos têm Vantagem nesse teste. O vencedor move a esfera até Perto.</p><p>Se a esfera se mover para um espaço ocupado por uma criatura, o ser que estiver controlando a esfera faz uma jogada de ataque contra essa criatura com um bônus de +7. Se acertar, a criatura é obliterada.</p>"
     },
     "Boots of the Cat": {
       "name": "Botas do Gato",
@@ -1381,7 +1381,7 @@
     },
     "Potion of Vitality": {
       "name": "Poção da Vitalidade",
-      "description": "<p><em>Um elixir carmesim que pulsa suavemente no ritmo de um batimento cardíaco.</em></p><p><strong>Benefício.</strong> Ao beber esta poção, role o dado de pontos de vida da sua classe. Você ganha permanentemente essa quantidade de PV.</p><p><strong>Maldição.</strong> Se beber mais do que uma Poção da Vitalidade ao longo de sua vida, você deve passar em um teste de Constituição CD 18 a cada vez que bebê-la novamente, ou morrerá instantaneamente.</p>"
+      "description": "<p><em>Um elixir carmesim que pulsa suavemente no ritmo de um batimento cardíaco.</em></p><p><strong>Benefício.</strong> Ao beber esta poção, role o dado de pontos de vida da sua classe. Você ganha permanentemente essa quantidade de PV.</p><p><strong>Maldição.</strong> Se beber mais do que uma Poção da Vitalidade ao longo de sua vida, você deve passar em um teste de [[check 18 con]] a cada vez que bebê-la novamente, ou morrerá instantaneamente.</p>"
     },
     "Armor of Saint Terragnis": {
       "name": "Armadura de Santa Terragnis",
@@ -1667,7 +1667,7 @@
     },
     "Necrotic Mace of Withering": {
       "name": "Maça Necrótica do Definhamento",
-      "description": "<p><em>Uma maça forjada em ferro, cuja ponta é uma pesada caveira em expressão de grito. Icor negro escorre dos olhos da caveira quando a maça é usada para canalizar energia necrótica.</em></p><p><strong>Bônus.</strong> Maça +1. Só pode ser empunhada por sacerdotes caóticos.</p><p><strong>Benefício.</strong> Enquanto estiver segurando a maça, você pode transformar as magias de curar ferimentos que conjurar em magias hostis, que causam a mesma quantidade de dano que curariam.</p><p><strong>Maldição.</strong> Se usar a maça para conjurar uma magia de curar ferimentos invertida, você será assombrado por pesadelos naquela noite. Você precisa ter sucesso em um teste de SAB CD 12 durante o seu próximo descanso, ou não ganhará nenhum benefício por descansar.</p>",
+      "description": "<p><em>Uma maça forjada em ferro, cuja ponta é uma pesada caveira em expressão de grito. Icor negro escorre dos olhos da caveira quando a maça é usada para canalizar energia necrótica.</em></p><p><strong>Bônus.</strong> Maça +1. Só pode ser empunhada por sacerdotes caóticos.</p><p><strong>Benefício.</strong> Enquanto estiver segurando a maça, você pode transformar as magias de curar ferimentos que conjurar em magias hostis, que causam a mesma quantidade de dano que curariam.</p><p><strong>Maldição.</strong> Se usar a maça para conjurar uma magia de curar ferimentos invertida, você será assombrado por pesadelos naquela noite. Você precisa ter sucesso em um teste de [[check 12 wis]] durante o seu próximo descanso, ou não ganhará nenhum benefício por descansar.</p>",
       "effects": {
         "Weapon Attack Roll Bonus": {
           "name": "Bônus na Jogada de Ataque da Arma",
@@ -1703,7 +1703,7 @@
     },
     "Boots of Dancing": {
       "name": "Botas de Dança",
-      "description": "<p><em>Botas refinadas e macias, feitas de pele de carneiro.</em></p><p><strong>Maldição.</strong> Assim que você calça essas botas, começa a dançar e a festejar incontrolavelmente. Você se move aleatoriamente a cada turno, e deve passar em um teste de Destreza CD 15 para removê-las.</p>"
+      "description": "<p><em>Botas refinadas e macias, feitas de pele de carneiro.</em></p><p><strong>Maldição.</strong> Assim que você calça essas botas, começa a dançar e a festejar incontrolavelmente. Você se move aleatoriamente a cada turno, e deve passar em um teste de [[check 15 dex]] para removê-las.</p>"
     },
     "Ring of Ramlaat": {
       "name": "Anel de Ramlaat",

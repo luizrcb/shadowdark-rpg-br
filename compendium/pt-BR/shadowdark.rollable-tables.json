@@ -2953,7 +2953,7 @@
           "description": "<b>Descorporação!</b> Um item aleatório do seu equipamento desaparece para sempre."
         },
         "7-7": {
-          "description": "<b>Infecção arcana!</b>Você perde a habilidade de conjurar uma magia aleatória em cada um de seus turnos, até que tenha sucesso em um teste de Constituição CD 12. Você recupera a habilidade de conjurar essas magias depois de completar um descanso."
+          "description": "<b>Infecção arcana!</b>Você perde a habilidade de conjurar uma magia aleatória em cada um de seus turnos, até que tenha sucesso em um teste de [[check 12 con]]. Você recupera a habilidade de conjurar essas magias depois de completar um descanso."
         },
         "8-8": {
           "description": "<b>Falha harmônica!</b> Você perde a habilidade de conjurar uma magia aleatória até que complete um descanso."

@@ -14,7 +14,7 @@
     },
     "Bolas": {
       "name": "Boleadeira",
-      "description": "<p> Quando você atinge uma criatura com pernas, e que seja do tamanho de um cavalo ou menor, a velocidade do alvo é reduzida para Adjacente até que ele se liberte ([[teste de FOR CD15]] ou [[teste de DES CD 15]]).</p>"
+      "description": "<p> Quando você atinge uma criatura com pernas, e que seja do tamanho de um cavalo ou menor, a velocidade do alvo é reduzida para Adjacente até que ele se liberte ([[check 15 str]] ou [[check 15 dex]]).</p>"
     },
     "Breakable": {
       "name": "Quebrável",
