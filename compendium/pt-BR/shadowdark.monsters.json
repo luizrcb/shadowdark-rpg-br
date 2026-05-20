@@ -1395,7 +1395,7 @@
         }
       },
       "moveNote": "escavar",
-      "notes": "<p><i> Um estrondoso pilar de terra. </i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 44, <strong>ATQ</strong> 3 pancada +7 (3d8) ou 1 avalanche, <strong>DP</strong> Perto (escavar), <strong>F</strong> +5, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 9</p>\n\t<p><strong> Invulnerável</strong>. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Avalanche</strong>. Todos que estiverem Adjacente são soterrados por montes de terra por [[/r 1d4]] rodadas ([[check 15 str]] para evitar).</p>"
+      "notes": "<p><i> Um estrondoso pilar de terra. </i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 44, <strong>ATQ</strong> 3 pancada +7 (3d8) ou 1 avalanche, <strong>MV</strong> Perto (escavar), <strong>F</strong> +5, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 9</p>\n\t<p><strong> Invulnerável</strong>. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Avalanche</strong>. Todos que estiverem Adjacente são soterrados por montes de terra por [[/r 1d4]] rodadas ([[check 15 str]] para evitar).</p>"
     },
     "Elemental, Earth (Lesser)": {
       "name": "Elemental de Terra (Menor)",
@@ -1414,7 +1414,7 @@
         }
       },
       "moveNote": "escavar",
-      "notes": "\n<p><i> Um estrondoso pilar de terra. </i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 31, <strong>ATQ</strong> 3 pancada +7 (2d8) ou 1 avalanche, <strong>DP</strong> Perto (escavar), <strong>F</strong> +5, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong> Invulnerável</strong>. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Avalanche</strong>. Todos que estiverem Adjacente são soterrados por montes de terra por [[/r 1d4]] rodadas ([[check 15 str]] para evitar).</p>"
+      "notes": "\n<p><i> Um estrondoso pilar de terra. </i></p>\n\t\n\t<p><strong>CA</strong> 17, <strong>PV</strong> 31, <strong>ATQ</strong> 3 pancada +7 (2d8) ou 1 avalanche, <strong>MV</strong> Perto (escavar), <strong>F</strong> +5, <strong>D</strong> +0, <strong>C</strong> +4, <strong>I</strong> -2, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong> Invulnerável</strong>. Só pode ser ferido por fontes de dano mágicas.</p><p><strong>Avalanche</strong>. Todos que estiverem Adjacente são soterrados por montes de terra por [[/r 1d4]] rodadas ([[check 15 str]] para evitar).</p>"
     },
     "Elemental, Fire (Greater)": {
       "name": "Elemental de Fogo (Maior)",
@@ -2264,7 +2264,7 @@
         }
       },
       "moveNote": "voar",
-      "notes": "\n<p><i> Criaturas inteligentes feitas de ar em movimento. Frequentemente estão presas ao comando de feiticeiros malignos devido à sua incomparável habilidade de rastreamento. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 29, <strong>ATQ</strong> 3 golde de vento +4 (1d6), <strong>DP</strong> Perto (voar), <strong>F</strong> +2, <strong>D</strong> +3, <strong>C</strong> +2, <strong>I</strong> +2, <strong>S</strong> +1, <strong>Car</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong>Vinculado</strong>. Uma contingência secreta e mundana (como o toque de uma pena) encerra a servidão mágica do perseguidor invisível.</p><p><strong>Invisível</strong>. Naturalmente invisível.</p><p><strong>Perseguidor</strong>. Sempre consegue sentir qual a direção atual do alvo escolhido.</p>"
+      "notes": "\n<p><i> Criaturas inteligentes feitas de ar em movimento. Frequentemente estão presas ao comando de feiticeiros malignos devido à sua incomparável habilidade de rastreamento. </i></p>\n\t\n\t<p><strong>CA</strong> 13, <strong>PV</strong> 29, <strong>ATQ</strong> 3 golde de vento +4 (1d6), <strong>MV</strong> Perto (voar), <strong>F</strong> +2, <strong>D</strong> +3, <strong>C</strong> +2, <strong>I</strong> +2, <strong>S</strong> +1, <strong>Car</strong> +0, <strong>AL</strong> N, <strong>NV</strong> 6</p>\n\t<p><strong>Vinculado</strong>. Uma contingência secreta e mundana (como o toque de uma pena) encerra a servidão mágica do perseguidor invisível.</p><p><strong>Invisível</strong>. Naturalmente invisível.</p><p><strong>Perseguidor</strong>. Sempre consegue sentir qual a direção atual do alvo escolhido.</p>"
     },
     "Jellyfish": {
       "name": "Água-viva",
@@ -2280,7 +2280,7 @@
         }
       },
       "moveNote": "nadar",
-      "notes": "\n<p><i> Águas-vivas roxas do tamanho de uma mão com tentáculos urticantes. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 1, <strong>ATQ</strong> 1 queimadura +1 (1 + toxina), <strong>DP</strong> Adjacente (nadar), <strong>F</strong> -4, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> +1, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 0</p>\n\t<p><strong>Toxina</strong>. [[check 9 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
+      "notes": "\n<p><i> Águas-vivas roxas do tamanho de uma mão com tentáculos urticantes. </i></p>\n\t\n\t<p><strong>CA</strong> 11, <strong>PV</strong> 1, <strong>ATQ</strong> 1 queimadura +1 (1 + toxina), <strong>MV</strong> Adjacente (nadar), <strong>F</strong> -4, <strong>D</strong> +1, <strong>C</strong> +0, <strong>I</strong> -4, <strong>S</strong> +1, <strong>Car</strong> -4, <strong>AL</strong> N, <strong>NV</strong> 0</p>\n\t<p><strong>Toxina</strong>. [[check 9 con]] ou paralisia por [[/r 1d4]] rodadas.</p>"
     },
     "Knight": {
       "name": "Cavaleiro",
@@ -2465,7 +2465,7 @@
         }
       },
       "moveNote": "nadar",
-      "notes": "\n<p><i> Humanoides crocodilianos com rosto, garras e cauda escamosas. Eles vivem em pântanos e rios. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (couro + escudo), <strong>PV</strong> 11, <strong>ATQ</strong> 1 lança (Adjacente/Perto) +2 (1d6), <strong>DP</strong> Perto (nadar), <strong>F</strong> +1, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 2</p>"
+      "notes": "\n<p><i> Humanoides crocodilianos com rosto, garras e cauda escamosas. Eles vivem em pântanos e rios. </i></p>\n\t\n\t<p><strong>CA</strong> 14 (couro + escudo), <strong>PV</strong> 11, <strong>ATQ</strong> 1 lança (Adjacente/Perto) +2 (1d6), <strong>MV</strong> Perto (nadar), <strong>F</strong> +1, <strong>D</strong> +1, <strong>C</strong> +2, <strong>I</strong> -1, <strong>S</strong> +1, <strong>Car</strong> -2, <strong>AL</strong> <strong>C</strong>, <strong>NV</strong> 2</p>"
     },
     "Mage": {
       "name": "Magista",
