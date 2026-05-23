@@ -469,7 +469,7 @@
     },
     "Sleep": {
       "name": "Sono",
-      "description": "<p>Você acessa os planos exteriores e\ninvoca uma criatura de lá.</p><p>\nVocê invoca um elemental ou\nEntidade Exterior de nível 7 ou\nmenor. A criatura fica sob seu\ncontrole e age em seu turno.</p><p>\nSe sua concentração falhar, você\nperde o controle da criatura e ela se\ntorna hostil a você e a seus aliados.</p><p>\nVocê deve ter sucesso em um teste\nde conjuração em seu turno para\nfazer com que a criatura retorne aos\nplanos exteriores.</p>"
+      "description": "<p>Você tece uma magia relaxante que preenche um cubo de tamanho Perto que se estende a partir de você. Criaturas vivas e que estejam dentro da área de efeito caem em um sono profundo, caso sejam de nível 2 ou menor.</p><p>Sacudi-las vigorosamente ou causar dano a elas irá despertá-las.</p>"
     },
     "Smite": {
       "name": "Destruição",

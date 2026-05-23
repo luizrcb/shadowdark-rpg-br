@@ -58,3 +58,23 @@ Hooks.on("importAdventure", async (adventure) => {
   }
   Scene.updateDocuments(updates);
 });
+
+function renderSettings(html) {
+  if (game.i18n.lang !== "pt-BR") return;
+  const version = game.modules.get("shadowdark-rpg-br")?.version;
+  const modulo = document.createElement("div");
+  modulo.classList.add("modules");
+  modulo.innerHTML = `
+    <span class="label">Shadowdark RPG BR</span>
+    <span class="value">${version}</span>
+  `;
+
+  const section = document.createElement("div");
+  section.innerHTML = `
+    <a href="https://github.com/luizrcb/shadowdark-rpg-br/issues" target="_blank">Reportar Erro de Tradução do Shadowdark</a>
+  `;
+  html.querySelector(".info").insertAdjacentElement("beforeend", modulo);
+  html.querySelector(".info").insertAdjacentElement("beforeend", section);
+}
+
+Hooks.on("renderSettings", (app, html) => renderSettings(html));
