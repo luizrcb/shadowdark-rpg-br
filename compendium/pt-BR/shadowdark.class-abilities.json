@@ -1,5 +1,5 @@
 {
-  "label": "Talentos de classe",
+  "label": "Talentos de Classe",
   "mapping": {
     "description": "system.description",
     "group": "system.group"
@@ -48,17 +48,17 @@
       "group": "Lutador de Arena"
     },
     "Foebane": {
-      "name": "Inimigo favorito",
+      "name": "Inimigo Favorito",
       "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]. Vantagem em ataques e dano contra um tipo de criatura de sua escolha por [[/r 1d6]] rodadas</p>",
       "group": "Herbalismo"
     },
     "Hide from Creature": {
-      "name": "Esconder-se de criatura",
+      "name": "Esconder-se de Criatura",
       "description": "<p>1/dia, escolha uma criatura de NV 9 ou menor que você possa ver; ela deve ter sucesso em um teste de [[check 15 wis]] ou não poderá vê-lo nem ouvi-lo por [[/r 1d4]] rodadas</p>",
       "group": "Lótus Negra"
     },
     "Ignore All Damage": {
-      "name": "Ignorar todo o dano",
+      "name": "Ignorar Todo o Dano",
       "description": "<p>1/dia, ignore todo o dano e efeitos causados por um ataque</p> <p>Efeito duplicado = +1 uso por dia </p>",
       "group": "Lutador de Arena"
     },
@@ -73,7 +73,7 @@
       "group": "Vidente"
     },
     "Paralyze a Target": {
-      "name": "Paralizar alvo",
+      "name": "Paralisar Alvo",
       "description": "<p>1/dia, paralise um alvo de NV 9 ou menor por [[/r 1d4]] rodadas quando causar dano a ele com uma arma</p>",
       "group": "Lótus Negra"
     },
@@ -98,12 +98,12 @@
       "group": "Herbalismo"
     },
     "Sleep a Creature": {
-      "name": "Adormecer criatura",
+      "name": "Adormecer Criatura",
       "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menor que você possa ver e que esteja Perto; ela deve ter sucesso em um teste de [[check 15 con]] ou irá adormecer</p>",
       "group": "Lótus Negra"
     },
     "Smoke Step": {
-      "name": "Passo de fumaça",
+      "name": "Passo de Fumaça",
       "description": "<p><span>3/dia, teleporte para um local que você possa ver e que seja Perto. Isso não gasta a sua ação.</span></p>",
       "group": "Ras-Godai"
     },
@@ -113,17 +113,17 @@
       "group": "Herbalismo"
     },
     "Teleport to Familiar": {
-      "name": "Teleportar para o familiar",
+      "name": "Teleportar para o Familiar",
       "description": "<p>1/dia, teleporte-se para onde seu familiar está com o seu movimento</p> <p>Efeito duplicado = +1 uso por dia</p>",
       "group": "Classe"
     },
     "Walk on Sheer Surfaces": {
-      "name": "Andar em superfícies íngremes",
+      "name": "Andar em Superfícies Íngremes",
       "description": "<p>1/dia, você pode andar em superfícies íngremes, como paredes, por [[/r 1d4]] rodadas</p>",
       "group": "Lótus Negra"
     },
     "Walk on Water": {
-      "name": "Andar sobre a água",
+      "name": "Andar sobre a Água",
       "description": "<p>1/dia, você pode andar sobre a água por  [[/r 1d4]] rodadas como se fosse uma superfície sólida</p>",
       "group": "Lótus Negra"
     }
