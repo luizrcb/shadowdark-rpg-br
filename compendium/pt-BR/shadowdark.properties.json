@@ -21,11 +21,11 @@
       "description": "<p>Essa arma quebra em um ataque de resultado natural 1.</p>"
     },
     "Disadvantage/Stealth": {
-      "name": "Desvantagem em furtividade",
+      "name": "Desvantagem em Furtividade",
       "description": "<p>Você tem desvantagem em furtividade enquanto vestir essa armadura.</p>"
     },
     "Disadvantage/Swim": {
-      "name": "Desvantagem em nado",
+      "name": "Desvantagem em Nado",
       "description": "<p>Você tem desvantagem em nado enquanto vestir essa armadura.</p>"
     },
     "Finesse": {
@@ -41,11 +41,11 @@
       "description": "<p>Você deve abrir mão\ndo seu movimento para recarregar\nessa arma.</p>"
     },
     "No Swim": {
-      "name": "Não nada",
+      "name": "Não Nada",
       "description": "<p>Você não pode nadar enquanto vestir essa armadura.</p>"
     },
     "Occupies One Hand": {
-      "name": "Ocupa uma mão",
+      "name": "Ocupa uma Mão",
       "description": "<p>Você não pode usar uma de suas mãos enquanto usa esse objeto.</p>"
     },
     "Returning": {
@@ -69,7 +69,7 @@
       "description": "<p>Você pode arremessar essa arma para realizar um ataque à distância, usando FOR ou DES.</p>"
     },
     "Two-Handed": {
-      "name": "Duas mãos",
+      "name": "Duas Mãos",
       "description": "<p>Você precisar usar essa arma com as duas mãos.</p>"
     },
     "Versatile": {
