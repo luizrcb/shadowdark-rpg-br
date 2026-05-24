@@ -6,7 +6,7 @@
   "folders": {
     "Basic Gear": "Equipamento Básico",
     "Weapons": "Armas",
-    "Starting Gear": "Equipamento inicial",
+    "Starting Gear": "Equipamento Inicial",
     "Herbal Remedies": "Remédios à Base de Plantas",
     "Armor": "Armaduras"
   },
@@ -48,7 +48,7 @@
       "description": "<p> Pequenos cravos de ferro em formato de triângulo. Criaturas vivas que pisarem nos estrepes sofrem 1 de dano e só podem se mover com metade de sua velocidade pelas próximas 10 rodadas.</p>"
     },
     "Chainmail": {
-      "name": "Cota de malha",
+      "name": "Cota de Malha",
       "description": "DESV em furtividade e natação"
     },
     "Club": {
@@ -68,11 +68,11 @@
       "description": ""
     },
     "Crossbow Bolts": {
-      "name": "Virotes de besta (20)",
+      "name": "Virotes de Besta (20)",
       "description": "<p>Munição para bestas.</p>"
     },
     "Crowbar": {
-      "name": "Pé de cabra",
+      "name": "Pé de Cabra",
       "description": "<p>Concede Vantagem em testes para abrir objetos emperrados usando a física de alavanca.</p>"
     },
     "Curative": {
@@ -104,11 +104,11 @@
       "description": "<p>Uma âncora de corda com três pontas afiadas e recurvadas.</p>"
     },
     "Greataxe": {
-      "name": "Machado grande",
+      "name": "Machado Grande",
       "description": ""
     },
     "Greatsword": {
-      "name": "Espada grande",
+      "name": "Espada Grande",
       "description": ""
     },
     "Handaxe": {
@@ -116,11 +116,11 @@
       "description": "<p><strong>Acuidade (Ac)</strong>: Você pode usar FOR ou DES quando atacar com essa arma.</p><p><strong>Arremesso (Ar)</strong>: Você pode arremessar essa arma para realizar um ataque à distância, usando FOR ou DES.</p>"
     },
     "Holy Symbol": {
-      "name": "Sïmbolo Sagrado",
+      "name": "Símbolo Sagrado",
       "description": ""
     },
     "Iron Spikes": {
-      "name": "Cravos de ferro (10)",
+      "name": "Cravos de Ferro (10)",
       "description": "<p>Cravos resistentes. Cada um deles tem um buraco para passar corda. Podem ser martelados com armas ou com outro cravo de ferro.</p>"
     },
     "Javelin": {
@@ -132,7 +132,7 @@
       "description": "<p>. Ilumina até a distância Perto x2 (veja Fontes de Luz, pág. 86). Requer óleo. Possui uma tampa para ocultar a luz.</p>"
     },
     "Leather Armor": {
-      "name": "Armadura de couro",
+      "name": "Armadura de Couro",
       "description": ""
     },
     "Light Spell": {
@@ -164,19 +164,19 @@
       "description": "<p>Um pequeno espelho polido.</p>"
     },
     "Mithral Chainmail": {
-      "name": "Cota de malha de Mitral",
+      "name": "Cota de Malha de Mitral",
       "description": "Sem penalidades em furtividade e natação."
     },
     "Mithral Plate Mail": {
-      "name": "Armadura de placas de Mitral",
+      "name": "Armadura de Placas de Mitral",
       "description": "Sem penalidades em furtividade e natação."
     },
     "Morningstar": {
-      "name": "Maça estrela",
+      "name": "Maça Estrela",
       "description": ""
     },
     "Oil, flask": {
-      "name": "Frasco de óleo",
+      "name": "Frasco de Óleo",
       "description": "<p>Abastece um lampião por uma hora de tempo real. Um frasco consegue cobrir uma área Adjacente e queima por 4 rodadas, causando 1d4 de dano a cada rodada.</p>"
     },
     "Pike": {
@@ -184,7 +184,7 @@
       "description": "<p><strong>Alcance:</strong> 2 Mãos</p><p>Ocupa 2 espaços.</p>"
     },
     "Plate Mail": {
-      "name": "Armadura de placas",
+      "name": "Armadura de Placas",
       "description": "DESV em furtividade, não pode nadar"
     },
     "Pole": {
@@ -196,7 +196,7 @@
       "description": "<p>Comida e água suficientes para uma pessoa, por um dia.</p>"
     },
     "Razor Chain": {
-      "name": "Chicote de lâminas",
+      "name": "Chicote de Lâminas",
       "description": ""
     },
     "Restorative": {
@@ -208,7 +208,7 @@
       "description": "<p>Cânhamo, 18 m de comprimento.</p>"
     },
     "Round Shield": {
-      "name": "Escudo redondo",
+      "name": "Escudo Redondo",
       "description": "Ocupa uma mão, ruptura"
     },
     "Salve": {
@@ -224,11 +224,11 @@
       "description": "Ocupa uma mão."
     },
     "Shortbow": {
-      "name": "Arco curto",
+      "name": "Arco Curto",
       "description": ""
     },
     "Shortsword": {
-      "name": "Espada curta",
+      "name": "Espada Curta",
       "description": ""
     },
     "Shuriken": {
@@ -272,7 +272,7 @@
       "description": "<p> Ilumina até a distância Perto (veja Fontes de Luz, pág. 86). Queima por uma hora de tempo real. </p>"
     },
     "Warhammer": {
-      "name": "Martelo de guerra",
+      "name": "Martelo de Guerra",
       "description": ""
     },
     "Whip": {
