@@ -1,7 +1,8 @@
 {
   "label": "Talentos de classe",
   "mapping": {
-    "description": "system.description"
+    "description": "system.description",
+    "group": "system.group"
   },
   "folders": {
     "Ranger": "Ranger",
@@ -12,97 +13,119 @@
     "Pit Fighter": "Lutador de Arena",
     "Bard": "Bardo",
     "Basilisk Warrior": "Combatente Basilisco",
-    "Sea Wolf": "Lobo do mar",
+    "Sea Wolf": "Lobo do Mar",
     "Ras-Godai": "Ras-Godai"
   },
   "entries": {
     "Berserk": {
       "name": "Fúria",
-      "description": "<p>1/dia, entre em fúria: imune a dano por 3 rodadas</p><p>Efeito duplicado = +1 uso/dia</p>"
+      "description": "<p>1/dia, entre em fúria: imune a dano por 3 rodadas</p><p>Efeito duplicado = +1 uso/dia</p>",
+      "group": "Lobo do Mar"
     },
     "Charge": {
       "name": "Investida",
-      "description": "<p>3/dia, você pode fazer uma investida durante o combate ao se mover, no mínimo, pela distância Perto antes de atacar. A cada vez que fizer isso, seus ataques corpo a corpo causam dano dobrado naquela rodada.</p>"
+      "description": "<p>3/dia, você pode fazer uma investida durante o combate ao se mover, no mínimo, pela distância Perto antes de atacar. A cada vez que fizer isso, seus ataques corpo a corpo causam dano dobrado naquela rodada.</p>",
+      "group": "Cavaleiro do Deserto"
     },
     "Curative": {
       "name": "Curativa",
-      "description": "<p>Equivale a uma @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]</p>"
+      "description": "<p>Equivale a uma @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]</p>",
+      "group": "Herbalismo"
     },
     "Demonic Possession": {
       "name": "Possessão Demoníaca",
-      "description": "<p><span style=\"font-family: Signika, sans-serif\">3/dia, ganhe um bônus de +1 em suas rolagens de dano por 3 rodadas.</span></p><p><span style=\"font-family: Signika, sans-serif\">Além disso, adicione metade do seu nível ao bônus de dano (arredondando para baixo).</span></p>"
+      "description": "<p><span style=\"font-family: Signika, sans-serif\">3/dia, ganhe um bônus de +1 em suas rolagens de dano por 3 rodadas.</span></p><p><span style=\"font-family: Signika, sans-serif\">Além disso, adicione metade do seu nível ao bônus de dano (arredondando para baixo).</span></p>",
+      "group": "Cavaleiro de São Ydris"
     },
     "Fascinate": {
       "name": "Fascinar",
-      "description": "<p>(Concentração)</p> <p>Faça um teste de [[check 12 cha]].</p><p>Em caso de sucesso, você paralisa todos os alvos próximos cujo nível seja igual ou inferior a 1 + metade do seu nível (arredondado para baixo).</p><p>Se falhar (excluindo foco), você não pode usar esta magia novamente até descansar.</p>\n"
+      "description": "<p>(Concentração)</p> <p>Faça um teste de [[check 12 cha]].</p><p>Em caso de sucesso, você paralisa todos os alvos próximos cujo nível seja igual ou inferior a 1 + metade do seu nível (arredondado para baixo).</p><p>Se falhar (excluindo foco), você não pode usar esta magia novamente até descansar.</p>\n",
+      "group": "Presença"
     },
     "Flourish": {
       "name": "Floreio",
-      "description": "<p><span>3/dia, recupere [[/roll 1d6]] pontos de vida quando atingir um inimigo com um ataque corpo a corpo.</span></p>"
+      "description": "<p><span>3/dia, recupere [[/roll 1d6]] pontos de vida quando atingir um inimigo com um ataque corpo a corpo.</span></p>",
+      "group": "Lutador de Arena"
     },
     "Foebane": {
       "name": "Inimigo favorito",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]. Avantage sur les attaques et les dégâts contre un type de créature de votre choix pendant [[/r 1d6]] rounds</p>"
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]. Vantagem em ataques e dano contra um tipo de criatura de sua escolha por [[/r 1d6]] rodadas</p>",
+      "group": "Herbalismo"
     },
     "Hide from Creature": {
       "name": "Esconder-se de criatura",
-      "description": "<p>1/dia, escolha uma criatura de NV 9 ou menor que você possa ver; ela deve ter sucesso em um teste de [[check 15 wis]] ou não poderá vê-lo nem ouvi-lo por [[/r 1d4]] rodadas</p>"
+      "description": "<p>1/dia, escolha uma criatura de NV 9 ou menor que você possa ver; ela deve ter sucesso em um teste de [[check 15 wis]] ou não poderá vê-lo nem ouvi-lo por [[/r 1d4]] rodadas</p>",
+      "group": "Lótus Negra"
     },
     "Ignore All Damage": {
       "name": "Ignorar todo o dano",
-      "description": "<p>1/dia, ignore todo o dano e efeitos causados por um ataque</p> <p>Efeito duplicado = +1 uso por dia </p>"
+      "description": "<p>1/dia, ignore todo o dano e efeitos causados por um ataque</p> <p>Efeito duplicado = +1 uso por dia </p>",
+      "group": "Lutador de Arena"
     },
     "Inspire": {
       "name": "Inspirar",
-      "description": "<p>Todos os dias, você pode doar um número de fichas de sorte igual ao seu modificador de Carisma (mín. 1).</p>"
+      "description": "<p>Todos os dias, você pode doar um número de fichas de sorte igual ao seu modificador de Carisma (mín. 1).</p>",
+      "group": "Presença"
     },
     "Omen": {
       "name": "Presságio",
-      "description": "<p>3/dia, você pode fazer um teste de [[check 9 wis]]. Em um sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>"
+      "description": "<p>3/dia, você pode fazer um teste de [[check 9 wis]]. Em um sucesso, ganhe uma ficha de sorte (você não pode ter mais de uma ficha de sorte por vez).</p>",
+      "group": "Vidente"
     },
     "Paralyze a Target": {
       "name": "Paralizar alvo",
-      "description": "<p>1/dia, paralise um alvo de NV 9 ou menor por [[/r 1d4]] rodadas quando causar dano a ele com uma arma</p>"
+      "description": "<p>1/dia, paralise um alvo de NV 9 ou menor por [[/r 1d4]] rodadas quando causar dano a ele com uma arma</p>",
+      "group": "Lótus Negra"
     },
     "Petrifying Gaze": {
       "name": "Olhar Petrificante",
-      "description": "<p>Uma criatura do seu nível ou inferior que encontre o seu olhar deve ter sucesso em um teste de [[check 15 con]] ou ficará petrificada por [[/r 1d4]] rodadas. Ela sofre dano normalmente enquanto está petrificada.</p><p>Você pode usar esse talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>"
+      "description": "<p>Uma criatura do seu nível ou inferior que encontre o seu olhar deve ter sucesso em um teste de [[check 15 con]] ou ficará petrificada por [[/r 1d4]] rodadas. Ela sofre dano normalmente enquanto está petrificada.</p><p>Você pode usar esse talento um número de vezes por dia igual ao seu modificador de CON (mínimo 1).</p>",
+      "group": "Combatente Basilisco"
     },
     "Relentless": {
       "name": "Incansável",
-      "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de [[check 18 con]] (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p>"
+      "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de [[check 18 con]] (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p>",
+      "group": "Lutador de Arena"
     },
     "Restorative": {
       "name": "Restauradora",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Encerra um veneno ou doença.</p>"
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Encerra um veneno ou doença.</p>",
+      "group": "Herbalismo"
     },
     "Salve": {
       "name": "Bálsamo",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp] Cura 1 PV.</p>"
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp] Cura 1 PV.</p>",
+      "group": "Herbalismo"
     },
     "Sleep a Creature": {
       "name": "Adormecer criatura",
-      "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menor que você possa ver e que esteja Perto; ela deve ter sucesso em um teste de [[check 15 con]] ou irá adormecer</p>"
+      "description": "<p>1/dia, escolha uma criatura viva de NV 5 ou menor que você possa ver e que esteja Perto; ela deve ter sucesso em um teste de [[check 15 con]] ou irá adormecer</p>",
+      "group": "Lótus Negra"
     },
     "Smoke Step": {
       "name": "Passo de fumaça",
-      "description": "<p><span>3/dia, teleporte para um local que você possa ver e que seja Perto. Isso não gasta a sua ação.</span></p>"
+      "description": "<p><span>3/dia, teleporte para um local que você possa ver e que seja Perto. Isso não gasta a sua ação.</span></p>",
+      "group": "Ras-Godai"
     },
     "Stimulant": {
       "name": "Estimulante",
-      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g] Você não pode ser surpreendido por 10 rodadas.</p>"
+      "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g] Você não pode ser surpreendido por 10 rodadas.</p>",
+      "group": "Herbalismo"
     },
     "Teleport to Familiar": {
       "name": "Teleportar para o familiar",
-      "description": "<p>1/dia, teleporte-se para onde seu familiar está com o seu movimento</p> <p>Efeito duplicado = +1 uso por dia</p>"
+      "description": "<p>1/dia, teleporte-se para onde seu familiar está com o seu movimento</p> <p>Efeito duplicado = +1 uso por dia</p>",
+      "group": "Classe"
     },
     "Walk on Sheer Surfaces": {
       "name": "Andar em superfícies íngremes",
-      "description": "<p>1/dia, você pode andar em superfícies íngremes, como paredes, por [[/r 1d4]] rodadas</p>"
+      "description": "<p>1/dia, você pode andar em superfícies íngremes, como paredes, por [[/r 1d4]] rodadas</p>",
+      "group": "Lótus Negra"
     },
     "Walk on Water": {
       "name": "Andar sobre a água",
-      "description": "<p>1/dia, você pode andar sobre a água por  [[/r 1d4]] rodadas como se fosse uma superfície sólida</p>"
+      "description": "<p>1/dia, você pode andar sobre a água por  [[/r 1d4]] rodadas como se fosse uma superfície sólida</p>",
+      "group": "Lótus Negra"
     }
   }
 }
