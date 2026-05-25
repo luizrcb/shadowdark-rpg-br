@@ -289,7 +289,7 @@
     },
     "Knock": {
       "name": "Arrombar",
-      "description": "<p>Uma porta, janela, portão, baú ou portal que você possa ver e que esteja dentro do alcance se opens instantaneamente, superando todas as fechaduras e barreiras mundanas.</p><p> Essa magia cria um barulho alto que pode ser ouvido por todas as criaturas que estiverem ao alcance da sua voz</p>"
+      "description": "<p>Uma porta, janela, portão, baú ou portal que você possa ver e que esteja dentro do alcance se abre instantaneamente, superando todas as fechaduras e barreiras mundanas.</p><p> Essa magia cria um barulho alto que pode ser ouvido por todas as criaturas que estiverem ao alcance da sua voz</p>"
     },
     "Lay to Rest": {
       "name": "Descanso Eterno",
