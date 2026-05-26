@@ -51,27 +51,27 @@
       "description": ""
     },
     "+1 to Melee and Ranged Attacks": {
-      "name": "+1 para ataque corpo a corpo ou a distância",
+      "name": "+1 para Ataques Corpo a Corpo ou à Distância",
       "description": ""
     },
     "+1 to Melee Attacks": {
-      "name": "+1 para ataques corpo a corpo",
+      "name": "+1 para Ataques Corpo a Corpo",
       "description": ""
     },
     "+1 to Melee Attacks and Damage": {
-      "name": "+1 para ataques corpo a corpo e dano",
+      "name": "+1 para Ataques Corpo a Corpo e Dano",
       "description": ""
     },
     "+1 to Melee Damage": {
-      "name": "+1 para ataques corpo a corpo",
+      "name": "+1 para Dano Corpo a Corpo",
       "description": ""
     },
     "+1 to Ranged Attacks": {
-      "name": "+1 para ataques a distância",
+      "name": "+1 para Ataques à Distância",
       "description": ""
     },
     "+1 to Ranged Attacks and Damage": {
-      "name": "+1 para ataques a distância e dano",
+      "name": "+1 para Ataques à Distância e Dano",
       "description": ""
     },
     "+1 to Strength": {
@@ -79,7 +79,7 @@
       "description": ""
     },
     "+1 to Weapon Attacks and Damage": {
-      "name": "+1 para ataques armado e dano",
+      "name": "+1 para Ataques com Armas e Dano",
       "description": ""
     },
     "+1 to Wisdom": {
@@ -87,11 +87,11 @@
       "description": ""
     },
     "+1 use per day of Petrifying Gaze": {
-      "name": "+1 uso por dia de Olhar Petrificante",
+      "name": "+1 Uso por Dia de Olhar Petrificante",
       "description": ""
     },
     "+1 XP for Secrets": {
-      "name": "+1XP pelo segredo",
+      "name": "+1 XP por Segredos",
       "description": "<p>+1 XP cada vez que você descobrir um segredo valioso ou significativo (rolar duplicatas novamente)</p>"
     },
     "+2 to Charisma": {
@@ -119,7 +119,7 @@
       "description": ""
     },
     "Add Wisdom to Roll": {
-      "name": "Adicione Sabedoria a Rolagem",
+      "name": "Adicionar Sabedoria à Rolagem",
       "description": "<p>3 vezes por dia, adicione seu modificador de Sabedoria a qualquer rolagem (role duplicatas novamente)</p>"
     },
     "Additional Black Lotus Talent": {
@@ -143,7 +143,7 @@
       "description": "<p>Receba um uso adicional do seu talento Passo de Fumaça.</p>"
     },
     "Advantage on Melee Attacks": {
-      "name": "Vantagem em ataques corpo a corpo",
+      "name": "Vantagem em Ataques Corpo a Corpo",
       "description": "<p>Uma vez por dia, ganhe vantagem em ataques corpo a corpo por 3 rodadas.</p><p>Duplicado = +1 de uso por dia</p>"
     },
     "Ambitious": {
@@ -159,11 +159,11 @@
       "description": "<p>Você tem vantagem em testes de Destreza para evitar aprisionamento ou ferimentos.</p>"
     },
     "Backstab": {
-      "name": "Apunhalada Pelas Costas",
+      "name": "Apunhalada pelas Costas",
       "description": "<p><span class=\"fontstyle0\">Se acertar uma criatura que não esteja ciente do seu ataque, você causa dano extra com o dado da arma. Adicione dados de arma adicionais equivalentes à metade do seu nível (arredondando para baixo).</span></p>"
     },
     "Backstab +1 Damage Dice": {
-      "name": "Apunhalada Pelas Costas: +1 Dado de Dano",
+      "name": "Apunhalada pelas Costas: +1 Dado de Dano",
       "description": "<p><span class=\"fontstyle0\">Suas apunhaladas pelas costas causam +1 dado de dano.</span></p>"
     },
     "Bardic Arts": {
@@ -203,11 +203,11 @@
       "description": "<p>Escolha um deus com o mesmo alinhamento que você para seguir (veja Divindades, pág. 28). Você possui um símbolo sagrado do seu deus (que não ocupa nenhum espaço de equipamento).</p>"
     },
     "Demonic Possession": {
-      "name": "Possessão demoníaca",
+      "name": "Possessão Demoníaca",
       "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.dsFmHTTuERiQePky]</p><p> 3/dia, ganhe um bônus de +1 em suas rolagens de dano por 3 rodadas. Além disso, adicione metade do seu nível ao bônus de dano (arredondando para baixo).</p>"
     },
     "Demonic Possession Bonus": {
-      "name": "Bônus da possessão demoníaca",
+      "name": "Bônus da Possessão Demoníaca",
       "description": "<p>Seu bônus de Possessão Demoníaca aumenta em 1 ponto</p>"
     },
     "Destined": {
@@ -231,7 +231,7 @@
       "description": "<p>Você recebe um bônus de +1 em jogadas de ataque com armas à distância, ou um bônus de +1 em testes de conjuração.</p>"
     },
     "Find a Random Priest or Wizard Wand": {
-      "name": "Você encontra um sacerdote ou varinha mágica aleatória (sua escolha)",
+      "name": "Encontrar uma Varinha de Sacerdote ou de Mago Aleatória",
       "description": "<p>Escolha entre um sacerdote aleatório ou uma varinha mágica</p>"
     },
     "Flourish": {
@@ -243,7 +243,7 @@
       "description": "<p>1/dia, force o MJ a refazer uma só rolagem</p><p>Duplicado = +1 utilização por dia</p>"
     },
     "Force Morale Check": {
-      "name": "Força um teste de moral",
+      "name": "Forçar um Teste de Moral",
       "description": "<p>1vez por dia, force uma criatura próxima a fazer um Teste de Moral, mesmo que ela seja imune.</p><p>Duplicado = +1 de uso por dia</p>"
     },
     "Go Berserk": {
@@ -271,7 +271,7 @@
       "description": "<p>Você tem VAN em testes de Herbalismo para uma erva que você escolher</p>"
     },
     "Hide from Creature": {
-      "name": "Se Esconder de Criatura",
+      "name": "Esconder-se de Criatura",
       "description": "<p>Uma vez por dia, escolha uma criatura de nível 9 ou inferior que você possa ver; ela deve passar em um teste de [[check 15 wis]] ou não poderá ver ou ouvir você por 1d4 rodadas</p>"
     },
     "Hypnotize": {
@@ -311,7 +311,7 @@
       "description": ""
     },
     "Initiative Advantage": {
-      "name": "Vantagem na iniciativa",
+      "name": "Vantagem na Iniciativa",
       "description": "<p>Você tem Vantagem nas jogadas de iniciativa (role novamente em caso de duplicado)</p>"
     },
     "Keen Senses": {
@@ -335,31 +335,31 @@
       "description": "<p>Aprenda 1 magia de mago, grau = 1/2 do seu nível. Conjure-a com INT</p>"
     },
     "Learn Spell (Mage Armor)": {
-      "name": "Aprender Magia (Armadura arcana)",
+      "name": "Aprender Magia (Armadura Arcana)",
       "description": "<p><span class=\"fontstyle0\">Aprenda uma magia adicional de um grau que já possa conjurar.</span>.</p>"
     },
     "Learn Extra Spell": {
-      "name": "Aprenda uma Magia Extra",
+      "name": "Aprender uma Magia Extra",
       "description": "<p><span class=\"fontstyle0\">Aprenda uma magia adicional de um grau que já possa conjurar.</span>.</p>"
     },
     "Learn Melee Weapon": {
-      "name": "Aprenda a usar arma corpo a corpo",
+      "name": "Aprender a Usar Arma Corpo a Corpo",
       "description": "<p>Aprenda a usar 1 arma corpo a corpo.</p>"
     },
     "Learn Seer Spell": {
-      "name": "Aprenda Magia de Vidente",
+      "name": "Aprender Magia de Vidente",
       "description": "<p><span class=\"fontstyle0\">Aprenda +1 magia de vidente de qualquer grau que você possa conjurar.</span></p>"
     },
     "Learn to Wield a Longbow": {
-      "name": "Aprenda a usar Arco Longo",
+      "name": "Aprender a Usar Arco Longo",
       "description": ""
     },
     "Learn Witch Spell": {
-      "name": "Aprenda uma Magia de Bruxa",
+      "name": "Aprender uma Magia de Bruxa",
       "description": "<p>Aprenda +1 magia de bruxa de qualquer grau que você possa conjurar</p>"
     },
     "Learn Wizard Spell": {
-      "name": "Aprenda uma Magia de Mago",
+      "name": "Aprender uma Magia de Mago",
       "description": "<p><span class=\"fontstyle0\">Aprenda +1 magia de mago de qualquer grau que você possa conjurar.</span></p>"
     },
     "Learning Spells": {
@@ -367,7 +367,7 @@
       "description": "<p><span class=\"fontstyle0\"><strong>Aprendendo Magias.</strong></span><span class=\"fontstyle2\"> Você pode aprender permanentemente uma magia de mago a partir de um pergaminho mágico, ao estudá-lo por um dia e ser bem-sucedido em um [[check 15 int]].</span></p><p><span class=\"fontstyle2\"> Independentemente de sucesso ou falha, você gasta o pergaminho mágico.</span></p><p><span class=\"fontstyle2\"> Magias que você aprende dessa forma não são contabilizadas no seu número de magias conhecidas.</span></p>"
     },
     "Magic Missile Advantage": {
-      "name": "Vantagem em Míssil mágico",
+      "name": "Vantagem em Míssil Mágico",
       "description": "<p>Os magos sempre têm uma vantagem ao conjurar Míssil Mágico.</p>"
     },
     "Magic Resistance": {
@@ -379,11 +379,11 @@
       "description": "<p>Você pode ativar pergaminhos e varinhas mágicas usando Carisma como atributo de conjuração. Em caso de falha crítica, role uma Falha Mágica.</p>"
     },
     "Make a Random Magic Item": {
-      "name": "Crie um Item mágico Aleatório",
+      "name": "Criar um Item Mágico Aleatório",
       "description": "<p>Crie um item mágico aleatório. Veja o compêndio de <em>Itens Mágicos</em>.</p>"
     },
     "Max 2 HP Rolls": {
-      "name": "Maximiar 2 Rolagens de PV",
+      "name": "Maximizar 2 Rolagens de PV",
       "description": "<p>Maximize 2 rolagens de pontos de vida (anteriores ou futuras)</p>"
     },
     "Mighty": {
@@ -443,7 +443,7 @@
       "description": "<p><span>3/dia, quando seus PV forem reduzidos a 0, faça um teste de [[check 18 con]] (o talento Implacável se aplica a essa rolagem). Em um sucesso, você fica com 1 PV.</span></p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]</p>"
     },
     "Ride any Creature": {
-      "name": "Monte qualquer criatura",
+      "name": "Montar Qualquer Criatura",
       "description": "<p>Você pode usar qualquer criatura carregando um cavaleiro como montaria.</p>"
     },
     "Seafarer": {
@@ -451,11 +451,11 @@
       "description": "<p>Você tem Vantagem em testes relacionados à navegação e à tripulação de embarcações.</p>"
     },
     "Shield Wall": {
-      "name": "Muralha de Escudo",
+      "name": "Muralha de Escudos",
       "description": "<p>Se estiver empunhando um escudo, você pode usar sua ação para assumir uma postura defensiva. Sua CA se torna 20 durante esse período.</p>"
     },
     "Sleep a Creature": {
-      "name": "Adormecer criatura",
+      "name": "Adormecer Criatura",
       "description": "<p>1/dia, escolha uma criatura viva de nível 5 ou menos que você possa ver dentro do alcance; ela deve passar no teste CON CD 15 ou adormece</p>"
     },
     "Slime Form": {
@@ -535,7 +535,7 @@
       }
     },
     "Spellcasting (Wizard)": {
-      "name": "Conjuracão (Mago)",
+      "name": "Conjuração (Mago)",
       "description": "<p><span class=\"fontstyle0\"><strong>Conjuração.</strong></span><span class=\"fontstyle2\">Você pode conjurar as magias de mago que você conhece.</span></p><p><span class=\"fontstyle2\"> Você conhece três magias de grau 1, à sua escolha, da lista de magias de mago da pág. 52. </span></p><p><span class=\"fontstyle2\">A cada nível que você ganhar, escolha novas magias de mago para aprender, de acordo com a tabela de Magias de Mago Conhecidas.</span></p><p><span class=\"fontstyle2\"> Para conjurar magias de mago, veja Conjuração, na pág. 44.</span></p>",
       "effects": {
         "Spell Class": {
@@ -588,7 +588,7 @@
       "description": "<p>Você causa o triplo de dano com seu talento Assassino.</p>"
     },
     "Turn Undead": {
-      "name": "Expulsar Mortos-vivos",
+      "name": "Expulsar Mortos-Vivos",
       "description": "<p><span class=\"fontstyle0\">Você conhece a magia </span><span class=\"fontstyle2\">expulsar mortos-vivos</span><span class=\"fontstyle0\">. Essa magia não é contabilizada no seu número de magias conhecidas.</span></p>"
     },
     "Upgrade Destined Die": {
@@ -612,11 +612,11 @@
       "description": "<p>Escolha um tipo de arma, como espada longa, por exemplo. Você recebe +1 em jogadas de ataque e dano com o tipo de arma escolhido. Além disso, adicione metade do seu nível a essas rolagens (arredondando para baixo).</p>"
     },
     "Weapon Mastery (Bastard Sword)": {
-      "name": "Maestria em Armas (Espada bastarda)",
+      "name": "Maestria em Armas (Espada Bastarda)",
       "description": "<p>Escolha um tipo de arma, como espada longa, por exemplo. Você recebe +1 em jogadas de ataque e dano com o tipo de arma escolhido. Além disso, adicione metade do seu nível a essas rolagens (arredondando para baixo).</p>"
     },
     "Weapon Mastery (Greataxe)": {
-      "name": "Maestria em Armas (Machado grande)",
+      "name": "Maestria em Armas (Machado Grande)",
       "description": "<p>Escolha um tipo de arma, como espada longa, por exemplo. Você recebe +1 em jogadas de ataque e dano com o tipo de arma escolhido. Além disso, adicione metade do seu nível a essas rolagens (arredondando para baixo).</p>"
     }
   }

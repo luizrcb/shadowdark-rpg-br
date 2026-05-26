@@ -385,7 +385,7 @@
         },
         "Advantage vs Unnatural Creatures & Outsiders": {
           "name": "Vantagem contra Criaturas Não Naturais e Entidades Exteriores",
-          "description": "Vantagem em ataques contra criaturas não naturais e entidades exteriores",
+          "description": "Vantagem em Ataques contra Criaturas Não Naturais e Entidades Exteriores",
           "changes": {
             "system": {
               "roll": {
@@ -490,8 +490,8 @@
           }
         },
         "Disadvantage on Attacks & Spells vs Snakes": {
-          "name": "Desvantagem em Ataques e Magias contra Cobras",
-          "description": "Desvantagem em ataques e magias hostis contra cobras",
+          "name": "Desvantagem em Ataques e Magias Hostis contra Cobras",
+          "description": "Desvantagem em Ataques e Magias Hostis contra Cobras",
           "changes": {
             "system": {
               "roll": {
@@ -604,7 +604,7 @@
       "effects": {
         "Spellcasting Check Bonus": {
           "name": "Bônus em Teste de Conjuração",
-          "description": "+4 em testes de conjuração de detectar pensamentos (3/dia)",
+          "description": "+4 em Testes de Conjuração de Detectar Pensamentos (3/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -781,8 +781,8 @@
           }
         },
         "Double Damage vs Demons, Devils &  Undead": {
-          "name": "Dano em Dobro contra Demônios, Diabos e Mortos-vivos",
-          "description": "Dano em Dobro contra Demônios, Diabos e Mortos-vivos",
+          "name": "Dano em Dobro contra Demônios, Diabos e Mortos-Vivos",
+          "description": "Dano em Dobro contra Demônios, Diabos e Mortos-Vivos",
           "changes": {
             "system": {
               "roll": {
@@ -803,7 +803,7 @@
       "effects": {
         "Advantage vs Poison": {
           "name": "Vantagem contra Veneno",
-          "description": "Vantagem em testes para evitar efeitos de veneno",
+          "description": "Vantagem em Testes para Evitar Efeitos de Veneno",
           "changes": {
             "system": {
               "roll": {
@@ -819,7 +819,7 @@
       }
     },
     "Scroll of Burning Hands": {
-      "name": "Pergaminho de mãos flamejantes",
+      "name": "Pergaminho de Mãos Flamejantes",
       "description": "<p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]</p>"
     },
     "Memnon's Blazing Javelin": {
@@ -902,7 +902,7 @@
         },
         "Bonus to Control Water": {
           "name": "Bônus para Controlar Água",
-          "description": "+4 em testes de conjuração de controlar água (1/dia)",
+          "description": "+4 em Testes de Conjuração de Controlar Água (1/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -1004,8 +1004,8 @@
           }
         },
         "Advantage on attacks vs Undead": {
-          "name": "Vantagem em Ataques contra Mortos-vivos",
-          "description": "Vantagem em ataques contra mortos-vivos",
+          "name": "Vantagem em Ataques contra Mortos-Vivos",
+          "description": "Vantagem em Ataques contra Mortos-Vivos",
           "changes": {
             "system": {
               "roll": {
@@ -1146,7 +1146,7 @@
       }
     },
     "Sword of the Ancients": {
-      "name": "Espada Dos Ancestrais",
+      "name": "Espada dos Ancestrais",
       "description": "<p><em>Uma lâmina serrilhada e enferrujada, \rcom um oleoso cabo de couro.</em></p><p><strong>Bônus</strong>. Espada longa +2.</p><p><strong> Benefício. </strong>A espada é inquebrável, e pode cortar qualquer material.</p><p>O dono pode invocar a espada direto \rpara sua mão se ambos estiverem no mesmo plano.</p>",
       "effects": {
         "Attack Roll Bonus": {
@@ -1364,7 +1364,7 @@
       "effects": {
         "Spellcasting Advantage on Spell": {
           "name": "Vantagem em Conjuração (Metamorfose)",
-          "description": "Vantagem em conjuração para metamorfose",
+          "description": "Vantagem em Conjuração para Metamorfose",
           "changes": {
             "system": {
               "roll": {
@@ -1420,7 +1420,7 @@
       "effects": {
         "Spellcasting Advantage on Spell": {
           "name": "Vantagem em Conjuração (Desintegrar)",
-          "description": "Vantagem em conjuração para desintegrar",
+          "description": "Vantagem em Conjuração para Desintegrar",
           "changes": {
             "system": {
               "roll": {
@@ -1469,7 +1469,7 @@
         },
         "Disadvantage on Attacks & Spellcasting vs Demons": {
           "name": "Desvantagem em Ataques e Conjurações contra Demônios",
-          "description": "Desvantagem em ataques e testes de conjuração contra demônios",
+          "description": "Desvantagem em Ataques e Testes de Conjuração contra Demônios",
           "changes": {
             "system": {
               "roll": {
@@ -1556,7 +1556,7 @@
       }
     },
     "Staff of Healing": {
-      "name": "Cajado De Cura",
+      "name": "Cajado de Cura",
       "description": "<p><em>Um bastão de carvalho nodoso com \ruma saliência robusta em uma das extremidades.</em></p><p><strong>Bônus</strong>. Cajado +1.</p><p><strong>Benefício. </strong>. Uma vez por dia, você \rpode tocar uma criatura com o cajado \rpara curá-la em [[/r 1d6]] Pontos de vida.</p>",
       "effects": {
         "Attack Roll Bonus": {
@@ -1619,7 +1619,7 @@
       "description": "<p><em>Um orbe de vidro impecável, com imagens girando agitadas dentro dele.</em></p><p><strong>Benefício.</strong> Apenas magos podem usar uma Bola de Cristal. Você pode usá-la para conjurar a magia vidência (pág. 75). Se falhar na jogada para conjurar vidência, a Bola de Cristal deixa de funcionar por um dia.</p>"
     },
     "Scroll of Hold Portal": {
-      "name": "Pergaminho de obstruir porta",
+      "name": "Pergaminho de Obstruir Porta",
       "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]</p>"
     },
     "Wraith Chain": {
@@ -1723,7 +1723,7 @@
       "effects": {
         "Spellcasting Advantage on Spell": {
           "name": "Vantagem em Conjuração ou Ataque à Distância",
-          "description": "+1 no próximo teste de conjuração ou ataque à distância (1/dia)",
+          "description": "+1 no Próximo Teste de Conjuração ou Ataque à Distância (1/dia)",
           "changes": {
             "system": {
               "roll": {
@@ -1840,7 +1840,7 @@
       "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]</p><p>ND 12</p>"
     },
     "Cloak of Elvenkind": {
-      "name": "Manto da linhagem Élfica",
+      "name": "Manto da Linhagem Élfica",
       "description": "<p><em>Um manto esvoaçante com capuz que muda de cor para combinar com o ambiente.</em></p><p><strong>Benefício</strong>. Seus testes para se esconder são sempre Fáceis (CD 9). Uma vez por dia, você pode se tornar invisível por 5 rodadas, e isso se encerra caso você ataque ou conjure uma magia.</p>"
     }
   }

@@ -1,12 +1,12 @@
 {
-  "label": "Efeitos das magias",
+  "label": "Efeitos das Magias",
   "mapping": {
     "description": "system.description"
   },
   "folders": {},
   "entries": {
     "Spell Effect: Acid Arrow": {
-      "name": "Efeito: Flecha ácida",
+      "name": "Efeito: Flecha Ácida",
       "description": "<p>Causa [[/r 1d6]] dano por turno. A flecha permanece no alvo enquanto durar sua concentração.</p>"
     },
     "Spell Effect: Alter Self": {
@@ -26,7 +26,7 @@
       "description": "<p>Sua pele endurece e vira casca de árvore sólida. Sua CA se torna 14 (18 no caso de um teste de conjuração crítico) enquanto a magia durar.</p><p>Você sofre o dobro do dano de fogo enquanto estiver sob o efeito da magia.</p>"
     },
     "Spell Effect: Barkskin (Critical)": {
-      "name": "Efeito: Pele de Casta (Crítico)",
+      "name": "Efeito: Pele de Casca (Crítico)",
       "description": "<p>Sua pele endurece e vira casca de árvore sólida. Sua CA se torna 14 (18 no caso de um teste de conjuração crítico) enquanto a magia durar.</p><p>Você sofre o dobro do dano de fogo enquanto estiver sob o efeito da magia.</p>"
     },
     "Spell Effect: Befriend": {
@@ -58,7 +58,7 @@
       "description": "<p>Desaba indefeso, rindo de maneira perturbadora e dolorosa enquanto a magia durar.</p>"
     },
     "Spell Effect: Cast Out": {
-      "name": "Expulsar",
+      "name": "Efeito: Expulsar",
       "description": "<p>Enquanto a magia durar, essa criatura não pode se aproximar de você mais do que o alcance Perto. Ela ainda pode atacá-lo de fora do alcance Perto.</p>"
     },
     "Spell Effect: Cat's Eye": {
@@ -82,7 +82,7 @@
       "description": "<p>Enquanto a magia durar, sua CA se torna 17 (20 em um sucesso crítico no teste de conjuração).</p><p> Você tem Vantagem em testes de Destreza para se esgueirar e se esconder enquanto a magia durar.</p>"
     },
     "Spell Effect: Cloak of Night (Critical)": {
-      "name": "Efeito: Manto da Noite (crítico)",
+      "name": "Efeito: Manto da Noite (Crítico)",
       "description": "<p>Enquanto a magia durar, sua CA se torna 17 (20 em um sucesso crítico no teste de conjuração).</p><p> Você tem Vantagem em testes de Destreza para se esgueirar e se esconder enquanto a magia durar.</p>"
     },
     "Spell Effect: Command": {
@@ -98,11 +98,11 @@
       "description": ""
     },
     "Spell Effect: Detect Magic": {
-      "name": "Efeito: Detectar magia",
+      "name": "Efeito: Detectar Magia",
       "description": "<p>Você pode sentir a presença de magia dentro do alcance Perto, enquanto a magia durar. Se você se concentrar por duas rodadas, poderá identificar suas propriedades gerais. Barreiras completas bloqueiam esta magia.</p>"
     },
     "Spell Effect: Divine Vengeance": {
-      "name": "Efeito: Vingança divina",
+      "name": "Efeito: Vingança Divina",
       "description": "<p>Você se torna o avatar divino da ira de seu deus, envolto em chamas sagradas ou em uma aura obscura de corrupção ardente.\nEnquanto a magia durar, você pode voar por até Perto, suas armas se tornam mágicas, e você tem um bônus de +4 em ataques e dano de sua arma.</p>"
     },
     "Spell Effect: Enfeeble (CHA)": {
@@ -154,7 +154,7 @@
       "description": "<p>Você e os seus equipamentos se transformam em uma nuvem de fumaça enquanto a magia durar.</p><p>Você pode voar e atravessar qualquer abertura que fumaça normalmente poderia. Você pode sentir o terreno e qualquer movimento Perto ao seu redor.</p><p>Você não pode conjurar magias enquanto estiver nessa forma.</p>"
     },
     "Spell Effect: Glassbones": {
-      "name": "Efeito: Ossos De Vidro",
+      "name": "Efeito: Ossos de Vidro",
       "description": "<p>Uma criatura que você toca se torna frágil. Ela sofre o dobro de dano enquanto a magia durar.</p>"
     },
     "Spell Effect: Hallucinate": {
@@ -178,7 +178,7 @@
       "description": ""
     },
     "Spell Effect: Hypnotize": {
-      "name": "Efeito: Confusão",
+      "name": "Efeito: Hipnotizar",
       "description": "<p>Você hipnotiza uma criatura que \r\nvocê possa ver e que esteja dentro \r\ndo alcance. O alvo não pode realizar \r\nações, e se move em uma direção \r\naleatória no turno dele. Se o alvo for \r\nde nível 9+, ele pode fazer um teste \r\nde SAB contra o seu último teste de \r\nconjuração no início do turno dele \r\npara tentar encerrar a magia.</p>"
     },
     "Spell Effect: Instill": {
@@ -186,7 +186,7 @@
       "description": "<p>Uma arma que você empunha fica imbuída de força vital. Ela se torna uma arma +1 enquanto durar a magia.</p><p>Se a arma for um cajado, ela causa 1d6 de dano em vez de 1d4.</p>"
     },
     "Spell Effect: Invisibility": {
-      "name": "Efeito: invisibilidade",
+      "name": "Efeito: Invisibilidade",
       "description": ""
     },
     "Spell Effect: Levitate": {
@@ -202,7 +202,7 @@
       "description": ""
     },
     "Spell Effect: Mage Armor (Critical)": {
-      "name": "Efeito: Armadura Arcana (critica)",
+      "name": "Efeito: Armadura Arcana (Crítica)",
       "description": ""
     },
     "Spell Effect: Magnetize": {
@@ -218,7 +218,7 @@
       "description": "<p>Duas criaturas que você possa ver, e que estejam Perto de você, ficam encantadas uma pela outra por 1d8 dias.</p><p>Cada vez que uma das criaturas afetadas sofrer dano, ela pode fazer um teste de [[check 15 cha]]. Em um sucesso, a magia se encerra.</p>"
     },
     "Spell Effect: Oak, Ash, Thorn": {
-      "name": "Efeito: Carvalho, Freixo E Espinheiro",
+      "name": "Efeito: Carvalho, Freixo e Espinheiro",
       "description": "<p>Enquanto a magia durar, fadas, diabos e demônios não podem atacar você.\nEssas criaturas também não podem possuir, induzir ou encantar você.</p>"
     },
     "Spell Effect: Odin's Wisdom": {
@@ -226,11 +226,11 @@
       "description": "<p>Enquanto a magia durar, adicione seu nível como bônus adicional em todos os testes de Sabedoria e testes de conjuração.</p>"
     },
     "Spell Effect: Pillar of Salt": {
-      "name": "Efeito: Pilar de sal",
+      "name": "Efeito: Pilar de Sal",
       "description": "<p>Uma criatura-alvo se torna uma estátua feita de sal endurecido.\nSeu alvo pode ser uma criatura de nível 5 ou menor e que você possa ver.\nUma criatura-alvo se torna uma estátua feita de sal endurecido.\nSeu alvo pode ser uma criatura de nível 5 ou menor e que você possa ver.\nSe você mantiver a concentração nessa magia por 3 rodadas seguidas, a transformação se torna permanente. </p>"
     },
     "Spell Effect: Pin Doll": {
-      "name": "Efeito: Boneco De Vodu",
+      "name": "Efeito: Boneco de Vodu",
       "description": "<p>Você prende um pouco de cabelo ou pedaço de carne retirado de uma criatura a um pequeno boneco de estopa conjurada pela magia.\nEm seu turno, enquanto se concentra nessa magia, você pode alfinetar o boneco. A cada vez que você faz isso, a criatura à qual o cabelo ou carne pertence sofre [[/r 2d6]] de dano. \nQuando a magia se encerra, o cabelo ou pedaço de carne utilizado queima até virar cinzas.</p>"
     },
     "Spell Effect: Polymorph": {
@@ -238,19 +238,19 @@
       "description": "<p>Você transforma uma criatura que você toca em outra criatura natural de mesmo tamanho ou menor, à sua escolha. Qualquer equipamento que o alvo carregue se mescla à sua nova forma.</p><p>O alvo ganha as características e atributos físicos da criatura, porém retém suas próprias características e atributos não físicos.</p><p>Se o alvo chegar a 0 ponto de vida, ele retorna à sua verdadeira forma com metade de seus Pv anteriores.\n\nSeu alvo pode ser qualquer criatura voluntária, ou uma criatura involuntária cujo nível seja menor ou igual à metade do seu nível, arredondando para baixo (mínimo de 1).</p>"
     },
     "Spell Effect: Protection from Energy (Cold)": {
-      "name": "Efeito: Proteção Contra Energia (frio)",
+      "name": "Efeito: Proteção contra Energia (Frio)",
       "description": "<p>Enquanto a magia durar, o alvo se torna imune a danos causados pela energia do tipo frio.</p>"
     },
     "Spell Effect: Protection from Energy (Electricity)": {
-      "name": "Efeito: Proteção Contra Energia (eletricidade)",
+      "name": "Efeito: Proteção contra Energia (Eletricidade)",
       "description": "<p>Enquanto a magia durar, o alvo se torna imune a danos causados pela energia do tipo elétrica.</p>"
     },
     "Spell Effect: Protection from Energy (Fire)": {
-      "name": "Efeito: Proteção Contra Energia (fogo)",
+      "name": "Efeito: Proteção contra Energia (Fogo)",
       "description": "<p>Enquanto a magia durar, o alvo se torna imune a danos causados pela energia do tipo fogo. </p>"
     },
     "Spell Effect: Protection From Evil": {
-      "name": "Efeito: Proteção Contra o Mal",
+      "name": "Efeito: Proteção contra o Mal",
       "description": "<p>Enquanto a magia durar, seres caóticos têm Desvantagem em jogadas de ataque e conjurações hostis contra o alvo. Esses seres também não podem possuir, induzir ou encantar o alvo.\nQuando a magia é conjurada em um alvo já possuído, a entidade que o possui faz um teste de Carisma contra o último teste de conjuração. Se falhar, a entidade será expulsa.</p>"
     },
     "Spell Effect: Puppet": {
@@ -266,7 +266,7 @@
       "description": "<p>Você se transforma, assim como qualquer equipamento que estiver carregando, em outra criatura natural que você já tenha visto e que seja de nível 10 ou menor. Você assume as características e os atributos físicos da criatura, mas mantém suas próprias características e atributos não físicos (incluindo INT, SAB e CAR)</p><p>Se você chegar a 0 pontos de vida enquanto estiver sob efeito dessa magia, você retorna à sua verdadeira forma com 1 PV.</p>"
     },
     "Spell Effect: Shield of Faith": {
-      "name": "Efeito: Escudo da fé",
+      "name": "Efeito: Escudo da Fé",
       "description": ""
     },
     "Spell Effect: Sleep": {
@@ -286,7 +286,7 @@
       "description": ""
     },
     "Spell Effect: Stoneskin (Critical)": {
-      "name": "Efeito: Pele-Rocha (crítico)",
+      "name": "Efeito: Pele-Rocha (Crítico)",
       "description": ""
     },
     "Spell Effect: Summon Storm": {
@@ -298,11 +298,11 @@
       "description": "<p>Você e seu equipamento se transformam em um Ent com as características abaixo durante a Magia.</p><p>Você não possui o talento de Aniamr Árvoredo Ent.</p><p>Você não pode conjurar magias enquanto estiver sob o efeito desta magia.</p><p>Você mantém seus valores de de INT, SAB e CAR.</p><p><strong>CA</strong> 14, <strong>PV</strong> 38, <strong>ATQ</strong> 2 golpes +8 (1d12) ou 1 pedra (longe) +8 (2d6), <strong>MV</strong> perto, <strong>F</strong> +4, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> *, <strong>S</strong> *, <strong>Car</strong> *, <strong>AL</strong> N, <strong>NV</strong> 8</p>"
     },
     "Spell Effect: Turn Undead": {
-      "name": "Efeito: Expulsar Morto-vivos",
+      "name": "Efeito: Expulsar Mortos-Vivos",
       "description": "<p>A criatura foge de você por 5 rodadas.</p>"
     },
     "Spell Effect: Void Stare": {
-      "name": "Efeito: Encarar o vazio",
+      "name": "Efeito: Encarar o Vazio",
       "description": "<p>Seus olhos ficam negros enquanto você olha para a escuridão entre as estrelas.\n\nUma criatura de nível 6 ou menor, e que você possa ver, fica sob seu controle. Você decide as ações da criatura durante o turno dela.</p>"
     },
     "Spell Effect: Web": {
@@ -322,11 +322,11 @@
       "description": "<p><strong>Lobo</strong></p><p><strong>CA</strong> 12, <strong>PV</strong> 10, <strong>ATQ</strong> 1 mordida [[/r 1d20+2]] ([[/r 1d6]]), <strong>MV</strong> Perto 2x, <strong>F</strong> +2, <strong>D</strong> +2, <strong>C</strong> +1</p><p><strong>Caçada em Bando.</strong>Causa +1 de dano enquanto um aliado estiver Adjacente.</p><p>Você e seu equipamento se transformam em um lobo enquanto a magia durar. Você assume os atributos de FOR, DES e CON, PV, CA, velocidade, ataques e características físicas do lobo. Você mantém sua INT, SAB e CAR.</p><p>Você pode conjurar magias enquanto estiver nesta forma. Se chegar a 0 PV, você retorna à sua forma original com 0 PV</p>"
     },
     "Spell Effect: World Serpent": {
-      "name": "Efeito: Serpente Do Mundo",
+      "name": "Efeito: Serpente do Mundo",
       "description": "<p>O veneno torturante da Serpente do Mundo goteja das armas de uma\ncriatura que você tocar.\n\nO alvo causa dano dobrado em cada ataque (x4 em um acerto crítico) enquanto a magia durar.</p>"
     },
     "Spell Effect: World Tree": {
-      "name": "Efeito: Árvore Do Mundo",
+      "name": "Efeito: Árvore do Mundo",
       "description": "<p>As raízes da Árvore do Mundo, a fonte da vida, envolvem a alma de uma criatura que você tocar. \n\nEnquanto a magia durar, o alvo não pode ter seus PV reduzidos a menos do que 1.</p>"
     },
     "Spell Effect: Wrath": {
@@ -334,7 +334,7 @@
       "description": "<p>Suas armas se tornam mágicas +2 e causam 1d8 de dano adicional durante a magia.</p>"
     },
     "Spell Effect: Zone of Truth": {
-      "name": "Efeito: Zona da verdade",
+      "name": "Efeito: Zona da Verdade",
       "description": "<p>Você induz uma criatura que você possa ver a falar a verdade. Ela não pode proferir uma mentira de forma proposital enquanto estiver dentro do alcance.</p>"
     }
   }
