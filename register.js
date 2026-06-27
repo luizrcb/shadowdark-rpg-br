@@ -34,6 +34,35 @@ Hooks.on("init", () => {
   });
 });
 
+Hooks.on("ready", () => {
+  function universalHasProperty(property) {
+    const propertyItems = [];
+    for (const uuid of this.properties ?? []) {
+      propertyItems.push(fromUuidSync(uuid));
+    }
+
+    const propSlug = (property || "").slugify();
+
+    const propertyItem = propertyItems.find((p) => {
+      if (!p) return false;
+      const engName =
+        p.originalName || p.flags?.babele?.originalName || p.name || "";
+      return (
+        engName.slugify() === propSlug || (p.name || "").slugify() === propSlug
+      );
+    });
+
+    return propertyItem ? true : false;
+  }
+
+  if (CONFIG.Item.dataModels.Weapon) {
+    CONFIG.Item.dataModels.Weapon.prototype.hasProperty = universalHasProperty;
+  }
+  if (CONFIG.Item.dataModels.Armor) {
+    CONFIG.Item.dataModels.Armor.prototype.hasProperty = universalHasProperty;
+  }
+});
+
 /*
  * IMPORT ADVENTURE HOOK
  */
