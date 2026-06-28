@@ -12,7 +12,7 @@
   },
   "entries": {
     "Arrows": {
-      "name": "Flechas (20)",
+      "name": "Flechas",
       "description": "<p>Munição para arcos curtos e arcos longos.</p>"
     },
     "Backpack": {
@@ -68,7 +68,7 @@
       "description": ""
     },
     "Crossbow Bolts": {
-      "name": "Virotes de Besta (20)",
+      "name": "Virotes de Besta",
       "description": "<p>Munição para bestas.</p>"
     },
     "Crowbar": {
@@ -120,7 +120,7 @@
       "description": ""
     },
     "Iron Spikes": {
-      "name": "Cravos de Ferro (10)",
+      "name": "Cravos de Ferro",
       "description": "<p>Cravos resistentes. Cada um deles tem um buraco para passar corda. Podem ser martelados com armas ou com outro cravo de ferro.</p>"
     },
     "Javelin": {
@@ -129,7 +129,7 @@
     },
     "Lantern": {
       "name": "Lampião",
-      "description": "<p>. Ilumina até a distância Perto x2 (veja Fontes de Luz, pág. 86). Requer óleo. Possui uma tampa para ocultar a luz.</p>"
+      "description": "<p>Ilumina até a distância Perto x2 (veja Fontes de Luz, pág. 86). Requer óleo. Possui uma tampa para ocultar a luz.</p>"
     },
     "Leather Armor": {
       "name": "Armadura de Couro",
@@ -192,7 +192,7 @@
       "description": "<p>Madeira, 3 m de comprimento.</p>"
     },
     "Rations": {
-      "name": "Rações (3)",
+      "name": "Rações",
       "description": "<p>Comida e água suficientes para uma pessoa, por um dia.</p>"
     },
     "Razor Chain": {
